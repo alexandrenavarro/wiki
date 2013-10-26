@@ -13,4 +13,5 @@ System
     unity-tweak-tool \
     openjdk-7-jre openjdk-7-jdk \
     conky \
-    guake
+    guake \
+    thunar
