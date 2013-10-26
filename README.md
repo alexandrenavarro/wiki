@@ -1,4 +1,4 @@
-Wiki
+Alexandre Navarro's Wiki
 ====
 
 Ubuntu
