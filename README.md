@@ -11,4 +11,4 @@ Ubuntu
 
 Eclipse
 -------
-Plugins TODO
+[Plugins](https://github.com/alexandrenavarro/wiki/blob/master/eclipse/Plugins.md)
