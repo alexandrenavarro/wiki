@@ -3,9 +3,10 @@ Alexandre Navarro's Wiki
 
 Ubuntu
 ------
-https://github.com/alexandrenavarro/wiki/blob/master/ubuntu/Configuration.md
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/ubuntu/Configuration.md)
 
-https://github.com/alexandrenavarro/wiki/blob/master/ubuntu/Installation.md
+[Installation](https://github.com/alexandrenavarro/wiki/blob/master/ubuntu/Installation.md)
+
 
 
 Eclipse
