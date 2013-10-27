@@ -1,12 +1,35 @@
 Software
 ---------
-
-Videos
+ 
+Update
 ======
+    sudo apt-get update
+
+Accessories
+===========
+
+Games
+=====
+
+Graphics
+========
+
+Internet
+========
+
+Office
+======
+
+Programming
+===========
+    sudo apt-get install \
+    git
+
+Sound and Video 
+===============
     sudo apt-get install \
     ubuntu-restricted-extras \
     vlc
-
 
 System
 ======
