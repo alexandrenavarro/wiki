@@ -22,34 +22,39 @@ http://forum.frandroid.com/topic/103136-bootloader-v3-aide/
 Roms
 ====
 
+### Tested :
+
 Rom Cyanogen 10.1 Unofficial
 
 http://forum.xda-developers.com/showthread.php?t=2049874
 
-Rom Thor
+### Rom Thor
 
 http://forum.tegraowners.com/viewtopic.php?f=9&t=680
 
 http://forum.tegraowners.com/viewtopic.php?f=9&t=780
 
+### Best Rom : Thor
+
+
 Links
 =====
 
-Tool to flash
+### Tool to flash
 
 http://a500bootloaderflash.tk/
 
-Working Adb  driver
+### Working Adb driver
 
 http://www.davinciunltd.com/2011/10/hacking-the-adb-usb-driver-for-acer-a500/
 
-Pb 128mo on data after a full reflash of old bootloader
+### Pb 128mo on data after a full reflash of old bootloader
 
 http://forum.tegraowners.com/viewtopic.php?f=10&t=466&p=13401#p13401
 
 http://forum.xda-developers.com/showthread.php?t=1512800
 
-Problem Unbrick
+### Problem Unbrick
 
 http://forum.ppcgeeks.com/android-tablets/143732-unbrick-your-acer-a500-iconia-tablet-restore-1-141-07-ota-update.html
 
