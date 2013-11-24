@@ -22,7 +22,7 @@ Android SDK then launch ./android and install platform-tools
 
 See if the phone is connected
 
-adb devices
+ adb devices
 
 Reboot in bootloader mode
 
