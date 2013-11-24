@@ -7,17 +7,6 @@ http://forum.xda-developers.com/showthread.php?t=1546593 (from 4.0)
 
 http://forum.ppcgeeks.com/android-tablets/143232-rooting-acer-a500-root-3-0-1-3-1-easy-1-2-3-a.html (from 3.0)
 
-Acer Recovery
-=============
-https://play.google.com/store/apps/details?id=com.interphaze.AcerRecoveryInstaller&feature=more_from_developer
-
-Driver Acer
-===========
-http://www.acer.fr/ac/fr/FR/content/drivers
-
-Flash Bootloader
-================
-http://forum.frandroid.com/topic/103136-bootloader-v3-aide/
 
 Roms
 ====
@@ -37,8 +26,17 @@ http://forum.tegraowners.com/viewtopic.php?f=9&t=780
 ### Best Rom : Thor
 
 
-Links
-=====
+Others 
+======
+
+### Acer Recovery
+https://play.google.com/store/apps/details?id=com.interphaze.AcerRecoveryInstaller&feature=more_from_developer
+
+### Driver Acer
+http://www.acer.fr/ac/fr/FR/content/drivers
+
+### Flash Bootloader
+http://forum.frandroid.com/topic/103136-bootloader-v3-aide/
 
 ### Tool to flash
 
