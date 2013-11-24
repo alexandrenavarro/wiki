@@ -4,6 +4,7 @@ IconiaA500
 Root
 ====
 http://forum.xda-developers.com/showthread.php?t=1546593 (from 4.0)
+
 http://forum.ppcgeeks.com/android-tablets/143232-rooting-acer-a500-root-3-0-1-3-1-easy-1-2-3-a.html (from 3.0)
 
 Acer Recovery
@@ -28,6 +29,7 @@ http://forum.xda-developers.com/showthread.php?t=2049874
 Rom Thor
 
 http://forum.tegraowners.com/viewtopic.php?f=9&t=680
+
 http://forum.tegraowners.com/viewtopic.php?f=9&t=780
 
 Links
@@ -44,6 +46,7 @@ http://www.davinciunltd.com/2011/10/hacking-the-adb-usb-driver-for-acer-a500/
 Pb 128mo on data after a full reflash of old bootloader
 
 http://forum.tegraowners.com/viewtopic.php?f=10&t=466&p=13401#p13401
+
 http://forum.xda-developers.com/showthread.php?t=1512800
 
 Problem Unbrick
