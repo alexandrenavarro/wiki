@@ -25,6 +25,10 @@ http://forum.tegraowners.com/viewtopic.php?f=9&t=780
 
 ### Best Rom : Thor
 
+Kernel
+======
+No except kernel in Thor Rom.
+
 
 Others 
 ======
