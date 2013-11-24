@@ -20,18 +20,24 @@ CF-Auto  + script
 or with
 Android SDK then launch ./android and install platform-tools
 
-# See if the phone is connected
+See if the phone is connected
+
 adb devices
 
-# Reboot in bootloader mode
+Reboot in bootloader mode
+
 adb reboot bootloader
 
-#  voir si le téléphone est bien connecté dans le boot (il faut être root sous linux)
+See if the phone is connected during the boot (you must be root under linux)
+
 sudo ./fastboot devices
-# Débloquer le bootloader
+
+Unlock the bootloader
+
 sudo ./fastboot oem unlock
 
-# Flash in recovery mode
+Flash in recovery mode
+
 fastboot flash recovery twrp-file-name.img
 
 
