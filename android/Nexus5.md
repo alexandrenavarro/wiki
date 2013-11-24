@@ -33,16 +33,25 @@ fastboot flash recovery twrp-file-name.img
 Rom
 ===
 
-Tested : Stock, Slim Bean
+### Tested : 
 
-Best tested : Slim Bean 4.4 
+Stock (not many features, autonony is bad)
+
+Slim Bean (dark mode, autonomy not bad).
+
+### Best tested : Slim Bean 4.4 
 
 Kernel
 ======
 
-Tested : Franco, Bricked, Faux
+### Tested : 
+Franco (good autonomy)
 
-Best tested : Bricked Kernel (best performance 11000 on Quadrant, 32000 on Antutu) and not bad on autonomy
+Bricked (very good performance, good autonomy)
+
+Faux
+
+### Best : Bricked Kernel (best performance 11000 on Quadrant, 32000 on Antutu) and not bad on autonomy
 
 
 Links
