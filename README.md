@@ -16,6 +16,9 @@ Eclipse
 Android
 -------
 [SGS3](https://github.com/alexandrenavarro/wiki/blob/master/android/SGS3.md)
+
 [SGS4](https://github.com/alexandrenavarro/wiki/blob/master/android/SGS4.md)
+
 [IconiaA500](https://github.com/alexandrenavarro/wiki/blob/master/android/IconiaA500.md)
+
 [Nexus5](https://github.com/alexandrenavarro/wiki/blob/master/android/Nexus5.md)
