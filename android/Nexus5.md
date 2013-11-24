@@ -5,10 +5,13 @@ Root
 ====
 
 http://androidforums.com/nexus-5-all-things-root/776309-nexus-5-all-things-root-guide.html
+
 http://www.gizmodo.fr/2013/11/09/comment-rooter-google-nexus-5.html
+
 http://androidforums.com/nexus-5-all-things-root/790362-nexus-5-rooting-guide.html
 
 http://developer.android.com/sdk/index.html
+
 http://www.phonandroid.com/forum/sony-et-android-pour-les-n
 
 
