@@ -6,22 +6,12 @@ Roms
 
 ### Tested
 
-Cyanogenmod
+Cyanogenmod (based on AOSP, not yet really stable, no dark mode)
 
-AOKP
-
-SlimBean
-
-Carbon
-
-Paranoid
-
-Revolt
-
-Temasek
+SlimBean (based on AOSP,stable, performant with dark mode, ra) 
 
 
-### Best : Slim Rom (stable with) or Temasek (performance without darkmode)
+### Best : Slim Rom 
 SlimRom : Caution Use 4.2.2 version, 4.3 has problem with fastdormancy wakelock (many AOSP like SlimBean and CyanogenMod have the problem)
 
 
@@ -29,15 +19,14 @@ Kernel
 ======
 Tested :
 
-Teamasek : very good performance but too many releases (sometimes regression).
-Yank : stable.
+KTSGS4 : good performance, good app to tune but autonomy is not so good.
 
-Best Kernel : temasek Kernel (performance) or Yank (stability).
-
+Best Kernel : KTSGS4.
 
 Root
 ====
-TODO
+http://www.planetegalaxy.com/le-galaxy-s4-avec-snapdragon-600-gt-i9505-roote/
+
 
 Links
 =====
