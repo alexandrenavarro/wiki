@@ -3,8 +3,15 @@ Others
 
 Inverted Apps
 =============
+The target (in addition of dark mode of some roms)
 
 http://www.designrifts.com/teamblackedoutapp/category/blacked-out-apps/
+
+Old site
+
+http://www.rujelus22.com/evo/
+
+http://rootzwiki.com/topic/29460-inverted-inverted-apps-update-4-5-googlesearchnow2410-googlemusic45914/
 
 
 Secure your datas
