@@ -22,3 +22,6 @@ Android
 [IconiaA500](https://github.com/alexandrenavarro/wiki/blob/master/android/IconiaA500.md)
 
 [Nexus5](https://github.com/alexandrenavarro/wiki/blob/master/android/Nexus5.md)
+
+[Others](https://github.com/alexandrenavarro/wiki/blob/master/android/Others.md)
+
