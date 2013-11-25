@@ -6,20 +6,20 @@ Roms
 
 ### Tested
 
-Cyanogenmod (based on AOSP, not yet really stable, no dark mode)
+Cyanogenmod (http://www.cyanogenmod.org/), (based on AOSP, not yet really stable, no dark mode)
 
-SlimBean (based on AOSP,stable, performant with dark mode, ra) 
+SlimRom (http://www.slimroms.net/),  (based on AOSP,stable, performant with dark mode) 
 
 
 ### Best : Slim Rom 
-SlimRom : Caution Use 4.2.2 version, 4.3 has problem with fastdormancy wakelock (many AOSP like SlimBean and CyanogenMod have the problem)
+SlimRom (http://www.slimroms.net/) : Caution Use 4.2.2 version, 4.3 has problem with fastdormancy wakelock (many AOSP like SlimBean and CyanogenMod have the problem)
 
 
 Kernel
 ======
 Tested :
 
-KTSGS4 : good performance, good app to tune but autonomy is not so good.
+KTSGS4 (http://forum.xda-developers.com/showthread.php?t=2297379) : good performance, good app to tune but autonomy is not so good.
 
 Best Kernel : KTSGS4.
 
