@@ -12,8 +12,7 @@ SlimRom (http://www.slimroms.net/),  (based on AOSP,stable, performant with dark
 
 
 ### Best : Slim Rom 
-SlimRom (http://www.slimroms.net/) : Caution Use 4.2.2 version, 4.3 has problem with fastdormancy wakelock (many AOSP like SlimBean and CyanogenMod have the problem)
-
+SlimRom (http://www.slimroms.net/) 
 
 Kernel
 ======
