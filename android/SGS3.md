@@ -26,9 +26,8 @@ Android Revolution HD (based on Stock,I don't like TouchWiz)
 
 Omega (based on Stock, I don't like TouchWiz)
 
-### Best : Slim Rom (stable with dark mode) or Temasek (performance without dark mode)
-SlimRom : Caution Use 4.2.2 version, 4.3 has problem with fastdormancy wakelock (many AOSP like SlimBean and CyanogenMod have the problem)
-You can use Slim Rom with Temasek kernel (good choice).
+### Best : Slim Rom (stable with dark mode) or Temasek (performance without dark mode, last update very quickly)
+Slim Rom with Yank Kernel (very good choice for stability) or Temasek Kernel.
 
 ### Links : 
 http://www.galaxys3.fr/regroupement-roms-galaxy-s3/
@@ -41,8 +40,8 @@ Kernel
 
 ### Tested :
 
-Teamasek : very good performance but too many releases (sometimes regression).
-Yank : stable.
+Teamasek : very good performance but too many releases (sometimes regression) (http://forum.xda-developers.com/showthread.php?t=1797109)
+Yank : stable and good performance (http://yank555-lu.net/download/file.php?id=413)
 
 Best Kernel : temasek Kernel (performance) or Yank (stability).
 
