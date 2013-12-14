@@ -65,3 +65,5 @@ http://androidforums.com/nexus-5-all-things-root/790362-nexus-5-rooting-guide.ht
 
 http://developer.android.com/sdk/index.html
 
+http://www.forum-generationmobiles.net/t70828-tuto-aides-et-conseils-pour-savoir-comment-utiliser-le-twrp-recovery-explorations-et-explications-14112013
+
