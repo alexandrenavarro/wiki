@@ -1,17 +1,32 @@
-Nexus5
-------
+# Nexus5
 
-Root
-====
+## Root
 
+### Easy way
 Root with (easier)
 CF-Auto  + script
 or with
 Android SDK then launch ./android and install platform-tools
 
+### Root with commands and some useful commands
+
 See if the phone is connected
 
  adb devices
+ 
+ List of devices attached 
+ xxxxx	recovery
+ 
+If you have 
+
+ List of devices attached 
+ ????????????	no permissions
+ 
+Do
+
+ sudo ./adb kill-server
+ sudo ./adb start-server
+ 
 
 Reboot in bootloader mode
 
@@ -28,6 +43,8 @@ sudo ./fastboot oem unlock
 Flash in recovery mode
 
 fastboot flash recovery twrp-file-name.img
+
+
 
 
 Rom
