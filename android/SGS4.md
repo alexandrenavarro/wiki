@@ -14,6 +14,8 @@ SlimRom (http://www.slimroms.net/),  (based on AOSP,stable, performant with dark
 ### Best : Slim Rom (4.3.x)
 SlimRom (http://www.slimroms.net/) 
 
+### Best Rom + Kernel : Slim Rom (4.3.x) + KTSGS4
+
 Kernel
 ======
 Tested :
