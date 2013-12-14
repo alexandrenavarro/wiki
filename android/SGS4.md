@@ -11,7 +11,7 @@ Cyanogenmod (http://www.cyanogenmod.org/), (based on AOSP, not yet really stabl
 SlimRom (http://www.slimroms.net/),  (based on AOSP,stable, performant with dark mode) 
 
 
-### Best : Slim Rom 
+### Best : Slim Rom (4.3.x)
 SlimRom (http://www.slimroms.net/) 
 
 Kernel
