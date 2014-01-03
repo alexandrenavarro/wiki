@@ -53,7 +53,15 @@ Rom
 
 Stock (not many features, autonony is bad)
 
-Slim Bean (dark mode, autonomy not bad).
+Slim Bean (good performance, many feature, dark mode, autonomy not bad).
+
+PSX (very good performance by default, no dark mode, need clockWorkMode recovery to install, TWRT does not work for this rom)
+
+BeanStalk (good performance, quite good, no dark mode)
+
+Cyanogen (good performance, missed some feature, no dark mode)
+
+
 
 ### Best tested : Slim Bean 4.4.beta2
 
