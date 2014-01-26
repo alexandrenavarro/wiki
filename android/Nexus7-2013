@@ -1,0 +1,85 @@
+# Nexus7 (2013)
+
+## Root
+
+### Easy way
+Root with (easier)
+CF-Auto  + script
+or with
+Android SDK then launch ./android and install platform-tools
+
+### Root with commands and some useful commands
+
+See if the phone is connected
+
+ adb devices
+ 
+ List of devices attached 
+ xxxxx	recovery
+ 
+If you have 
+
+ List of devices attached 
+ ????????????	no permissions
+ 
+Do
+
+ sudo ./adb kill-server
+ sudo ./adb start-server
+ 
+
+Reboot in bootloader mode
+
+adb reboot bootloader
+
+See if the phone is connected during the boot (you must be root under linux)
+
+sudo ./fastboot devices
+
+Unlock the bootloader
+
+sudo ./fastboot oem unlock
+
+Flash in recovery mode
+
+fastboot flash recovery twrp-file-name.img
+
+Root 
+
+CF-Auto  + script
+
+Rom
+===
+
+### Tested : 
+
+Stock (not many features, autonony is bad)
+
+Slim Bean (good performance, many features, dark mode, autonomy not bad).
+
+
+### Best tested : Slim Bean 4.4.beta2
+
+Kernel
+======
+
+### Tested : 
+Franco (to test)
+
+Bricked (to test)
+
+ElemantalX (to test)
+
+
+### Best : to test
+
+Optimization
+============
+
+### Use custom dalviK
+Use custom dalvik (http://forum.xda-developers.com/showthread.php?t=2546120)
+
+Links
+=====
+
+http://forum.xda-developers.com/showthread.php?t=2382051
