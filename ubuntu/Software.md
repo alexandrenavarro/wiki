@@ -38,7 +38,7 @@ System
     sudo apt-get install \
     unity-tweak-tool \
     dconf-editor \
-    openjdk-7-jre openjdk-7-jdk \
+    openjdk-8-jre openjdk-8-jdk \
     conky \
     guake \
     thunar
