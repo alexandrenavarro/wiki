@@ -1,14 +1,9 @@
 Configuration Ubuntu
 ====================
 
-Launcher
---------
-Remove not need shortcut
+System -> Appearence
+--------------------
 Set to 32
-
-
-Desktop
--------
 Background black
 
 
