@@ -6,6 +6,10 @@ System -> Appearence
 Set to 32
 Background black
 
+System -> Security & Privacy
+----------------------------
+Search : Include online search results : off
+
 
 Themes
 ------
