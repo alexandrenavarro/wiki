@@ -10,17 +10,14 @@ System -> Security & Privacy
 ----------------------------
 Search : Include online search results : off
 
-
-Themes
-------
-Ambiance Dark
-See http://www.noobslab.com/2014/01/ambiance-dark-theme-for-ubuntulinux.html
-
-
 Guake
 ------
 Shortcut F3
 
-Conky
+
+Theme dark
 -----
-TODO
+
+  sudo add-apt-repository ppa:noobslab/themes
+  sudo apt-get update
+  sudo apt-get install vertex-theme
