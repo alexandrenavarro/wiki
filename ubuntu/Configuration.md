@@ -1,20 +1,19 @@
-Configuration Ubuntu
-====================
+# Configuration Ubuntu
 
-System -> Appearence
---------------------
+## System -> Appearence
 Set to 32
 Background black
 
-System -> Security & Privacy
-----------------------------
+## System -> Security & Privacy
 Search : Include online search results : off
 
-Guake
-------
+## DConf
+com.canonical.unity.always-show-menus=true
 
-Theme dark
------
+## Guake
+
+## Theme dark
+
     sudo add-apt-repository ppa:noobslab/themes
     sudo apt-get update
     sudo apt-get install vertex-theme
