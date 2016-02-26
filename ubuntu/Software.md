@@ -11,7 +11,5 @@
     unity-tweak-tool \
     dconf-editor \
     openjdk-8-jre openjdk-8-jdk \
-    conky \
     guake \
-    thunar \
     compizconfig-settings-manager
