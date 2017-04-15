@@ -22,14 +22,6 @@ Zoom out
 
 ### Guake
 
-## Mate
-
- apt-get install mate-dock-applet 
- 
-### Add dock-applet
-
-### Add gnome-do
-
 ### Compiz Manager
 Windows Manager -> Grid 
 Change Restore, Left, Right Maximize -> Super + 
@@ -37,7 +29,7 @@ Effect : Glide -> Wavy Lamp
 Windows Decoration : !state=maxvert
 
 
-## Theme dark
+## Theme dark (obsolete)
     sudo add-apt-repository ppa:noobslab/themes
     sudo apt-get update
     sudo apt-get install vertex-theme
