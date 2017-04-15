@@ -8,11 +8,6 @@ Ubuntu
 [Software](https://github.com/alexandrenavarro/wiki/blob/master/ubuntu/Software.md)
 
 
-
-Eclipse
--------
-[Plugins](https://github.com/alexandrenavarro/wiki/blob/master/eclipse/Plugins.md)
-
 Android
 -------
 [SGS3](https://github.com/alexandrenavarro/wiki/blob/master/android/SGS3.md)
