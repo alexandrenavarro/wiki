@@ -13,15 +13,3 @@ View List
 Zoom out
 
 ### Guake
-
-### Compiz Manager
-Windows Manager -> Grid 
-Change Restore, Left, Right Maximize -> Super + 
-Effect : Glide -> Wavy Lamp
-Windows Decoration : !state=maxvert
-
-
-## Theme dark (obsolete)
-    sudo add-apt-repository ppa:noobslab/themes
-    sudo apt-get update
-    sudo apt-get install vertex-theme
