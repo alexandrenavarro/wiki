@@ -1,13 +1,5 @@
 # Configuration Ubuntu
 
-## Untity
-### System -> Appearence
-Set to 32
-Background black
-
-### System -> Security & Privacy
-Search : Include online search results : off
-
 ### DConf
 com.canonical.unity.always-show-menus=true
 
