@@ -12,4 +12,6 @@
     dconf-editor \
     openjdk-8-jre openjdk-8-jdk \
     guake \
-    compizconfig-settings-manager
+    compizconfig-settings-manager \
+    sound-juicer
+    
