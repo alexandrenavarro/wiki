@@ -10,7 +10,7 @@
     vlc \
     unity-tweak-tool \
     dconf-editor \
-    openjdk-8-jre openjdk-8-jdk \
+    openjdk-9-jre openjdk-9-jdk \
     guake \
     compizconfig-settings-manager \
     sound-juicer
