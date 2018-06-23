@@ -1,5 +1,6 @@
 # Software
 
+## Global
 sudo apt update
 
 sudo apt install \
@@ -11,7 +12,16 @@ ubuntu-restricted-extras \
 vlc \
 dconf-editor \
 openjdk-11-jre openjdk-11-jdk \
-compizconfig-settings-manager
+compizconfig-settings-manager \
+curl
+
+## Sdkman
+  curl -s "https://get.sdkman.io" | bash 
+  source "$HOME/.sdkman/bin/sdkman-init.sh"
+  sdk install maven
+  sdk install gradle
+  
+## Bashit
 
 
 # Configuration
@@ -46,6 +56,7 @@ Super + H : xdotool mousemove 64 12 click 1
 # TODO
 * save position (devilspie)
 * better black theme
+
 
 
 
