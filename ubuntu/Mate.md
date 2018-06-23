@@ -89,8 +89,8 @@ sudo apt install blackbird-gtk-theme
 Set the theme in appareance (blackbird-gtk-theme)
 
 # TODO
-* short Windows 
-* java menu (sudo apt install jayatana)
+* All keyboard Windows mapped.
+* Working Java menu (sudo apt install jayatana)
 
 
 
