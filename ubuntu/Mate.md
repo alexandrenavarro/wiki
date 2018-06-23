@@ -25,10 +25,12 @@ Remove dock on the left
 ## Compiz
 Set Super + arrow
 Uncorrate windows
+Set rofi -mode combi
+
 
 # TODO
+* save position (devilspie)
 * better black theme
-* decorate active
 
 
 
