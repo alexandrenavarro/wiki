@@ -26,7 +26,7 @@ Remove Show Desktop Icons
 Enabe Hud
 
 ### Windows
-Mutiny, remove dock, add launcher top lef, set compiz
+Mutiny, remove dock, add launcher top left, set compiz
 
 ## Mate Global
 Remove dock on the left
