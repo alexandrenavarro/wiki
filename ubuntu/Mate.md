@@ -1,10 +1,18 @@
 # Software
 
-## Mate
-sudo apt install mate-desktop
+sudo apt update
 
-## Compiz
-sudo apt install compizconfig-settings-manager 
+sudo apt install \
+rofi \
+mate-desktop \
+chromium-browser \
+git \
+ubuntu-restricted-extras \
+vlc \
+dconf-editor \
+openjdk-11-jre openjdk-11-jdk \
+compizconfig-settings-manager
+
 
 # Configuration
 ## Firefox
