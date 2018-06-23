@@ -1,17 +1,36 @@
-# Firefox ()
-
-# 
+# Mate
 sudo apt install mate-desktop
 
+## Compiz
+sudo apt install compizconfig-settings-manager 
+
+
 # Configuration
-# MATE Tweak
-## Desktop 
+## Firefox
+Install vimium / firegesture
+
+## MATE Tweak
+### Desktop 
 Remove Show Desktop Icons
 
-## Panel
+### Panel
 Enabe Hud
 
-## Windows
+### Windows
+Mutiny, remove dock, add launcher top lef, set compiz
+
+## Mate Global
+Remove dock on the left
+
+## Compiz
+Set Super + arrow
+Uncorrate windows
+
+# TODO
+* better black theme
 
 
-Mutiny, remove dock, add launcher top lef
+
+
+
+
