@@ -65,7 +65,7 @@ Super + H : xdotool mousemove 64 12 click 1
 # TODO
 * save position (devilspie)
 * short Windows 
-* better black theme
+* better black theme (blackbird-gtk-theme)
 * java menu (sudo apt install jayatana)
 
 
