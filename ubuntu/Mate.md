@@ -67,7 +67,6 @@ Super + H : xdotool mousemove 64 12 click 1
 * short Windows 
 * better black theme
 * java menu (sudo apt install jayatana)
-* intellij pb
 
 
 
