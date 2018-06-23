@@ -23,16 +23,20 @@ Mutiny, remove dock, add launcher top lef, set compiz
 Remove dock on the left
 
 ## Compiz
-Set Super + arrow
-Uncorrate windows
-Set rofi -mode combi
 
+### Effects : Window Decoration
+Uncheck Window Decoration
+
+### Windows Management : Grid
+Set Super + arrow
+
+### Commands
+Super + Space : rofi -mode combi
+Super + H : xdotool mousemove 64 12 click 1
 
 # TODO
 * save position (devilspie)
 * better black theme
-
-* short cut clik menu xdotool mousemove 64 12
 
 
 
