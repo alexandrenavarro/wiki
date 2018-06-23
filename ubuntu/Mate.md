@@ -17,9 +17,18 @@ curl
 
 ## Sdkman
   curl -s "https://get.sdkman.io" | bash 
+  
   source "$HOME/.sdkman/bin/sdkman-init.sh"
+  
+  sdk install java
+  
+  sdk install kotlin
+  
   sdk install maven
+  
   sdk install gradle
+ 
+  
   
 ## Bashit
 
@@ -55,8 +64,9 @@ Super + H : xdotool mousemove 64 12 click 1
 
 # TODO
 * save position (devilspie)
+* short Windows 
 * better black theme
-
+* java menu (sudo apt install jayatana)
 
 
 
