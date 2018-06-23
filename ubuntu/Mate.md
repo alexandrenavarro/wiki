@@ -32,6 +32,8 @@ Set rofi -mode combi
 * save position (devilspie)
 * better black theme
 
+* short cut clik menu xdotool mousemove 64 12
+
 
 
 
