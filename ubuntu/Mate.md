@@ -13,7 +13,8 @@ vlc \
 dconf-editor \
 openjdk-11-jre openjdk-11-jdk \
 compizconfig-settings-manager \
-curl
+curl \
+blackbird-gtk-theme
 
 ## Sdkman
   curl -s "https://get.sdkman.io" | bash 
@@ -62,10 +63,33 @@ Set Super + arrow
 Super + Space : rofi -mode combi
 Super + H : xdotool mousemove 64 12 click 1
 
+## Devilspie
+vi ~.devilpsie/devilspie.ds
+
+  (begin
+  
+    (if
+      (is (application_name) "Terminal")
+      (geometry "1720x1412+0+28")
+    )
+  
+    (if
+     (or
+       (is (application_name) "Firefox")
+       (is (application_name) "nautilus")
+       (is (application_name) "Caja")
+     )
+     (geometry "1720x1412+1720+28")
+    )
+  
+  )
+
+## Dark theme
+sudo apt install blackbird-gtk-theme 
+Set the theme in appareance (blackbird-gtk-theme)
+
 # TODO
-* save position (devilspie)
 * short Windows 
-* better black theme (blackbird-gtk-theme)
 * java menu (sudo apt install jayatana)
 
 
