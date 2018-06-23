@@ -4,4 +4,14 @@
 sudo apt install mate-desktop
 
 # Configuration
-# Mutiny, remove dock, add launcher top lef
+# MATE Tweak
+## Desktop 
+Remove Show Desktop Icons
+
+## Panel
+Enabe Hud
+
+## Windows
+
+
+Mutiny, remove dock, add launcher top lef
