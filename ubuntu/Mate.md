@@ -11,7 +11,7 @@ git \
 ubuntu-restricted-extras \
 vlc \
 dconf-editor \
-openjdk-11-jre openjdk-11-jdk \
+openjdk-8-jre openjdk-8-jdk \
 compizconfig-settings-manager \
 curl \
 blackbird-gtk-theme
