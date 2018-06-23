@@ -28,6 +28,7 @@ Uncorrate windows
 
 # TODO
 * better black theme
+* decorate active
 
 
 
