@@ -1,9 +1,10 @@
-# Mate
+# Software
+
+## Mate
 sudo apt install mate-desktop
 
 ## Compiz
 sudo apt install compizconfig-settings-manager 
-
 
 # Configuration
 ## Firefox
