@@ -78,11 +78,11 @@ Installation and configuration of the different sofware must result to :
 * Put Left Key : Super + Left
 * Put Right Key : Super + Right
 * Maximise Key : Super + Up
-* Restore : Super + Down
 * Put Top Left Key : Super + PgDown
 * Put Top Up Key : Super + PgUp
 * Put Bottom Left Key : Super + Ctrl + PgDown
 * Put Bottom Up Key : Super + Ctrl + PgUp
+
 
 ### Commands
 
@@ -90,7 +90,21 @@ Installation and configuration of the different sofware must result to :
 * Super + Space : xdotool mousemove 64 12 click 1
 * Super + q : equivalent of F1
 * Super + r : rofi -show run
+
+### General Options :
+* Close Window : Super + q
+* Minimise Window : Super + Down
+
 * *TODO all Windows super must be mapped*
+* Set focus in the notification area : Super + b
+* Display and hide the desktop : Super + d (useful?)
+* Open File Explorer : Super + E
+* Open Settings : Super + I
+* Lock your PC or switch accounts : Super + l
+* Minimize all windows : Super + m 
+* Minimize all except the active desktop window (restores all windows on second stroke) : Super + Home
+
+
 
 ### Effects : Animation
 * *TODO*
