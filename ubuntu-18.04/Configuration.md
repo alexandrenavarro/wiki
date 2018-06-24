@@ -48,9 +48,7 @@ Installation and configuration of the different sofware must result to :
     bash-it enable plugin gradle
 TODO add different plugins
 
-# Configuration
-## Firefox
-Install vimium / firegesture
+# Configuration of Ubuntu 18.04 with mate-desktop
 
 ## MATE Tweak
 ### Desktop 
@@ -60,7 +58,10 @@ Remove Show Desktop Icons
 Enabe Hud
 
 ### Windows
-Mutiny, remove dock, add launcher top left, set compiz
+* Set Mutiny
+* Remove dock
+* Add launcher on top left
+* Set compiz as window manager
 
 ## Mate Global
 Remove dock on the left
@@ -71,7 +72,15 @@ Remove dock on the left
 Uncheck Window Decoration
 
 ### Windows Management : Grid
-Set Super + arrow
+Put Left Key : Super + Left
+Put Right Key : Super + Right
+Maximise Key : Super + Up
+Restore : Super + Down
+Put Top Left Key : Super + PgDown
+Put Top Up Key : Super + PgUp
+Put Bottom Left Key : Super + Ctrl + PgDown
+Put Bottom Up Key : Super + Ctrl + PgUp
+
 
 ### Commands
 Super + Space : rofi -mode combi
@@ -107,7 +116,8 @@ Set the theme in appareance (blackbird-gtk-theme)
 * Working Java menu (sudo apt install jayatana)
 
 
-
+## Firefox
+Install vimium / firegesture
 
 
 
