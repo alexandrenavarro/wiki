@@ -96,6 +96,8 @@ Installation and configuration of the different sofware must result to :
 * Minimise Window : Super + Down
 
 * *TODO all Windows super must be mapped*
+
+#### Raccourcis clavier de la touche de logo Windows
 * Mettre le focus dans la zone de notification : Super + b
 * Afficher et masquer le bureau : Super + d (useful?)
 * Afficher et masquer la date et l’heure sur le bureau :  Super + Alt + D (useful?)
@@ -109,8 +111,17 @@ Installation and configuration of the different sofware must result to :
 * Afficher la boîte de dialogue Propriétés système : Super + Pause (useful?)
 * Restaurer les fenêtres réduites sur le bureau : Super + Maj + M (useful?)
 * Réduire tout à l’exception de la fenêtre active du bureau (restaure toutes les fenêtres à la deuxième frappe de touche): Super + Home
+
+#### Copier, coller et autres raccourcis clavier généraux
 * Ouvrir le menu Démarrer : Ctrl + Échap
 * Gestionnaire des tâches : Ctrl + Maj + Échap
+
+#### Raccourcis clavier de bureaux virtuels
+* Touche de logo Windows  + Tabulation 	Ouvrir les Applications actives
+* Touche de logo Windows  + Ctrl + D 	Ajouter un bureau virtuel
+* Touche de logo Windows  + Ctrl + Flèche droite 	Basculer entre les bureaux virtuels que vous avez créés sur la droite
+* Touche de logo Windows  + Ctrl + Flèche gauche 	Basculer entre les bureaux virtuels que vous avez créés sur la gauche
+* Touche de logo Windows  + Ctrl + F4 	Fermer le bureau virtuel que vous utilisez
 
 ### Effects : Animation
 * *TODO*
