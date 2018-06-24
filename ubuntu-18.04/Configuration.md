@@ -82,10 +82,15 @@ Uncheck Window Decoration
 * Put Bottom Left Key : Super + Ctrl + PgDown
 * Put Bottom Up Key : Super + Ctrl + PgUp
 
-
 ### Commands
-Super + Space : rofi -mode combi
-Super + H : xdotool mousemove 64 12 click 1
+Super + Esc : rofi -show combi
+Super + Space : xdotool mousemove 64 12 click 1
+Super + q : equivalent of F1
+Super + r : rofi -show run
+TODO all Windows super mapped.
+
+### Effects : Animation
+TODO
 
 ## Devilspie
 vi ~.devilpsie/devilspie.ds
@@ -113,13 +118,17 @@ vi ~.devilpsie/devilspie.ds
 
 Set the theme in appareance (blackbird-gtk-theme or adwaita-dark)
 
-# TODO
-* All keyboard Windows mapped.
+## Firefox
+Install vimium / firegesture
+
+## Rofi
+TODO custom menu for shutdow / reboot / logout
+
+## Jayatana
+TOOD :
 * Working Java menu (sudo apt install jayatana)
 
 
-## Firefox
-Install vimium / firegesture
 
 
 
