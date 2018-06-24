@@ -46,16 +46,18 @@ Installation and configuration of the different sofware must result to :
     ~/.bash_it/install.sh
     
     bash-it enable plugin gradle
-TODO add different plugins
+
+* *TODO* add different plugins
+
 
 # Configuration of Ubuntu 18.04 with mate-desktop
 
 ## MATE Tweak
 ### Desktop 
-Remove Show Desktop Icons
+* Remove Show Desktop Icons
 
 ### Panel
-Enabe Hud
+* Enabe Hud
 
 ### Windows
 * Set Mutiny
@@ -64,12 +66,12 @@ Enabe Hud
 * Set compiz as window manager
 
 ## Mate Global
-Remove dock on the left
+* Remove dock on the left
 
 ## Compiz
 
 ### Effects : Window Decoration
-Uncheck Window Decoration
+* Uncheck Window Decoration
 
 ### Windows Management : Grid
 
@@ -83,14 +85,15 @@ Uncheck Window Decoration
 * Put Bottom Up Key : Super + Ctrl + PgUp
 
 ### Commands
-Super + Esc : rofi -show combi
-Super + Space : xdotool mousemove 64 12 click 1
-Super + q : equivalent of F1
-Super + r : rofi -show run
-TODO all Windows super mapped.
+
+* Super + Esc : rofi -show combi
+* Super + Space : xdotool mousemove 64 12 click 1
+* Super + q : equivalent of F1
+* Super + r : rofi -show run
+* *TODO all Windows super must be mapped*
 
 ### Effects : Animation
-TODO
+* *TODO*
 
 ## Devilspie
 vi ~.devilpsie/devilspie.ds
@@ -116,17 +119,17 @@ vi ~.devilpsie/devilspie.ds
 ## Dark theme
     sudo apt install blackbird-gtk-theme 
 
-Set the theme in appareance (blackbird-gtk-theme or adwaita-dark)
+* Set the theme in appareance (blackbird-gtk-theme or adwaita-dark)
 
 ## Firefox
-Install vimium / firegesture
+* Install vimium plugin
+* Install firegesture plugin
 
 ## Rofi
-TODO custom menu for shutdow / reboot / logout
+* *TODO* custom menu for shutdow / reboot / logout
 
 ## Jayatana
-TOOD :
-* Working Java menu (sudo apt install jayatana)
+* *TODO* Working Java menu (sudo apt install jayatana)
 
 
 
