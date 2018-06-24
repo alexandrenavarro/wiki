@@ -103,6 +103,11 @@ Installation and configuration of the different sofware must result to :
 * Ouvrir les Paramètres : Super + I
 * Verrouiller le PC ou changer de compte : Super + l
 * Réduire toutes les fenêtres : Super + m 
+* Parcourir les notifications : Super + V (useful?)
+* Parcourir les notifications dans l’ordre inverse : Super + Maj + V (useful?)
+* Ouvrir le menu Lien rapide : Super + X 
+* Afficher la boîte de dialogue Propriétés système : Super + Pause (useful?)
+* Restaurer les fenêtres réduites sur le bureau : Super + Maj + M (useful?)
 * Minimize all except the active desktop window (restores all windows on second stroke) : Super + Home
 * Ouvrir le menu Démarrer : Ctrl + Échap
 * Gestionnaire des tâches : Ctrl + Maj + Échap
