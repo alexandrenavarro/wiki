@@ -1,6 +1,6 @@
 # Installation Software
 
-## From Distribution
+## From apt
     sudo apt update
 
     sudo apt install \
@@ -16,7 +16,7 @@
     curl \
     blackbird-gtk-theme
 
-## From Sdkman
+## From sdkman
 
     curl -s "https://get.sdkman.io" | bash 
     source "$HOME/.sdkman/bin/sdkman-init.sh"
@@ -26,9 +26,13 @@
     sdk install gradle
     sdk install kscript
 
-## From Bashit
+## From bashit
 
-TODO
+    git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+    ~/.bash_it/install.sh
+    
+    bash-it enable plugin gradle
+TODO add different plugins
 
 # Configuration
 ## Firefox
