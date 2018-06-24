@@ -89,27 +89,28 @@ Super + H : xdotool mousemove 64 12 click 1
 ## Devilspie
 vi ~.devilpsie/devilspie.ds
 
-  (begin
+    (begin
+    
+      (if
+        (is (application_name) "Terminal")
+        (geometry "1720x1412+0+28")
+      )
   
-    (if
-      (is (application_name) "Terminal")
-      (geometry "1720x1412+0+28")
+      (if
+       (or
+         (is (application_name) "Firefox")
+         (is (application_name) "nautilus")
+         (is (application_name) "Caja")
+       )
+       (geometry "1720x1412+1720+28")
+      )
+  
     )
-  
-    (if
-     (or
-       (is (application_name) "Firefox")
-       (is (application_name) "nautilus")
-       (is (application_name) "Caja")
-     )
-     (geometry "1720x1412+1720+28")
-    )
-  
-  )
 
 ## Dark theme
-sudo apt install blackbird-gtk-theme 
-Set the theme in appareance (blackbird-gtk-theme)
+    sudo apt install blackbird-gtk-theme 
+
+Set the theme in appareance (blackbird-gtk-theme or adwaita-dark)
 
 # TODO
 * All keyboard Windows mapped.
