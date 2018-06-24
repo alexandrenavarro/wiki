@@ -108,7 +108,7 @@ Installation and configuration of the different sofware must result to :
 * Ouvrir le menu Lien rapide : Super + X 
 * Afficher la boîte de dialogue Propriétés système : Super + Pause (useful?)
 * Restaurer les fenêtres réduites sur le bureau : Super + Maj + M (useful?)
-* Minimize all except the active desktop window (restores all windows on second stroke) : Super + Home
+* Réduire tout à l’exception de la fenêtre active du bureau (restaure toutes les fenêtres à la deuxième frappe de touche): Super + Home
 * Ouvrir le menu Démarrer : Ctrl + Échap
 * Gestionnaire des tâches : Ctrl + Maj + Échap
 
