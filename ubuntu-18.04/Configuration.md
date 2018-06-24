@@ -96,15 +96,16 @@ Installation and configuration of the different sofware must result to :
 * Minimise Window : Super + Down
 
 * *TODO all Windows super must be mapped*
-* Set focus in the notification area : Super + b
-* Display and hide the desktop : Super + d (useful?)
-* Open File Explorer : Super + E
-* Open Settings : Super + I
-* Lock your PC or switch accounts : Super + l
-* Minimize all windows : Super + m 
+* Mettre le focus dans la zone de notification : Super + b
+* Afficher et masquer le bureau : Super + d (useful?)
+* Afficher et masquer la date et l’heure sur le bureau :  Super + Alt + D (useful?)
+* Ouvrir l'Explorateur de fichiers : Super + E
+* Ouvrir les Paramètres : Super + I
+* Verrouiller le PC ou changer de compte : Super + l
+* Réduire toutes les fenêtres : Super + m 
 * Minimize all except the active desktop window (restores all windows on second stroke) : Super + Home
-
-
+* Ouvrir le menu Démarrer : Ctrl + Échap
+* Gestionnaire des tâches : Ctrl + Maj + Échap
 
 ### Effects : Animation
 * *TODO*
