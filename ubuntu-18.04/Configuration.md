@@ -1,22 +1,23 @@
 # Installation Software
 
 ## From Distribution
-sudo apt update
+    sudo apt update
 
-sudo apt install \
-rofi \
-mate-desktop \
-chromium-browser \
-git \
-ubuntu-restricted-extras \
-vlc \
-dconf-editor \
-openjdk-8-jre openjdk-8-jdk \
-compizconfig-settings-manager \
-curl \
-blackbird-gtk-theme
+    sudo apt install \
+    rofi \
+    mate-desktop \
+    chromium-browser \
+    git \
+    ubuntu-restricted-extras \
+    vlc \
+    dconf-editor \
+    openjdk-8-jre openjdk-8-jdk \
+    compizconfig-settings-manager \
+    curl \
+    blackbird-gtk-theme
 
 ## From Sdkman
+
     curl -s "https://get.sdkman.io" | bash 
     source "$HOME/.sdkman/bin/sdkman-init.sh"
     sdk install java
@@ -25,9 +26,9 @@ blackbird-gtk-theme
     sdk install gradle
     sdk install kscript
 
-  
 ## From Bashit
 
+TODO
 
 # Configuration
 ## Firefox
