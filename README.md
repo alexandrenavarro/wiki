@@ -26,5 +26,3 @@ Android
 
 [OnePlus6](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus6.md)
 
-[Others](https://github.com/alexandrenavarro/wiki/blob/master/android/Others.md)
-
