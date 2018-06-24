@@ -12,7 +12,7 @@ Installation and configuration of the different sofware must result to :
 * Having a searcheable task manager with a keyboard shortcut (rofi --show window)
 * Keep short as possible as the shortcuts as the one in Windows
 
-# Installation Software
+# Software Installation
 
 ## From apt
     sudo apt update
