@@ -71,15 +71,16 @@ Remove dock on the left
 ### Effects : Window Decoration
 Uncheck Window Decoration
 
-### Windows Management : Grid
-Put Left Key : Super + Left
-Put Right Key : Super + Right
-Maximise Key : Super + Up
-Restore : Super + Down
-Put Top Left Key : Super + PgDown
-Put Top Up Key : Super + PgUp
-Put Bottom Left Key : Super + Ctrl + PgDown
-Put Bottom Up Key : Super + Ctrl + PgUp
+### Windows Management : Grid
+
+* Put Left Key : Super + Left
+* Put Right Key : Super + Right
+* Maximise Key : Super + Up
+* Restore : Super + Down
+* Put Top Left Key : Super + PgDown
+* Put Top Up Key : Super + PgUp
+* Put Bottom Left Key : Super + Ctrl + PgDown
+* Put Bottom Up Key : Super + Ctrl + PgUp
 
 
 ### Commands
