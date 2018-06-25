@@ -32,7 +32,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install caliber
     
 ### Other
-    sudo apt install rofi mate-desktop dconf-editor lightdm openscad compizconfig-settings-manager blackbird-gtk-theme
+    sudo apt install rofi mate-desktop dconf-editor lightdm openscad compizconfig-settings-manager
 Cura (3d print)
 
 ## From sdkman
