@@ -14,21 +14,26 @@ Installation and configuration of the different sofware must result to :
 
 # Software Installation
 
-## From apt
+## From apt / snap
     sudo apt update
 
-    sudo apt install \
-    rofi \
-    mate-desktop \
-    chromium-browser \
-    git \
-    ubuntu-restricted-extras \
-    vlc \
-    dconf-editor \
-    openjdk-8-jre openjdk-8-jdk \
-    compizconfig-settings-manager \
-    curl \
-    blackbird-gtk-theme
+### Network
+    sudo apt install wget curl chromium-browser transmission
+    
+### Mutimedia  
+    sudo apt install ubuntu-restricted-extras vlc mplayer feh shotwell digikam rhythmbox handbrake sound-juicer brasero scrot
+    
+### Utilities    
+    sudo apt install ranger fdupes baobab parcellite git htop neofetch
+    
+    sudo snap install [intellij-idea-community] --classic --edge
+
+### Documents
+    sudo apt install caliber
+    
+### Other
+    sudo apt install rofi mate-desktop dconf-editor lightdm openscad compizconfig-settings-manager blackbird-gtk-theme
+Cura (3d print)
 
 ## From sdkman
 
@@ -48,6 +53,9 @@ Installation and configuration of the different sofware must result to :
     bash-it enable plugin gradle
 
 * *TODO* add different plugins
+
+## From AppImage
+Cura3D
 
 
 # Configuration of Ubuntu 18.04 with mate-desktop
