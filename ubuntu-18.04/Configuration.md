@@ -50,9 +50,8 @@ Cura (3d print)
     git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
     ~/.bash_it/install.sh
     
-    bash-it enable plugin gradle
-
-* *TODO* add different plugins
+    bash-it enable plugin alias-completion dirs edit-mode-vi git gradle history hub java jenv sdkman ssh
+    
 
 ## From AppImage
 Cura3D
