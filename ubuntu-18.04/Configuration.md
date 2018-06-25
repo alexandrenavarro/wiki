@@ -21,7 +21,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install wget curl chromium-browser transmission
     
 ### Mutimedia  
-    sudo apt install ubuntu-restricted-extras vlc mplayer feh shotwell digikam rhythmbox handbrake sound-juicer brasero scrot
+    sudo apt install ubuntu-restricted-extras vlc mplayer feh shotwell digikam rhythmbox handbrake sound-juicer brasero
     
 ### Utilities    
     sudo apt install ranger fdupes baobab parcellite git htop neofetch
