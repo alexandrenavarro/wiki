@@ -22,7 +22,7 @@ Installation and configuration of the different sofware must result to :
     
 ### Mutimedia  
     sudo apt install ubuntu-restricted-extras vlc mplayer handbrake sound-juicer brasero
-    sudo apt install shotwell digikam 
+    sudo apt install digikam 
     
 ### Utilities    
     sudo apt install ranger fdupes baobab git htop neofetch
