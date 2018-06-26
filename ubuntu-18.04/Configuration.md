@@ -32,7 +32,7 @@ Installation and configuration of the different sofware must result to :
     sudo snap install [intellij-idea-community] --classic --edge
 
 ### Documents
-    sudo apt install caliber
+    sudo apt install calibre
     
 ### Other
     sudo apt install rofi dconf-editor lightdm openscad compizconfig-settings-manager
