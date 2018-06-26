@@ -17,6 +17,9 @@ Installation and configuration of the different sofware must result to :
 ## From apt / snap
     sudo apt update
 
+## Environment
+    sudo apt install mate-desktop
+
 ### Network
     sudo apt install wget curl chromium-browser transmission
     
@@ -32,7 +35,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install caliber
     
 ### Other
-    sudo apt install rofi mate-desktop dconf-editor lightdm openscad compizconfig-settings-manager
+    sudo apt install rofi dconf-editor lightdm openscad compizconfig-settings-manager
 
 ## From sdkman
 
