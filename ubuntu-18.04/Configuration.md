@@ -27,7 +27,7 @@ Installation and configuration of the different sofware must result to :
 ### Utilities    
     sudo apt install ranger fdupes baobab git htop neofetch
     
-    sudo snap install [intellij-idea-community] --classic --edge
+    sudo snap install intellij-idea-community --classic --edge
 
 ### Documents
     sudo apt install calibre
@@ -58,7 +58,7 @@ Installation and configuration of the different sofware must result to :
 Download AppImage of Cura3D and run it
 
 
-# Configuration of Ubuntu 18.04 with mate-desktop
+# Configuration of Ubuntu 18.04 with gnome-shell
 
 ## Gnome Shell Tweak
 ### Extentions
@@ -66,6 +66,10 @@ Download AppImage of Cura3D and run it
 * Gnome global application menu(hud for gnome) : (global menu / HUD)
 * Swither (manage search windows)
 * Unite (undecorated windows)
+
+
+# Configuration of Ubuntu 18.04 with mate-desktop
+
 
 
 ## MATE Tweak
