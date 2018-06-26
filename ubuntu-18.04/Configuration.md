@@ -17,14 +17,12 @@ Installation and configuration of the different sofware must result to :
 ## From apt / snap
     sudo apt update
 
-## Environment
-    sudo apt install ubuntu-mate-desktop
-
 ### Network
     sudo apt install wget curl chromium-browser transmission
     
 ### Mutimedia  
-    sudo apt install ubuntu-restricted-extras vlc mplayer feh shotwell digikam handbrake sound-juicer brasero
+    sudo apt install ubuntu-restricted-extras vlc mplayer handbrake sound-juicer brasero
+    sudo apt install shotwell digikam 
     
 ### Utilities    
     sudo apt install ranger fdupes baobab git htop neofetch
@@ -35,7 +33,8 @@ Installation and configuration of the different sofware must result to :
     sudo apt install calibre
     
 ### Other
-    sudo apt install rofi dconf-editor lightdm openscad compizconfig-settings-manager
+    sudo apt install rofi dconf-editor
+    sudo apt install lighdm openscad compizconfig-settings-manager
 
 ## From sdkman
 
@@ -60,6 +59,14 @@ Download AppImage of Cura3D and run it
 
 
 # Configuration of Ubuntu 18.04 with mate-desktop
+
+## Gnome Shell Tweak
+### Extentions
+* Dash to dock (remove dock on the left)
+* Gnome global application menu(hud for gnome) : (global menu / HUD)
+* Swither (manage search windows)
+* Unite (undecorated windows)
+
 
 ## MATE Tweak
 ### Desktop 
