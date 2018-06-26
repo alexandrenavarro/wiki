@@ -75,6 +75,8 @@ Cura3D
 ## Mate Global
 * Remove dock on the left
 
+
+
 ## Compiz
 
 ### Effects : Window Decoration
@@ -167,7 +169,8 @@ vi ~.devilpsie/devilspie.ds
 * *TODO* custom menu for shutdow / reboot / logout
 
 ## Jayatana
-* *TODO* Working Java menu (sudo apt install jayatana)
+*  Having Swing menu in the global menu (does not work)
+    sudo apt install jayatana
 
 
 
