@@ -24,7 +24,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install ubuntu-restricted-extras vlc mplayer feh shotwell digikam handbrake sound-juicer brasero
     
 ### Utilities    
-    sudo apt install ranger fdupes baobab parcellite git htop neofetch
+    sudo apt install ranger fdupes baobab git htop neofetch
     
     sudo snap install [intellij-idea-community] --classic --edge
 
@@ -33,7 +33,6 @@ Installation and configuration of the different sofware must result to :
     
 ### Other
     sudo apt install rofi mate-desktop dconf-editor lightdm openscad compizconfig-settings-manager
-Cura (3d print)
 
 ## From sdkman
 
@@ -54,7 +53,7 @@ Cura (3d print)
     
 
 ## From AppImage
-Cura3D
+Download AppImage of Cura3D and run it
 
 
 # Configuration of Ubuntu 18.04 with mate-desktop
