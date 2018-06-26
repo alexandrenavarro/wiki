@@ -18,7 +18,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt update
 
 ## Environment
-    sudo apt install mate-desktop
+    sudo apt install ubuntu-mate-desktop
 
 ### Network
     sudo apt install wget curl chromium-browser transmission
