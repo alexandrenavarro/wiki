@@ -69,6 +69,9 @@ Download AppImage of Cura3D and run it
 ### Desktop 
 Show Icons : off
 
+### Top Bar
+Application Menu : off
+
 
 ### Extentions
 
