@@ -63,6 +63,9 @@ Download AppImage of Cura3D and run it
 
 ## Gnome Shell Tweak
 ### Extentions
+
+    sudo apt install chrome-gnome-shell
+    
 * Dash to dock (remove dock on the left)
 * Gnome global application menu(hud for gnome) : (global menu / HUD)
 * Swither (manage search windows)
