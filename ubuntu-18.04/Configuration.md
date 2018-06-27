@@ -171,13 +171,13 @@ vi ~.devilpsie/devilspie.ds
     )
 
 ## Dark theme
-    sudo apt install blackbird-gtk-theme 
 
-* Set the theme in appareance (blackbird-gtk-theme or adwaita-dark)
+* Set the theme in appareance adwaita-dark
 
 ## Firefox
 * Install vimium plugin
-* Install firegesture plugin
+* Install fox gesture plugin
+* Install Gnome Shell Extention
 
 ## Rofi
 * *TODO* custom menu for shutdow / reboot / logout
