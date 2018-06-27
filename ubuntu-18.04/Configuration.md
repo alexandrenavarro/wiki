@@ -34,7 +34,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install calibre
     
 ### Other
-    sudo apt install rofi dconf-editor gnome-tweaks devilspie
+    sudo apt install rofi dconf-editor gnome-tweaks devilspie chrome-gnome-shell
     sudo apt install lighdm openscad compizconfig-settings-manager
 
 ## From sdkman
@@ -65,11 +65,18 @@ Download AppImage of Cura3D and run it
 ### Extentions
 
     sudo apt install chrome-gnome-shell
-    
+
+* Unite (undecorated windows)
+Hide activities button : Always
+Hide windows titlebars : Both
+Show window title in app menu : Always
+Show window buttons int top bar : Never
+
+
 * Dash to dock (remove dock on the left)
 * Gnome global application menu(hud for gnome) : (global menu / HUD)
 * Swither (manage search windows)
-* Unite (undecorated windows)
+
 
 
 # Configuration of Ubuntu 18.04 with mate-desktop
