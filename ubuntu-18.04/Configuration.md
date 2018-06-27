@@ -72,9 +72,12 @@ Download AppImage of Cura3D and run it
 * Show window title in app menu : Always
 * Show window buttons int top bar : Never
 
-* Dash to dock (remove dock on the left)
-* Gnome global application menu(hud for gnome) : (global menu / HUD)
-* Swither (manage search windows)
+#### Dash to dock (remove dock on the left)
+* Position and Size : Intelligent autohide -> Dodge windows : off
+
+#### Gnome global application menu(hud for gnome) : (global menu / HUD)
+
+#### Swither (manage search windows)
 
 
 
