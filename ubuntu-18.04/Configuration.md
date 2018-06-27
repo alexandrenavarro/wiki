@@ -34,7 +34,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install calibre
     
 ### Other
-    sudo apt install rofi dconf-editor
+    sudo apt install rofi dconf-editor gnome-tweaks
     sudo apt install lighdm openscad compizconfig-settings-manager
 
 ## From sdkman
