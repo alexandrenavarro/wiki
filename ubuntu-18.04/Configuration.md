@@ -34,7 +34,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install calibre
     
 ### Other
-    sudo apt install rofi dconf-editor gnome-tweaks
+    sudo apt install rofi dconf-editor gnome-tweaks devilspie
     sudo apt install lighdm openscad compizconfig-settings-manager
 
 ## From sdkman
@@ -150,7 +150,10 @@ Download AppImage of Cura3D and run it
 * *TODO*
 
 ## Devilspie
-vi ~.devilpsie/devilspie.ds
+    cd 
+    mkdir .devilpsie
+    cd .devilpsie   
+    vi devilspie.ds
 
     (begin
     
