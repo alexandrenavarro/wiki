@@ -30,6 +30,7 @@ Installation and configuration of the different sofware must result to :
     sudo snap install intellij-idea-community --classic --edge
 
 ### Documents
+    sudo apt install libreoffice-writer
     sudo apt install calibre
     
 ### Other
