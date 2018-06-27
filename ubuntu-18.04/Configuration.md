@@ -62,6 +62,10 @@ Download AppImage of Cura3D and run it
 # Configuration of Ubuntu 18.04 with gnome-shell
 
 ## Gnome Shell Tweak
+
+### Appearance
+* Applications : Adwaita-dark
+
 ### Extentions
 
     sudo apt install chrome-gnome-shell
