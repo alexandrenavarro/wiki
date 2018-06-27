@@ -67,10 +67,10 @@ Download AppImage of Cura3D and run it
     sudo apt install chrome-gnome-shell
 
 * Unite (undecorated windows)
-Hide activities button : Always
-Hide windows titlebars : Both
-Show window title in app menu : Always
-Show window buttons int top bar : Never
+** Hide activities button : Always
+** Hide windows titlebars : Both
+** Show window title in app menu : Always
+** Show window buttons int top bar : Never
 
 
 * Dash to dock (remove dock on the left)
