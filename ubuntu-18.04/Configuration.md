@@ -66,6 +66,10 @@ Download AppImage of Cura3D and run it
 ### Appearance
 * Applications : Adwaita-dark
 
+### Desktop 
+Show Icons : off
+
+
 ### Extentions
 
     sudo apt install chrome-gnome-shell
