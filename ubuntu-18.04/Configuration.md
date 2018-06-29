@@ -34,7 +34,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install calibre
     
 ### Other
-    sudo apt install rofi dconf-editor gnome-tweaks devilspie chrome-gnome-shell simple-scan
+    sudo apt install rofi dconf-editor gnome-tweaks devilspie2 chrome-gnome-shell simple-scan
     sudo apt install lighdm openscad compizconfig-settings-manager
 
 ## From sdkman
@@ -174,27 +174,21 @@ Application Menu : off
 
 ## Devilspie
     cd 
-    mkdir .devilpsie
-    cd .devilpsie   
-    vi devilspie.ds
-
-    (begin
+    mkdir .config/devilspie2
+    cd .config/devilspie2  
     
-      (if
-        (is (application_name) "Terminal")
-        (geometry "1720x1412+0+28")
-      )
-  
-      (if
-       (or
-         (is (application_name) "Firefox")
-         (is (application_name) "nautilus")
-         (is (application_name) "Caja")
-       )
-       (geometry "1720x1412+1720+28")
-      )
-  
-    )
+    vi devilspie2.lua
+
+    if (get_application_name() == "Terminal") then
+      set_window_geometry(0, 27, 1720, 1413);
+      undecorate_window();
+    end
+    if (get_application_name() == "Firefox" or
+        get_application_name() == "Nautilus" or
+        get_application_name() == "Caja") then
+      set_window_geometry(1720, 27, 1720, 1413);
+      undecorate_window();
+    end
 
 ## Dark theme
 
