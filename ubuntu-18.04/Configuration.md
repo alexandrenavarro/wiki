@@ -132,6 +132,9 @@ Application Menu : off
 
 ## Compiz
 
+### Installation
+    sudo apt install compizconfig-settings-manager
+
 ### Effects : Window Decoration
 * Uncheck Window Decoration
 
