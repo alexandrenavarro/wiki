@@ -66,45 +66,10 @@ Installation and configuration of the different sofware must result to :
     bash-it enable plugin alias-completion dirs edit-mode-vi git gradle history hub java jenv sdkman ssh
     
     
-    
 
 ## From AppImage
 Download AppImage of Cura3D and run it
 
-
-
-
-# Configuration of Ubuntu 18.04 with gnome-shell
-
-## Gnome Shell Tweak
-
-### Appearance
-* Applications : Adwaita-dark
-
-### Desktop 
-Show Icons : off
-
-### Top Bar
-Application Menu : off
-
-
-### Extentions
-
-    sudo apt install chrome-gnome-shell
-
-#### Unite (undecorated windows)
-* Hide activities button : Always
-* Hide windows titlebars : Both
-* Show window title in app menu : Always
-* Show window buttons int top bar : Never
-
-#### Dash to dock (remove dock on the left)
-*   and Size : Intelligent autohide -> Dodge windows : off
-
-#### Gnome global application menu(hud for gnome) : (global menu / HUD)
-* Not very stable (close all windows randomly) but great in term of features.
-
-#### Swither (manage search windows)
 
 
 # Configuration of Ubuntu 18.04 with mate-desktop
@@ -128,6 +93,9 @@ Application Menu : off
 ## Mate Global
 * Add Brisk Menu on Top Left
 * Remove dock on the left
+
+## Background
+* Set Black background (do not use solid color, make big problem in compiz)
 
 ## Compiz
 
@@ -233,6 +201,39 @@ Application Menu : off
 *  Having Swing menu in the global menu (does not work)
     sudo apt install jayatana
 
+
+
+# Configuration of Ubuntu 18.04 with gnome-shell
+
+## Gnome Shell Tweak
+
+### Appearance
+* Applications : Adwaita-dark
+
+### Desktop 
+Show Icons : off
+
+### Top Bar
+Application Menu : off
+
+
+### Extentions
+
+    sudo apt install chrome-gnome-shell
+
+#### Unite (undecorated windows)
+* Hide activities button : Always
+* Hide windows titlebars : Both
+* Show window title in app menu : Always
+* Show window buttons int top bar : Never
+
+#### Dash to dock (remove dock on the left)
+*   and Size : Intelligent autohide -> Dodge windows : off
+
+#### Gnome global application menu(hud for gnome) : (global menu / HUD)
+* Not very stable (close all windows randomly) but great in term of features.
+
+#### Swither (manage search windows)
 
 
 
