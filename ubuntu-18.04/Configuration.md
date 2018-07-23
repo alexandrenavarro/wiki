@@ -59,6 +59,8 @@ Installation and configuration of the different sofware must result to :
 Download AppImage of Cura3D and run it
 
 
+
+
 # Configuration of Ubuntu 18.04 with gnome-shell
 
 ## Gnome Shell Tweak
@@ -84,7 +86,7 @@ Application Menu : off
 * Show window buttons int top bar : Never
 
 #### Dash to dock (remove dock on the left)
-* Position and Size : Intelligent autohide -> Dodge windows : off
+*   and Size : Intelligent autohide -> Dodge windows : off
 
 #### Gnome global application menu(hud for gnome) : (global menu / HUD)
 
@@ -94,7 +96,8 @@ Application Menu : off
 
 # Configuration of Ubuntu 18.04 with mate-desktop
 
-
+## Installation
+    sudo apt install ubuntu-mate-desktop
 
 ## MATE Tweak
 ### Desktop 
