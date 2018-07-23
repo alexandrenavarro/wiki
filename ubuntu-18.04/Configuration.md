@@ -37,6 +37,17 @@ Installation and configuration of the different sofware must result to :
     sudo apt install rofi dconf-editor gnome-tweaks devilspie2 chrome-gnome-shell simple-scan
     sudo apt install lighdm openscad compizconfig-settings-manager
 
+## From custum apt / snap
+
+### Intellij
+//TODO
+
+### Hub
+//TODO
+
+### Last Git
+// TODO
+
 ## From sdkman
 
     curl -s "https://get.sdkman.io" | bash 
@@ -53,6 +64,8 @@ Installation and configuration of the different sofware must result to :
     ~/.bash_it/install.sh
     
     bash-it enable plugin alias-completion dirs edit-mode-vi git gradle history hub java jenv sdkman ssh
+    
+    
     
 
 ## From AppImage
