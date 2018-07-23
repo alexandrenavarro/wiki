@@ -95,7 +95,10 @@ Download AppImage of Cura3D and run it
 * Remove dock on the left
 
 ## Background
-* Set Black background (do not use solid color, make big problem in compiz)
+* *TODO Set Black background (do not use solid color, make big problem in compiz)
+
+## Brisk Menu
+* *TODO Set Black background
 
 ## Compiz
 
@@ -113,6 +116,7 @@ Download AppImage of Cura3D and run it
 ### Commands
 * Super + Space (to redifine) : xdotool mousemove 64 12 click 
 * Super + r : rofi -combi-modi window,run -show combi -modi combi
+* Super + esc : rofi -show window
 
 ### General Options :
 * Close Window : Super + q
@@ -180,12 +184,11 @@ Download AppImage of Cura3D and run it
 ## Dark theme
 
 * Set the theme in appareance adwaita-dark
-// TODO
+// * TODO
 
 ## Firefox
 * Install vimium plugin
 * Install fox gesture plugin
-* Install Gnome Shell Extention
 
 ## Rofi
 
