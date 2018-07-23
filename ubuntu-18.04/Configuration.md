@@ -143,18 +143,12 @@ Application Menu : off
 * Put Left Key : Super + Left
 * Put Right Key : Super + Right
 * Maximise Key : Super + Up
-* Put Top Left Key : Super + PgDown
-* Put Top Up Key : Super + PgUp
-* Put Bottom Left Key : Super + Ctrl + PgDown
-* Put Bottom Up Key : Super + Ctrl + PgUp
 
 
 ### Commands
 
-* Super + Esc : rofi -show combi
-* Super + Space : xdotool mousemove 64 12 click 1
-* Super + q : equivalent of F1
-* Super + r : rofi -show run
+* Super + Space : xdotool mousemove 64 12 click 
+* Super + r : rofi -combi-modi window,run -show combi -modi combi
 
 ### General Options :
 * Close Window : Super + q
