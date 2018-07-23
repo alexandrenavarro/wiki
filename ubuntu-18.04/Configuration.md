@@ -117,10 +117,10 @@ Application Menu : off
 * Remove Show Desktop Icons
 
 ### Panel
+* Set Mutiny
 * Enabe Hud
 
 ### Windows
-* Set Mutiny
 * Remove dock
 * Add launcher on top left
 * Set compiz as window manager
