@@ -102,9 +102,9 @@ Application Menu : off
 *   and Size : Intelligent autohide -> Dodge windows : off
 
 #### Gnome global application menu(hud for gnome) : (global menu / HUD)
+* Not very stable (close all windows randomly) but great in term of features.
 
 #### Swither (manage search windows)
-
 
 
 # Configuration of Ubuntu 18.04 with mate-desktop
@@ -126,9 +126,8 @@ Application Menu : off
 * Set compiz as window manager
 
 ## Mate Global
+* Add Brisk Menu on Top Left
 * Remove dock on the left
-
-
 
 ## Compiz
 
@@ -139,22 +138,19 @@ Application Menu : off
 * Uncheck Window Decoration
 
 ### Windows Management : Grid
-
 * Put Left Key : Super + Left
 * Put Right Key : Super + Right
-* Maximise Key : Super + Up
-
+* Maximize Key : Super + Up
 
 ### Commands
-
-* Super + Space : xdotool mousemove 64 12 click 
+* Super + Space (to redifine) : xdotool mousemove 64 12 click 
 * Super + r : rofi -combi-modi window,run -show combi -modi combi
 
 ### General Options :
 * Close Window : Super + q
 * Minimise Window : Super + Down
 
-* *TODO all Windows super must be mapped*
+* *TODO all Windows super  must be mapped*
 
 #### Raccourcis clavier de la touche de logo Windows
 * Mettre le focus dans la zone de notification : Super + b
@@ -183,9 +179,19 @@ Application Menu : off
 * Touche de logo Windows  + Ctrl + F4 	Fermer le bureau virtuel que vous utilisez
 
 ### Effects : Animation
-* *TODO*
+* *TODO* 
+** slide left right
+** lamp when minimize / back
+
 
 ## Devilspie
+
+### Installation
+    sudo apt install devilspie2
+
+### Configuration
+//TODO Complete with all apps
+
     cd 
     mkdir .config/devilspie2
     cd .config/devilspie2  
@@ -206,6 +212,7 @@ Application Menu : off
 ## Dark theme
 
 * Set the theme in appareance adwaita-dark
+// TODO
 
 ## Firefox
 * Install vimium plugin
@@ -213,7 +220,14 @@ Application Menu : off
 * Install Gnome Shell Extention
 
 ## Rofi
+
+### Installation
+    sudo apt install rofi
+
+### Configuration
+
 * *TODO* custom menu for shutdow / reboot / logout
+* *TODO* custom theme
 
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
