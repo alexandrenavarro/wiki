@@ -94,7 +94,7 @@ Download AppImage of Cura3D and run it
 * Remove dock on the left
 
 ## Background
-* *TODO Set Black background (do not use solid color, make big problem in compiz)
+* Use an image (do not use solid color, make big problem in compiz)
 
 ## Brisk Menu
 * *TODO Set Black background
