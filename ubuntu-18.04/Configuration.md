@@ -72,11 +72,18 @@ Installation and configuration of the different sofware must result to :
 Download AppImage of Cura3D and run it
 
 
-
 # Configuration of Ubuntu 18.04 with mate-desktop
 
 ## Installation
     sudo apt install ubuntu-mate-desktop
+
+## Appearence
+
+### Theme 
+* Use High Contrast Inverse and customize with Icons : Ubuntu-Mono-Dark
+
+### Background
+* Use an black custom image (do not use solid color, make big problem in compiz)
 
 ## MATE Tweak
 ### Desktop 
@@ -92,9 +99,6 @@ Download AppImage of Cura3D and run it
 ## Mate Global
 * Remove dock and Add Brisk Menu on Top Left
 * Remove dock on the left
-
-## Background
-* Use an black custom image (do not use solid color, make big problem in compiz)
 
 ## Compiz
 
