@@ -156,10 +156,10 @@ Download AppImage of Cura3D and run it
 
 ## Devilspie
 
-### Installation
+### Installation
     sudo apt install devilspie2
 
-### Configuration
+### Configuration
 //TODO Complete with all apps
 
     cd 
@@ -179,24 +179,19 @@ Download AppImage of Cura3D and run it
       undecorate_window();
     end
 
-## Dark theme
-
-* Set the theme in appareance adwaita-dark
-// * TODO
-
 ## Firefox
 * Install vimium plugin
 * Install fox gesture plugin
 
 ## Rofi
 
-### Installation
+### Installation
     sudo apt install rofi
 
 ### Configuration
-
-* *TODO* custom menu for shutdow / reboot / logout
 * *TODO* custom theme
+* *TODO* custom menu for shutdow / reboot / logout
+
 
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
