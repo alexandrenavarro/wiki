@@ -121,8 +121,6 @@ Download AppImage of Cura3D and run it
 * Close Window : Super + q
 * Minimise Window : Super + Down
 
-* *TODO all Windows super  must be mapped*
-
 #### Raccourcis clavier de la touche de logo Windows
 * Mettre le focus dans la zone de notification : Super + b
 * Afficher et masquer le bureau : Super + d (useful?)
