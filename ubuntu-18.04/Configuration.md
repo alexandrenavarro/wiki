@@ -87,12 +87,10 @@ Download AppImage of Cura3D and run it
 * Enabe Hud
 
 ### Windows
-* Remove dock
-* Add launcher on top left
 * Set compiz as window manager
 
 ## Mate Global
-* Add Brisk Menu on Top Left
+* Remove dock and Add Brisk Menu on Top Left
 * Remove dock on the left
 
 ## Background
