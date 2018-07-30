@@ -40,10 +40,18 @@ Installation and configuration of the different sofware must result to :
 ## From custum apt / snap
 
 ### Intellij
+
+#### Configuration / Installation
     sudo snap install intellij-idea-community --classic --edge
 
 ### Hub
-//TODO
+
+#### Configuration
+    sudo add-apt-repository ppa:cpick/hub
+    sudo apt update
+    
+#### Installation
+    sudo apt install hub
 
 ### Last Git
 // TODO
