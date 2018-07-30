@@ -96,9 +96,13 @@ Download AppImage of Cura3D and run it
 ### Windows
 * Set compiz as window manager
 
-## Mate Global
+### Mate Global
 * Remove dock and Add Brisk Menu on Top Left
 * Remove dock on the left
+
+## LightDM (Login)
+* Background : black image
+* Background color : black color
 
 ## Compiz
 
