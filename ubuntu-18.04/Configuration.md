@@ -40,14 +40,14 @@ Installation and configuration of the different sofware must result to :
 ## From custom apt repository
 
 ### Hub
-    
-#### Installation
     sudo add-apt-repository ppa:cpick/hub
     sudo apt update
     sudo apt install hub
 
 ### Last Git
-// TODO
+    sudo add-apt-repository ppa:git-core/ppa
+    sudo apt update
+    sudo apt install git
 
 ## From sdkman
 
