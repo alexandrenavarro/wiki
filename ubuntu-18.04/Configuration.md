@@ -193,8 +193,36 @@ Download AppImage of Cura3D and run it
 ### Installation
     sudo apt install rofi
 
-### Configuration
-* *TODO* custom theme
+### Configuration Theme
+    vi ~/.config/rofi/config.rasi
+
+
+      * {
+        background-color: Black;
+        border-color:     GhostWhite;
+        text-color:       GhostWhite;
+    }
+
+    #window {
+        border: 1;
+        padding: 4;
+    }
+
+
+    #listview {
+        lines:      25;
+    }
+
+    #element selected {
+        background-color: DimGray;
+    }
+
+    #element.alternate.normal {
+        background-color: rgba ( 20, 20, 20, 100 % );
+    }  
+    
+### Configuration for shutdown / reboot
+
 * *TODO* custom menu for shutdow / reboot / logout
 
 
