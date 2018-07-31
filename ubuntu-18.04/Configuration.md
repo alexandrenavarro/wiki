@@ -99,6 +99,7 @@ Download AppImage of Cura3D and run it
 ### Mate Global
 * Remove dock and Add Brisk Menu on Top Left
 * Remove dock on the left
+* Add a second global menu on the right (usefull when the window is on the right)
 
 ## LightDM (Login)
 * Background : black image
@@ -118,9 +119,9 @@ Download AppImage of Cura3D and run it
 * Maximize Key : Super + Up
 
 ### Commands
-* Super + Space (to redifine) : xdotool mousemove 64 12 click 
 * Super + r : rofi -combi-modi window,run -show combi -modi combi
 * Super + esc : rofi -show window
+* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Ctrl + right) : xdotool mousemove 64 12 click 
 
 ### General Options :
 * Close Window : Super + q
