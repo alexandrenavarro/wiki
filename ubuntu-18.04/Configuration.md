@@ -91,6 +91,7 @@ Download AppImage of Cura3D and run it
 
     vi ~/.config/rofi/config.rasi
 
+
     * {
         background-color: Black;
         border-color:     GhostWhite;
