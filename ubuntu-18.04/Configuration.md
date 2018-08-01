@@ -88,6 +88,8 @@ Download AppImage of Cura3D and run it
     sudo apt install rofi
 
 ### Configuration Theme
+* *TOD0* : , ---, icons, first line different, rofi on super.
+
     vi ~/.config/rofi/config.rasi
 
       * {
@@ -196,7 +198,6 @@ Download AppImage of Cura3D and run it
 
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
-    sudo apt install jayatana
 
 
 # Configuration of Ubuntu 18.04 with gnome-shell (Alternative of mate)
