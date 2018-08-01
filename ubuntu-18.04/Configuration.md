@@ -195,7 +195,7 @@ Download AppImage of Cura3D and run it
     sudo apt install compizconfig-settings-manager
 
 ### General : Commands
-* Super + r : rofi -combi-modi window,drun -show-icons -show combi -modi combi
+* Super + r : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
 * Super + esc : rofi -show window
 * Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 64 14 click
 * Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) : xdotool mousemove 1734 14 click 
