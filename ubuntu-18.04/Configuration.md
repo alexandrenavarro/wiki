@@ -88,7 +88,7 @@ Download AppImage of Cura3D and run it
     sudo apt install rofi
 
 ### Configuration Theme
-* *TOD0* : , ---, icons, first line different, rofi on super.
+* *TODO* : , ---, icons, first line different.
 
     vi ~/.config/rofi/config.rasi
 
