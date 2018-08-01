@@ -88,11 +88,10 @@ Download AppImage of Cura3D and run it
     sudo apt install rofi
 
 ### Configuration Theme
-* *TODO* : , ---, icons, first line different.
 
     vi ~/.config/rofi/config.rasi
 
-      * {
+    * {
         background-color: Black;
         border-color:     GhostWhite;
         text-color:       GhostWhite;
@@ -103,8 +102,8 @@ Download AppImage of Cura3D and run it
         padding: 4;
     }
 
-
     #listview {
+        border: 2px dash 0px 0px ;
         lines:      25;
     }
 
@@ -113,8 +112,17 @@ Download AppImage of Cura3D and run it
     }
 
     #element.alternate.normal {
-        background-color: rgba ( 20, 20, 20, 100 % );
-    }  
+        background-color: rgba(20, 20, 20, 100%);
+    }
+
+    #textbox-prompt-colon {
+        expand:     false;
+        str:        ":";
+    }
+
+    #inputbar {
+        children: [prompt, textbox-prompt-colon, entry];
+    }
     
 ### Configuration for shutdown / reboot
 * *TODO* custom menu for shutdow / reboot / logout
