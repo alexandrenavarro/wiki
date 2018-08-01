@@ -142,21 +142,19 @@ Download AppImage of Cura3D and run it
 * Mail Reader : Thunderbird Mail
 
 ### Multimedia
-* Image Viewer : Image Viewer
+* Image Viewer : Image Viewer (Eog)
 * Multimedia Player : Rhythmbox Music Player
-* Video Player : Vlc
+* Video Player : MPlayer (-fs)
 
 ### System
 * Text Editor : gedit
-* Terminal Emulator : Terminal
+* Terminal Emulator : Terminal (Gnome-terminal)
 * File Manager : Files
 
 ### Office
-* Document Viewer : Document Viewer
+* Document Viewer : Document Viewer (Evince)
 * Word Processor : LibreOffice Writer
 * Spreadsheet Editor : LibreOffice Calc
-
-
 
 ## Appearence
 
@@ -212,14 +210,26 @@ Download AppImage of Cura3D and run it
 
 ### Windows Management : Place Windows 
 * Add Fixed Windows Placement
+** class=Gnome-terminal, x=0, y=27
+** class=Nautilus, x=0, y=27
 ** class=Ccsm, x=1720, y=27
 ** class=Firefox, x=1720, y=27
-** class=Nautilus, x=1720, y=27
+** class=libreoffice-writer, x=1720, y=27
+** class=libreoffice-math, x=1720, y=27
+** class=libreoffice-calc, x=1720, y=27
+** class=Eog, x=1720, y=27
+** class=Rhythmbox, x=1720, y=27
+** class=Gedit, x=1720, y=27
+** class=Evince, x=1720, y=27
 
 ### Windows Management : Window Rules
 * Add Size Rules
 ** class=Ccsm, width=1720, 1413
 ** class=Gnome-terminal, width=1720, 1413
+** class=Eog, width=1720, 1413
+** class=Nautilus, width=1720, 1413
+** class=Gedit, width=1720, 1413
+
 
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
