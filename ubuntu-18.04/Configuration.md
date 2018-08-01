@@ -124,6 +124,11 @@ Download AppImage of Cura3D and run it
 ### Configuration
 * Add neofetch at the end of .bashrc
 
+## LightDM (Login)
+* Background : black image
+* Background color : black color
+
+
 # Configuration of Ubuntu 18.04 with mate-desktop
 
 ## Installation
@@ -153,10 +158,6 @@ Download AppImage of Cura3D and run it
 * Remove dock on the left
 * Add a second global menu on the right (usefull when the window is on the right)
 
-## LightDM (Login)
-* Background : black image
-* Background color : black color
-
 ## Compiz
 
 ### Installation
@@ -165,7 +166,7 @@ Download AppImage of Cura3D and run it
 ### General : Commands
 * Super + r : rofi -combi-modi window,run -show combi -modi combi
 * Super + esc : rofi -show window
-* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 14 14 click
+* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 64 14 click
 * Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) : xdotool mousemove 1734 14 click 
 
 ### General : General Options :
@@ -198,7 +199,6 @@ Download AppImage of Cura3D and run it
 
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
-
 
 # Configuration of Ubuntu 18.04 with gnome-shell (Alternative of mate)
 
