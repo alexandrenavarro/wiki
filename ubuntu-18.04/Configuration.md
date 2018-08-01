@@ -71,6 +71,56 @@ Installation and configuration of the different sofware must result to :
 ## From AppImage
 Download AppImage of Cura3D and run it
 
+# Configuration for some applications
+
+## Firefox
+
+### Installation
+    sudo apt install firefox
+
+### Configuration
+* Install vimium plugin
+* Install fox gesture plugin
+
+## Rofi
+
+### Installation
+    sudo apt install rofi
+
+### Configuration Theme
+    vi ~/.config/rofi/config.rasi
+
+      * {
+        background-color: Black;
+        border-color:     GhostWhite;
+        text-color:       GhostWhite;
+    }
+
+    #window {
+        border: 1;
+        padding: 4;
+    }
+
+
+    #listview {
+        lines:      25;
+    }
+
+    #element selected {
+        background-color: DimGray;
+    }
+
+    #element.alternate.normal {
+        background-color: rgba ( 20, 20, 20, 100 % );
+    }  
+    
+### Configuration for shutdown / reboot
+* *TODO* custom menu for shutdow / reboot / logout
+
+## Bash
+
+### Configuration
+* Add neofetch at the end of .bashrc
 
 # Configuration of Ubuntu 18.04 with mate-desktop
 
@@ -139,6 +189,68 @@ Download AppImage of Cura3D and run it
 * Add Size Rules
 ** class=Ccsm, width=1720, 1413
 ** class=Gnome-terminal, width=1720, 1413
+
+## Jayatana
+*  Having Swing menu in the global menu (does not work)
+    sudo apt install jayatana
+
+
+# Configuration of Ubuntu 18.04 with gnome-shell (Alternative of mate)
+
+## Gnome Shell Tweak
+
+### Appearance
+* Applications : Adwaita-dark
+
+### Desktop 
+Show Icons : off
+
+### Top Bar
+Application Menu : off
+
+### Extentions
+    sudo apt install chrome-gnome-shell
+
+#### Unite (undecorated windows)
+* Hide activities button : Always
+* Hide windows titlebars : Both
+* Show window title in app menu : Always
+* Show window buttons int top bar : Never
+
+#### Dash to dock (remove dock on the left)
+*   and Size : Intelligent autohide -> Dodge windows : off
+
+#### Gnome global application menu(hud for gnome) : (global menu / HUD)
+* !!! Caution !!! Not very stable (close all windows randomly) but great in term of features.
+
+#### Swither (manage search windows)
+
+## Devilspie2 (Windows Placement / Size, maybe use a Gnome Shell Extensions if exists)
+
+### Installation
+    sudo apt install devilspie2
+
+### Configuration
+
+    cd 
+    mkdir .config/devilspie2
+    cd .config/devilspie2  
+    
+    vi devilspie2.lua
+
+    if (get_application_name() == "Terminal") then
+      set_window_geometry(0, 27, 1720, 1413);
+      undecorate_window();
+    end
+    if (get_application_name() == "Firefox" or
+        get_application_name() == "Nautilus" or
+        get_application_name() == "Caja") then
+      set_window_geometry(1720, 27, 1720, 1413);
+      undecorate_window();
+    end
+
+
+# Configuration to do to have the same shortcuts as Windows
 
 ### Keyboard shortcuts in Windows
 * See https://support.microsoft.com/kn-in/help/12445/windows-keyboard-shortcuts
@@ -252,111 +364,6 @@ Download AppImage of Cura3D and run it
 * Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
 * Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
 * Windows logo key  + Ctrl + F4           Close the virtual desktop you're using (TODO)
-
-
-## Firefox
-* Install vimium plugin
-* Install fox gesture plugin
-
-## Rofi
-
-### Installation
-    sudo apt install rofi
-
-### Configuration Theme
-    vi ~/.config/rofi/config.rasi
-
-
-      * {
-        background-color: Black;
-        border-color:     GhostWhite;
-        text-color:       GhostWhite;
-    }
-
-    #window {
-        border: 1;
-        padding: 4;
-    }
-
-
-    #listview {
-        lines:      25;
-    }
-
-    #element selected {
-        background-color: DimGray;
-    }
-
-    #element.alternate.normal {
-        background-color: rgba ( 20, 20, 20, 100 % );
-    }  
-    
-### Configuration for shutdown / reboot
-* *TODO* custom menu for shutdow / reboot / logout
-
-## Jayatana
-*  Having Swing menu in the global menu (does not work)
-    sudo apt install jayatana
-
-
-# Configuration of Ubuntu 18.04 with gnome-shell (Alternative of mate)
-
-## Gnome Shell Tweak
-
-### Appearance
-* Applications : Adwaita-dark
-
-### Desktop 
-Show Icons : off
-
-### Top Bar
-Application Menu : off
-
-
-### Extentions
-
-    sudo apt install chrome-gnome-shell
-
-#### Unite (undecorated windows)
-* Hide activities button : Always
-* Hide windows titlebars : Both
-* Show window title in app menu : Always
-* Show window buttons int top bar : Never
-
-#### Dash to dock (remove dock on the left)
-*   and Size : Intelligent autohide -> Dodge windows : off
-
-#### Gnome global application menu(hud for gnome) : (global menu / HUD)
-* !!! Caution !!! Not very stable (close all windows randomly) but great in term of features.
-
-#### Swither (manage search windows)
-
-## Devilspie2 (Windows Placement / Size, maybe use a Gnome Shell Extensions if exists)
-
-### Installation
-    sudo apt install devilspie2
-
-### Configuration
-//TODO Complete with all apps
-
-    cd 
-    mkdir .config/devilspie2
-    cd .config/devilspie2  
-    
-    vi devilspie2.lua
-
-    if (get_application_name() == "Terminal") then
-      set_window_geometry(0, 27, 1720, 1413);
-      undecorate_window();
-    end
-    if (get_application_name() == "Firefox" or
-        get_application_name() == "Nautilus" or
-        get_application_name() == "Caja") then
-      set_window_geometry(1720, 27, 1720, 1413);
-      undecorate_window();
-    end
-
-
 
 
 
