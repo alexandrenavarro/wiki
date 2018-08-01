@@ -21,7 +21,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install curl chromium-browser transmission
     
 ### Mutimedia  
-    sudo apt install ubuntu-restricted-extras vlc mplayer handbrake sound-juicer brasero
+    sudo apt install ubuntu-restricted-extras vlc mplayer mplayer-gui handbrake sound-juicer brasero
     sudo apt install digikam 
     
 ### Utilities    
