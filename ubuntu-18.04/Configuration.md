@@ -124,10 +124,14 @@ Download AppImage of Cura3D and run it
 * Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 14 14 click
 * Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) : xdotool mousemove 1734 14 click 
 
-
 ### General Options :
 * Close Window : Super + q
 * Minimise Window : Super + Down
+
+### Effects : Animation
+* *TODO*
+** slide left right
+** lamp when minimize / back
 
 ### Keyboard shortcuts in Windows
 * See https://support.microsoft.com/kn-in/help/12445/windows-keyboard-shortcuts
@@ -235,21 +239,12 @@ Download AppImage of Cura3D and run it
 * Windows logo key  + forward slash (/) Begin IME reconversion (Check what is it)
 * Windows logo key  + Ctrl + V          Open shoulder taps (Check what is it)
 
-#### Copier, coller et autres raccourcis clavier généraux
-* Ouvrir le menu Démarrer : Ctrl + Échap
-* Gestionnaire des tâches : Ctrl + Maj + Échap
-
-#### Raccourcis clavier de bureaux virtuels
-* Touche de logo Windows  + Tabulation 	Ouvrir les Applications actives
-* Touche de logo Windows  + Ctrl + D 	Ajouter un bureau virtuel
-* Touche de logo Windows  + Ctrl + Flèche droite 	Basculer entre les bureaux virtuels que vous avez créés sur la droite
-* Touche de logo Windows  + Ctrl + Flèche gauche 	Basculer entre les bureaux virtuels que vous avez créés sur la gauche
-* Touche de logo Windows  + Ctrl + F4 	Fermer le bureau virtuel que vous utilisez
-
-### Effects : Animation
-* *TODO* 
-** slide left right
-** lamp when minimize / back
+#### Virtual desktops keyboard shortcuts
+* Windows logo key  + Tab                 Open Task view (TODO)
+* Windows logo key  + Ctrl + D            Add a virtual desktop (TODO)
+* Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
+* Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
+* Windows logo key  + Ctrl + F4           Close the virtual desktop you're using (TODO)
 
 
 ## Firefox
@@ -290,14 +285,11 @@ Download AppImage of Cura3D and run it
     }  
     
 ### Configuration for shutdown / reboot
-
 * *TODO* custom menu for shutdow / reboot / logout
-
 
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
     sudo apt install jayatana
-
 
 
 # Configuration of Ubuntu 18.04 with gnome-shell (Alternative of mate)
