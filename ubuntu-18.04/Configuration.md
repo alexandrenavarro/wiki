@@ -159,31 +159,6 @@ Download AppImage of Cura3D and run it
 ** lamp when minimize / back
 
 
-## Devilspie
-
-### Installation
-    sudo apt install devilspie2
-
-### Configuration
-//TODO Complete with all apps
-
-    cd 
-    mkdir .config/devilspie2
-    cd .config/devilspie2  
-    
-    vi devilspie2.lua
-
-    if (get_application_name() == "Terminal") then
-      set_window_geometry(0, 27, 1720, 1413);
-      undecorate_window();
-    end
-    if (get_application_name() == "Firefox" or
-        get_application_name() == "Nautilus" or
-        get_application_name() == "Caja") then
-      set_window_geometry(1720, 27, 1720, 1413);
-      undecorate_window();
-    end
-
 ## Firefox
 * Install vimium plugin
 * Install fox gesture plugin
@@ -232,7 +207,7 @@ Download AppImage of Cura3D and run it
 
 
 
-# Configuration of Ubuntu 18.04 with gnome-shell
+# Configuration of Ubuntu 18.04 with gnome-shell (Alternative of mate)
 
 ## Gnome Shell Tweak
 
@@ -260,9 +235,35 @@ Application Menu : off
 *   and Size : Intelligent autohide -> Dodge windows : off
 
 #### Gnome global application menu(hud for gnome) : (global menu / HUD)
-* Not very stable (close all windows randomly) but great in term of features.
+* !!! Caution !!! Not very stable (close all windows randomly) but great in term of features.
 
 #### Swither (manage search windows)
+
+## Devilspie2 (Windows Placement / Size, maybe use a Gnome Shell Extensions if exists)
+
+### Installation
+    sudo apt install devilspie2
+
+### Configuration
+//TODO Complete with all apps
+
+    cd 
+    mkdir .config/devilspie2
+    cd .config/devilspie2  
+    
+    vi devilspie2.lua
+
+    if (get_application_name() == "Terminal") then
+      set_window_geometry(0, 27, 1720, 1413);
+      undecorate_window();
+    end
+    if (get_application_name() == "Firefox" or
+        get_application_name() == "Nautilus" or
+        get_application_name() == "Caja") then
+      set_window_geometry(1720, 27, 1720, 1413);
+      undecorate_window();
+    end
+
 
 
 
