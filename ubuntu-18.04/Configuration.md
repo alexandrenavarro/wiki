@@ -125,8 +125,11 @@ Download AppImage of Cura3D and run it
         children: [prompt, textbox-prompt-colon, entry];
     }
     
-### Configuration for shutdown / reboot
-* *TODO* custom menu for shutdow / reboot / logout
+### Main Menu
+* Add items in System -> Administration
+** Logout : mate-session-save --logout
+** Restart : systemctl reboot
+** Shutdown : systemctl poweroff
 
 ## Bash
 
