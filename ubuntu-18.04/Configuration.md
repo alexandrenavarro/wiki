@@ -184,6 +184,10 @@ Download AppImage of Cura3D and run it
 * Maximize Key : Super + Up
 
 ### Windows Management : Place Windows 
+* Add Fixed Windows Placement
+** class=Ccsm, x=1720, y=27
+** class=Firefox, x=1720, y=27
+** class=Nautilus, x=1720, y=27
 
 ### Windows Management : Window Rules
 * Add Size Rules
