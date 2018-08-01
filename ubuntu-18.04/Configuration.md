@@ -133,6 +133,30 @@ Download AppImage of Cura3D and run it
 
 ## Installation
     sudo apt install ubuntu-mate-desktop
+    
+    
+## Preferred Application
+
+### Internet
+* Web Browser : Firefox
+* Mail Reader : Thunderbird Mail
+
+### Multimedia
+* Image Viewer : Image Viewer
+* Multimedia Player : Rhythmbox Music Player
+* Video Player : Vlc
+
+### System
+* Text Editor : gedit
+* Terminal Emulator : Terminal
+* File Manager : Files
+
+### Office
+* Document Viewer : Document Viewer
+* Word Processor : LibreOffice Writer
+* Spreadsheet Editor : LibreOffice Calc
+
+
 
 ## Appearence
 
