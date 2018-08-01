@@ -110,6 +110,21 @@ Download AppImage of Cura3D and run it
 ### Installation
     sudo apt install compizconfig-settings-manager
 
+### General : Commands
+* Super + r : rofi -combi-modi window,run -show combi -modi combi
+* Super + esc : rofi -show window
+* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 14 14 click
+* Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) : xdotool mousemove 1734 14 click 
+
+### General : General Options :
+* Close Window : Super + q
+* Minimise Window : Super + Down
+
+### Effects : Animation
+* *TODO*
+** slide left right
+** lamp when minimize / back
+
 ### Effects : Window Decoration
 * Uncheck Window Decoration
 
@@ -118,20 +133,12 @@ Download AppImage of Cura3D and run it
 * Put Right Key : Super + Right
 * Maximize Key : Super + Up
 
-### Commands
-* Super + r : rofi -combi-modi window,run -show combi -modi combi
-* Super + esc : rofi -show window
-* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 14 14 click
-* Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) : xdotool mousemove 1734 14 click 
+### Windows Management : Place Windows 
 
-### General Options :
-* Close Window : Super + q
-* Minimise Window : Super + Down
-
-### Effects : Animation
-* *TODO*
-** slide left right
-** lamp when minimize / back
+### Windows Management : Window Rules
+* Add Size Rules
+** class=Ccsm, width=1720, 1413
+** class=Gnome-terminal, width=1720, 1413
 
 ### Keyboard shortcuts in Windows
 * See https://support.microsoft.com/kn-in/help/12445/windows-keyboard-shortcuts
