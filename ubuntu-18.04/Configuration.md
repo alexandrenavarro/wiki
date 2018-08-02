@@ -125,6 +125,18 @@ Download AppImage of Cura3D and run it
         children: [prompt, textbox-prompt-colon, entry];
     }
     
+## Ranger
+
+### Installation
+    sudo apt install ranger
+    
+### Configuration
+    vi ~/.config/ranger/rifle.conf
+    
+    ext jpg = shotwell "$@"
+    ext avi = mpv "$@"
+    ext mp3 = rhythmbox "$@"
+    
 ### Main Menu
 * Add items in System Tools
 ** Terminal : gnome-terminal
