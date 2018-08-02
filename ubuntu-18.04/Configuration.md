@@ -88,8 +88,6 @@ Download AppImage of Cura3D and run it
     sudo apt install rofi
 
 ### Configuration
-* *TODO* launch when super is released.
-
 
     vi ~/.config/rofi/config.rasi
 
