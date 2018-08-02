@@ -222,9 +222,11 @@ Download AppImage of Cura3D and run it
 * Minimise Window : Super + Down
 
 ### Effects : Animation
-* *TODO*
-** slide left right
-** lamp when minimize / back
+* Open Animation : Duration = 200
+* Close Animation : Duration = 200
+* Minimize Animation : Lamp Wavy
+* Uninimize Animation : Lamp Wavy
+* TODO Slide with animation
 
 ### Effects : Window Decoration
 * Uncheck Window Decoration
@@ -235,27 +237,11 @@ Download AppImage of Cura3D and run it
 * Maximize Key : Super + Up
 
 ### Windows Management : Place Windows 
-* Add Fixed Windows Placement
-** class=Gnome-terminal, x=0, y=27
-** class=Nautilus, x=0, y=27
-** class=Ccsm, x=1720, y=27
-** class=Firefox, x=1720, y=27
-** class=libreoffice-writer, x=1720, y=27
-** class=libreoffice-math, x=1720, y=27
-** class=libreoffice-calc, x=1720, y=27
-** class=Eog, x=1720, y=27
-** class=Rhythmbox, x=1720, y=27
-** class=Gedit, x=1720, y=27
-** class=Evince, x=1720, y=27
+* Add Fixed Windows Placement x=0, y=27, class=Gnome-terminal | class=Nautilus | class=class=Mate-system-monitor
+* Add Fixed Windows Placement x=1720, y=27, class=Ccsm | class=Firefox| class=Shotwell | class=Rhythmbox | class=mpv | class=Gedit | class=Evince | class=libreoffice-writer | class=libreoffice-calc | class=Mate-control-center | class=Dconf-editor 
 
 ### Windows Management : Window Rules
-* Add Size Rules
-** class=Ccsm, width=1720, 1413
-** class=Gnome-terminal, width=1720, 1413
-** class=Eog, width=1720, 1413
-** class=Nautilus, width=1720, 1413
-** class=Gedit, width=1720, 1413
-
+* Add Size Rules,  width=1720, height=1413, class=Ccsm | class=mpv | class=Rhythmbox | class=Gedit | class=Gnome-terminal | class=Nautilus | class=Mate-system-monitor | class=Dconf-editor
 
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
