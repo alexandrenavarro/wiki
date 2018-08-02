@@ -258,14 +258,6 @@ Download AppImage of Cura3D and run it
 ### Windows Management : Shift Switcher
 * Activate it (same shortcut as Windows)
 
-### TODO shortcuts
-
-#### Copy, paste, and other general keyboard shortcuts
-#### Windows logo key keyboard shortcuts
-* Windows logo key  + B 	            Set focus in the notification area (TODO)
-
-
-
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
 
@@ -383,9 +375,9 @@ Application Menu : off
 #### Windows logo key keyboard shortcuts
 
 * Windows logo key  	                Open or close Start (DONE by configuration)
-* Windows logo key  + B 	            Set focus in the notification area (TODO)
+* Windows logo key  + B 	            Set focus in the notification area (DONE by configuration)
 * Windows logo key  + Shift + C         Open the charms menu (Do nothing visible)
-* Windows logo key  + D 	            Display and hide the desktop (TODO)
+* Windows logo key  + D 	            Display and hide the desktop (DONE by configuration)
 * Windows logo key  + Alt + D 	        Display and hide the date and time on the desktop (Not Useful)
 * Windows logo key  + E 	            Open File Explorer (Done by configuration)
 * Windows logo key  + F 	            Open Feedback Hub and take a screenshot (Not Useful)
