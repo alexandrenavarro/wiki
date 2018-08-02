@@ -87,7 +87,9 @@ Download AppImage of Cura3D and run it
 ### Installation
     sudo apt install rofi
 
-### Configuration Theme
+### Configuration
+* *TODO* launch when super is released.
+
 
     vi ~/.config/rofi/config.rasi
 
@@ -314,6 +316,7 @@ Application Menu : off
 * Windows logo key  + E 	            Open File Explorer (TODO)
 * Windows logo key  + I 	            Open Settings (TODO)
 * Windows logo key  + M 	            Minimize all windows (TODO)
+* Windows logo key  + S 	            Open search (TODO)
 * Windows logo key  + Tab               Open Task view (TODO)
 * Windows logo key  + Home 	            Minimize all except the active desktop window (restores all windows on second stroke) (TODO)
 * Windows logo key  + Shift + Up arrow 	Stretch the desktop window to the top and bottom of the screen (TODO?)
@@ -385,22 +388,22 @@ Application Menu : off
 
 * Windows logo key  	                Open or close Start (TODO)
 * Windows logo key  + B 	            Set focus in the notification area (TODO)
-* Windows logo key  + Shift + C         Open the charms menu (Check is it?)
+* Windows logo key  + Shift + C         Open the charms menu (Do nothing visible)
 * Windows logo key  + D 	            Display and hide the desktop (TODO)
-* Windows logo key  + Alt + D 	        Display and hide the date and time on the desktop (ot Useful)
+* Windows logo key  + Alt + D 	        Display and hide the date and time on the desktop (Not Useful)
 * Windows logo key  + E 	            Open File Explorer (TODO)
-* Windows logo key  + F 	            Open Feedback Hub and take a screenshot (Check what is?)
+* Windows logo key  + F 	            Open Feedback Hub and take a screenshot (Not Useful)
 * Windows logo key  + G 	            Open Game bar when a game is open (Not Useful)
 * Windows logo key  + H 	            Start dictation (Not Useful)
 * Windows logo key  + I 	            Open Settings (TODO)
 * Windows logo key  + J                 Set focus to a Windows tip when one is available. (Not Useful)
-* Windows logo key  + K 	            Open the Connect quick action (Check what is it)
+* Windows logo key  + K 	            Open the Connect quick action (Not Useful)
 * Windows logo key  + L 	            Lock your PC or switch accounts (DONE by default)
 * Windows logo key  + M 	            Minimize all windows (TODO)
 * Windows logo key  + O 	            Lock device orientation (Not Useful)
 * Windows logo key  + P 	            Choose a presentation display mode (Not Useful)
 * Windows logo key  + R 	            Open the Run dialog box (DONE)
-* Windows logo key  + S 	            Open search (Check what is)
+* Windows logo key  + S 	            Open search (TODO)
 * Windows logo key  + T 	            Cycle through apps on the taskbar (Check what is)
 * Windows logo key  + U 	            Open Ease of Access Center (Check what is)
 * Windows logo key  + V 	            Cycle through notifications (Check what is)
