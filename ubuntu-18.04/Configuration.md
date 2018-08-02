@@ -210,17 +210,23 @@ Download AppImage of Cura3D and run it
     sudo apt install compizconfig-settings-manager
 
 ### General : Commands
-* Super + r (and Ctrl + Esc) : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
+* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) (specific Linux) : xdotool mousemove 64 14 click
+* Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) (specific Linux) : xdotool mousemove 1734 14 click 
 * Super + esc : rofi -show window
-* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 64 14 click
-* Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) : xdotool mousemove 1734 14 click 
-* Ctrl + Shift + Esc (and Ctrl + Alt + Delete) : /usr/bin/mate-system-monitor -p
+* Super + r (or Ctrl + Esc or TODO Super) (same shortcut as Windows) : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi  
+* Ctrl + Shift + Esc (or Ctrl + Alt + Delete) (same shortcut as Windows) : /usr/bin/mate-system-monitor -p
+* Super + e (same shortcut as Windows) : nautilus
+* Super + i (same shortcut as Windows) : mate-control-center
+* Super + s (same shortcut as Windows) : mate-search-tool
 
+### General : Mate Compatibilty :
+* Terminal Command Line (gnome-terminal) : Super + T
+* Show Main Menu (same shortcut as Windows) : Super + X
 
 ### General : General Options :
 * Close Window : Super + q
-* Minimise Window : Super + Down
-* Show Desktop : Super + d
+* Minimise Window (same short as Windows) : Super + Down
+* Show Desktop (same short as Windows) : Super + d  (or Super + m)
 
 ### Effects : Animation
 * Open Animation : Duration = 200
@@ -233,9 +239,9 @@ Download AppImage of Cura3D and run it
 * Uncheck Window Decoration
 
 ### Windows Management : Grid
-* Put Left Key : Super + Left
-* Put Right Key : Super + Right
-* Maximize Key : Super + Up
+* Put Left Key (same short as Windows) : Super + Left
+* Put Right Key (same short as Windows) : Super + Right
+* Maximize Key (same short as Windows) : Super + Up
 
 ### Windows Management : Place Windows 
 * Add Fixed Windows Placement x=0, y=27, class=Gnome-terminal | class=Nautilus | class=class=Mate-system-monitor
@@ -248,13 +254,7 @@ Download AppImage of Cura3D and run it
 
 #### Copy, paste, and other general keyboard shortcuts
 #### Windows logo key keyboard shortcuts
-* Windows logo key  	                Open or close Start (TODO)
 * Windows logo key  + B 	            Set focus in the notification area (TODO)
-* Windows logo key  + E 	            Open File Explorer (TODO)
-* Windows logo key  + I 	            Open Settings (TODO)
-* Windows logo key  + M 	            Minimize all windows (TODO)
-* Windows logo key  + S 	            Open search (TODO)
-* Windows logo key  + X 	            Open the Quick Link menu (TODO)
 
 #### Windows logo key keyboard shortcuts
 
@@ -366,7 +366,7 @@ Application Menu : off
 * Ctrl + arrow keys             Resize the Start menu when it's open (No sense)
 * Ctrl + arrow key  + Spacebar 	Select multiple individual items in a window or on the desktop (TODO?)
 * Ctrl + Shift with an arrow keySelect a block of text (DONE by default)
-* Ctrl + Esc                    Open Start (TODO)
+* Ctrl + Esc                    Open Start (DONE by configuration)
 * Ctrl + Shift + Esc            Open Task Manager (TODO)
 * Ctrl + Shift                  Switch the keyboard layout when multiple keyboard layouts are available (No need)
 * Ctrl + Spacebar               Turn the Chinese input method editor (IME) on or off (No need)
@@ -379,29 +379,29 @@ Application Menu : off
 
 #### Windows logo key keyboard shortcuts
 
-* Windows logo key  	                Open or close Start (TODO)
+* Windows logo key  	                Open or close Start (DONE by configuration)
 * Windows logo key  + B 	            Set focus in the notification area (TODO)
 * Windows logo key  + Shift + C         Open the charms menu (Do nothing visible)
 * Windows logo key  + D 	            Display and hide the desktop (TODO)
 * Windows logo key  + Alt + D 	        Display and hide the date and time on the desktop (Not Useful)
-* Windows logo key  + E 	            Open File Explorer (TODO)
+* Windows logo key  + E 	            Open File Explorer (Done by configuration)
 * Windows logo key  + F 	            Open Feedback Hub and take a screenshot (Not Useful)
 * Windows logo key  + G 	            Open Game bar when a game is open (Not Useful)
 * Windows logo key  + H 	            Start dictation (Not Useful)
-* Windows logo key  + I 	            Open Settings (TODO)
+* Windows logo key  + I 	            Open Settings (DONE by configuration)
 * Windows logo key  + J                 Set focus to a Windows tip when one is available. (Not Useful)
 * Windows logo key  + K 	            Open the Connect quick action (Not Useful)
 * Windows logo key  + L 	            Lock your PC or switch accounts (DONE by default)
-* Windows logo key  + M 	            Minimize all windows (TODO)
+* Windows logo key  + M 	            Minimize all windows (DONE by configuration)
 * Windows logo key  + O 	            Lock device orientation (Not Useful)
 * Windows logo key  + P 	            Choose a presentation display mode (Not Useful)
 * Windows logo key  + R 	            Open the Run dialog box (DONE)
-* Windows logo key  + S 	            Open search (TODO)
+* Windows logo key  + S 	            Open search (DONE by configuration)
 * Windows logo key  + T 	            Cycle through apps on the taskbar (No sense without taskbar)
 * Windows logo key  + U 	            Open Ease of Access Center (Not Useful)
 * Windows logo key  + V 	            Cycle through notifications (Not Useful)
 * Windows logo key  + Shift + V         Cycle through notifications in reverse order (Not Useful)
-* Windows logo key  + X 	            Open the Quick Link menu (TODO)
+* Windows logo key  + X 	            Open the Quick Link menu (DONE by Configuration)
 * Windows logo key  + Y 	            Switch input between Windows Mixed Reality and your desktop (Do nothing visible)
 * Windows logo key  + Z 	            Show the commands available in an app in full-screen mode (Do nothing visible)
 * Windows logo key  + period (.) or semicolon (;)   Open emoji panel (Not Useful)
