@@ -194,14 +194,14 @@ Download AppImage of Cura3D and run it
 * Remove Show Desktop Icons
 
 ### Panel
-* Set Mutiny
+* Set Contempary
 * Enabe Hud
 
 ### Windows
 * Set compiz as window manager
 
 ### Mate Global
-* Remove dock on the left
+* Remove dock on the left or right, menu on top left, set date as first element on top right.
 * Add a second global menu on the right (useful when the window is on the right)
 
 ## Compiz
@@ -211,13 +211,14 @@ Download AppImage of Cura3D and run it
 
 ### General : Commands
 * Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) (specific Linux) : xdotool mousemove 64 14 click
-* Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) (specific Linux) : xdotool mousemove 1734 14 click 
-* Super + esc : rofi -show window
+* Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) (specific Linux) : xdotool mousemove 1734 14 click
+* Super + esc (specific Linux) : rofi -show window
 * Super + r (or Ctrl + Esc or TODO Super) (same shortcut as Windows) : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi  
 * Ctrl + Shift + Esc (or Ctrl + Alt + Delete) (same shortcut as Windows) : /usr/bin/mate-system-monitor -p
 * Super + e (same shortcut as Windows) : nautilus
 * Super + i (same shortcut as Windows) : mate-control-center
 * Super + s (same shortcut as Windows) : mate-search-tool
+* Super + b (same shortcut as Windows) : xdotool mousemove 3426 14 click
 
 ### General : Mate Compatibilty :
 * Terminal Command Line (gnome-terminal) : Super + T
