@@ -432,10 +432,10 @@ Application Menu : off
 * Windows logo key  + Shift + Left arrow or Right arrow 	Move an app or window in the desktop from one monitor to another (Not Useful)
 * Windows logo key  + Spacebar          Switch input language and keyboard layout (Not Useful)
 * Windows logo key  + Ctrl + Spacebar   Change to a previously selected input (Not Useful)
-* Windows logo key  + Ctrl + Enter      Open Narrator (Check what is it)
-* Windows logo key  + Plus (+)          Open Magnifier (Check what is it)
-* Windows logo key  + forward slash (/) Begin IME reconversion (Check what is it)
-* Windows logo key  + Ctrl + V          Open shoulder taps (Check what is it)
+* Windows logo key  + Ctrl + Enter      Open Narrator (Do nothing visible)
+* Windows logo key  + Plus (+)          Open Magnifier (Do nothing visible)
+* Windows logo key  + forward slash (/) Begin IME reconversion (Do nothing visible)
+* Windows logo key  + Ctrl + V          Open shoulder taps (Do nothing visible)
 
 #### Virtual desktops keyboard shortcuts
 * Windows logo key  + Tab                 Open Task view (TODO)
