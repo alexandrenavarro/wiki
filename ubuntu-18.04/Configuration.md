@@ -225,8 +225,8 @@ Download AppImage of Cura3D and run it
 
 ### General : General Options :
 * Close Window : Super + q
-* Minimise Window (same short as Windows) : Super + Down
-* Show Desktop (same short as Windows) : Super + d  (or Super + m)
+* Minimise Window (same shortcut as Windows) : Super + Down
+* Show Desktop (same shortcut as Windows) : Super + d  (or Super + m)
 
 ### Effects : Animation
 * Open Animation : Duration = 200
@@ -239,9 +239,9 @@ Download AppImage of Cura3D and run it
 * Uncheck Window Decoration
 
 ### Windows Management : Grid
-* Put Left Key (same short as Windows) : Super + Left
-* Put Right Key (same short as Windows) : Super + Right
-* Maximize Key (same short as Windows) : Super + Up
+* Put Left Key (same shortcut as Windows) : Super + Left
+* Put Right Key (same shortcut as Windows) : Super + Right
+* Maximize Key (same shortcut as Windows) : Super + Up
 
 ### Windows Management : Place Windows 
 * Add Fixed Windows Placement x=0, y=27, class=Gnome-terminal | class=Nautilus | class=class=Mate-system-monitor
@@ -249,6 +249,9 @@ Download AppImage of Cura3D and run it
 
 ### Windows Management : Window Rules
 * Add Size Rules,  width=1720, height=1413, class=Ccsm | class=mpv | class=Rhythmbox | class=Gedit | class=Gnome-terminal | class=Nautilus | class=Mate-system-monitor | class=Dconf-editor
+
+### Windows Management : Shift Switcher
+* Activate it (same shortcut as Windows)
 
 ### TODO shortcuts
 
@@ -258,7 +261,6 @@ Download AppImage of Cura3D and run it
 
 #### Windows logo key keyboard shortcuts
 
-* Windows logo key  + Tab                 Open Task view (TODO)
 * Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
 * Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
 
@@ -431,7 +433,7 @@ Application Menu : off
 * Windows logo key  + Ctrl + V          Open shoulder taps (Do nothing visible)
 
 #### Virtual desktops keyboard shortcuts
-* Windows logo key  + Tab                 Open Task view (TODO)
+* Windows logo key  + Tab                 Open Task view (DONE by configuration)
 * Windows logo key  + Ctrl + D            Add a virtual desktop (Not Useful)
 * Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
 * Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
