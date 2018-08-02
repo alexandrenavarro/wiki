@@ -131,11 +131,9 @@ Download AppImage of Cura3D and run it
     sudo apt install ranger
     
 ### Configuration
+* Customize https://github.com/ranger/ranger/blob/master/ranger/config/rifle.conf notbly for shotwell and mpv
+
     vi ~/.config/ranger/rifle.conf
-    
-    ext jpg = shotwell "$@"
-    ext avi = mpv "$@"
-    ext mp3 = rhythmbox "$@"
     
 ### Main Menu
 * Add items in System Tools
