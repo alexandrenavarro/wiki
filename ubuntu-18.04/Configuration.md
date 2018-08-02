@@ -243,6 +243,29 @@ Download AppImage of Cura3D and run it
 ### Windows Management : Window Rules
 * Add Size Rules,  width=1720, height=1413, class=Ccsm | class=mpv | class=Rhythmbox | class=Gedit | class=Gnome-terminal | class=Nautilus | class=Mate-system-monitor | class=Dconf-editor
 
+### TODO shortcuts
+
+#### Copy, paste, and other general keyboard shortcuts
+* Windows logo key  + D 	            Display and hide the desktop (TODO)
+* Ctrl + Esc                            Open Start (TODO)
+* Ctrl + Shift + Esc                    Open Task Manager (TODO)
+
+#### Windows logo key keyboard shortcuts
+* Windows logo key  	                Open or close Start (TODO)
+* Windows logo key  + B 	            Set focus in the notification area (TODO)
+* Windows logo key  + E 	            Open File Explorer (TODO)
+* Windows logo key  + I 	            Open Settings (TODO)
+* Windows logo key  + M 	            Minimize all windows (TODO)
+* Windows logo key  + S 	            Open search (TODO)
+* Windows logo key  + X 	            Open the Quick Link menu (TODO)
+
+#### Windows logo key keyboard shortcuts
+
+* Windows logo key  + Tab                 Open Task view (TODO)
+* Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
+* Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
+
+
 ## Jayatana
 *  Having Swing menu in the global menu (does not work)
 
@@ -302,28 +325,6 @@ Application Menu : off
 
 
 # Configuration to do to have the same shortcuts as Windows
-
-## TODO shortcuts
-
-#### Copy, paste, and other general keyboard shortcuts
-* Windows logo key  + D 	            Display and hide the desktop (TODO)
-* Ctrl + Esc                            Open Start (TODO)
-* Ctrl + Shift + Esc                    Open Task Manager (TODO)
-
-#### Windows logo key keyboard shortcuts
-* Windows logo key  	                Open or close Start (TODO)
-* Windows logo key  + B 	            Set focus in the notification area (TODO)
-* Windows logo key  + E 	            Open File Explorer (TODO)
-* Windows logo key  + I 	            Open Settings (TODO)
-* Windows logo key  + M 	            Minimize all windows (TODO)
-* Windows logo key  + S 	            Open search (TODO)
-* Windows logo key  + X 	            Open the Quick Link menu (TODO)
-
-#### Windows logo key keyboard shortcuts
-
-* Windows logo key  + Tab                 Open Task view (TODO)
-* Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
-* Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
 
 
 ### Keyboard shortcuts in Windows
