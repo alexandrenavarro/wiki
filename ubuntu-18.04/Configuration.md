@@ -318,7 +318,6 @@ Application Menu : off
 * Windows logo key  + M 	            Minimize all windows (TODO)
 * Windows logo key  + S 	            Open search (TODO)
 * Windows logo key  + X 	            Open the Quick Link menu (TODO)
-* Windows logo key  + Home 	            Minimize all except the active desktop window (restores all windows on second stroke) (TODO)
 * Windows logo key  + Shift + Up arrow 	Stretch the desktop window to the top and bottom of the screen (TODO?)
 * Windows logo key  + Shift + Down arrow    Restore/minimize active desktop windows vertically, maintaining width (TODO?)
 
@@ -426,7 +425,7 @@ Application Menu : off
 * Windows logo key  + Down arrow        Remove current app from screen or minimize the desktop window (DONE)
 * Windows logo key  + Left arrow        Maximize the app or desktop window to the left side of the screen (DONE)
 * Windows logo key  + Right arrow       Maximize the app or desktop window to the right side of the screen (DONE)
-* Windows logo key  + Home 	            Minimize all except the active desktop window (restores all windows on second stroke) (TODO)
+* Windows logo key  + Home 	            Minimize all except the active desktop window (restores all windows on second stroke) (Not Useful)
 * Windows logo key  + Shift + Up arrow 	Stretch the desktop window to the top and bottom of the screen (TODO?)
 * Windows logo key  + Shift + Down arrow    Restore/minimize active desktop windows vertically, maintaining width (TODO?)
 * Windows logo key  + Shift + Left arrow or Right arrow 	Move an app or window in the desktop from one monitor to another (Not Useful)
