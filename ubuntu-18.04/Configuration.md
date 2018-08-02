@@ -301,11 +301,31 @@ Application Menu : off
 
 # Configuration to do to have the same shortcuts as Windows
 
-### TODO shortcut
+## TODO shortcuts
+
+#### Copy, paste, and other general keyboard shortcuts
 * Windows logo key  + D 	            Display and hide the desktop (TODO)
 * Ctrl + Esc                            Open Start (TODO)
 * Ctrl + Shift + Esc                    Open Task Manager (TODO)
+
+#### Windows logo key keyboard shortcuts
 * Windows logo key  	                Open or close Start (TODO)
+* Windows logo key  + B 	            Set focus in the notification area (TODO)
+* Windows logo key  + E 	            Open File Explorer (TODO)
+* Windows logo key  + I 	            Open Settings (TODO)
+* Windows logo key  + M 	            Minimize all windows (TODO)
+* Windows logo key  + Tab               Open Task view (TODO)
+* Windows logo key  + Home 	            Minimize all except the active desktop window (restores all windows on second stroke) (TODO)
+* Windows logo key  + Shift + Up arrow 	Stretch the desktop window to the top and bottom of the screen (TODO?)
+* Windows logo key  + Shift + Down arrow    Restore/minimize active desktop windows vertically, maintaining width (TODO?)
+
+#### Windows logo key keyboard shortcuts
+
+* Windows logo key  + Tab                 Open Task view (TODO)
+* Windows logo key  + Ctrl + D            Add a virtual desktop (TODO)
+* Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
+* Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
+* Windows logo key  + Ctrl + F4           Close the virtual desktop you're using (TODO)
 
 
 ### Keyboard shortcuts in Windows
@@ -366,8 +386,8 @@ Application Menu : off
 * Windows logo key  	                Open or close Start (TODO)
 * Windows logo key  + B 	            Set focus in the notification area (TODO)
 * Windows logo key  + Shift + C         Open the charms menu (Check is it?)
-* Windows logo key  + D 	            Display and hide the desktop (TODO?)
-* Windows logo key  + Alt + D 	        Display and hide the date and time on the desktop (TODO?)
+* Windows logo key  + D 	            Display and hide the desktop (TODO)
+* Windows logo key  + Alt + D 	        Display and hide the date and time on the desktop (ot Useful)
 * Windows logo key  + E 	            Open File Explorer (TODO)
 * Windows logo key  + F 	            Open Feedback Hub and take a screenshot (Check what is?)
 * Windows logo key  + G 	            Open Game bar when a game is open (Not Useful)
@@ -375,11 +395,11 @@ Application Menu : off
 * Windows logo key  + I 	            Open Settings (TODO)
 * Windows logo key  + J                 Set focus to a Windows tip when one is available. (Not Useful)
 * Windows logo key  + K 	            Open the Connect quick action (Check what is it)
-* Windows logo key  + L 	            Lock your PC or switch accounts (TODO)
-* Windows logo key  + M 	            Minimize all windows (TODO
+* Windows logo key  + L 	            Lock your PC or switch accounts (DONE by default)
+* Windows logo key  + M 	            Minimize all windows (TODO)
 * Windows logo key  + O 	            Lock device orientation (Not Useful)
 * Windows logo key  + P 	            Choose a presentation display mode (Not Useful)
-* Windows logo key  + R 	            Open the Run dialog box (TODO)
+* Windows logo key  + R 	            Open the Run dialog box (DONE)
 * Windows logo key  + S 	            Open search (Check what is)
 * Windows logo key  + T 	            Cycle through apps on the taskbar (Check what is)
 * Windows logo key  + U 	            Open Ease of Access Center (Check what is)
@@ -390,9 +410,9 @@ Application Menu : off
 * Windows logo key  + Z 	            Show the commands available in an app in full-screen mode (Check what is)
 * Windows logo key  + period (.) or semicolon (;)   Open emoji panel (Not Useful)
 * Windows logo key  + comma (,)         Temporarily peek at the desktop (Check what is)
-* Windows logo key  + Pause 	        Display the System Properties dialog box (TODO?)
+* Windows logo key  + Pause 	        Display the System Properties dialog box (Not Useful)
 * Windows logo key  + Ctrl + F 	        Search for PCs (if you're on a network) (Check what is)
-* Windows logo key  + Shift + M         Restore minimized windows on the desktop (TODO?)
+* Windows logo key  + Shift + M         Restore minimized windows on the desktop (Not Useful)
 * Windows logo key  + number 	        Open the desktop and start the app pinned to the taskbar in the position indicated by the number. If the app is already running, switch to that app. (No Sense)
 * Windows logo key  + Shift + nbr       Open the desktop and start a new instance of the app pinned to the taskbar in the position indicated by the number (No Sense)
 * Windows logo key  + Ctrl + nbr        Open the desktop and switch to the last active window of the app pinned to the taskbar in the position indicated by the number (No Sense)
@@ -406,9 +426,9 @@ Application Menu : off
 * Windows logo key  + Home 	            Minimize all except the active desktop window (restores all windows on second stroke) (TODO)
 * Windows logo key  + Shift + Up arrow 	Stretch the desktop window to the top and bottom of the screen (TODO?)
 * Windows logo key  + Shift + Down arrow    Restore/minimize active desktop windows vertically, maintaining width (TODO?)
-* Windows logo key  + Shift + Left arrow or Right arrow 	Move an app or window in the desktop from one monitor to another (TODO?)
-* Windows logo key  + Spacebar          Switch input language and keyboard layout (TODO?)
-* Windows logo key  + Ctrl + Spacebar   Change to a previously selected input (TODO?)
+* Windows logo key  + Shift + Left arrow or Right arrow 	Move an app or window in the desktop from one monitor to another (Not Useful)
+* Windows logo key  + Spacebar          Switch input language and keyboard layout (Not Useful)
+* Windows logo key  + Ctrl + Spacebar   Change to a previously selected input (Not Useful)
 * Windows logo key  + Ctrl + Enter      Open Narrator (Check what is it)
 * Windows logo key  + Plus (+)          Open Magnifier (Check what is it)
 * Windows logo key  + forward slash (/) Begin IME reconversion (Check what is it)
