@@ -228,6 +228,10 @@ Download AppImage of Cura3D and run it
 * Minimise Window (same shortcut as Windows) : Super + Down
 * Show Desktop (same shortcut as Windows) : Super + d  (or Super + m)
 
+### Desktop : Desktop Wall
+* Move Left (same shortcut as Windows) : Super + Shift + Left
+* Move Right (same shortcut as Windows) : Super + Shift + Right
+
 ### Effects : Animation
 * Open Animation : Duration = 200
 * Close Animation : Duration = 200
@@ -259,10 +263,6 @@ Download AppImage of Cura3D and run it
 #### Windows logo key keyboard shortcuts
 * Windows logo key  + B 	            Set focus in the notification area (TODO)
 
-#### Windows logo key keyboard shortcuts
-
-* Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
-* Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
 
 
 ## Jayatana
@@ -435,8 +435,8 @@ Application Menu : off
 #### Virtual desktops keyboard shortcuts
 * Windows logo key  + Tab                 Open Task view (DONE by configuration)
 * Windows logo key  + Ctrl + D            Add a virtual desktop (Not Useful)
-* Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (TODO)
-* Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (TODO)
+* Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (DONE by configuration)
+* Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (DONE by configuration)
 * Windows logo key  + Ctrl + F4           Close the virtual desktop you're using (Not Useful)
 
 
