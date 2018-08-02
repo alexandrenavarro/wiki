@@ -349,7 +349,7 @@ Application Menu : off
 * F5                            Refresh the active window (DONE by default)
 * F6                            Cycle through screen elements in a window or on the desktop (DONE by default)
 * F10                           Activate the Menu bar in the active app (DONE on some app)
-* Alt + F8                      Show your password on the sign-in screen (No, Rezize window)
+* Alt + F8                      Show your password on the sign-in screen (No, Resize window)
 * Alt + Esc                     Cycle through items in the order in which they were opened (No)
 * Alt + underlined letter       Perform the command for that letter (No)
 * Alt + Enter                   Display properties for the selected item (DONE by default)
