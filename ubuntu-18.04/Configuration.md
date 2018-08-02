@@ -139,11 +139,12 @@ Download AppImage of Cura3D and run it
     
 ### Main Menu
 * Add items in System Tools
-:* Terminal : gnome-terminal
+* Terminal : gnome-terminal
+
 * Add items in System -> Administration
-:* Logout : mate-session-save --logout
-:* Restart : systemctl reboot
-:* Shutdown : systemctl poweroff
+* Logout : mate-session-save --logout
+* Restart : systemctl reboot
+* Shutdown : systemctl poweroff
 
 ## Bash
 
