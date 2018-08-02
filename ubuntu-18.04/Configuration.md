@@ -210,21 +210,24 @@ Download AppImage of Cura3D and run it
     sudo apt install compizconfig-settings-manager
 
 ### General : Commands
-* Super + r : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
+* Super + r (and Ctrl + Esc) : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
 * Super + esc : rofi -show window
 * Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) : xdotool mousemove 64 14 click
 * Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) : xdotool mousemove 1734 14 click 
+* Ctrl + Shift + Esc (and Ctrl + Alt + Delete) : /usr/bin/mate-system-monitor -p
+
 
 ### General : General Options :
 * Close Window : Super + q
 * Minimise Window : Super + Down
+* Show Desktop : Super + d
 
 ### Effects : Animation
 * Open Animation : Duration = 200
 * Close Animation : Duration = 200
 * Minimize Animation : Lamp Wavy
 * Uninimize Animation : Lamp Wavy
-* TODO Slide with animation
+* Slide with animation : Not Found :-(.
 
 ### Effects : Window Decoration
 * Uncheck Window Decoration
@@ -244,10 +247,6 @@ Download AppImage of Cura3D and run it
 ### TODO shortcuts
 
 #### Copy, paste, and other general keyboard shortcuts
-* Windows logo key  + D 	            Display and hide the desktop (TODO)
-* Ctrl + Esc                            Open Start (TODO)
-* Ctrl + Shift + Esc                    Open Task Manager (TODO)
-
 #### Windows logo key keyboard shortcuts
 * Windows logo key  	                Open or close Start (TODO)
 * Windows logo key  + B 	            Set focus in the notification area (TODO)
@@ -336,7 +335,7 @@ Application Menu : off
 * Alt + Tab 	                Switch between open apps (DONE by default)
 * Alt + F4 	                    Close the active item, or exit the active app (Change with Super + Q)
 * Windows logo key  + L 	    Lock your PC (DONE by default)
-* Windows logo key  + D 	    Display and hide the desktop (TODO)
+* Windows logo key  + D 	    Display and hide the desktop (DONE by configuration)
 * F2                            Rename the selected item (DONE by default)
 * F3                            Search for a file or folder in File Explorer (Ctrl + F In Nautilus)
 * F4                            Display the address bar list in File Explorer (Ctrl + L In Nautilus)
