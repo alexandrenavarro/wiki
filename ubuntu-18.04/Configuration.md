@@ -301,6 +301,8 @@ Application Menu : off
 
 # Configuration to do to have the same shortcuts as Windows
 
+* Windows logo key  + D 	    Display and hide the desktop (TODO)
+
 ### Keyboard shortcuts in Windows
 * See https://support.microsoft.com/kn-in/help/12445/windows-keyboard-shortcuts
 
@@ -311,14 +313,14 @@ Application Menu : off
 * Ctrl + Z 	                    Undo an action (DONE by default)
 * Alt + Tab 	                Switch between open apps (DONE by default)
 * Alt + F4 	                    Close the active item, or exit the active app (Change with Super + Q)
-* Windows logo key  + L 	    Lock your PC (TODO)
+* Windows logo key  + L 	    Lock your PC (DONE by default)
 * Windows logo key  + D 	    Display and hide the desktop (TODO)
-* F2                            Rename the selected item (DONE by default?)
-* F3                            Search for a file or folder in File Explorer (TODO?)
-* F4                            Display the address bar list in File Explorer (TODO?)
+* F2                            Rename the selected item (DONE by default)
+* F3                            Search for a file or folder in File Explorer (Ctrl + F In Nautilus)
+* F4                            Display the address bar list in File Explorer (Ctrl + L In Nautilus)
 * F5                            Refresh the active window (DONE by default)
-* F6                            Cycle through screen elements in a window or on the desktop (TODO?)
-* F10                           Activate the Menu bar in the active app (TODO?)
+* F6                            Cycle through screen elements in a window or on the desktop (DONE by default)
+* F10                           Activate the Menu bar in the active app (DONE on some app)
 * Alt + F8                      Show your password on the sign-in screen (TODO?)
 * Alt + Esc                     Cycle through items in the order in which they were opened (TODO?)
 * Alt + underlined letter       Perform the command for that letter (TODO?)
