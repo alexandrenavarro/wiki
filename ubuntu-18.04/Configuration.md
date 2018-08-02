@@ -21,7 +21,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install curl chromium-browser transmission
     
 ### Mutimedia  
-    sudo apt install ubuntu-restricted-extras vlc mplayer mplayer-gui handbrake sound-juicer brasero
+    sudo apt install ubuntu-restricted-extras mpv handbrake sound-juicer brasero
     sudo apt install digikam 
     
 ### Utilities    
@@ -126,6 +126,8 @@ Download AppImage of Cura3D and run it
     }
     
 ### Main Menu
+* Add items in System Tools
+** Terminal : gnome-terminal
 * Add items in System -> Administration
 ** Logout : mate-session-save --logout
 ** Restart : systemctl reboot
@@ -154,9 +156,9 @@ Download AppImage of Cura3D and run it
 * Mail Reader : Thunderbird Mail
 
 ### Multimedia
-* Image Viewer : Image Viewer (Eog)
+* Image Viewer : Shotwell
 * Multimedia Player : Rhythmbox Music Player
-* Video Player : MPlayer (-fs)
+* Video Player : mpv
 
 ### System
 * Text Editor : gedit
@@ -188,9 +190,8 @@ Download AppImage of Cura3D and run it
 * Set compiz as window manager
 
 ### Mate Global
-* Remove dock and Add Brisk Menu on Top Left
 * Remove dock on the left
-* Add a second global menu on the right (usefull when the window is on the right)
+* Add a second global menu on the right (useful when the window is on the right)
 
 ## Compiz
 
