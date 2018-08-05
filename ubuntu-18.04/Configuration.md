@@ -225,15 +225,16 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
     sudo apt install compizconfig-settings-manager
 
 ### General : Commands
-* Super + Space (to redifine, maybe Super + Ctrl + left and Super + Home) (specific Linux) : xdotool mousemove 64 14 click
-* Super + Shift + Space (to redifine, maybe Super + Ctrl + left and Super + End) (specific Linux) : xdotool mousemove 1734 14 click
-* Super + esc (specific Linux) : rofi -show window
-* Super + r (or Ctrl + Esc or TODO Super) (same shortcut as Windows) : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi  
-* Ctrl + Shift + Esc (or Ctrl + Alt + Delete) (same shortcut as Windows) : /usr/bin/mate-system-monitor -p
+* Super + r (and Super with xcape) (same shortcut as Windows) : rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
 * Super + e (same shortcut as Windows) : nautilus
 * Super + i (same shortcut as Windows) : mate-control-center
-* Super + s (same shortcut as Windows) : mate-search-tool
 * Super + b (same shortcut as Windows) : xdotool mousemove 3426 14 click
+* Super + Ctrl + Left (specific Linux) : xdotool mousemove 14 14 click
+* Super + Ctrl + Right (specific Linux) : xdotool mousemove 1734 14 click
+* Super + s (same shortcut as Windows) : mate-search-tool
+
+### Not working (problem shortcut with esc on linux)
+* Ctrl + Shift + Esc (or Ctrl + Alt + Delete) (same shortcut as Windows) : /usr/bin/mate-system-monitor -p
 
 ### General : Mate Compatibilty :
 * Terminal Command Line (gnome-terminal) : Super + T
