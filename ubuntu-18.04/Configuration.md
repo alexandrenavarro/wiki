@@ -67,11 +67,10 @@ Installation and configuration of the different sofware must result to :
     bash-it enable plugin alias-completion dirs edit-mode-vi git gradle history hub java jenv sdkman ssh
     
     
-
 ## From AppImage
 Download AppImage of Cura3D and run it
 
-# Configuration for some applications
+# Configuration /Installation for some applications
 
 ## Firefox
 
@@ -153,6 +152,11 @@ Download AppImage of Cura3D and run it
 * Background : black image
 * Background color : black color
 
+## Model 01 Firmware
+
+### Installation
+
+Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
 
 # Configuration of Ubuntu 18.04 with mate-desktop
 
