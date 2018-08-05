@@ -158,6 +158,17 @@ Download AppImage of Cura3D and run it
 
 Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
 
+## Xcape
+
+### Installation
+
+    sudo apt install xcape
+    
+### Configuration
+
+    xcape -e 'Super_L=Super_L|r'
+
+
 # Configuration of Ubuntu 18.04 with mate-desktop
 
 ## Installation
