@@ -260,8 +260,8 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 * Uncheck Window Decoration
 
 ### Windows Management : Grid
-* Put Left Key (same shortcut as Windows) : Super + Left
-* Put Right Key (same shortcut as Windows) : Super + Right
+* Left Maximize (same shortcut as Windows) : Super + Left
+* Right Maximize (same shortcut as Windows) : Super + Right
 * Maximize Key (same shortcut as Windows) : Super + Up
 
 ### Windows Management : Place Windows 
