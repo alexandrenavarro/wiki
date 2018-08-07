@@ -50,7 +50,6 @@ Installation and configuration of the different sofware must result to :
     sudo apt install git
 
 ## From sdkman
-
     curl -s "https://get.sdkman.io" | bash 
     source "$HOME/.sdkman/bin/sdkman-init.sh"
     sdk install java
