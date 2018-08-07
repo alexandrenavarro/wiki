@@ -129,7 +129,7 @@ Download AppImage of Cura3D and run it
     sudo apt install ranger
     
 ### Configuration
-* Customize https://github.com/ranger/ranger/blob/master/ranger/config/rifle.conf notbly for shotwell and mpv
+* Customize https://github.com/ranger/ranger/blob/master/ranger/config/rifle.conf notably for shotwell and mpv
 
     vi ~/.config/ranger/rifle.conf
     
