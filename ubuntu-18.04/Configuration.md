@@ -225,7 +225,7 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 
 ### General : Commands
 * Super + r (and Super with xcape) (same shortcut as Windows) : rofi -combi-modi drun,run -show-icons -show combi -modi combi
-* Alt + space (same shortcut as Windows with switcheroo) : rofi -show-icons -show window
+* Alt + space (same shortcut as Windows with switcheroo) :  rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
 * Super + e (same shortcut as Windows) : nautilus
 * Super + i (same shortcut as Windows) : mate-control-center
 * Super + b (same shortcut as Windows) : xdotool mousemove 3426 14 click 1
