@@ -21,7 +21,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install curl chromium-browser transmission
     
 ### Mutimedia  
-    sudo apt install ubuntu-restricted-extras mpv handbrake sound-juicer brasero
+    sudo apt install ubuntu-restricted-extras libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg mpv handbrake sound-juicer brasero
     sudo apt install digikam 
     
 ### Utilities    
