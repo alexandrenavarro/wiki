@@ -34,7 +34,7 @@ Installation and configuration of the different sofware must result to :
     
 ### Other
     sudo apt install rofi dconf-editor gnome-tweaks simple-scan
-    sudo apt install lighdm openscad compizconfig-settings-manager
+    sudo apt install lighdm openscad
 
 ## From custom apt repository
 
