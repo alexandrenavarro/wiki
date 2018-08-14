@@ -55,7 +55,6 @@ Installation and configuration of the different sofware must result to :
     sdk install kotlin
     sdk install maven
     sdk install gradle
-    sdk install kscript
 
 ## From bashit
 
