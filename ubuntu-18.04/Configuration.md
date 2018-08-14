@@ -25,7 +25,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install digikam 
     
 ### Utilities    
-    sudo apt install git ranger fdupes 
+    sudo apt install git fdupes 
     sudo snap install intellij-idea-community --classic --edge
 
 ### Documents
@@ -34,7 +34,7 @@ Installation and configuration of the different sofware must result to :
     
 ### Other
     sudo apt install rofi dconf-editor gnome-tweaks simple-scan
-    sudo apt install lighdm openscad
+    sudo apt install openscad
 
 ## From custom apt repository
 
