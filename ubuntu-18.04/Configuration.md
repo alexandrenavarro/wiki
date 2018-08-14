@@ -25,8 +25,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install digikam 
     
 ### Utilities    
-    sudo apt install ranger fdupes baobab git htop neofetch
-    
+    sudo apt install git ranger fdupes 
     sudo snap install intellij-idea-community --classic --edge
 
 ### Documents
