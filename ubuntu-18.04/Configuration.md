@@ -243,7 +243,6 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 * Show Main Menu (same shortcut as Windows) : Super + X
 
 ### General : General Options :
-* Close Window : Super + q
 * Minimise Window (same shortcut as Windows) : Super + Down
 * Show Desktop (same shortcut as Windows) : Super + d  (or Super + m)
 
