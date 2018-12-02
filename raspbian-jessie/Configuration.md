@@ -1,4 +1,4 @@
-# Connect vi ssh
+# Connect via ssh
 
      ssh pi@192.168.0.2
 
