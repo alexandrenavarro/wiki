@@ -165,6 +165,13 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 ### Configuration
 
     xcape -e 'Super_L=Super_L|r'
+    
+    
+## Openscad
+
+    sudo add-apt-repository ppa:openscad/releases
+    sudo apt update
+    sudo apt install openscad
 
 
 # Configuration of Ubuntu 18.04 with mate-desktop
