@@ -458,7 +458,7 @@ Application Menu : off
 
 
 
-# Distribution ugr
+# Distribution ugrade
 
 ## From non-LTS
 
