@@ -458,3 +458,17 @@ Application Menu : off
 
 
 
+# Distribution ugr
+
+## From non-LTS
+
+    sudo apt update 
+    sudo apt upgrade
+    sudo apt dist-upgrade
+
+## From LTS to non-LTS
+
+    # change Prompt=LTS to Prompt=normal
+    vi /etc/update-manager/release-upgrades 
+    
+    sudo do-release-upgrade -d
