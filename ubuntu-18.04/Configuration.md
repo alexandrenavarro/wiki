@@ -18,7 +18,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt update
 
 ### Network
-    sudo apt install curl chromium-browser transmission
+    sudo apt install curl chromium-browser torbrowser-launcher transmission
     
 ### Mutimedia  
     sudo apt install ubuntu-restricted-extras mpv handbrake sound-juicer brasero
