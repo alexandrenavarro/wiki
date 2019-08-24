@@ -9,9 +9,9 @@ Windows 10
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/windows-10/Configuration.md)
 
-Printer
+3D Printer
 -------
-[Ender 3](https://github.com/alexandrenavarro/wiki/blob/master/printer/Ender3.md)
+[Ender 3](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3.md)
 
 Android
 -------
