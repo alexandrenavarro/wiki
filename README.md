@@ -20,6 +20,8 @@ Android
 
 [OnePlus5T](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus5T.md)
 
+[Nexus6P](https://github.com/alexandrenavarro/wiki/blob/master/android/Nexus6P.md)
+
 [Nexus6](https://github.com/alexandrenavarro/wiki/blob/master/android/Nexus6.md)
 
 [Nexus7-2013](https://github.com/alexandrenavarro/wiki/blob/master/android/Nexus7-2013.md)
