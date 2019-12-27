@@ -1,4 +1,4 @@
-# Tutorial installation Marlin 2.0.x sur une carte MKS GEN L via Ardunio IDE
+# Tutorial installation Marlin 2.0.x sur une carte MKS GEN L
 
 
 ## Voir les vidéos pour le montage de la carte
@@ -36,7 +36,7 @@ Tester d'abord les x, y, z (avec la main sur l'alimentation si endstop ne foncti
 ## Ajuster vos step/unit de vos e
 * Extruder 10 cm et vérifier si la longeur est bien de 10 cm, si non, ajustez vos DEFAULT_AXIS_STEPS_PER_UNIT pour l'extruder avec un règle de trois et restester si c'est correct désormais
 
-# Tuner votre PID pour la buse / bed
+## Tuner votre PID pour la buse / bed
 * Tuner votre PID pour la buse avec 210 degrés en lançant la commande puis changer les valeurs dans le firmware https://www.youtube.com/watch?v=_2TSIjD6CBM
 
     M303 E0 S210 C8
@@ -45,10 +45,10 @@ Tester d'abord les x, y, z (avec la main sur l'alimentation si endstop ne foncti
 
     M303 E-1 S65 C8
     
-# Tester vos niveaux de retraction acceptables
+## Tester vos niveaux de retraction acceptables
 https://www.thingiverse.com/thing:2563909/
 
-# Tester vos niveaux de température acceptables pour un filament donné 
+## Tester vos niveaux de température acceptables pour un filament donné 
 https://www.thingiverse.com/thing:2729076
     
 
