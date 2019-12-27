@@ -1,4 +1,4 @@
-# Tutorial installation Marlin 2.0.x sur une carte MKS GEN L
+# Tutorial installation Marlin 2.0.x sur une MKS GEN L
 
 
 ## Voir les vidéos pour le montage de la carte
