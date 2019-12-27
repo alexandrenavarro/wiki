@@ -3,7 +3,7 @@ Tutorial installation Marlin 2.0.x sur une carte MKS GEN L via Ardunio IDE
 
 * Suivre le lien https://www.ender3.fr/turoriel-marlin-1-1-9-touch-mi-pour-la-ender3/ et voir les vidéos https://www.youtube.com/watch?v=LNdMYgwez8Y, https://www.youtube.com/watch?v=hDuWm9dLwFs, https://www.youtube.com/watch?v=ncc7TRkCH-M, https://www.youtube.com/watch?v=7VHwcEroHPk
 
-* Cloner Marlin avec ces options pour la ender 3 de mon fork https://github.com/alexandrenavarro/Marlin branche bugfix-2.0.x, toutes les modifications sont dans le commentaires du dernier commit)
+* Cloner Marlin avec ces options pour la ender 3 de mon fork https://github.com/alexandrenavarro/Marlin/tree/bugfix-2.0.x, toutes les modifications sont dans le commentaires du dernier commit)
 
 * Installer un logiciel pour compiler Marlin
 ** Via ArduinoIde
