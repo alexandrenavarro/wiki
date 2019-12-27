@@ -58,6 +58,7 @@ https://www.thingiverse.com/thing:2729076
 
 ## Boiter arrière pour MKS Gen L ou SKR 1.3 et Raspberry
 https://www.thingiverse.com/thing:3691287
+
 https://www.thingiverse.com/thing:3688967
 
 ## Porte pour écran Bigtree TFT35
@@ -65,16 +66,86 @@ https://www.thingiverse.com/thing:3950607
 
 ## Porte Bobine latérale
 https://www.thingiverse.com/thing:3441454
+
 https://www.thingiverse.com/thing:3323206
 
+##  Câble clip extruder
+https://www.thingiverse.com/thing:2949858
+
+
 ## Stabilisateur
-Imprimer Stabilisateur z (noir)
 https://www.thingiverse.com/thing:3472567
+
 https://www.thingiverse.com/thing:3370355
+
 https://www.thingiverse.com/thing:3003690
 
+## Roue z
+https://www.thingiverse.com/thing:3588485
 
- 
+https://www.thingiverse.com/thing:2534990
+
+## Fan Alimentation
+https://www.thingiverse.com/thing:3703510
+
+https://www.thingiverse.com/thing:3623828
+
+https://www.thingiverse.com/thing:3328495
+
+https://www.thingiverse.com/thing:2284893
+
+## Roue Extrudeur
+https://www.thingiverse.com/thing:3585506
+
+https://www.thingiverse.com/thing:2776404
+
+https://www.thingiverse.com/thing:3585506
+
+https://www.thingiverse.com/thing:2776404
+
+https://www.thingiverse.com/thing:3176144
+
+
+## Fan Hot End
+https://www.thingiverse.com/thing:3182917
+
+https://www.thingiverse.com/thing:1596181
+
+
+## Chaine
+https://www.thingiverse.com/thing:2920060
+
+## Boitier outils
+https://www.thingiverse.com/thing:3548246
+
+https://www.thingiverse.com/thing:3208219
+
+
+## VSlot
+https://www.thingiverse.com/thing:3248551
+
+https://www.thingiverse.com/thing:3379068
+
+## Rail Cover
+https://www.thingiverse.com/thing:3490301
+
+https://www.thingiverse.com/thing:3196302
+
+
+## Détecteur de filament
+
+https://www.thingiverse.com/thing:3250248
+
+## Anti snap guide 
+https://www.thingiverse.com/thing:2940855
+
+## Guide filament
+https://www.thingiverse.com/thing:2745434
+
+https://www.thingiverse.com/thing:2186253
+
+
+
  
 
 
