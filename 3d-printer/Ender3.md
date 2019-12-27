@@ -16,10 +16,12 @@ Tutorial installation Marlin 1.1.9 sur une carte mks gen l
 
 * Tuner votre PID pour la buse avec 210 degrés en lançant la commande 
 
-    M303 E0 S210 C8 
+    M303 E0 S210 C8
+    
 * Tuner votre PID pour le bed avec 65 degrés en lançant la command
 
-    M303 E-1 S65 C8 
+    M303 E-1 S65 C8
+    
 
 
 
