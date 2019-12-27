@@ -30,7 +30,7 @@ Suivre le lien https://www.ender3.fr/turoriel-marlin-1-1-9-touch-mi-pour-la-ende
 ## Brancher tout
 * Tester d'abord les x, y, z (avec la main sur l'alimentation si endstop ne fonctionne pas) puis extrusion.
 
-# Tuning Post Installation
+# Configuration Post Installation
 
 ## Ajuster vos step/unit de vos x, y, z
 * Imprimer un cube de 2cm (ou plus) et vérifier la taille des x, y, z sont corrects, si non, ajustez vos DEFAULT_AXIS_STEPS_PER_UNIT avec une règle de trois et retester si c'est correct désormais (https://www.youtube.com/watch?v=3yIebnVjADM&feature=youtu.be et https://www.youtube.com/watch?v=qotADlrrvUw&feature=youtu.be )
@@ -52,7 +52,30 @@ https://www.thingiverse.com/thing:2563909/
 
 ## Tester vos niveaux de température acceptables pour un filament donné 
 https://www.thingiverse.com/thing:2729076
-    
+
+
+# Tuning de l'Ender 3 pro
+
+## Boiter arrière pour MKS Gen L ou SKR 1.3 et Raspberry
+https://www.thingiverse.com/thing:3691287
+https://www.thingiverse.com/thing:3688967
+
+## Porte pour écran Bigtree TFT35
+https://www.thingiverse.com/thing:3950607
+
+## Porte Bobine latérale
+https://www.thingiverse.com/thing:3441454
+https://www.thingiverse.com/thing:3323206
+
+## Stabilisateur
+Imprimer Stabilisateur z (noir)
+https://www.thingiverse.com/thing:3472567
+https://www.thingiverse.com/thing:3370355
+https://www.thingiverse.com/thing:3003690
+
+
+ 
+ 
 
 
 
