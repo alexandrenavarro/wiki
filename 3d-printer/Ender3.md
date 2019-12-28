@@ -57,12 +57,12 @@ https://www.thingiverse.com/thing:2729076
 # Tuning de l'Ender 3 pro
 
 ## Boiter arrière pour MKS Gen L ou SKR 1.3 et Raspberry
-https://www.thingiverse.com/thing:3691287
+https://www.thingiverse.com/thing:3691287 (installed)
 
-https://www.thingiverse.com/thing:3688967
+https://www.thingiverse.com/thing:3688967 (installed)
 
 ## Porte pour écran Bigtree TFT35
-https://www.thingiverse.com/thing:3950607
+https://www.thingiverse.com/thing:3950607 (installed)
 
 ## Porte Bobine latérale
 https://www.thingiverse.com/thing:3441454
