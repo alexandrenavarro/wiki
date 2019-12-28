@@ -88,13 +88,15 @@ https://www.thingiverse.com/thing:3588485 (à installer en bleu)
 https://www.thingiverse.com/thing:2534990 (imprimé mais peu joli)
 
 ## Fan Alimentation
-https://www.thingiverse.com/thing:3703510
+https://www.thingiverse.com/thing:3232346 (installé en noir)
 
-https://www.thingiverse.com/thing:3623828
+https://www.thingiverse.com/thing:3703510 (abandonné)
 
-https://www.thingiverse.com/thing:3328495
+https://www.thingiverse.com/thing:3623828 (abandonné)
 
-https://www.thingiverse.com/thing:2284893
+https://www.thingiverse.com/thing:3328495 (abandonné)
+
+https://www.thingiverse.com/thing:2284893 (abandonné)
 
 ## Roue Extrudeur
 https://www.thingiverse.com/thing:3585506
