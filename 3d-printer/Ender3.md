@@ -109,9 +109,13 @@ https://www.thingiverse.com/thing:3176144
 
 
 ## Fan Hot End
-https://www.thingiverse.com/thing:3182917
+https://www.thingiverse.com/thing:3182917 (à imprimer)
+
+https://www.thingiverse.com/thing:1750976
 
 https://www.thingiverse.com/thing:1596181
+
+https://www.thingiverse.com/thing:2802474
 
 
 ## Chaine
