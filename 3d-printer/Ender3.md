@@ -135,7 +135,7 @@ https://www.thingiverse.com/thing:3248551 (à imprimer?)
 https://www.thingiverse.com/thing:3379068 (à imprimer?)
 
 ## Rail Cover
-https://www.thingiverse.com/thing:3490301 (à imprimer?)
+https://www.thingiverse.com/thing:3490301 (à imprimer en bleu)
 
 https://www.thingiverse.com/thing:3196302 (à imprimer?)
 
