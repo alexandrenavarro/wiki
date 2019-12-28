@@ -73,8 +73,14 @@ https://www.thingiverse.com/thing:3441454 (non essayé)
 https://www.thingiverse.com/thing:2949858 (installé en noir)
 
 
-## Stabilisateur
+## Guide filament
+https://www.thingiverse.com/thing:2186253 (imprimé en noir)
 
+https://www.thingiverse.com/thing:2745434 (non choisi)
+
+
+
+## Stabilisateur
 https://www.thingiverse.com/thing:3003690 (installé en bleu)
 
 https://www.thingiverse.com/thing:3472567 (non choisi)
@@ -137,24 +143,21 @@ https://www.thingiverse.com/thing:3379068 (à imprimer?)
 ## Rail Cover
 https://www.thingiverse.com/thing:3490301 (à imprimer en bleu)
 
-https://www.thingiverse.com/thing:3196302 (à imprimer?)
-
-
-## Détecteur de filament
-
-https://www.thingiverse.com/thing:3250248 (à imprimer?)
+https://www.thingiverse.com/thing:3196302 (non retenu)
 
 
 ## Anti snap guide 
-
 https://www.thingiverse.com/thing:2940855 (à imprimer en bleu)
 
 
+## Détecteur de filament
+https://www.thingiverse.com/thing:3250248 (à imprimer?)
 
-## Guide filament
-https://www.thingiverse.com/thing:2745434 (à imprimer?)
 
-https://www.thingiverse.com/thing:2186253 (à imprimer?)
+
+
+
+
 
 
 
