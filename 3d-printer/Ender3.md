@@ -99,58 +99,61 @@ https://www.thingiverse.com/thing:3328495 (non choisi)
 https://www.thingiverse.com/thing:2284893 (non choisi)
 
 ## Roue Extrudeur
-https://www.thingiverse.com/thing:3585506
+https://www.thingiverse.com/thing:3585506 (à imprimer?)
 
-https://www.thingiverse.com/thing:2776404
+https://www.thingiverse.com/thing:2776404 (à imprimer?)
 
-https://www.thingiverse.com/thing:3585506
+https://www.thingiverse.com/thing:3585506 (à imprimer?)
 
-https://www.thingiverse.com/thing:2776404
+https://www.thingiverse.com/thing:2776404 (à imprimer?)
 
-https://www.thingiverse.com/thing:3176144
+https://www.thingiverse.com/thing:3176144 (à imprimer?)
 
 
 ## Fan Hot End
 https://www.thingiverse.com/thing:3182917 (à imprimer)
 
-https://www.thingiverse.com/thing:1750976
+https://www.thingiverse.com/thing:1750976 (à imprimer)
 
-https://www.thingiverse.com/thing:1596181
+https://www.thingiverse.com/thing:1596181 (à imprimer?)
 
-https://www.thingiverse.com/thing:2802474
+https://www.thingiverse.com/thing:2802474 (à imprimer?)
 
 
 ## Chaine
-https://www.thingiverse.com/thing:2920060
+https://www.thingiverse.com/thing:2920060 (à imprimer)
 
 ## Boitier outils
-https://www.thingiverse.com/thing:3548246
+https://www.thingiverse.com/thing:3548246 (à imprimer)
 
-https://www.thingiverse.com/thing:3208219
+https://www.thingiverse.com/thing:3208219 (à imprimer?)
 
 
 ## VSlot
-https://www.thingiverse.com/thing:3248551
+https://www.thingiverse.com/thing:3248551 (à imprimer?)
 
-https://www.thingiverse.com/thing:3379068
+https://www.thingiverse.com/thing:3379068 (à imprimer?)
 
 ## Rail Cover
-https://www.thingiverse.com/thing:3490301
+https://www.thingiverse.com/thing:3490301 (à imprimer?)
 
-https://www.thingiverse.com/thing:3196302
+https://www.thingiverse.com/thing:3196302 (à imprimer?)
 
 
 ## Détecteur de filament
 
-https://www.thingiverse.com/thing:3250248
+https://www.thingiverse.com/thing:3250248 (à imprimer?)
 
 ## Anti snap guide 
-https://www.thingiverse.com/thing:2940855
+
+https://www.thingiverse.com/thing:2940855 (à imprimer?)
+
+
 
 ## Guide filament
-https://www.thingiverse.com/thing:2745434
+https://www.thingiverse.com/thing:2745434 (à imprimer?)
 
-https://www.thingiverse.com/thing:2186253
+https://www.thingiverse.com/thing:2186253 (à imprimer?)
 
 
 
