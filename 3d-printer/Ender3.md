@@ -144,9 +144,10 @@ https://www.thingiverse.com/thing:3196302 (à imprimer?)
 
 https://www.thingiverse.com/thing:3250248 (à imprimer?)
 
+
 ## Anti snap guide 
 
-https://www.thingiverse.com/thing:2940855 (à imprimer?)
+https://www.thingiverse.com/thing:2940855 (à imprimer en bleu)
 
 
 
