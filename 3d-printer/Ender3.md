@@ -74,16 +74,18 @@ https://www.thingiverse.com/thing:2949858 (installé en noir)
 
 
 ## Stabilisateur
-https://www.thingiverse.com/thing:3472567
 
-https://www.thingiverse.com/thing:3370355
+https://www.thingiverse.com/thing:3003690 (installé en bleu)
 
-https://www.thingiverse.com/thing:3003690
+https://www.thingiverse.com/thing:3472567 (imprimé mais moins joli)
+
+https://www.thingiverse.com/thing:3370355 (imprimé mais moins joli)
+
 
 ## Roue z
-https://www.thingiverse.com/thing:3588485
+https://www.thingiverse.com/thing:3588485 (à installer en bleu)
 
-https://www.thingiverse.com/thing:2534990
+https://www.thingiverse.com/thing:2534990 (imprimé mais peu joli)
 
 ## Fan Alimentation
 https://www.thingiverse.com/thing:3703510
