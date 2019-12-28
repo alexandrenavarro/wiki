@@ -77,26 +77,26 @@ https://www.thingiverse.com/thing:2949858 (installé en noir)
 
 https://www.thingiverse.com/thing:3003690 (installé en bleu)
 
-https://www.thingiverse.com/thing:3472567 (imprimé mais moins joli)
+https://www.thingiverse.com/thing:3472567 (non choisi)
 
-https://www.thingiverse.com/thing:3370355 (imprimé mais moins joli)
+https://www.thingiverse.com/thing:3370355 (non choisi)
 
 
 ## Roue z
 https://www.thingiverse.com/thing:3588485 (à installer en bleu)
 
-https://www.thingiverse.com/thing:2534990 (imprimé mais peu joli)
+https://www.thingiverse.com/thing:2534990 (non choisi)
 
 ## Fan Alimentation
 https://www.thingiverse.com/thing:3232346 (installé en noir)
 
-https://www.thingiverse.com/thing:3703510 (abandonné)
+https://www.thingiverse.com/thing:3703510 (non choisi)
 
-https://www.thingiverse.com/thing:3623828 (abandonné)
+https://www.thingiverse.com/thing:3623828 (non choisi)
 
-https://www.thingiverse.com/thing:3328495 (abandonné)
+https://www.thingiverse.com/thing:3328495 (non choisi)
 
-https://www.thingiverse.com/thing:2284893 (abandonné)
+https://www.thingiverse.com/thing:2284893 (non choisi)
 
 ## Roue Extrudeur
 https://www.thingiverse.com/thing:3585506
