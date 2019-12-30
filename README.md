@@ -18,6 +18,10 @@ Raspbian Jessie
 -------
 [Ender 3](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3.md)
 
+Keyboard
+-------
+[Keyboardio Model 01](https://github.com/alexandrenavarro/wiki/blob/master/keyboard/KeyboardioModel01.md)
+
 
 Android
 -------
