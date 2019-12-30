@@ -18,6 +18,9 @@ Shift management must be as quick as possible (OneShot plugin is used)
 All modifier can be easily useable (OneShot plugin is used for Alt/Ctrl)
 Vi mode should be great for composed command.
 
+### Plugin tested but not or little used
+Difficult to use qukeys on homerow for modifier because the letter will be shown when the key is released not tapped and I never adapted to it, qukeys used only on palm keys.
+
 ## My arduino repository with this layout
 https://github.com/alexandrenavarro/Model01-Firmware
 
