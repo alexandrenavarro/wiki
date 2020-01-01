@@ -3,11 +3,9 @@
 ## Root
 
 ### Easy way
-TODO
+Use Tool All in One 
 
 ### Root with commands and some useful commands
-
-TODO
 
 Rom
 ===
