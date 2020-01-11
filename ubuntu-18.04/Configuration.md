@@ -32,6 +32,7 @@ Installation and configuration of the different sofware must result to :
 ### Documents
     sudo apt install libreoffice
     sudo apt install calibre
+    sudo apt install pdftk
     
 ### Other
     sudo apt install rofi dconf-editor gnome-tweaks simple-scan
