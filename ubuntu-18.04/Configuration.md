@@ -26,7 +26,7 @@ Installation and configuration of the different sofware must result to :
     sudo apt install digikam 
     
 ### Utilities    
-    sudo apt install git fdupes 
+    sudo apt install git fdupes pdftk    
     sudo snap install intellij-idea-community --classic --edge
 
 ### Documents
@@ -123,6 +123,14 @@ Download AppImage of Cura3D and run it
     #inputbar {
         children: [prompt, textbox-prompt-colon, entry];
     }
+    
+## Intellij
+
+### Configuration
+Change some shorcuts
+* Editor Actions | Move Caret to Code Block End equivalent of CTRL + [
+* Main menu | Edit | Find Usages | Find Usages : CTRL + F6
+* Main menu | Navigate | Search Everywhere : CTRL + F3
     
 ## Ranger
 
