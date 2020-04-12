@@ -357,6 +357,14 @@ Application Menu : off
 ## Epson EcoTank ET-4750
 Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
+### Printer
+It works but you can have more option
+
+http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
+
+Install Driver + Utility
+Add a printer through find Network printer.
+
 ### Scanner
 For Scanner, download Scanner Driver
 Follow documentation (https://download3.ebz.epson.net/dsc/f/03/00/10/86/60/cbe4b348661d3be89ed8bb01b112ded41e756976/imagescanv3_man_e.pdf)
