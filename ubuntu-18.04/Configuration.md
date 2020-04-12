@@ -352,6 +352,40 @@ Application Menu : off
     end
 
 
+# Configuration of non-detected hardware
+
+## Epson EcoTank ET-4750
+Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
+
+### Scanner
+For Scanner, download Scanner Driver
+Follow documentation (https://download3.ebz.epson.net/dsc/f/03/00/10/86/60/cbe4b348661d3be89ed8bb01b112ded41e756976/imagescanv3_man_e.pdf)
+
+    tar xvzf imagescan-bundle-ubuntu-19.10-3.62.0.x64.deb.tar.gz
+    ./install.sh 
+    cd core
+    sudo dpkg -i imagescan_3.62.0-1epson4ubuntu19.10_amd64.deb
+    cd ../plugins
+    sudo dpkg -i imagescan-plugin-networkscan_1.1.3-1epson4ubuntu19.10_amd64.deb
+    
+Edit Configuration files    
+    gedit /etc/imagescan/imagescan.conf
+
+with
+
+    [devices]
+    net.udi = networkscan:esci://192.168.0.6:1865
+    net.vendor = Epson 
+    net.model = Epson EcoTank ET-4750
+    net.name = Epson EcoTank ET-4750
+
+Launch 
+
+### Printer
+// TODO automatically discovered but doesn't launch everytime a print
+
+
+
 # Configuration to do to have the same shortcuts as Windows
 
 
