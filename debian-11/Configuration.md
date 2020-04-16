@@ -39,9 +39,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ## Installation of firmware of ati drivers for radeon
 Drivers are the kernel but need to have firmware from non-free repository).
 
-
-
-
+    sudo apt install firmware-amd-graphics
 
 
 # Software Installation
