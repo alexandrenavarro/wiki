@@ -89,7 +89,6 @@ Download AppImage of Cura3D and run it
 ### Configuration
 * Install vimium plugin
 * Install fox gesture plugin
-* In about:config, set to 0 the property browser.backspace_action
 
 ## Rofi
 
