@@ -47,16 +47,19 @@ Drivers are the kernel but need to have firmware from non-free repository).
 ## From apt / snap
     sudo apt update
 
+## Accessories
+    sudo apt install nautilus
+
 ### Internet
     sudo apt install curl torbrowser-launcher transmission
     
 ### Sound & Video  
 
-    sudo apt install vlc mpv handbrake sound-juicer brasero
+    sudo apt install vlc mpv handbrake sound-juicer brasero rhythmbox
     sudo apt install digikam 
     
 ### Utilities   
-    sudo apt install gedit git fdupes terminator  
+    sudo apt install gedit git fdupes terminator 
 
 ### Office
     sudo apt install pdftk
@@ -154,8 +157,6 @@ Change some shorcuts
     vi ~/.config/ranger/rifle.conf
     
 ### Main Menu
-* Add items in System Tools
-* Terminal : gnome-terminal
 
 * Add items in System -> Administration
 * Logout : mate-session-save --logout
@@ -165,7 +166,7 @@ Change some shorcuts
 ## Bash
 
 ### Configuration
-* Add neofetch at the end of .bashrc
+* TODO
 
 ## LightDM (Login)
 * Background : black image
@@ -177,60 +178,43 @@ Change some shorcuts
 
 Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
 
-## Xcape
-
-### Installation
-
-    sudo apt install xcape
-    
-### Configuration
-
-    xcape -e 'Super_L=Super_L|r'
-    
-    
-## Openscad
-
-    sudo add-apt-repository ppa:openscad/releases
-    sudo apt update
-    sudo apt install openscad
 
 
-# Configuration of Ubuntu 18.04 with mate-desktop
+# Configuration of Debian 11 (mate) in System / Control Center
 
-## Installation
-    sudo apt install ubuntu-mate-desktop
-    
     
 ## Preferred Application
 
 ### Internet
 * Web Browser : Firefox
-* Mail Reader : Thunderbird Mail
+* Mail Reader : 
 
 ### Multimedia
-* Image Viewer : Shotwell
+* Image Viewer : Eye Of Mate
 * Multimedia Player : Rhythmbox Music Player
 * Video Player : mpv
 
 ### System
 * Text Editor : gedit
-* Terminal Emulator : Terminal (Gnome-terminal)
-* File Manager : Files
+* Terminal Emulator : Terminal (Terminator)
+* File Manager : Files (Nautilus)
 
 ### Office
-* Document Viewer : Document Viewer (Evince)
+* Document Viewer : Altril Document Viewer
 * Word Processor : LibreOffice Writer
 * Spreadsheet Editor : LibreOffice Calc
 
 ## Appearence
 
 ### Theme 
-* Use High Contrast Inverse and customize with Icons : Ubuntu-Mono-Dark
+* Use High Contrast Inverse
 
 ### Background
 * Use an black custom image (do not use solid color, make big problem in compiz)
 
-## MATE Tweak
+## MATE Tweak 
+    sudo apt install mate-tweak
+
 ### Desktop 
 * Remove Show Desktop Icons
 
@@ -302,63 +286,6 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 
 ### Windows Management : Shift Switcher
 * Activate it (same shortcut as Windows)
-
-## Jayatana
-*  Having Swing menu in the global menu (does not work)
-
-# Configuration of Ubuntu 18.04 with gnome-shell (Alternative of mate)
-
-## Gnome Shell Tweak
-
-### Appearance
-* Applications : Adwaita-dark
-
-### Desktop 
-Show Icons : off
-
-### Top Bar
-Application Menu : off
-
-### Extentions
-    sudo apt install chrome-gnome-shell
-
-#### Unite (undecorated windows)
-* Hide activities button : Always
-* Hide windows titlebars : Both
-* Show window title in app menu : Always
-* Show window buttons int top bar : Never
-
-#### Dash to dock (remove dock on the left)
-*   and Size : Intelligent autohide -> Dodge windows : off
-
-#### Gnome global application menu(hud for gnome) : (global menu / HUD)
-* !!! Caution !!! Not very stable (close all windows randomly) but great in term of features.
-
-#### Swither (manage search windows)
-
-## Devilspie2 (Windows Placement / Size, maybe use a Gnome Shell Extensions if exists)
-
-### Installation
-    sudo apt install devilspie2
-
-### Configuration
-
-    cd 
-    mkdir .config/devilspie2
-    cd .config/devilspie2  
-    
-    vi devilspie2.lua
-
-    if (get_application_name() == "Terminal") then
-      set_window_geometry(0, 27, 1720, 1413);
-      undecorate_window();
-    end
-    if (get_application_name() == "Firefox" or
-        get_application_name() == "Nautilus" or
-        get_application_name() == "Caja") then
-      set_window_geometry(1720, 27, 1720, 1413);
-      undecorate_window();
-    end
 
 
 # Configuration of non-detected hardware
