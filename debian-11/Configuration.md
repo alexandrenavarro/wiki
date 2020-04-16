@@ -2,15 +2,15 @@
 
 Installation and configuration of the different sofware must result to :
 
-*Every actions (or quasi) can be easily with keyboard shortcuts (compiz)
-*Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...) (compiz)
-*The position and size of the different applications must be remembered (compiz)
-*Having a global menu (like MacOsX) and accessible with keyboard shortcut, (mate-panel with mutiny + xdotool)
-*Having HUD to search in menu of the application with keyboard shortcut (mate-hud)
-*Easy to put windows left, right, maximize, minimize with keyboard shortcuts (compiz grid)
-*Having a searcheable launcher with a keyboard shortcut (rofi --show run)
-*Having a searcheable task manager with a keyboard shortcut (rofi --show window)
-*Keep short as possible as the shortcuts as the one in Windows
+* Every actions (or quasi) can be easily with keyboard shortcuts (compiz)
+* Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...) (compiz)
+* The position and size of the different applications must be remembered (compiz)
+* Having a global menu (like MacOsX) and accessible with keyboard shortcut, (mate-panel with mutiny + xdotool)
+* Having HUD to search in menu of the application with keyboard shortcut (mate-hud)
+* Easy to put windows left, right, maximize, minimize with keyboard shortcuts (compiz grid)
+* Having a searcheable launcher with a keyboard shortcut (rofi --show run)
+* Having a searcheable task manager with a keyboard shortcut (rofi --show window)
+* Keep short as possible as the shortcuts as the one in Windows
 
 # Installation
 Download debian-mate version (here 10) and then update to testing (11) if you want to have update up-to-date softwares.
