@@ -49,25 +49,19 @@ Drivers are the kernel but need to have firmware from non-free repository).
 
 ### Network
 
-    sudo apt install curl chromium-browser torbrowser-launcher transmission
+    sudo apt install curl torbrowser-launcher transmission
     
 ### Mutimedia  
 
-
-    sudo apt install ubuntu-restricted-extras mpv handbrake sound-juicer brasero
-    # sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+    sudo apt install vlc mpv handbrake sound-juicer brasero
     sudo apt install digikam 
     
 ### Utilities   
-    sudo apt install gedit
-    
-    sudo apt install git fdupes pdftk    
-    sudo snap install intellij-idea-community --classic --edge
+    sudo apt install gedit git fdupes    
 
 ### Documents
-    sudo apt install libreoffice
-    sudo apt install calibre
     sudo apt install pdftk
+    sudo apt install calibre
     
 ### Other
 
