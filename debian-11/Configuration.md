@@ -40,6 +40,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 Drivers are the kernel but need to have firmware from non-free repository).
 
     sudo apt install firmware-amd-graphics
+    sudo apt install firmware-linux-nonfree
 
 
 # Software Installation
@@ -179,9 +180,9 @@ Change some shorcuts
 Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
 
 
-
 # Configuration of Debian 11 (mate) in System / Control Center
 
+    sudo apt install mate-desktop-environment-extras 
     
 ## Preferred Application
 
