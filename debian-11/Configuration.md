@@ -240,11 +240,6 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 * Alt + space (same shortcut as Windows with switcheroo) :  rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
 * Super + e (same shortcut as Windows) : nautilus
 * Super + i (same shortcut as Windows) : mate-control-center
-* Super + b (same shortcut as Windows) : xdotool mousemove 3426 14 click 1
-* Super + Alt + Left (specific Linux) : xdotool mousemove 14 14 click 1
-* Super + Alt + Right (specific Linux) : xdotool mousemove 1734 14 click 1
-* Super + Ctrl + Left (specific Linux) : xdotool mousemove 860 720 click 1
-* Super + Ctrl + Right (specific Linux) : xdotool mousemove 2520 720 click 1
 
 * Super + s (same shortcut as Windows) : mate-search-tool
 
