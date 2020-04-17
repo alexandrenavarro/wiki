@@ -182,7 +182,8 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 
 # Configuration of Debian 11 (mate) in System / Control Center
 
-    sudo apt install mate-desktop-environment-extras 
+    sudo apt install mate-desktop-environment mate-desktop-environment-extras 
+    sudo apt install appmenu-gtk-module-common appmenu-gtk2-module appmenu-gtk3-module appmenu-registrar bamfdaemon libappmenu-gtk2-parser0 libappmenu-gtk3-parser0 libbamf3-2 libdbusmenu-gtk4 mate-applet-appmenu vala-panel-appmenu-common appmenu-qt appmenu-qt5
     
 ## Preferred Application
 
