@@ -232,7 +232,7 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 ## Compiz
 
 ### Installation
-    sudo apt install compizconfig-settings-manager
+    sudo apt install compizconfig-settings-manager compiz-plugins-extra
 
 ### General : Commands
 * Super + r (and Super with xcape) (same shortcut as Windows) : rofi -combi-modi drun,run -show-icons -show combi -modi combi
