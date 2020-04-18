@@ -16,7 +16,7 @@ Installation and configuration of the different sofware must result to :
 Download debian-gnome version (here 10) and then update to testing (11) if you want to have update up-to-date softwares.
 
 
-# Post installation
+# Post Installation
 
 ## Update to testing in the /etc/apt/source.list
     sudo apt install gedit
@@ -44,11 +44,13 @@ Drivers are the kernel but need to have firmware from non-free repository).
 
 ## Window Manager : OpenBox
 
+### Preinstall when from debian-standard not debian-gnome
+//TODO
+
 ### Installation
     sudo apt install openbox
-    
-### Configuration of ObConf
-Copy from https://github.com/alexandrenavarro/linux-home-config/blob/master/.config/openbox/rc.xml to ~/.config/openbox/rc.xml
+    cd ~/.config/openbox
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/rc.xml
 
 #### Theme
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set it.
@@ -79,14 +81,16 @@ Inactive title Windows : 1
 ### Graphics  
 
 #### Image Viewer
-    sudo apt install eom // TODO gnome equivalent
+    sudo apt install eog
+    
+#### Image Manager
     sudo apt install digikam 
     
 ### Internet
 
 #### Web Browser
     sudo apt install firefox
-    sudo apt install chromium curl torbrowser-launcher
+    sudo apt install chromium torbrowser-launcher wget 
     
 #### Torrent Client
     sudo apt install transmission
@@ -114,13 +118,11 @@ Inactive title Windows : 1
     sudo apt install libreoffice
 
 #### Pdf Document Viewer
-    sudo apt install altril
+    sudo apt install evince
     sudo apt install pdftk
     
 #### Book Manager
     sudo apt install calibre
-    
-### Preferences (TODO)
 
 ### System Tool
 
@@ -138,10 +140,10 @@ Inactive title Windows : 1
     sudo apt install gnome-system-monitor
     
 #### Disk Usage
-    // TODO
+    sudo apt install baobab
     
 ### Control Center
-    sudo sudo apt install mate-control-center // gnome-control-center
+    sudo sudo apt install gnome-control-center
    
 ## Others
 
@@ -158,9 +160,15 @@ Inactive title Windows : 1
     
     
 ## From AppImage
-Download AppImage of Cura3D and run it
 
-# Configuration /Installation for some applications
+### Cura
+Download AppImage of Cura3D and run it.
+
+### Etcher
+Download AppImage of Etcher and run it.
+
+
+# Custom Configuration / Installation for some applications
 
 ## Firefox
 
@@ -175,12 +183,9 @@ Download AppImage of Cura3D and run it
 
 ### Installation
     sudo apt install rofi
-
-### Configuration
-    Copy from https://github.com/alexandrenavarro/linux-home-config/blob/master/.config/rofi/config.rasi to ~/.config/rofi/config.rasi
-    
     mkdir ~/.config/rofi
-
+    cd ~/.config/rofi
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
     
 ## Intellij
 
@@ -196,18 +201,10 @@ Change some shorcuts
 
 ### Installation
     sudo apt install ranger
-    
-### Configuration
-* Customize https://github.com/ranger/ranger/blob/master/ranger/config/rifle.conf notably for shotwell and mpv
     mkdir ~/.config/ranger
-    vi ~/.config/ranger/rifle.conf
-    
-### Main Menu
+    cd ~/.config/ranger
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
 
-* Add items in System -> Administration
-* Logout : mate-session-save --logout
-* Restart : systemctl reboot
-* Shutdown : systemctl poweroff
 
 ## Bash
 
@@ -224,9 +221,6 @@ Change some shorcuts
 ### Installation
 
 Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
-
-
-
 
 
 # Configuration of non-detected hardware
@@ -387,7 +381,3 @@ Update your /etc/apt/source.list
 * Windows logo key  + Ctrl + Right arrow  Switch between virtual desktops you’ve created on the right (DONE by configuration)
 * Windows logo key  + Ctrl + Left arrow   Switch between virtual desktops you’ve created on the left (DONE by configuration)
 * Windows logo key  + Ctrl + F4           Close the virtual desktop you're using (Not Useful)
-
-
-
-
