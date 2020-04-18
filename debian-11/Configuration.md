@@ -13,7 +13,7 @@ Installation and configuration of the different sofware must result to :
 * Keep short as possible as the shortcuts as the one in Windows
 
 # Installation
-Download debian-mate version (here 10) and then update to testing (11) if you want to have update up-to-date softwares.
+Download debian-gnome version (here 10) and then update to testing (11) if you want to have update up-to-date softwares.
 
 
 # Post installation
@@ -41,6 +41,25 @@ Drivers are the kernel but need to have firmware from non-free repository).
 
     sudo apt install firmware-linux-nonfree # for firmware-amd-graphics mainly
 
+
+## Window Manager : OpenBox
+
+### Installation
+    sudo apt install openbox
+    
+### Configuration of ObConf
+Copy from https://github.com/alexandrenavarro/linux-home-config/blob/master/.config/openbox/rc.xml to ~/.config/openbox/rc.xml
+
+#### Theme
+Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set it.
+// TODO theme gtk
+
+#### Appareance
+Active title Windows : 1
+Inactive title Windows : 1
+
+### Configuration of wallpaper
+///TODO
 
 # Software Installation
 
@@ -158,42 +177,10 @@ Download AppImage of Cura3D and run it
     sudo apt install rofi
 
 ### Configuration
+    Copy from https://github.com/alexandrenavarro/linux-home-config/blob/master/.config/rofi/config.rasi to ~/.config/rofi/config.rasi
+    
     mkdir ~/.config/rofi
-    vi ~/.config/rofi/config.rasi
 
-
-    * {
-        background-color: Black;
-        border-color:     GhostWhite;
-        text-color:       GhostWhite;
-    }
-
-    #window {
-        border: 1;
-        padding: 4;
-    }
-
-    #listview {
-        border: 2px dash 0px 0px ;
-        lines:      25;
-    }
-
-    #element selected {
-        background-color: DimGray;
-    }
-
-    #element.alternate.normal {
-        background-color: rgba(20, 20, 20, 100%);
-    }
-
-    #textbox-prompt-colon {
-        expand:     false;
-        str:        ":";
-    }
-
-    #inputbar {
-        children: [prompt, textbox-prompt-colon, entry];
-    }
     
 ## Intellij
 
@@ -232,8 +219,6 @@ Change some shorcuts
 * Background color : black color
 
 
-
-
 ## Model 01 Firmware
 
 ### Installation
@@ -241,108 +226,7 @@ Change some shorcuts
 Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
 
 
-# Configuration of Mater in System / Control Center
-    sudo apt install task-mate-desktop
 
-## MATE Tweak 
-    sudo apt install mate-tweak
-
-### Desktop 
-* Remove Show Desktop Icons
-* Remove Show Home
-
-### Panel
-* Enabe Hud
-
-### Windows
-* Set compiz as window manager (or 
-
-### Mate Global
-* Remove dock on the left or right, menu on top left, set date as first element on top right.
-* Add a second global menu on the right (useful when the window is on the right)
-    
-## Preferred Application
-
-### Internet
-* Web Browser : Firefox
-* Mail Reader : 
-
-### Multimedia
-* Image Viewer : Eye Of Mate
-* Multimedia Player : Rhythmbox Music Player
-* Video Player : mpv
-
-### System
-* Text Editor : gedit
-* Terminal Emulator : Terminal (Terminator)
-* File Manager : Files (Nautilus)
-
-### Office
-* Document Viewer : Altril Document Viewer
-* Word Processor : LibreOffice Writer
-* Spreadsheet Editor : LibreOffice Calc
-
-## Appearence
-
-### Theme 
-* Use High Contrast Inverse
-
-### Background
-* Use an black custom image (do not use solid color, make big problem in compiz)
-
-
-## Compiz
-
-### Installation
-    sudo apt install compizconfig-settings-manager compiz-plugins-extra
-
-### General : Commands
-* Super + r (and Super with xcape) (same shortcut as Windows) : rofi -combi-modi drun,run -show-icons -show combi -modi combi
-* Alt + space (same shortcut as Windows with switcheroo) :  rofi -combi-modi window,drun,run -show-icons -show combi -modi combi
-* Super + e (same shortcut as Windows) : nautilus
-* Super + i (same shortcut as Windows) : mate-control-center
-
-* Super + s (same shortcut as Windows) : mate-search-tool
-
-### Not working (problem shortcut with esc on linux)
-* Ctrl + Shift + Esc (or Ctrl + Alt + Delete) (same shortcut as Windows) : /usr/bin/mate-system-monitor -p
-
-### General : Mate Compatibilty :
-* Terminal Command Line (gnome-terminal) : Super + T
-* Show Main Menu (same shortcut as Windows) : Super + X
-
-### General : General Options :
-* Minimise Window (same shortcut as Windows) : Super + Down
-* Show Desktop (same shortcut as Windows) : Super + d  (or Super + m)
-
-### Desktop : Desktop Wall
-* Move Left (same shortcut as Windows) : Super + Shift + Left
-* Move Right (same shortcut as Windows) : Super + Shift + Right
-
-### Effects : Animation
-* Open Animation : Duration = 200
-* Close Animation : Duration = 200
-* Minimize Animation : Lamp Wavy
-* Uninimize Animation : Lamp Wavy
-* Slide with animation : Not Found :-(.
-
-### Effects : Window Decoration
-* Uncheck Window Decoration
-
-### Windows Management : Grid
-* Left Maximize (same shortcut as Windows) : Super + Left
-* Right Maximize (same shortcut as Windows) : Super + Right
-* Maximize Key (same shortcut as Windows) : Super + Up
-
-### Windows Management : Place Windows 
-* Add Fixed Windows Placement x=0, y=27, class=Gnome-terminal | class=Nautilus | class=class=Mate-system-monitor
-* Add Fixed Windows Placement x=1720, y=27, class=Ccsm | class=Firefox| class=Shotwell | class=Rhythmbox | class=mpv | class=Gedit | class=Evince | class=libreoffice-writer | class=libreoffice-calc | class=Mate-control-center | class=Dconf-editor 
-
-### Windows Management : Window Rules
-* Add Size Rules,  width=1720, height=1413, class=Ccsm | class=mpv | class=Rhythmbox | class=Gedit | class=Gnome-terminal | class=Nautilus | class=Mate-system-monitor | class=Dconf-editor
-
-### Windows Management : Shift Switcher
-* Activate it (same shortcut as Windows)
 
 
 # Configuration of non-detected hardware
@@ -351,7 +235,7 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
 ### Printer
-It works but you can have more option
+It works but you can have more option like level of ink
 
 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
@@ -379,12 +263,6 @@ with
     net.vendor = Epson 
     net.model = Epson EcoTank ET-4750
     net.name = Epson EcoTank ET-4750
-
-Launch 
-
-### Printer
-// TODO automatically discovered but doesn't launch everytime a print
-
 
 # Distribution ugrade
 
