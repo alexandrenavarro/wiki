@@ -32,23 +32,24 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     deb http://deb.debian.org/debian testing-updates main contrib non-free
     deb-src http://deb.debian.org/debian testing-updates main contrib non-free
 
-    #deb http://security.debian.org/debian-security/ buster/updates main
-    #deb-src http://security.debian.org/debian-security/ buster/updates main
+    #deb http://security.debian.org/debian-security/ testing/updates main
+    #deb-src http://security.debian.org/debian-security/ testing/updates main
 
 
 ## Installation of firmware of ati drivers for radeon
 Drivers are the kernel but need to have firmware from non-free repository).
 
-    sudo apt install firmware-amd-graphics
-    sudo apt install firmware-linux-nonfree
+    sudo apt install firmware-linux-nonfree # for firmware-amd-graphics mainly
 
 
 # Software Installation
 
-## From apt / snap
+## From apt 
     sudo apt update
 
-## Accessories
+### Accessories
+
+
     sudo apt install nautilus
 
 ### Internet
