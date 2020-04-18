@@ -48,9 +48,12 @@ Drivers are the kernel but need to have firmware from non-free repository).
     sudo apt update
 
 ### Accessories
+#### File editor
+    sudo apt install gedit
 
-
+#### File explorer
     sudo apt install nautilus
+    sudo apt install ranger
 
 ### Internet
     sudo apt install curl torbrowser-launcher transmission
