@@ -48,18 +48,26 @@ Drivers are the kernel but need to have firmware from non-free repository).
     sudo apt update
 
 ### Accessories
-#### File editor
+#### File Editor
     sudo apt install gedit
 
-#### File explorer
-    sudo apt install nautilus
+#### File Explorer
+    sudo apt install nautilus  // To test nemo, thunar, caja, nnn
     sudo apt install ranger
+    
+#### Calculator
+    sudo apt install mate-calc // TODO gnome-calc
+
+#### Archive Manager
+    sudo apt install engrampa // TODO gnome-archive?
+    
+
 
 ### Internet
     sudo apt install curl torbrowser-launcher transmission
     
 ### Sound & Video  
-
+    
     sudo apt install vlc mpv handbrake sound-juicer brasero rhythmbox
     sudo apt install digikam 
     
