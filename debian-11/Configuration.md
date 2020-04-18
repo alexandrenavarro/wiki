@@ -2,7 +2,7 @@
 
 Installation and configuration of the different sofware must result to :
 
-* Every actions (or quasi) can be easily with keyboard shortcuts (mate-keybinding-properties or compiz or openbox)
+* Every actions (or quasi) can be easily with keyboard shortcuts (openbox)
 * Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...) (mate or compiz or openbox)
 * The position and size of the different applications must be remembered (compiz or devilspie)
 * Having a global menu (like MacOsX) and accessible with keyboard shortcut, (no topbar with undecorated window or mate-panel with mutiny + xdotool)
