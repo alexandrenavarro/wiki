@@ -55,7 +55,7 @@ Drivers are the kernel but need to have firmware from non-free repository).
     sudo apt install gnome-calculator
 
 #### Archive Manager
-    sudo apt install engrampa // TODO gnome-archive?
+    sudo apt install file-roller
     
 ### Graphics  
 
