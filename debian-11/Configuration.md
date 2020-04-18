@@ -116,15 +116,18 @@ Drivers are the kernel but need to have firmware from non-free repository).
     sudo apt install rofi
 
 #### Monitor
-    sudon apt install mate-system-monitor //gnome-system-monitor
+    sudo apt install mate-system-monitor //gnome-system-monitor
     
 #### Disk Usage
+    // TODO
     
-
 ### Control Center
-   sudo sudo apt install mate-control-center
+    sudo sudo apt install mate-control-center // gnome-control-center
+   
+## Others
 
-## From custom apt repository
+### Login 
+    sudo apt install lightdm
 
 ## From sdkman
     curl -s "https://get.sdkman.io" | bash 
@@ -155,7 +158,7 @@ Download AppImage of Cura3D and run it
     sudo apt install rofi
 
 ### Configuration
-
+    mkdir ~/.config/rofi
     vi ~/.config/rofi/config.rasi
 
 
@@ -209,7 +212,7 @@ Change some shorcuts
     
 ### Configuration
 * Customize https://github.com/ranger/ranger/blob/master/ranger/config/rifle.conf notably for shotwell and mpv
-
+    mkdir ~/.config/ranger
     vi ~/.config/ranger/rifle.conf
     
 ### Main Menu
@@ -238,10 +241,25 @@ Change some shorcuts
 Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
 
 
-# Configuration of Debian 11 (mate) in System / Control Center
+# Configuration of Mater in System / Control Center
+    sudo apt install task-mate-desktop
 
-    sudo apt install mate-desktop-environment mate-desktop-environment-extras 
-    sudo apt install appmenu-gtk-module-common appmenu-gtk2-module appmenu-gtk3-module appmenu-registrar bamfdaemon libappmenu-gtk2-parser0 libappmenu-gtk3-parser0 libbamf3-2 libdbusmenu-gtk4 mate-applet-appmenu vala-panel-appmenu-common appmenu-qt appmenu-qt5
+## MATE Tweak 
+    sudo apt install mate-tweak
+
+### Desktop 
+* Remove Show Desktop Icons
+* Remove Show Home
+
+### Panel
+* Enabe Hud
+
+### Windows
+* Set compiz as window manager (or 
+
+### Mate Global
+* Remove dock on the left or right, menu on top left, set date as first element on top right.
+* Add a second global menu on the right (useful when the window is on the right)
     
 ## Preferred Application
 
@@ -272,22 +290,6 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 ### Background
 * Use an black custom image (do not use solid color, make big problem in compiz)
 
-## MATE Tweak 
-    sudo apt install mate-tweak
-
-### Desktop 
-* Remove Show Desktop Icons
-
-### Panel
-* Set Contempary
-* Enabe Hud
-
-### Windows
-* Set compiz as window manager
-
-### Mate Global
-* Remove dock on the left or right, menu on top left, set date as first element on top right.
-* Add a second global menu on the right (useful when the window is on the right)
 
 ## Compiz
 
@@ -383,16 +385,6 @@ Launch
 ### Printer
 // TODO automatically discovered but doesn't launch everytime a print
 
-# Environment Installation (for test by order of preference)
-
-## Mate
-    sudo apt install task-mate-desktop
-    
-## Open Box
-    sudo apt install open-box
-
-## Gnome
-    sudo apt install task-gnome-desktop
 
 # Distribution ugrade
 
