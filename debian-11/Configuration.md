@@ -61,15 +61,34 @@ Drivers are the kernel but need to have firmware from non-free repository).
 #### Archive Manager
     sudo apt install engrampa // TODO gnome-archive?
     
+### Graphics  
 
-
-### Internet
-    sudo apt install curl torbrowser-launcher transmission
-    
-### Sound & Video  
-    
-    sudo apt install vlc mpv handbrake sound-juicer brasero rhythmbox
+#### Image Viewer
+    sudo apt install eom // TODO gnome equivalent
     sudo apt install digikam 
+    
+### Internet
+
+#### Web Browser
+    sudo apt install firefox
+    sudo apt install chromium curl torbrowser-launcher
+    
+#### Torrent Client
+    sudo apt install transmission
+
+### Sound & Video
+#### Video Player
+    sudo apt install mpv
+    sudo apt install vlc
+
+#### Music Player        
+    sudo apt install rhythmbox
+
+#### DVD Ripper
+    sudo apt install handbrake
+
+#### DVD Burner
+    sudo apt install brasero
     
 ### Utilities   
     sudo apt install gedit git fdupes terminator 
@@ -80,6 +99,8 @@ Drivers are the kernel but need to have firmware from non-free repository).
     
 ### Other
 
+### Control Center
+   sudo sudo apt install mate-control-center
 
 ## From custom apt repository
 
