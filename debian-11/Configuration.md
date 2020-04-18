@@ -52,7 +52,7 @@ Drivers are the kernel but need to have firmware from non-free repository).
     sudo apt install gedit
     
 #### Calculator
-    sudo apt install mate-calc // TODO gnome-calc
+    sudo apt install gnome-calculator
 
 #### Archive Manager
     sudo apt install engrampa // TODO gnome-archive?
@@ -106,17 +106,17 @@ Drivers are the kernel but need to have firmware from non-free repository).
 ### System Tool
 
 #### File Explorer
-    sudo apt install nautilus  // To test nemo, thunar, caja, nnn
+    sudo apt install thunar
     sudo apt install ranger
     
 #### Terminal
-    sudo apt install mate-terminal // gnome-terminal
+    sudo apt install gnome-terminal
 
 #### Launcher
     sudo apt install rofi
 
 #### Monitor
-    sudo apt install mate-system-monitor //gnome-system-monitor
+    sudo apt install gnome-system-monitor
     
 #### Disk Usage
     // TODO
