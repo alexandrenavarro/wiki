@@ -81,6 +81,7 @@ Inactive title Windows : 1
 
 #### Image Viewer
     sudo apt install eog
+    sudo apt install feh
     
 #### Image Manager
     sudo apt install digikam 
@@ -142,7 +143,7 @@ Inactive title Windows : 1
     sudo apt install baobab
     
 ### Control Center
-    sudo sudo apt install gnome-control-center
+    sudo apt install gnome-control-center
    
 ## Others
 
@@ -186,6 +187,22 @@ Download AppImage of Etcher and run it.
     cd ~/.config/rofi
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
     
+## Ranger
+
+### Installation
+    sudo apt install ranger
+    mkdir ~/.config/ranger
+    cd ~/.config/ranger
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
+
+### Show plugins
+
+## Bashit
+
+### Installation
+    git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+    ~/.bash_it/install.sh --interactive 
+
 ## Intellij
 
 ### Configuration
@@ -195,24 +212,6 @@ Change some shorcuts
 * Main menu | Navigate | Search Everywhere : CTRL + F3 (in addition of Shift / Shift)
 * Main menu | Navigate | Back : Alt + Left (in addition of ALT + CTRL + Left)
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
-    
-## Ranger
-
-### Installation
-    sudo apt install ranger
-    mkdir ~/.config/ranger
-    cd ~/.config/ranger
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
-
-
-## Bash
-
-### Configuration
-* TODO bashit
-
-## LightDM (Login)
-* Background : black image
-* Background color : black color
 
 
 ## Model 01 Firmware
