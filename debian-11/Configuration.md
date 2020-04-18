@@ -2,12 +2,12 @@
 
 Installation and configuration of the different sofware must result to :
 
-* Every actions (or quasi) can be easily with keyboard shortcuts (compiz)
-* Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...) (compiz)
-* The position and size of the different applications must be remembered (compiz)
-* Having a global menu (like MacOsX) and accessible with keyboard shortcut, (mate-panel with mutiny + xdotool)
+* Every actions (or quasi) can be easily with keyboard shortcuts (mate-keybinding-properties or compiz or openbox)
+* Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...) (mate or compiz or openbox)
+* The position and size of the different applications must be remembered (compiz or devilspie)
+* Having a global menu (like MacOsX) and accessible with keyboard shortcut, (no topbar with undecorated window or mate-panel with mutiny + xdotool)
 * Having HUD to search in menu of the application with keyboard shortcut (mate-hud)
-* Easy to put windows left, right, maximize, minimize with keyboard shortcuts (compiz grid)
+* Easy to put windows left, right, maximize, minimize with keyboard shortcuts (mate-keybinding-properties or mate shorcompiz grid)
 * Having a searcheable launcher with a keyboard shortcut (rofi --show run)
 * Having a searcheable task manager with a keyboard shortcut (rofi --show window)
 * Keep short as possible as the shortcuts as the one in Windows
