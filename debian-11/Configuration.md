@@ -50,10 +50,6 @@ Drivers are the kernel but need to have firmware from non-free repository).
 ### Accessories
 #### File Editor
     sudo apt install gedit
-
-#### File Explorer
-    sudo apt install nautilus  // To test nemo, thunar, caja, nnn
-    sudo apt install ranger
     
 #### Calculator
     sudo apt install mate-calc // TODO gnome-calc
@@ -91,13 +87,39 @@ Drivers are the kernel but need to have firmware from non-free repository).
     sudo apt install brasero
     
 ### Utilities   
-    sudo apt install gedit git fdupes terminator 
+    sudo apt install gedit git fdupes 
 
 ### Office
+
+#### Office
+    sudo apt install libreoffice
+
+#### Pdf Document Viewer
+    sudo apt install altril
     sudo apt install pdftk
+    
+#### Book Manager
     sudo apt install calibre
     
-### Other
+### Preferences (TODO)
+
+### System Tool
+
+#### File Explorer
+    sudo apt install nautilus  // To test nemo, thunar, caja, nnn
+    sudo apt install ranger
+    
+#### Terminal
+    sudo apt install mate-terminal // gnome-terminal
+
+#### Launcher
+    sudo apt install rofi
+
+#### Monitor
+    sudon apt install mate-system-monitor //gnome-system-monitor
+    
+#### Disk Usage
+    
 
 ### Control Center
    sudo sudo apt install mate-control-center
@@ -200,11 +222,14 @@ Change some shorcuts
 ## Bash
 
 ### Configuration
-* TODO
+* TODO bashit
 
 ## LightDM (Login)
 * Background : black image
 * Background color : black color
+
+
+
 
 ## Model 01 Firmware
 
@@ -358,7 +383,24 @@ Launch
 ### Printer
 // TODO automatically discovered but doesn't launch everytime a print
 
+# Environment Installation (for test by order of preference)
 
+## Mate
+    sudo apt install task-mate-desktop
+    
+## Open Box
+    sudo apt install open-box
+
+## Gnome
+    sudo apt install task-gnome-desktop
+
+# Distribution ugrade
+
+Update your /etc/apt/source.list
+
+    sudo apt update 
+    sudo apt upgrade
+    sudo apt dist-upgrade
 
 # Configuration to do to have the same shortcuts as Windows
 
@@ -478,18 +520,4 @@ Launch
 
 
 
-# Distribution ugrade
-
-## From non-LTS
-
-    sudo apt update 
-    sudo apt upgrade
-    sudo apt dist-upgrade
-
-## From LTS to non-LTS
-
-    # change Prompt=LTS to Prompt=normal
-    vi /etc/update-manager/release-upgrades 
-    
-    sudo do-release-upgrade -d
 
