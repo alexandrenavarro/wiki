@@ -25,6 +25,10 @@ If you can not set your custom keyboard layout use and restart
     sudo localectl set-keymap fr-bepo
     dpkg-reconfigure keyboard-configuration
 
+Add potentially in your .bashrc if the layout is not taken after the start of openbox
+    
+    setxkbmap -model pc105 -layout fr -variant bepo 
+
 ## Installation of nonfree firmware if you come from a normal debian
 Drivers are the kernel but need to have firmware from non-free repository if you not downloaded a debian-non-free
     sudo apt install firmware-linux-nonfree # for firmware-amd-graphics mainly
