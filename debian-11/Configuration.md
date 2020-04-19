@@ -92,8 +92,8 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Internet
 
 #### Web Browser
-    sudo apt install firefox-esr
-    sudo apt install chromium wget 
+    sudo apt install firefox-esr wget curl
+    sudo apt install chromium 
     
 #### Torrent Client
     sudo apt install transmission
@@ -146,7 +146,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install baobab
     
 ### Preferences / Control Center
-    sudo apt install lxappearance lxappearance-obconf gnome-control-center 
+    sudo apt install lxappearance
    
 ## Others
 
