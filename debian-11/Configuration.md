@@ -53,7 +53,7 @@ Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-
 ## Update to testing in the /etc/apt/source.list
 Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
 
-    sudo vi /etc/apt/sources.list
+    sudo gedit /etc/apt/sources.list
     
     # See https://wiki.debian.org/SourcesList for more information.
     deb http://deb.debian.org/debian testing main contrib non-free
