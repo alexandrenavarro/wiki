@@ -1,27 +1,29 @@
 Alexandre Navarro's Wiki
 ====
 
+OS for pc (Linux/Windows)
+=========
+
+Debian 11
+------
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/debian-11/Configuration.md)
+
 Ubuntu 18.04
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/ubuntu-18.04/Configuration.md)
-
-Windows 10
-------
-[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/windows-10/Configuration.md)
 
 Raspbian Jessie
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/aspbian-jessie/Configuration.md)
 
 
-3D Printer
--------
-[Ender 3](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3.md)
+Windows 10
+------
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/windows-10/Configuration.md)
 
-Keyboard
--------
-[Keyboardio Model 01](https://github.com/alexandrenavarro/wiki/blob/master/keyboard/KeyboardioModel01.md)
 
+OS for phone (Android)
+=========
 
 Android
 -------
@@ -48,6 +50,18 @@ Android
 
 
 
+3D Printer
+==========
 
+Ender 3
+-------
+[Ender 3](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3.md)
+
+Keyboard
+========
+
+Keyboardio Model 01
+-------------------
+[Keyboardio Model 01](https://github.com/alexandrenavarro/wiki/blob/master/keyboard/KeyboardioModel01.md)
 
 
