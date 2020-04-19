@@ -92,7 +92,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Internet
 
 #### Web Browser
-    sudo apt install firefox
+    sudo apt install firefox-esr
     sudo apt install chromium torbrowser-launcher wget 
     
 #### Torrent Client
