@@ -2,27 +2,54 @@
 
 Installation and configuration of the different sofware must result to :
 
-* Every actions (or quasi) can be easily with keyboard shortcuts
-* Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...)
-* The position and size of the different applications must be remembered
-* Having a global menu (like MacOsX) and accessible with keyboard shortcut or no topbar at all
-* Easy to put windows on left, right, maximize, minimize with keyboard shortcuts
-* Having a searcheable launcher with a keyboard shortcut
-* Having a searcheable task manager with a keyboard shortcut
-* Keep shortcuts as possible as the shortcuts as the one in Windows
+* Every actions (or quasi) can be easily with keyboard shortcuts (openbox)
+* Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...) (openbox potentially with tint2)
+* The position and size of the different applications must be remembered (openbox)
+* Having a global menu (like MacOsX) and accessible with keyboard shortcut or no topbar at all (no top bar)
+* Easy to put windows on left, right, maximize, minimize with keyboard shortcuts (openbox)
+* Having a searcheable launcher with a keyboard shortcut (rofi)
+* Having a searcheable task manager with a keyboard shortcut (rofi)
+* Keep shortcuts as possible as the shortcuts as the one in Windows (default + openbox)
+* Have a dark theme (adwaita-dark with lxappearance)
 
 # Installation
-Download debian-gnome version (here 10) and then update to testing (11) if you want to have update up-to-date softwares.
-
+Download debian-gnome live version (or) with non-free (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
 
 # Post Installation
 
-## Update to testing in the /etc/apt/source.list
-    sudo apt install gedit
+## Post Installation if you come from debian-standard
+//TODO
+   sudo apt install gnome-terminal lightdm firefox-esr
+
+## Installation of nonfree firmware if you come from a normal debian
+Drivers are the kernel but need to have firmware from non-free repository if you not downloaded a debian-non-free
+
+    sudo apt install firmware-linux-nonfree # for firmware-amd-graphics mainly
+
+## Window Manager : OpenBox
+
+### Installation
+    sudo apt install openbox
+    cd ~/.config/openbox
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/rc.xml
+    cp rc.xml.1 rc.xml
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/autostart
+    chmod a+x autostart
+
+### Wallpaper
+    sudo apt install nitrogen
+    nitrogen
     
+#### Theme
+Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
+    obconf
+    sudo apt install lxappearance
+    lxappearance
+
+## Update to testing in the /etc/apt/source.list
 Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
 
-    sudo gedit /etc/apt/sources.list
+    sudo vi /etc/apt/sources.list
     
     # See https://wiki.debian.org/SourcesList for more information.
     deb http://deb.debian.org/debian testing main contrib non-free
@@ -33,35 +60,6 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 
     #deb http://security.debian.org/debian-security/ testing/updates main
     #deb-src http://security.debian.org/debian-security/ testing/updates main
-
-
-## Installation of firmware of ati drivers for radeon
-Drivers are the kernel but need to have firmware from non-free repository).
-
-    sudo apt install firmware-linux-nonfree # for firmware-amd-graphics mainly
-
-
-## Window Manager : OpenBox
-
-### Preinstall when from debian-standard not debian-gnome
-//TODO
-
-### Installation
-    sudo apt install openbox
-    cd ~/.config/openbox
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/rc.xml
-    cp rc.xml.1 rc.xml
-
-#### Theme
-Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set it.
-// TODO theme gtk
-
-#### Appareance
-Active title Windows : 1
-Inactive title Windows : 1
-
-### Configuration of wallpaper
-///TODO
 
 # Software Installation
 
@@ -132,7 +130,7 @@ Inactive title Windows : 1
     sudo apt install ranger
     
 #### Terminal
-    sudo apt install gnome-terminal
+    sudo apt install gnome-terminal bash-completion
 
 #### Launcher
     sudo apt install rofi
@@ -143,31 +141,13 @@ Inactive title Windows : 1
 #### Disk Usage
     sudo apt install baobab
     
-### Control Center
-    sudo apt install gnome-control-center lxappearance lxappearance-obconf
+### Preferences / Control Center
+    sudo apt install lxappearance lxappearance-obconf gnome-control-center 
    
 ## Others
 
 ### Login 
     sudo apt install lightdm
-
-## From sdkman
-    curl -s "https://get.sdkman.io" | bash 
-    source "$HOME/.sdkman/bin/sdkman-init.sh"
-    sdk install java
-    sdk install kotlin
-    sdk install maven
-    sdk install gradle
-    
-    
-## From AppImage
-
-### Cura
-Download AppImage of Cura3D and run it.
-
-### Etcher
-Download AppImage of Etcher and run it.
-
 
 # Custom Configuration / Installation for some applications
 
@@ -203,6 +183,22 @@ Download AppImage of Etcher and run it.
 ### Installation
     git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
     ~/.bash_it/install.sh --interactive 
+
+## From sdkman
+    curl -s "https://get.sdkman.io" | bash 
+    source "$HOME/.sdkman/bin/sdkman-init.sh"
+    sdk install java
+    sdk install kotlin
+    sdk install maven
+    sdk install gradle
+    
+## From AppImage
+
+### Cura
+Download AppImage of Cura3D and run it.
+
+### Etcher
+Download AppImage of Etcher and run it.
 
 ## Intellij
 
@@ -256,6 +252,7 @@ with
     net.vendor = Epson 
     net.model = Epson EcoTank ET-4750
     net.name = Epson EcoTank ET-4750
+
 
 # Distribution ugrade
 
