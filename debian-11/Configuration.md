@@ -45,6 +45,7 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     
 #### Theme
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
+    
     obconf
     sudo apt install lxappearance
     lxappearance
