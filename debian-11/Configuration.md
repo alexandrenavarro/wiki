@@ -25,7 +25,7 @@ If you can not set your custom keyboard layout use and restart
     sudo localectl set-keymap fr-bepo
     dpkg-reconfigure keyboard-configuration
 
-Add potentially in your .bashrc if the layout is not taken after the start of openbox
+Add potentially in your .profile if the layout is not taken after the start of openbox
     
     setxkbmap -model pc105 -layout fr -variant bepo 
 
@@ -117,7 +117,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install brasero
     
 ### Utilities   
-    sudo apt install gedit git fdupes 
+    sudo apt install xdotool fdupes git
 
 ### Office
 
@@ -150,7 +150,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install baobab
     
 #### Printer Server    
-    sudo apt install cups
+    sudo apt install task-print-server cups
     
 ### Preferences / Control Center
     sudo apt install lxappearance
