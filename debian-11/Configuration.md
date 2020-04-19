@@ -226,7 +226,17 @@ Change some shorcuts
 Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
 
 
-# Configuration of non-detected hardware
+# Printer
+
+## Installation
+    sudo apt install task-print-server cups
+    
+Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
+    
+    usermod -a -G lpadmin yourusername
+    
+    And go to to configure your printer
+    http://localhost:631/admin
 
 ## Epson EcoTank ET-4750
 Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
