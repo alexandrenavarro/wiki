@@ -21,6 +21,7 @@ Download debian-gnome live version (or debian-standard) with non-free (here 10) 
     sudo apt install gnome-terminal lightdm firefox-esr openbox
 
 If you can not set your custom keyboard layout use and restart
+
     sudo localectl set-keymap fr-bepo
     dpkg-reconfigure keyboard-configuration
 
