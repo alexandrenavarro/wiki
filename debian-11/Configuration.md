@@ -18,7 +18,7 @@ Download debian-gnome live version (or debian-standard) with non-free (here 10) 
 # Post Installation
 
 ## Post Installation if you come from debian-standard
-    sudo apt install gnome-terminal lightdm firefox-esr openbox
+    sudo apt install gnome-terminal firefox-esr lightdm openbox
 
 If you can not set your custom keyboard layout use and restart
 
