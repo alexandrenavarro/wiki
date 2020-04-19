@@ -13,17 +13,19 @@ Installation and configuration of the different sofware must result to :
 * Have a dark theme (adwaita-dark with lxappearance)
 
 # Installation
-Download debian-gnome live version (or) with non-free (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
+Download debian-gnome live version (or debian-standard) with non-free (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
 
 # Post Installation
 
 ## Post Installation if you come from debian-standard
-//TODO
-   sudo apt install gnome-terminal lightdm firefox-esr
+    sudo apt install gnome-terminal lightdm firefox-esr openbox
+
+If you can not set your custom keyboard layout use and restart
+    sudo localectl set-keymap fr-bepo
+    dpkg-reconfigure keyboard-configuration
 
 ## Installation of nonfree firmware if you come from a normal debian
 Drivers are the kernel but need to have firmware from non-free repository if you not downloaded a debian-non-free
-
     sudo apt install firmware-linux-nonfree # for firmware-amd-graphics mainly
 
 ## Window Manager : OpenBox
