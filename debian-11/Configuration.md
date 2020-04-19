@@ -203,7 +203,20 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ## From AppImage
 
 ### Cura
+#### Installation
 Download AppImage of Cura3D and run it.
+
+#### Configuration
+
+##### Profiles
+Add Chep profile https://www.chepclub.com/cura-profiles.html
+
+##### Plugins
+* Auto-orientation
+* Sidebar
+
+##### Your profile
+Change :
 
 ### Etcher
 Download AppImage of Etcher and run it.
