@@ -145,6 +145,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 #### Disk Usage
     sudo apt install baobab
     
+#### Printer Server    
+    sudo apt install cups
+    
 ### Preferences / Control Center
     sudo apt install lxappearance
    
@@ -152,6 +155,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 
 ### Login 
     sudo apt install lightdm
+    
 
 # Custom Configuration / Installation for some applications
 
