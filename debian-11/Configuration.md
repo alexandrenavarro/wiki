@@ -50,6 +50,7 @@ Drivers are the kernel but need to have firmware from non-free repository).
     sudo apt install openbox
     cd ~/.config/openbox
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/rc.xml
+    cp rc.xml.1 rc.xml
 
 #### Theme
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set it.
