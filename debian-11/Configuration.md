@@ -144,7 +144,7 @@ Inactive title Windows : 1
     sudo apt install baobab
     
 ### Control Center
-    sudo apt install gnome-control-center
+    sudo apt install gnome-control-center lxappearance lxappearance-obconf
    
 ## Others
 
