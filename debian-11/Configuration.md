@@ -150,7 +150,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install baobab
     
 #### Printer Server    
-    sudo apt install task-print-server cups
+    sudo apt install task-print-server
     
 ### Preferences / Control Center
     sudo apt install lxappearance
