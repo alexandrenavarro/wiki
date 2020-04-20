@@ -117,7 +117,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install brasero
     
 ### Utilities   
-    sudo apt install xdotool fdupes git
+    sudo apt install xdotool fdupes clipit git
 
 ### Office
 
