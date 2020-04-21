@@ -118,6 +118,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 #### DVD Burner
     sudo apt install brasero
     
+#### Audio Controller 
+    sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
+    
 ### Utilities   
     sudo apt install xdotool fdupes clipit git
 
