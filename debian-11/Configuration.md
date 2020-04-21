@@ -160,6 +160,8 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Login 
     sudo apt install lightdm
     
+### Panel Bar
+    sudo apt install tint2
 
 # Custom Configuration / Installation for some applications
 
@@ -188,8 +190,13 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     cd ~/.config/ranger
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
 
-### Show plugins
 
+## Tint2
+
+### Installation
+    sudo apt install tint2
+    //TODO
+    
 ## Bashit
 
 ### Installation
