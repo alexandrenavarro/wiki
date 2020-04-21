@@ -24,9 +24,8 @@ If you can not set your custom keyboard layout use and restart
 
     sudo localectl set-keymap fr-bepo
     dpkg-reconfigure keyboard-configuration
-
-Add potentially in your .profile if the layout is not taken after the start of openbox
     
+You can set your custom layout through
     setxkbmap -model pc105 -layout fr -variant bepo 
 
 ## Installation of nonfree firmware if you come from a normal debian
@@ -53,6 +52,9 @@ Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-
     obconf
     sudo apt install lxappearance
     lxappearance
+
+### Keyboard Layout
+If after the start of openbox the layout is not correct (compared to the one in login manager), check throught tint2 / keyboard layout manager is correctly set
 
 ## Update to testing in the /etc/apt/source.list
 Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
