@@ -167,6 +167,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     
 ### Panel Bar
     sudo apt install tint2
+    
+### Compositor
+    sudo apt install compton
 
 # Custom Configuration / Installation for some applications
 
