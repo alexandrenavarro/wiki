@@ -3,9 +3,8 @@
 Installation and configuration of the different sofware must result to :
 
 * Every actions (or quasi) can be easily with keyboard shortcuts (openbox)
-* Remove unnecessary waste of space to keep focus, only a bar potentially autohideable is accepteable, (remove title, window decoration ...) (openbox potentially with tint2)
+* Remove unnecessary waste of space to keep focus (remove title, window decoration, global menu or transparent top bar ...) and have a a global menu (like MacOsX) or transparent topbar on the right (openbox with tint2)
 * The position and size of the different applications must be remembered (openbox)
-* Having a global menu (like MacOsX) and accessible with keyboard shortcut or no topbar at all (no top bar)
 * Easy to put windows on left, right, maximize, minimize with keyboard shortcuts (openbox)
 * Having a searcheable launcher with a keyboard shortcut (rofi)
 * Having a searcheable task manager with a keyboard shortcut (rofi)
@@ -167,7 +166,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Panel Bar
     sudo apt install tint2
     
-### Compositor
+### Compositor (for transparent windows)
     sudo apt install compton
 
 # Custom Configuration / Installation for some applications
