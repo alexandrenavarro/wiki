@@ -202,7 +202,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 
 ### Installation
     sudo apt install tint2
-    //TODO
+    mkdir ~/.config/tint2
+    cd ~/.config/tint2
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/tint2/tint2rc
     
 ## Bashit
 
@@ -234,7 +236,7 @@ Add Chep profile https://www.chepclub.com/cura-profiles.html
 * Sidebar
 
 ##### Your profile
-Change :
+Change : //TODO
 
 ### Etcher
 Download AppImage of Etcher and run it.
