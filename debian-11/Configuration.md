@@ -43,8 +43,7 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     chmod a+x autostart
 
 ### Wallpaper
-    sudo apt install nitrogen
-    nitrogen
+    sudo apt install feh
     
 #### Theme
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
@@ -122,7 +121,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
     
 ### Utilities   
-    sudo apt install xdotool fdupes clipit git
+    sudo apt install xdotool fdupes git
 
 ### Office
 
@@ -143,7 +142,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install ranger
     
 #### Terminal
-    sudo apt install gnome-terminal bash-completion
+    sudo apt install mate-terminal bash-completion
 
 #### Launcher
     sudo apt install rofi
