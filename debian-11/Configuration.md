@@ -216,10 +216,11 @@ Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightd
 ### Alacarte
     sudo apt install alacarte
     
-Add Lock : dm-tool lock
-Add Shutdown :
-Add Restart :
-Add Logout :
+Add Items 
+Lock : dm-tool lock
+Shutdown : systemctl poweroff
+Restart : systemctl reboot
+Logout : openbox --exit
 
 ## Bashit
 
