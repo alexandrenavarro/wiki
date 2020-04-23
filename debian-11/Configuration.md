@@ -168,6 +168,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     
 ### Compositor (for transparent windows)
     sudo apt install compton
+    
+### Menu (for rofi)
+    sudo apt install alacarte
 
 # Custom Configuration / Installation for some applications
 
@@ -209,6 +212,14 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
    
 Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
 Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
+
+### Alacarte
+    sudo apt install alacarte
+    
+Add Lock : dm-tool lock
+Add Shutdown :
+Add Restart :
+Add Logout :
 
 ## Bashit
 
