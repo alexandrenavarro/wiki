@@ -157,8 +157,6 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     
 ### Preferences / Control Center
     sudo apt install lxappearance
-   
-## Others
 
 ### Login 
     sudo apt install lightdm
@@ -171,6 +169,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     
 ### Menu (for rofi)
     sudo apt install alacarte
+    
+### Notification Area
+    sudo apt install dunst
 
 # Custom Configuration / Installation for some applications
 
