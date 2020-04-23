@@ -149,8 +149,8 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 #### Monitor
     sudo apt install gnome-system-monitor
     
-#### Disk Usage
-    sudo apt install baobab
+#### Disks
+    sudo apt install baobab gnome-disks gparted
     
 #### Printer Server    
     sudo apt install task-print-server
