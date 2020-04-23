@@ -17,7 +17,7 @@ Download debian-gnome live version (or debian-standard) with non-free (here 10) 
 # Post Installation
 
 ## Post Installation if you come from debian-standard
-    sudo apt install gnome-terminal firefox-esr lightdm openbox
+    sudo apt install mate-terminal firefox-esr lightdm openbox
 
 If you can not set your custom keyboard layout use and restart
 
@@ -196,7 +196,6 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     cd ~/.config/ranger
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
 
-
 ## Tint2
 
 ### Installation
@@ -204,7 +203,13 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     mkdir ~/.config/tint2
     cd ~/.config/tint2
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/tint2/tint2rc
-    
+
+## Lightdm
+   sudo apt install light
+   
+Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
+Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
+
 ## Bashit
 
 ### Installation
