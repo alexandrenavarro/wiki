@@ -279,7 +279,7 @@ Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-supp
 # Printer
 
 ## Installation
-    sudo apt install task-print-server cups
+    sudo apt install task-print-server
     
 Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
     
