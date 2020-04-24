@@ -253,7 +253,7 @@ Add Chep profile https://www.chepclub.com/cura-profiles.html
 * Sidebar
 
 ##### Your profile
-Change : //TODO
+Change : //TODO...
 
 ### Etcher
 Download AppImage of Etcher and run it.
