@@ -110,7 +110,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 
 #### Music Player
     sudo apt install audacious
+
 Tested clementine (more memory)
+
 Tested rhythmnbox (more memory)
 
 #### DVD Ripper
@@ -208,6 +210,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     sudo apt install lightdm
    
 Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
+
 Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
 
 ## Rofi
