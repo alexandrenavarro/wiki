@@ -133,7 +133,9 @@ Tested rhythmnbox (more memory)
 #### Pdf Document Viewer
     sudo apt install evince
     sudo apt install pdftk
+
 Tested but not selected : onkular, too many dependency to qt.
+
 Tested but not selected : equivalent in memory fo evi
     
 #### Book Manager
@@ -144,11 +146,14 @@ Tested but not selected : equivalent in memory fo evi
 #### File Explorer
     sudo apt install thunar
     sudo apt install ranger
+
 To be tested : nnn , like ranger but less memory more powerfull
+
 Tested but not selected : nautilus, navigation with keys less easy than thunar
 
 #### Terminal
     sudo apt install mate-terminal bash-completion
+
 Tested but not selected gnome-mate-terminal : no transparency working
 
 #### Launcher
@@ -200,7 +205,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     sudo apt install compton
 
 ## Lightdm
-   sudo apt install lightdm
+    sudo apt install lightdm
    
 Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
 Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
@@ -232,8 +237,6 @@ Logout : openbox --exit
 * Install fox gesture plugin
 
 ## Ranger
-
-### Installation
     sudo apt install ranger
     mkdir ~/.config/ranger
     cd ~/.config/ranger
@@ -241,8 +244,6 @@ Logout : openbox --exit
     
     
 ## Bashit
-
-### Installation
     git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
     ~/.bash_it/install.sh --interactive 
 
@@ -254,8 +255,8 @@ Logout : openbox --exit
     sdk install maven
     sdk install gradle
     
-### Cura
-#### Installation
+## Cura
+### Installation
 Download AppImage of Cura3D and run it.
 
 #### Configuration
