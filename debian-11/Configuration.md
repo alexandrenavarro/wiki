@@ -106,8 +106,10 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 #### Video Player
     sudo apt install mpv
 
-#### Music Player        
+#### Music Player
     sudo apt install audacious
+Tested rhythmclementine (more memory)
+
 
 #### DVD Ripper
     sudo apt install handbrake
@@ -129,6 +131,8 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 #### Pdf Document Viewer
     sudo apt install evince
     sudo apt install pdftk
+Tested but not selected : onkular, too many dependency to qt.
+Tested but not selected : equivalent in memory fo evi
     
 #### Book Manager
     sudo apt install calibre
@@ -138,9 +142,12 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 #### File Explorer
     sudo apt install thunar
     sudo apt install ranger
-    
+To be tested : nnn , like ranger but less memory more powerfull
+Tested but not selected : nautilus, navigation with keys less easy than thunar
+
 #### Terminal
     sudo apt install mate-terminal bash-completion
+Tested but not selected gnome-mate-terminal : (no transparency working)
 
 #### Launcher
     sudo apt install rofi
