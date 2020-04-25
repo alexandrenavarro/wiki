@@ -105,10 +105,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Sound & Video
 #### Video Player
     sudo apt install mpv
-    sudo apt install vlc
 
 #### Music Player        
-    sudo apt install rhythmbox
+    sudo apt install audacious
 
 #### DVD Ripper
     sudo apt install handbrake
