@@ -44,10 +44,7 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     chmod a+x autostart
 
 ### Installation of software started with openbox session
-    sudo apt install feh compton polybar volumeicon
-
-### Wallpaper
-Copy in ~/Pictures/wallpaper.png your wallpaper.
+    sudo apt install feh compton polybar
     
 #### Theme
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
@@ -113,8 +110,8 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 
 #### Music Player
     sudo apt install audacious
-Tested rhythmclementine (more memory)
-
+Tested clementine (more memory)
+Tested rhythmnbox (more memory)
 
 #### DVD Ripper
     sudo apt install handbrake
@@ -183,19 +180,30 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 ### Menu (for rofi)
     sudo apt install alacarte
     
-### Notification Area
-    sudo apt install dunst
 
 # Custom Configuration / Installation for some applications
+   
+## Feh (Wallpaper)
+    sudo apt install feh
+    cd ~/.Pictures/
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/Pictures/wallpaper.png
 
-## Firefox
+## Polybar
 
 ### Installation
-    sudo apt install firefox
+    sudo apt install polybar
+    mkdir ~/.config/polybar
+    cd ~/.config/polybar
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/polybar/config
 
-### Configuration
-* Install vimium plugin
-* Install fox gesture plugin
+## Compton
+    sudo apt install compton
+
+## Lightdm
+   sudo apt install lightdm
+   
+Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
+Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
 
 ## Rofi
 
@@ -204,28 +212,6 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     mkdir ~/.config/rofi
     cd ~/.config/rofi
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
-    
-## Ranger
-
-### Installation
-    sudo apt install ranger
-    mkdir ~/.config/ranger
-    cd ~/.config/ranger
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
-
-## Tint2
-
-### Installation
-    sudo apt install tint2
-    mkdir ~/.config/tint2
-    cd ~/.config/tint2
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/tint2/tint2rc
-
-## Lightdm
-   sudo apt install light
-   
-Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
-Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
 
 ### Alacarte
     sudo apt install alacarte
@@ -236,13 +222,31 @@ Shutdown : systemctl poweroff
 Restart : systemctl reboot
 Logout : openbox --exit
 
+## Firefox
+
+### Installation
+    sudo apt install firefox
+
+### Configuration
+* Install vimium plugin
+* Install fox gesture plugin
+
+## Ranger
+
+### Installation
+    sudo apt install ranger
+    mkdir ~/.config/ranger
+    cd ~/.config/ranger
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
+    
+    
 ## Bashit
 
 ### Installation
     git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
     ~/.bash_it/install.sh --interactive 
 
-## From sdkman
+## Java / Kotlin / Maven / Gradle
     curl -s "https://get.sdkman.io" | bash 
     source "$HOME/.sdkman/bin/sdkman-init.sh"
     sdk install java
@@ -250,8 +254,6 @@ Logout : openbox --exit
     sdk install maven
     sdk install gradle
     
-## From AppImage
-
 ### Cura
 #### Installation
 Download AppImage of Cura3D and run it.
@@ -282,7 +284,7 @@ Change some shorcuts
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
 
 
-## Model 01 Firmware
+## Keyboardio Model 01 Firmware
 
 ### Installation
 
