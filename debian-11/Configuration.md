@@ -12,7 +12,7 @@ Installation and configuration of the different sofware must result to :
 * Have a dark theme (adwaita-dark with lxappearance)
 
 # Installation
-Download debian-gnome live version (or debian-standard) with non-free (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
+Download debian-standard with non-free  (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
 
 # Post Installation
 
@@ -35,16 +35,19 @@ Drivers are the kernel but need to have firmware from non-free repository if you
 
 ### Installation
     sudo apt install openbox
+    feh --bg-fill ~/Pictures/wallpaper.png 
+    
     cd ~/.config/openbox
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/rc.xml
     cp rc.xml.1 rc.xml
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/autostart
     chmod a+x autostart
 
+### Installation of software started with openbox session
+    sudo apt install feh compton polybar volumeicon
+
 ### Wallpaper
 Copy in ~/Pictures/wallpaper.png your wallpaper.
-
-    sudo apt install feh
     
 #### Theme
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
