@@ -3,7 +3,7 @@
 Installation and configuration of the different sofware must result to :
 
 * Every actions (or quasi) can be easily with keyboard shortcuts (openbox)
-* Remove unnecessary waste of space to keep focus (remove title, window decoration, global menu or transparent top bar ...) and have a a global menu (like MacOsX) or transparent topbar on the right (openbox with tint2)
+* Remove unnecessary waste of space to keep focus (remove title, window decoration, global menu or transparent top bar ...) and have a a global menu (like MacOsX) or transparent topbar on the right (openbox with polybar)
 * The position and size of the different applications must be remembered (openbox)
 * Easy to put windows on left, right, maximize, minimize with keyboard shortcuts (openbox)
 * Having a searcheable launcher with a keyboard shortcut (rofi)
@@ -42,6 +42,8 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     chmod a+x autostart
 
 ### Wallpaper
+Copy in ~/Pictures/wallpaper.png your wallpaper.
+
     sudo apt install feh
     
 #### Theme
@@ -52,7 +54,7 @@ Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-
     lxappearance
 
 ### Keyboard Layout
-If after the start of openbox the layout is not correct (compared to the one in login manager), check throught tint2 / keyboard layout manager is correctly set
+If after the start of openbox the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set
 
 ## Update to testing in the /etc/apt/source.list
 Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
@@ -147,7 +149,7 @@ Tested but not selected : nautilus, navigation with keys less easy than thunar
 
 #### Terminal
     sudo apt install mate-terminal bash-completion
-Tested but not selected gnome-mate-terminal : (no transparency working)
+Tested but not selected gnome-mate-terminal : no transparency working
 
 #### Launcher
     sudo apt install rofi
@@ -168,7 +170,9 @@ Tested but not selected gnome-mate-terminal : (no transparency working)
     sudo apt install lightdm
     
 ### Panel Bar
-    sudo apt install tint2
+    sudo apt install polybar
+    
+Tested but not selected tint2 : size for moving window with openbox does not any work with %
     
 ### Compositor (for transparent windows)
     sudo apt install compton
