@@ -314,6 +314,8 @@ It works but you can have more option like level of ink
 
 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
+Caution, not able to install because lsb package does not exist.
+
 Install Driver + Utility
 Add a printer through find Network printer.
 
