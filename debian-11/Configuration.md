@@ -138,7 +138,7 @@ Tested rhythmnbox (more memory)
 
 Tested but not selected : onkular, too many dependency to qt.
 
-Tested but not selected : equivalent in memory fo evi
+Tested but not selected : altril in memory evince 
     
 #### Book Manager
     sudo apt install calibre
@@ -162,13 +162,16 @@ Tested but not selected gnome-mate-terminal : no transparency working
     sudo apt install rofi
 
 #### Monitor
-    sudo apt install gnome-system-monitor
+    sudo apt install htop
     
 #### Disks
     sudo apt install baobab gnome-disks gparted
     
 #### Printer Server    
     sudo apt install task-print-server
+    
+#### Scanner
+    sudo apt install simple-scan
     
 ### Preferences / Control Center
     sudo apt install lxappearance
@@ -261,6 +264,7 @@ Logout : openbox --exit
 ## Cura
 ### Installation
 Download AppImage of Cura3D and run it.
+Add in alacarte.
 
 #### Configuration
 
@@ -309,15 +313,12 @@ Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=sho
 ## Epson EcoTank ET-4750
 Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
-### Printer
-It works but you can have more option like level of ink
+### Printer (proprietary driver)
+By default, it works but you can have more option like level of ink
 
 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
-Caution, not able to install because lsb package does not exist.
-
-Install Driver + Utility
-Add a printer through find Network printer.
+Caution, not able to install propretary driver because lsb package does not exist on debian buster (it changed ).
 
 ### Scanner
 For Scanner, download Scanner Driver
