@@ -289,7 +289,7 @@ Change some shorcuts
 * Main menu | Navigate | Search Everywhere : CTRL + F3 (in addition of Shift / Shift)
 * Main menu | Navigate | Back : Alt + Left (in addition of ALT + CTRL + Left)
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
-
+* Main menu | Tool Window | Project : Alt + * 
 
 ## Keyboardio Model 01 Firmware
 
