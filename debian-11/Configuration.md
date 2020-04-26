@@ -281,8 +281,7 @@ Download AppImage of Etcher and run it.
 
 ### Configuration
 Change some shorcuts
-* Editor Actions | Move Caret to Code Block End : CTRL + [ (equivalent)
-* Main menu | Edit | Find Usages | Find Usages : ALT + F6 (check pb with ALT + F7)
+* Editor Actions | Move Caret to Code Block : CTRL + [ (equivalent)
 * Main menu | Navigate | Search Everywhere : CTRL + F3 (in addition of Shift / Shift)
 * Main menu | Navigate | Back : Alt + Left (in addition of ALT + CTRL + Left)
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
