@@ -79,7 +79,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Accessories
 #### File Editor
     sudo apt install micro
-    sudo apt install micro
+    sudo apt install thunnar
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 Adopted (second choice) : gedit (memory 40mo, no terminal mode)
 
@@ -251,6 +251,7 @@ Does not work (do nothing).
 "CtrlPageUp":     "PreviousTab", do [6;5~]
 "CtrlPageDown":   "NextTab", do [5;5~]
 
+See bug https://github.com/zyedidia/micro/issues/1628
 
 
 ## Firefox
