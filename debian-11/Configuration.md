@@ -238,6 +238,14 @@ Shutdown : systemctl poweroff
 Restart : systemctl reboot
 Logout : openbox --exit
 
+## Micro
+    sudo apt install micro
+    mkdir ~/.config/micro/
+    cd ~/.config/micro
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
+
+//TODO find better for Ctrl+q, ctrl+e, tab naviagation (on yx)
+
 ## Firefox
 
 ### Installation
