@@ -79,12 +79,9 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Accessories
 #### File Editor
     sudo apt install micro
-
+    sudo apt install micro
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
-Tested : gedit (memory 40mo, no terminal mode)
-    
-#### Calculator
-    sudo apt install gnome-calculator
+Adopted (second choice) : gedit (memory 40mo, no terminal mode)
 
 #### Archive Manager
     sudo apt install file-roller
@@ -111,12 +108,15 @@ Tested : gedit (memory 40mo, no terminal mode)
 #### Video Player
     sudo apt install mpv
 
+Adopted : mpv (only video, light)
+Tested : vlc (have menu)
+
 #### Music Player
     sudo apt install audacious
 
-Tested clementine (more memory)
-
-Tested rhythmnbox (more memory)
+Adopted : audacious
+Tested but not adopted : clementine (more memory)
+Tested but not adopted : rhythmnbox (more memory)
 
 #### DVD Ripper
     sudo apt install handbrake
@@ -140,7 +140,6 @@ Tested rhythmnbox (more memory)
     sudo apt install pdftk
 
 Tested but not selected : onkular, too many dependency to qt.
-
 Tested but not selected : altril in memory evince 
     
 #### Book Manager
@@ -150,11 +149,14 @@ Tested but not selected : altril in memory evince
 
 #### File Explorer
     sudo apt install thunar
-    sudo apt install ranger
+    
+Adopted : thunar     
+Adopted : lf (terminal 
 
-To be tested : nnn , like ranger but less memory more powerfull
 
-Tested but not selected : nautilus, navigation with keys less easy than thunar
+
+
+Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
     sudo apt install mate-terminal bash-completion
