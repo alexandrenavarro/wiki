@@ -245,6 +245,13 @@ Logout : openbox --exit
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
 
 //TODO find better for Ctrl+q, ctrl+e, tab naviagation (on yx)
+"Ctrl-F4": "Quit",
+"CtrlF4": "Quit",
+Does not work (do nothing).
+"CtrlPageUp":     "PreviousTab", do [6;5~]
+"CtrlPageDown":   "NextTab", do [5;5~]
+
+
 
 ## Firefox
 
