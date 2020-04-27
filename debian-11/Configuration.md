@@ -78,7 +78,10 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 
 ### Accessories
 #### File Editor
-    sudo apt install gedit
+    sudo apt install micro
+
+Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
+Tested : gedit (memory 40mo, no terminal mode)
     
 #### Calculator
     sudo apt install gnome-calculator
