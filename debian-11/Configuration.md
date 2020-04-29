@@ -162,6 +162,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
     sudo apt install mate-terminal bash-completion
 
 Tested but not selected gnome-mate-terminal : no transparency working
+To be stterm (problem with micro).
 
 #### Launcher
     sudo apt install rofi
