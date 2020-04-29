@@ -246,11 +246,10 @@ Logout : openbox --exit
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
 
 //TODO find better for Ctrl+q, ctrl+e, tab naviagation (on yx)
-"Ctrl-F4": "Quit",
-"CtrlF4": "Quit",
-Does not work (do nothing).
 "CtrlPageUp":     "PreviousTab", do [6;5~]
 "CtrlPageDown":   "NextTab", do [5;5~]
+
+Ctrl+Shift+Home and does not work properly with stterm.
 
 See bug https://github.com/zyedidia/micro/issues/1628
 
@@ -263,6 +262,7 @@ See bug https://github.com/zyedidia/micro/issues/1628
 ### Configuration
 * Install vimium plugin
 * Install fox gesture plugin
+* Reshow Menu bar (to see better polybar)
 
 ## Ranger
     sudo apt install ranger
