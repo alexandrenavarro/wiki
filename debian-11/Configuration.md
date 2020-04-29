@@ -136,11 +136,12 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo apt install libreoffice
 
 #### Pdf Document Viewer
-    sudo apt install evince
+    sudo apt install atril
     sudo apt install pdftk
 
+Adopted : 
 Tested but not selected : onkular, too many dependency to qt.
-Tested but not selected : altril in memory evince 
+Tested but not selected : evince same me but does not have real menu bar (hide some polybar info on the right)
     
 #### Book Manager
     sudo apt install calibre
