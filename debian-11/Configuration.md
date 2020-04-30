@@ -98,8 +98,10 @@ Adopted (second choice) : gedit (memory 40mo, no terminal mode)
     sudo apt install atril
     
 Adopted : atril (basic menu)
-Tested but not selected : onkular, too many dependency to qt.
-Tested but not selected : evince same me but does not have real menu bar (hide some polybar info on the right)
+
+Tested but not selected : onkular (too many dependency to qt).
+
+Tested but not selected : evince (same me but does not have real menu bar, hide some polybar info on the right)
     
     
 #### Menu for launcher
@@ -136,13 +138,16 @@ Tested but not selected : evince same me but does not have real menu bar (hide s
     sudo apt install mpv
 
 Adopted : mpv (only video, light)
-Tested : vlc (have menu)
+
+Tested but not adopted : vlc (have menu)
 
 #### Music Player
     sudo apt install audacious
 
 Adopted : audacious
+
 Tested but not adopted : clementine (more memory)
+
 Tested but not adopted : rhythmnbox (more memory)
 
 #### DVD Ripper
@@ -160,7 +165,7 @@ Tested but not adopted : rhythmnbox (more memory)
 #### Book Manager
     sudo apt install calibre
 
-### System Tool
+### System Tools
 
 #### File Explorer
     sudo apt install thunar
@@ -173,7 +178,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
     sudo apt install stterm bash-completion
     sudo apt install mate-terminal 
 
-Adopted stterm : fast and low memory (12mo), need to be recompile to use with micro correctly
+Adopted stterm : faster and low memory usage of any other terminal (12mo), need to be recompile to use with micro correctly, need to be used with tmux
 Adopted second : mate-terminal
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
@@ -193,7 +198,6 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
 #### Printer Server    
     sudo apt install task-print-server
    
-    
 ### Preferences / Control Center
     sudo apt install lxappearance
 
@@ -204,16 +208,13 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
     sudo apt install polybar
     
 Tested but not selected tint2 : size for moving window with openbox does not any work with %
-   
-    
 
-    
 
 # Custom Configuration / Installation for some applications
    
 ## Feh (Wallpaper)
     sudo apt install feh
-    cd ~/.Pictures/
+    cd ~/.config//ht
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/Pictures/wallpaper.png
 
 ## Polybar
