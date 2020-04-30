@@ -251,6 +251,7 @@ Lock : dm-tool lock
 Shutdown : systemctl poweroff
 Restart : systemctl reboot
 Logout : openbox --exit
+Micro : x-terminal-emulator -e micro 
 
 ## Micro
     sudo apt install micro
