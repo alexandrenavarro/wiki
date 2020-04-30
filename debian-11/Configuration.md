@@ -79,19 +79,43 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Accessories
 #### File Editor
     sudo apt install micro
-    sudo apt install thunnar
+    sudo apt install gedit
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
+
 Adopted (second choice) : gedit (memory 40mo, no terminal mode)
 
 #### Archive Manager
     sudo apt install file-roller
     
+#### Window Compsitor
+    sudo apt install compton
+
+#### Disk Usage
+    sudo apt install gnome-disks
+ 
+    
+#### Pdf Document Viewer
+    sudo apt install atril
+    
+Adopted : atril (basic menu)
+Tested but not selected : onkular, too many dependency to qt.
+Tested but not selected : evince same me but does not have real menu bar (hide some polybar info on the right)
+    
+    
+#### Menu for launcher
+    sudo apt install alacarte
+
+### Education
+
+#### Typing Learning
+    sudo apt install klavaro
+
 ### Graphics  
 
 #### Image Viewer
-    sudo apt install eog
     sudo apt install feh
-    
+    sudo apt install eog
+
 #### Image Manager
     sudo apt install digikam 
     
@@ -103,6 +127,9 @@ Adopted (second choice) : gedit (memory 40mo, no terminal mode)
     
 #### Torrent Client
     sudo apt install transmission
+
+### Office
+    sudo apt install libreoffice
 
 ### Sound & Video
 #### Video Player
@@ -130,19 +157,6 @@ Tested but not adopted : rhythmnbox (more memory)
 ### Utilities   
     sudo apt install xdotool fdupes git
 
-### Office
-
-#### Office
-    sudo apt install libreoffice
-
-#### Pdf Document Viewer
-    sudo apt install atril
-    sudo apt install pdftk
-
-Adopted : 
-Tested but not selected : onkular, too many dependency to qt.
-Tested but not selected : evince same me but does not have real menu bar (hide some polybar info on the right)
-    
 #### Book Manager
     sudo apt install calibre
 
@@ -150,20 +164,19 @@ Tested but not selected : evince same me but does not have real menu bar (hide s
 
 #### File Explorer
     sudo apt install thunar
-    
-Adopted : thunar     
-Adopted : lf (terminal 
 
-
-
-
+Adopted : lf (terminal)
+Adopted (second choice) : thunar     
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
-    sudo apt install mate-terminal bash-completion
+    sudo apt install stterm bash-completion
+    sudo apt install mate-terminal 
 
-Tested but not selected gnome-mate-terminal : no transparency working
-To be stterm (problem with micro).
+Adopted stterm : fast and low memory (12mo), need to be recompile to use with micro correctly
+Adopted second : mate-terminal
+Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
+
 
 #### Launcher
     sudo apt install rofi
@@ -172,13 +185,14 @@ To be stterm (problem with micro).
     sudo apt install htop
     
 #### Disks
-    sudo apt install baobab gnome-disks gparted
+    sudo apt install gnome-disks baobab gparted
+
+#### Scanner
+    sudo apt install simple-scan
     
 #### Printer Server    
     sudo apt install task-print-server
-    
-#### Scanner
-    sudo apt install simple-scan
+   
     
 ### Preferences / Control Center
     sudo apt install lxappearance
@@ -190,12 +204,9 @@ To be stterm (problem with micro).
     sudo apt install polybar
     
 Tested but not selected tint2 : size for moving window with openbox does not any work with %
+   
     
-### Compositor (for transparent windows)
-    sudo apt install compton
-    
-### Menu (for rofi)
-    sudo apt install alacarte
+
     
 
 # Custom Configuration / Installation for some applications
