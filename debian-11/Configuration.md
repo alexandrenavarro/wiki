@@ -178,7 +178,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
     sudo apt install stterm bash-completion
     sudo apt install mate-terminal 
 
-Adopted stterm : faster and low memory usage of any other terminal (12mo), need to be recompile to use with micro correctly, need to be used with tmux
+Adopted stterm : faster and low memory usage of any other terminal (12mo), need to be recompile to use with micro correctly, need to be used with tmux or use some patches.
 Adopted second : mate-terminal
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
@@ -186,14 +186,22 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
 #### Launcher
     sudo apt install rofi
 
+Adopted rofi : very fast, manage window selection.
+
 #### Monitor
     sudo apt install htop
-    
+
+Adopted htop : fast, low memory usage and customizable
+Tested but not selected gnome-monitor-systeme : use more memory, less information
+Tested but not selected mate-monitor-system : use more memory, less information
+
 #### Disks
-    sudo apt install gnome-disks baobab gparted
+    sudo apt install baobab gnome-disks
 
 #### Scanner
     sudo apt install simple-scan
+
+Adopted simple-scan : works, not concurrency.
     
 #### Printer Server    
     sudo apt install task-print-server
@@ -206,12 +214,13 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
     
 ### Panel Bar
     sudo apt install polybar
+
+Adopted polybar : moving window with openbox works, higly customisable, transparency.
+Tested but not selected tint2 : size for moving window with openbox does not any work with %    
     
 ### Font 
     sudo apt install font-manager
     sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
-    
-Tested but not selected tint2 : size for moving window with openbox does not any work with %
 
 
 # Custom Configuration / Installation for some applications
