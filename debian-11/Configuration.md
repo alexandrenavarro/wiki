@@ -160,7 +160,7 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
     
 ### Utilities   
-    sudo apt install xdotool fdupes git
+    sudo apt install xdotool fdupes git jq
 
 #### Book Manager
     sudo apt install calibre
@@ -231,8 +231,6 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/wallpaper.png
 
 ## Polybar
-
-### Installation
     sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
     sudo apt install polybar
     mkdir ~/.config/polybar
@@ -242,24 +240,16 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 ## Compton
     sudo apt install compton
     
-Needed if you want to have transparency window notably for polybar    
+Needed if you want to have transparency window notably for polybar.
 
 ## Lightdm
     sudo apt install lightdm
    
 Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
 
-Modify background = /home/anavarro/Pictures/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
+Modify background = /home/anavarro/.config/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
 
-## Rofi
-
-### Installation
-    sudo apt install rofi
-    mkdir ~/.config/rofi
-    cd ~/.config/rofi
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
-
-### Alacarte
+## Alacarte
     sudo apt install alacarte
     
 Add Items 
@@ -269,21 +259,41 @@ Restart : systemctl reboot
 Logout : openbox --exit
 Micro : x-terminal-emulator -e micro 
 
+## Conky
+If it works
+
+    sudo apt install conky-all 
+    
+else
+    
+    cd Applications
+    curl -sL -o conky-x86_64.AppImage $(curl -sL https://api.github.com/repos/brndnmtthws/conky/releases/latest | jq --raw-output '.assets[0] | .browser_download_url')
+    chmod +x ./conky-x86_64.AppImage
+    ./conky-x86_64.AppImage -C > ~/.conkyrc
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.conkyrc
+    
+## Lf
+//TODO
+
+## Stterm
+//TODO
+
 ## Micro
     sudo apt install micro
     mkdir ~/.config/micro/
     cd ~/.config/micro
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/rofi/config.rasi
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/micro/binding.json
 
-//TODO find better for Ctrl+q, ctrl+e, tab naviagation (on yx)
+
+//TODO find better for ctrl+e, tab naviagation (on yx)
+
 "CtrlPageUp":     "PreviousTab", do [6;5~]
 "CtrlPageDown":   "NextTab", do [5;5~]
 
-Ctrl+Shift+Home and does not work properly with stterm.
+Ctrl+Shift+Home and does not work properly with stterm, see ssterm
 
 See bug https://github.com/zyedidia/micro/issues/1628
-
-
+    
 ## Firefox
 
 ### Installation
@@ -294,16 +304,15 @@ See bug https://github.com/zyedidia/micro/issues/1628
 * Install fox gesture plugin
 * Reshow Menu bar (to see better polybar)
 
+## Alacarte
+    sudo apt install alacarte
+
 ## Ranger
     sudo apt install ranger
     mkdir ~/.config/ranger
     cd ~/.config/ranger
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
     
-    
-## Bashit
-    git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-    ~/.bash_it/install.sh --interactive 
 
 ## Java / Kotlin / Maven / Gradle
     curl -s "https://get.sdkman.io" | bash 
