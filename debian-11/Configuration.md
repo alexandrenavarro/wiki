@@ -207,6 +207,10 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
 ### Panel Bar
     sudo apt install polybar
     
+### Font 
+    sudo apt install font-manager
+    sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
+    
 Tested but not selected tint2 : size for moving window with openbox does not any work with %
 
 
