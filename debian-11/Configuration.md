@@ -231,6 +231,8 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 
 ## Compton
     sudo apt install compton
+    
+Needed if you want to have transparency window notably for polybar    
 
 ## Lightdm
     sudo apt install lightdm
