@@ -186,7 +186,7 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
 #### Launcher
     sudo apt install rofi
 
-Adopted rofi : very fast, manage window selection.
+Adopted rofi : very fast and manage window selection.
 
 #### Monitor
     sudo apt install htop
@@ -227,12 +227,13 @@ Tested but not selected tint2 : size for moving window with openbox does not any
    
 ## Feh (Wallpaper)
     sudo apt install feh
-    cd ~/.config//ht
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/Pictures/wallpaper.png
+    cd ~/.config/
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/wallpaper.png
 
 ## Polybar
 
 ### Installation
+    sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
     sudo apt install polybar
     mkdir ~/.config/polybar
     cd ~/.config/polybar
