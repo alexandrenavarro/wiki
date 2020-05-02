@@ -4,22 +4,29 @@ Alexandre Navarro's Wiki
 OS for pc (Linux/Windows)
 =========
 
-Debian 11
+Debian 11 (Buster)
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/debian-11/Configuration.md)
 
-Ubuntu 18.04
+Ubuntu 18.04 (Bionic Beaver)
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/ubuntu-18.04/Configuration.md)
 
-Raspbian Jessie
+Raspbian 8 (Jessie)
 ------
-[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/aspbian-jessie/Configuration.md)
-
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/raspbian-8/Configuration.md)
 
 Windows 10
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/windows-10/Configuration.md)
+
+Ubuntu 7.04 (Feisty Fawn)
+------
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/ubuntu-7.04/Configuration.md)
+
+Mandrake 10
+------
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/mandrake-10/Configuration.md)
 
 
 OS for phone (Android)
