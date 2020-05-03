@@ -35,8 +35,6 @@ Drivers are the kernel but need to have firmware from non-free repository if you
 
 ### Installation
     sudo apt install openbox
-    feh --bg-fill ~/Pictures/wallpaper.png 
-    
     cd ~/.config/openbox
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/rc.xml
     cp rc.xml.1 rc.xml
@@ -50,8 +48,14 @@ Drivers are the kernel but need to have firmware from non-free repository if you
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
     
     obconf
-    sudo apt install lxappearance
+
+On Theme tab, select Adwaita-Dark-openbox
+
+sudo apt install lxappearance
     lxappearance
+
+On Widget, set Adwaita-dark and Fon DejaVu Sans Mono Book 11
+On Other, set Toolbar Style Icons only and Small toolbar icon
 
 ### Keyboard Layout
 If after the start of openbox the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set
@@ -220,7 +224,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     
 ### Font 
     sudo apt install font-manager
-    sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
+    sudo apt install fonts-material-design-icons-iconfont
 
 
 # Custom Configuration / Installation for some applications
