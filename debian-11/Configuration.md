@@ -264,7 +264,7 @@ Restart : systemctl reboot
 Logout : openbox --exit
 Micro : x-terminal-emulator -e micro 
 
-## Conky
+## Conky (optional)
 If it works
 
     sudo apt install conky-all 
