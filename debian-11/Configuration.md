@@ -51,7 +51,8 @@ Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-
 
 On Theme tab, select Adwaita-Dark-openbox
 
-sudo apt install lxappearance fonts-ubuntu
+    sudo apt install lxappearance fonts-ubuntu
+    
     lxappearance
 
 On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
