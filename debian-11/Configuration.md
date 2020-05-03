@@ -51,10 +51,10 @@ Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-
 
 On Theme tab, select Adwaita-Dark-openbox
 
-sudo apt install lxappearance
+sudo apt install lxappearance fonts-ubuntu
     lxappearance
 
-On Widget, set Adwaita-dark and Fon DejaVu Sans Mono Book 11
+On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 On Other, set Toolbar Style Icons only and Small toolbar icon
 
 ### Keyboard Layout
@@ -224,7 +224,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     
 ### Font 
     sudo apt install font-manager
-    sudo apt install fonts-material-design-icons-iconfont
+    sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
 
 
 # Custom Configuration / Installation for some applications
