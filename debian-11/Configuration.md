@@ -26,6 +26,8 @@ If you can not set your custom keyboard layout use and restart
     
 You can set your custom layout through
     setxkbmap -model pc105 -layout fr -variant bepo 
+or graphically through
+    ibus-setup
 
 ## Installation of nonfree firmware if you come from a normal debian
 Drivers are the kernel but need to have firmware from non-free repository if you not downloaded a debian-non-free
