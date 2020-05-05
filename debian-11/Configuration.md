@@ -247,6 +247,8 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     cd ~/.config/polybar
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/polybar/config
 
+See the resolution of bug for tray icon transparency https://github.com/polybar/polybar/issues/2086
+
 ## Compton
     sudo apt install compton
     
