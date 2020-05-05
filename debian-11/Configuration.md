@@ -304,7 +304,7 @@ else
 
 Ctrl+Shift+Home and does not work properly with stterm, see ssterm
 
-See bug https://github.com/zyedidia/micro/issues/1628
+See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid relative number feature https://github.com/zyedidia/micro/issues/1639
     
 ## Firefox
 
