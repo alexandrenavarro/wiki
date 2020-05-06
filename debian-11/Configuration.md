@@ -362,7 +362,9 @@ Add Chep profile https://www.chepclub.com/cura-profiles.html
 * Sidebar
 
 ##### Your profile
-Change : //TODO...
+
+###### Quality
+Initial Layer Width : 120%
 
 ###### Shell
 Top layer : 7->3
