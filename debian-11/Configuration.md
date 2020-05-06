@@ -325,7 +325,7 @@ Use a graphical File Manager like Thunar to associate your default application  
     cat ~/.local/share/applications/mimeapps.list
 
 #### All default applications
-* Text Editor : txt,sh,markdown -> micro
+Text Editor : txt,sh,markdown -> micro
 
     xdg-mime default micro.desktop text/plain
     xdg-mime default micro.desktop text/markdown
@@ -335,22 +335,23 @@ Use a graphical File Manager like Thunar to associate your default application  
     xdg-mime default micro.desktop application/xml
     xdg-mime default micro.desktop application/x-shellscript
 
-* Image Viewer : jpg/png/gif -> default sxiv
+Image Viewer : jpg/png/gif -> default sxiv
 
     xdg-mime default sxiv.desktop image/jpeg
     xdg-mime default sxiv.desktop image/png
     xdg-mime default sxiv.desktop image/gif
 
-* Document Viewer : pdf -> org.pwmt.zathura-pdf-poppler.desktop
+Document Viewer : pdf -> org.pwmt.zathura-pdf-poppler.desktop
 
     xdg-mime default org.pwmt.zathura-pdf-poppler.desktop application/pdf
     
-* Compressed files : zip,tar.gz -> file-roller
+Compressed files : zip,tar.gz -> file-roller
 
     xdg-mime default org.gnome.FileRoller.desktop application/zip
     xdg-mime default org.gnome.FileRoller.desktop application/x-compressed-tar
   
-* Videos : avi,mkv,mp4
+Videos : avi,mkv,mp4
+
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
