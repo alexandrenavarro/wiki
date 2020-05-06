@@ -311,6 +311,9 @@ Download the package and install Application
 ## Association files
 Use a graphical File Manager like Thunar to associate your default application or
 
+### Open a file with the default application
+    xdg-open file.txt
+
 ### See a filetype of a file 
     xdg-mime query filetype photo.jpeg
 
@@ -320,16 +323,21 @@ Use a graphical File Manager like Thunar to associate your default application o
 ### Default application for a mime type
     xdg-mime default feh.desktop image/jpeg
 
-* Text : txt -> micro
+### All default applications
+* Text Editor : txt -> micro
+    xdg-mime default micro.desktop text/plain
 
-* Compressed files : tar.gz,zip -> file-roller
-
-* Image : jpg/png/gif : default sxiv
+* Image Viewer : jpg/png/gif -> default sxiv
     xdg-mime default sxiv.desktop image/jpeg
     xdg-mime default sxiv.desktop image/png
     xdg-mime default sxiv.desktop image/gif
+
+* Document Viewer : pdf -> org.pwmt.zathura-pdf-poppler.desktop
+    xdg-mime default org.pwmt.zathura-pdf-poppler.desktop application/pdf
     
-* Document  : pdf : 
+
+* Compressed files : tar.gz,zip -> file-roller
+
 
 * Videos : avi,mkv,mp4
 
