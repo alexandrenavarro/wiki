@@ -305,11 +305,9 @@ Download the package and install Application
 ### Preview
 //TODO
 
-## Stterm
-//TODO
 
 ## Association files
-Use a graphical File Manager like Thunar to associate your default application or
+Use a graphical File Manager like Thunar to associate your default application  or command below
 
 ### Open a file with the default application
     xdg-open file.txt
@@ -353,6 +351,8 @@ Use a graphical File Manager like Thunar to associate your default application o
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
+## Stterm
+//TODO
 
 ## Micro
     sudo apt install micro
@@ -362,6 +362,8 @@ Use a graphical File Manager like Thunar to associate your default application o
 
 
 //TODO find better for ctrl+e, tab naviagation (on yx)
+// Find Next
+// Problem pageDown / pageUp
 
 "CtrlPageUp":     "PreviousTab", do [6;5~]
 "CtrlPageDown":   "NextTab", do [5;5~]
