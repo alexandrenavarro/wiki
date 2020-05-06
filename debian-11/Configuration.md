@@ -301,6 +301,8 @@ Download the package and install Application
 ### Association files
 Use a graphical File Manager like Thunar to associate your default application.
 
+* png/jpg/jpeg/gif : sxiv
+
 ### Preview
 //TODO
 
@@ -335,13 +337,6 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
 
 ## Alacarte
     sudo apt install alacarte
-
-## Ranger
-    sudo apt install ranger
-    mkdir ~/.config/ranger
-    cd ~/.config/ranger
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/ranger/rifle.conf
-    
 
 ## Java / Kotlin / Maven / Gradle
     curl -s "https://get.sdkman.io" | bash 
