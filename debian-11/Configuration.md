@@ -89,15 +89,15 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Accessories
 #### File Editor
     sudo apt install micro
-    sudo apt install gedit
+    sudo apt install geany
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 
-Adopted (second choice) : gedit (memory 40mo, no terminal mode)
+Adopted (second choice) : geany (memory 40mo, no terminal mode)
 
 #### Archive Manager
     sudo apt install file-roller
     
-#### Window Compsitor
+#### Window Compositor
     sudo apt install compton
 
 #### Disk Usage
@@ -125,8 +125,13 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
 ### Graphics  
 
 #### Image Viewer
+    sudo apt install sxiv
     sudo apt install feh
     sudo apt install eog
+    
+Adopted sxiv : faster to open, cool shortcuts (miss just to print the image)
+Adopted just for wallpaper : feh
+Adopted as second choice : eog just for printing quickly.
 
 #### Image Manager
     sudo apt install digikam 
