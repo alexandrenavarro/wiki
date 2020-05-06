@@ -309,9 +309,31 @@ Download the package and install Application
 //TODO
 
 ## Association files
-Use a graphical File Manager like Thunar to associate your default application.
+Use a graphical File Manager like Thunar to associate your default application or
 
-* png/jpg/jpeg/gif : sxiv
+### See a filetype of a file 
+    xdg-mime query filetype photo.jpeg
+
+### See the default application for a mime type
+    xdg-mime query default image/jpeg
+
+### Default application for a mime type
+    xdg-mime default feh.desktop image/jpeg
+
+* Text : txt -> micro
+
+* Compressed files : tar.gz,zip -> file-roller
+
+* Image : jpg/png/gif : default sxiv
+    xdg-mime default sxiv.desktop image/jpeg
+    xdg-mime default sxiv.desktop image/png
+    xdg-mime default sxiv.desktop image/gif
+    
+* Document  : pdf : 
+
+* Videos : avi,mkv,mp4
+
+* 3d printing files : stl -> cura
 
 ## Micro
     sudo apt install micro
