@@ -302,30 +302,29 @@ Download the package and install Application
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/lfrc
 
 
-### Preview
+### Preview Configuration
 //TODO
 
-
-## Association files
+### Association files
 Use a graphical File Manager like Thunar to associate your default application  or command below
 
-### Open a file with the default application
+#### Open a file with the default application
     xdg-open file.txt
 
-### See a filetype of a file 
+#### See a filetype of a file 
     xdg-mime query filetype photo.jpeg
 
-### See the default application for a mime type
+#### See the default application for a mime type
     xdg-mime query default image/jpeg
 
-### Default application for a mime type
+#### Default application for a mime type
     xdg-mime default feh.desktop image/jpeg
 
-### All default application for all mime type
+#### All default application for all mime type
     cat /usr/share/applications/mimeinfo.cache
     cat ~/.local/share/applications/mimeapps.list
 
-### All default applications
+#### All default applications
 * Text Editor : txt,sh,markdown -> micro
     xdg-mime default micro.desktop text/plain
     xdg-mime default micro.desktop text/markdown
@@ -351,7 +350,7 @@ Use a graphical File Manager like Thunar to associate your default application  
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
-## Stterm
+### Stterm
 //TODO
 
 ## Micro
@@ -371,7 +370,12 @@ Use a graphical File Manager like Thunar to associate your default application  
 Ctrl+Shift+Home and does not work properly with stterm, see ssterm
 
 See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid relative number feature https://github.com/zyedidia/micro/issues/1639
-    
+
+
+## TMux
+//TODO
+
+
 ## Firefox
 
 ### Installation
