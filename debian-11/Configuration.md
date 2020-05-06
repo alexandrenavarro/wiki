@@ -105,9 +105,11 @@ Adopted (second choice) : geany (memory 40mo, no terminal mode)
  
     
 #### Pdf Document Viewer
-    sudo apt install atril
-    
-Adopted : atril (basic menu)
+    sudo apt install zathura
+
+Adopted : zathura (low memory, simple)
+
+Tested but not select : atril (basic menu)
 
 Tested but not selected : onkular (too many dependency to qt).
 
@@ -274,7 +276,8 @@ Lock : dm-tool lock
 Shutdown : systemctl poweroff
 Restart : systemctl reboot
 Logout : openbox --exit
-Micro : x-terminal-emulator -e micro 
+
+It will add in ~/.local/share/applications/xxx.desktop files you can customize.
 
 ## Conky (optional)
 If it works
