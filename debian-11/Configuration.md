@@ -323,9 +323,19 @@ Use a graphical File Manager like Thunar to associate your default application o
 ### Default application for a mime type
     xdg-mime default feh.desktop image/jpeg
 
+### All default application for all mime type
+    cat /usr/share/applications/mimeinfo.cache
+    cat ~/.local/share/applications/mimeapps.list
+
 ### All default applications
-* Text Editor : txt -> micro
+* Text Editor : txt,sh,markdown -> micro
     xdg-mime default micro.desktop text/plain
+    xdg-mime default micro.desktop text/markdown
+    xdg-mime default micro.desktop text/x-maven+xml
+    xdg-mime default micro.desktop text/x-yaml
+    xdg-mime default micro.desktop text/x-java
+    xdg-mime default micro.desktop application/xml
+    xdg-mime default micro.desktop application/x-shellscript
 
 * Image Viewer : jpg/png/gif -> default sxiv
     xdg-mime default sxiv.desktop image/jpeg
@@ -335,13 +345,14 @@ Use a graphical File Manager like Thunar to associate your default application o
 * Document Viewer : pdf -> org.pwmt.zathura-pdf-poppler.desktop
     xdg-mime default org.pwmt.zathura-pdf-poppler.desktop application/pdf
     
-
-* Compressed files : tar.gz,zip -> file-roller
-
-
+* Compressed files : zip,tar.gz -> file-roller
+    xdg-mime default org.gnome.FileRoller.desktop application/zip
+    xdg-mime default org.gnome.FileRoller.desktop application/x-compressed-tar
+  
 * Videos : avi,mkv,mp4
-
-* 3d printing files : stl -> cura
+    xdg-mime default mpv.desktop video/x-msvideo 
+    xdg-mime default mpv.desktop video/x-matroska
+    
 
 ## Micro
     sudo apt install micro
