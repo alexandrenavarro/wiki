@@ -285,6 +285,18 @@ else
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.conkyrc
     
 ## Lf
+
+### Installation
+Download the package and install Application
+
+### Configuration
+    cd .config/lf
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/lfrc
+
+### Association files
+Use a graphical File Manager like Thunar to associate your default application.
+
+### Preview
 //TODO
 
 ## Stterm
