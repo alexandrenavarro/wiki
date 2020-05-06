@@ -135,7 +135,7 @@ Adopted sxiv : faster to open, cool shortcuts (miss just to print the image)
 Adopted just for wallpaper : feh
 Adopted as second choice : eog just for printing quickly.
 
-#### Image Manager
+#### Image Manager (if you want to classify your pictures)
     sudo apt install digikam 
     
 ### Internet
@@ -179,7 +179,7 @@ Tested but not adopted : rhythmnbox (more memory)
 ### Utilities   
     sudo apt install xdotool fdupes git jq
 
-#### Book Manager
+#### Book Manager (if you use kindle)
     sudo apt install calibre
 
 ### System Tools
@@ -326,6 +326,7 @@ Use a graphical File Manager like Thunar to associate your default application  
 
 #### All default applications
 * Text Editor : txt,sh,markdown -> micro
+
     xdg-mime default micro.desktop text/plain
     xdg-mime default micro.desktop text/markdown
     xdg-mime default micro.desktop text/x-maven+xml
@@ -335,14 +336,17 @@ Use a graphical File Manager like Thunar to associate your default application  
     xdg-mime default micro.desktop application/x-shellscript
 
 * Image Viewer : jpg/png/gif -> default sxiv
+
     xdg-mime default sxiv.desktop image/jpeg
     xdg-mime default sxiv.desktop image/png
     xdg-mime default sxiv.desktop image/gif
 
 * Document Viewer : pdf -> org.pwmt.zathura-pdf-poppler.desktop
+
     xdg-mime default org.pwmt.zathura-pdf-poppler.desktop application/pdf
     
 * Compressed files : zip,tar.gz -> file-roller
+
     xdg-mime default org.gnome.FileRoller.desktop application/zip
     xdg-mime default org.gnome.FileRoller.desktop application/x-compressed-tar
   
