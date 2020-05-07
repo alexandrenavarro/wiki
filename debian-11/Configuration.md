@@ -132,7 +132,9 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
     sudo apt install eog
     
 Adopted sxiv : faster to open, cool shortcuts (miss just to print the image)
+
 Adopted just for wallpaper : feh
+
 Adopted as second choice : eog just for printing quickly.
 
 #### Image Manager (if you want to classify your pictures)
@@ -188,7 +190,9 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo apt install thunar
 
 Adopted : lf (terminal)
+
 Adopted (second choice) : thunar     
+
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
@@ -196,6 +200,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
     sudo apt install mate-terminal 
 
 Adopted stterm : faster and low memory usage of any other terminal (12mo), need to be recompile to use with micro correctly, need to be used with tmux or use some patches.
+
 Adopted second : mate-terminal
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
@@ -209,7 +214,9 @@ Adopted rofi : very fast and manage window selection.
     sudo apt install htop
 
 Adopted htop : fast, low memory usage and customizable
+
 Tested but not selected gnome-monitor-systeme : use more memory, less information
+
 Tested but not selected mate-monitor-system : use more memory, less information
 
 #### Disks
@@ -228,11 +235,15 @@ Adopted simple-scan : works, not concurrency.
 
 ### Login 
     sudo apt install lightdm
+
+### Lock
+    sudo apt install light-locker
     
 ### Panel Bar
     sudo apt install polybar
 
 Adopted polybar : moving window with openbox works, higly customisable, transparency.
+
 Tested but not selected tint2 : size for moving window with openbox does not any work with %    
     
 ### Font 
@@ -263,6 +274,7 @@ Needed if you want to have transparency window notably for polybar.
 
 ## Lightdm
     sudo apt install lightdm
+    sudo apt install light-locker
 
 Use lightdm-gtk-greeter-settings to configure some options like themes, wallpaper, add keyboard layout.
 
@@ -272,6 +284,10 @@ Add default-user=anavarro in /etc/lightdm/lightdm.conf
 Modify background = /home/anavarro/Picture/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf
 No . in a directory in the path accepted.
 
+Add in your autostart to lock automatically after 300 s (5 min)
+    
+    xset s 300 &
+    light-locker --lock-after-screensaver 1&
 
 ## Alacarte
     sudo apt install alacarte
