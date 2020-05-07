@@ -268,6 +268,8 @@ Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.c
 
 Modify background = /home/anavarro/.config/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
 
+//TODO fix background problem + choix layout keyboard / visible password.
+
 ## Alacarte
     sudo apt install alacarte
     
@@ -305,6 +307,8 @@ Download the package and install in Applications
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/lfrc
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/preview.sh
     chmod a+x preview.sh
+    
+//TODO have mount for usb / nas    
 
 ### Association files
 Use a graphical File Manager like Thunar to associate your default application  or command below
