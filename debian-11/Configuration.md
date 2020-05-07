@@ -275,6 +275,9 @@ Needed if you want to have transparency window notably for polybar.
 ## Lightdm
     sudo apt install lightdm
     sudo apt install light-locker
+    
+Show config
+    lightdm --show-config
 
 Use lightdm-gtk-greeter-settings to configure some options like themes, wallpaper, add keyboard layout.
 
