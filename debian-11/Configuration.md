@@ -263,12 +263,15 @@ Needed if you want to have transparency window notably for polybar.
 
 ## Lightdm
     sudo apt install lightdm
-   
-Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf
 
-Modify background = /home/anavarro/.config/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf:
+Use lightdm-gtk-greeter-settings to configure some options like themes, wallpaper, add keyboard layout.
 
-//TODO fix background problem + choix layout keyboard / visible password.
+Modify greeter-hide-users=false in /usr/share/lightdm/lightdm.conf.d/01_debian.conf and in /etc/lightdm/lightdm.conf
+Add default-user=anavarro in /etc/lightdm/lightdm.conf
+
+Modify background = /home/anavarro/Picture/wallpaper.png in /etc/lightdm/lightdm-gtk-greeter.conf
+No . in a directory in the path accepted.
+
 
 ## Alacarte
     sudo apt install alacarte
