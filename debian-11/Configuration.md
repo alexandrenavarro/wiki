@@ -177,7 +177,7 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
     
 ### Utilities   
-    sudo apt install xdotool fdupes git jq
+    sudo apt install xdotool fdupes git jq xautolock
 
 #### Book Manager (if you use kindle)
     sudo apt install calibre
