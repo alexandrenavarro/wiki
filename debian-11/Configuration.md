@@ -295,15 +295,16 @@ else
 ## Lf
 
 ### Installation
-Download the package and install Application
+Download the package and install in Applications
+    
+    sudo apt install mediainfo highlight
 
 ### Configuration
+    
     cd .config/lf
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/lfrc
-
-
-### Preview Configuration
-//TODO
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/preview.sh
+    chmod a+x preview.sh
 
 ### Association files
 Use a graphical File Manager like Thunar to associate your default application  or command below
