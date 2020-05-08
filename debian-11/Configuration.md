@@ -410,6 +410,10 @@ Fixes do not work
 * Fix problem for micro for Ctrl + Shift + Up : I don't know sequence code terminal, so prefer to let like Ctrl + Up
 * Fix problem for micro for Ctrl + Shift + Down : I don't know sequence code terminal, so prefer to let like Ctrl + Down
 
+Patch :
+https://st.suckless.org/patches/alpha/
+patch -p0 < st-alpha-0.8.2.diff
+
 ## Micro
     sudo apt install micro
     mkdir ~/.config/micro/
