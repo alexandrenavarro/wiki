@@ -428,7 +428,8 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
 
 
 ## TMux
-//TODO
+    sudo apt install tmux
+    
 
 
 ## Firefox
