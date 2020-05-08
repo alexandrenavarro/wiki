@@ -363,6 +363,7 @@ Text Editor : txt,sh,markdown -> micro
     xdg-mime default micro.desktop text/x-csrc
     xdg-mime default micro.desktop text/x-readme
     xdg-mime default micro.desktop text/x-makefile
+    xdg-mime default micro.desktop text/x-gradle
     xdg-mime default micro.desktop application/xml
     xdg-mime default micro.desktop application/x-shellscript
     
