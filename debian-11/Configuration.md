@@ -394,9 +394,9 @@ Videos : avi,mkv,mp4
    
 #### Configuration / Compilation
 Install Xlib header
-    sudo apt instal xxxxxxxx
+    sudo apt install xxxxxxxx
     
-Compile with make clean install from my fork
+Compile with make clean install from my fork (https://github.com/alexandrenavarro/st.git)
 
 Fixes / Improvements : 
 * Improvement : increase from 12 to 13
