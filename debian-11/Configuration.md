@@ -359,8 +359,13 @@ Text Editor : txt,sh,markdown -> micro
     xdg-mime default micro.desktop text/x-maven+xml
     xdg-mime default micro.desktop text/x-yaml
     xdg-mime default micro.desktop text/x-java
+    xdg-mime default micro.desktop text/x-chdr
+    xdg-mime default micro.desktop text/x-csrc
+    xdg-mime default micro.desktop text/x-readme
+    xdg-mime default micro.desktop text/x-makefile
     xdg-mime default micro.desktop application/xml
     xdg-mime default micro.desktop application/x-shellscript
+    
 
 Image Viewer : jpg/png/gif -> default sxiv
 
