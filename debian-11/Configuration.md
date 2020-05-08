@@ -388,7 +388,27 @@ Videos : avi,mkv,mp4
     xdg-mime default mpv.desktop video/x-matroska
     
 ### Stterm
-//TODO
+
+#### Installation
+   sudo apt install stterm
+   
+#### Configuration / Compilation
+Install Xlib header
+    sudo apt instal xxxxxxxx
+    
+Compile with make clean install from my fork
+
+Fixes / Improvements : 
+* Improvement : increase from 12 to 13
+* Fix problem for micro for Shift + Home
+* Fix problem for micro for Ctrl + Home
+* Fix problem for micro for Shift + Ctrl + End 
+* Fix problem for micro for Shift + End
+* Fix problem for micro for Ctrl + End
+Fixes do not work
+* Fix problem for micro for Shift + Ctrl + Home : it does not work (it should, the mask is no recognize), let Ctrl + Home
+* Fix problem for micro for Ctrl + Shift + Up : I don't know sequence code terminal, so prefer to let like Ctrl + Up
+* Fix problem for micro for Ctrl + Shift + Down : I don't know sequence code terminal, so prefer to let like Ctrl + Down
 
 ## Micro
     sudo apt install micro
@@ -397,14 +417,7 @@ Videos : avi,mkv,mp4
     wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/micro/binding.json
 
 
-//TODO find better for ctrl+e, tab naviagation (on yx)
-// Find Next
-// Problem pageDown / pageUp
-
-"CtrlPageUp":     "PreviousTab", do [6;5~]
-"CtrlPageDown":   "NextTab", do [5;5~]
-
-Ctrl+Shift+Home and does not work properly with stterm, see ssterm
+Ctrl+Shift+Home (do nothing), Ctrl+Shift+Up (do the Ctrl+Up) and Ctrl+Shift+Down (do the Ctrl+Down) and does not work properly with stterm, see ssterm
 
 See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid relative number feature https://github.com/zyedidia/micro/issues/1639
 
