@@ -27,8 +27,14 @@ http://www.keyboard-layout-editor.com/#/gists/831524ae41aec20a65ff519557db7f50
 * Qukeys
 Difficult to use qukeys on homerow for modifier because the letter will be shown when the key is released not tapped and I never adapted to it, qukeys used only on palm keys.
 
+### Installation
+
+Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
+
 ## My arduino repository with this layout
 https://github.com/alexandrenavarro/Model01-Firmware
+
+
 
 
 
