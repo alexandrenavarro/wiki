@@ -413,7 +413,10 @@ Fixes do not work
 
 Patch :
 https://st.suckless.org/patches/alpha/
-patch -p0 < st-alpha-0.8.2.diff
+
+    patch -p0 < st-alpha-0.8.2.diff
+
+Change alpha to 0.9
 
 ## Micro
     sudo apt install micro
@@ -429,8 +432,9 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
 
 ## TMux
     sudo apt install tmux
-    
+    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.tmux.conf
 
+TODO Manage binding for copy mode
 
 ## Firefox
 
