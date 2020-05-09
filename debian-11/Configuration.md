@@ -513,12 +513,6 @@ Change some shorcuts
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
 * Main menu | Tool Window | Project : Alt + * 
 
-## Keyboardio Model 01 Firmware
-
-### Installation
-
-Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
-
 
 # Printer
 
