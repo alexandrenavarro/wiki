@@ -17,7 +17,7 @@ Download debian-standard with non-free  (here 10)  and then update to testing (1
 # Post Installation
 
 ## Post Installation if you come from debian-standard
-    sudo apt install mate-terminal firefox-esr lightdm openbox
+    sudo apt install stterm firefox-esr micro lightdm openbox
 
 If you can not set your custom keyboard layout use and restart
 
@@ -41,9 +41,9 @@ Drivers are the kernel but need to have firmware from non-free repository if you
 ### Installation
     sudo apt install openbox
     cd ~/.config/openbox
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/rc.xml
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/openbox/rc.xml
     cp rc.xml.1 rc.xml
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/openbox/autostart
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/openbox/autostart
     chmod a+x autostart
 
 ### Installation of software started with openbox session
@@ -64,12 +64,12 @@ On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 On Other, set Toolbar Style Icons only and Small toolbar icon
 
 ### Keyboard Layout
-If after the start of openbox the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set
+If after the start of openbox the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set with Bus Preference notably
 
 ## Update to testing in the /etc/apt/source.list
 Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
 
-    sudo gedit /etc/apt/sources.list
+    sudo micro /etc/apt/sources.list
     
     # See https://wiki.debian.org/SourcesList for more information.
     deb http://deb.debian.org/debian testing main contrib non-free
@@ -89,10 +89,7 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 ### Accessories
 #### File Editor
     sudo apt install micro
-    sudo apt install geany
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
-
-Adopted (second choice) : geany (memory 40mo, no terminal mode)
 
 #### Archive Manager
     sudo apt install file-roller
@@ -102,7 +99,6 @@ Adopted (second choice) : geany (memory 40mo, no terminal mode)
 
 #### Disk Usage
     sudo apt install gnome-disks
- 
     
 #### Pdf Document Viewer
     sudo apt install zathura
@@ -201,7 +197,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 Adopted stterm : faster and low memory usage of any other terminal (12mo), need to be recompile to use with micro correctly, need to be used with tmux or use some patches.
 
-Adopted second : mate-terminal
+Adopted second choice : mate-terminal
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
 
@@ -220,15 +216,15 @@ Tested but not selected gnome-monitor-systeme : use more memory, less informatio
 Tested but not selected mate-monitor-system : use more memory, less information
 
 #### Disks
-    sudo apt install baobab gnome-disks
+    sudo apt install baobab gnome-disks udiskie    
 
 #### Scanner
     sudo apt install simple-scan
 
-Adopted simple-scan : works, not concurrency.
+Adopted simple-scan : works, no concurrency.
     
 #### Printer Server    
-    sudo apt install task-print-server
+    sudo apt install task-print-server system-config-printer
    
 ### Preferences / Control Center
     sudo apt install lxappearance
@@ -256,16 +252,16 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 ## Feh (Wallpaper)
     sudo apt install feh
     cd ~/.config/
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/wallpaper.png
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/wallpaper.png
 
 ## Polybar
     sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
     sudo apt install polybar
     mkdir ~/.config/polybar
     cd ~/.config/polybar
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/polybar/config
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/polybar/config
 
-See the resolution of bug for tray icon transparency https://github.com/polybar/polybar/issues/2086
+See the resolution of bug for tray icon transparency https://github.com/polybar/polybar/issues/913
 
 ## Compton
     sudo apt install compton
@@ -314,7 +310,7 @@ else
     curl -sL -o conky-x86_64.AppImage $(curl -sL https://api.github.com/repos/brndnmtthws/conky/releases/latest | jq --raw-output '.assets[0] | .browser_download_url')
     chmod +x ./conky-x86_64.AppImage
     ./conky-x86_64.AppImage -C > ~/.conkyrc
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.conkyrc
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.conkyrc
     
 ## Lf
 
@@ -326,11 +322,15 @@ Download the package and install in Applications
 ### Configuration
     
     cd .config/lf
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/lfrc
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/lf/preview.sh
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/lfrc
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/preview.sh
     chmod a+x preview.sh
     
-//TODO have mount for usb / nas    
+
+# diskie (automount of usb drive)
+    sudo apt install udiskie    
+    
+Just need to launch udiskie when you need. You can launch at startup or with --tray if want to have notification notably.
 
 ### Association files
 Use a graphical File Manager like Thunar to associate your default application  or command below
@@ -422,7 +422,7 @@ Change alpha to 0.9
     sudo apt install micro
     mkdir ~/.config/micro/
     cd ~/.config/micro
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.config/micro/binding.json
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/binding.json
 
 
 Ctrl+Shift+Home (do nothing), Ctrl+Shift+Up (do the Ctrl+Up) and Ctrl+Shift+Down (do the Ctrl+Down) and does not work properly with stterm, see ssterm
@@ -432,9 +432,7 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
 
 ## TMux
     sudo apt install tmux
-    wget https://raw.githubusercontent.com/alexandrenavarro/linux-home-config/master/.tmux.conf
-
-TODO Manage binding for copy mode
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.tmux.conf
 
 ## Firefox
 
@@ -457,47 +455,6 @@ TODO Manage binding for copy mode
     sdk install maven
     sdk install gradle
     
-## Cura
-### Installation
-Download AppImage of Cura3D and run it.
-Add in alacarte.
-
-#### Configuration
-
-##### Profiles
-Add Chep profile https://www.chepclub.com/cura-profiles.html
-
-##### Plugins
-* Auto-orientation
-* Sidebar
-
-##### Your profile
-
-###### Quality
-Initial Layer Width : 120%
-
-###### Shell
-Top layer : 7->3
-Bottom layer : 7->3
-Top/Bottom line Direction : [0,90]
-ZSeam Alimentation : User defined
-Enable Ironing : true
-
-##### Infill
-Infill Density : 25->15%
-
-##### Speed
-Print Speed : 50 -> 60-80
-Combining : Not in Skin
-ZHtop : false -> true if needed
-
-
-##### Support
-Generate Support : false -> true if needed.
-Support Z Distante : 0.12 -> 0.2
-
-##### Build Support
-Build plate support Adhesion Type : Brim
 
 
 ### Etcher
@@ -508,6 +465,7 @@ Download AppImage of Etcher and run it.
 ### Configuration
 Change some shorcuts
 * Editor Actions | Move Caret to Code Block : CTRL + [ (equivalent)
+* Editor Actions | Move Caret to Paragrah : CTRL + UP / Down (equivalent)
 * Main menu | Navigate | Search Everywhere : CTRL + F3 (in addition of Shift / Shift)
 * Main menu | Navigate | Back : Alt + Left (in addition of ALT + CTRL + Left)
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
@@ -517,24 +475,25 @@ Change some shorcuts
 # Printer
 
 ## Installation
-    sudo apt install task-print-server
+    sudo apt install task-print-server system-config-printer
     
 Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
     
     usermod -a -G lpadmin yourusername
     
-    And go to to configure your printer
-    http://localhost:631/admin
-
+And go to to configure your printer http://localhost:631/admin or use 
+Install the one with driverless
+    
+    
 ## Epson EcoTank ET-4750
 Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
 ### Printer (proprietary driver)
-By default, it works but you can have more option like level of ink
+By default, it works but you can have more options (not really needed) are added
 
 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
-Caution, not able to install propretary driver because lsb package does not exist on debian buster (it changed ).
+Caution, not able to install propretary driver because lsb package does not exist on debian buster (it changed).
 
 ### Scanner
 For Scanner, download Scanner Driver
@@ -548,7 +507,7 @@ Follow documentation (https://download3.ebz.epson.net/dsc/f/03/00/10/86/60/cbe4b
     sudo dpkg -i imagescan-plugin-networkscan_1.1.3-1epson4ubuntu19.10_amd64.deb
     
 Edit Configuration files    
-    gedit /etc/imagescan/imagescan.conf
+    micro /etc/imagescan/imagescan.conf
 
 with
 
