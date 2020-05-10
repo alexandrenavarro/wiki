@@ -20,12 +20,9 @@ http://www.keyboard-layout-editor.com/#/gists/831524ae41aec20a65ff519557db7f50
 
 ### Plugins used
 * OneShot on all modifiers to simplify the use of modifier.
-* Layer mode?
-
-
-### Plugins tested but not or little used
-* Qukeys
-Difficult to use qukeys on homerow for modifier because the letter will be shown when the key is released not tapped and I never adapted to it, qukeys used only on palm keys.
+* Qukeys to have different behiavior for one key
+* ActiveModColorEffect to see which modifier is set
+* Leader to simulate a kind of vi mode.
 
 ### Installation
 
