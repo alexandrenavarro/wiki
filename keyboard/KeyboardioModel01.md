@@ -19,9 +19,10 @@ http://www.keyboard-layout-editor.com/#/gists/831524ae41aec20a65ff519557db7f50
 * Vi mode should be great for composed command.
 
 ### Plugins used
+* Macros to do some simulate mainly shortcuts.
 * OneShot on all modifiers to simplify the use of modifier.
-* Qukeys to have different behiavior for one key
-* ActiveModColorEffect to see which modifier is set
+* Qukeys to have different behiavior for one key.
+* ActiveModColorEffect to see which modifier is set.
 * Leader to simulate a kind of vi mode.
 
 ### Installation
