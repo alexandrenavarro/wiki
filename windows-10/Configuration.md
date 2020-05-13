@@ -50,6 +50,7 @@ Adopted in second choice : notepad++
 #### File Explorer
     lf
 
+
 Adopted : lf (terminal)
 
 #### Terminal
