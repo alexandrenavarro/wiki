@@ -88,3 +88,6 @@ Create a script.ahk for tiling windows with some shortcuts
     #^Right::WinMove,A,,A_ScreenWidth/2,0,A_ScreenWidth/2,A_ScreenHeight
 
  
+#### Intellij
+Add in your VMoption if you want to have a real title bar
+-Dide.win.frame.decoration=false
