@@ -1,6 +1,72 @@
 # Software Installation
 
-## AutoHotKey
+### Accessories
+#### File Editor
+    micro
+    nto
+Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
+Adopted in second choice : notepad++
+
+#### Archive Manager
+    7zip
+    
+#### Disk Usage
+    TODO
+    
+#### Pdf Document Viewer
+    TODO
+    
+### Graphics  
+
+#### Image Viewer
+    TODO
+    
+### Internet
+
+#### Web Browser
+     Firefox
+
+### Office
+    libreoffice
+
+### Sound & Video
+#### Video Player
+    Vlc
+
+#### Music Player
+    TODO
+
+#### DVD Ripper
+    TODO
+
+#### DVD Burner
+    TODO
+    
+### Utilities   
+    git
+
+### System Tools
+
+#### File Explorer
+    lf
+
+Adopted : lf (terminal)
+
+#### Terminal
+    TODO
+
+#### Launcher
+    Executor
+
+#### Monitor
+    TODO
+
+#### Disks
+    TODO
+    
+#### Window Manager Emulation    
+        
+##### AutoHotKey
 
 Create a script.ahk for tiling windows with some shortcuts
 
@@ -21,4 +87,4 @@ Create a script.ahk for tiling windows with some shortcuts
     #^Up::WinMove,A,,0,0,A_ScreenWidth,A_ScreenHeight
     #^Right::WinMove,A,,A_ScreenWidth/2,0,A_ScreenWidth/2,A_ScreenHeight
 
-
+ 
