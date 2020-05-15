@@ -157,9 +157,11 @@ Adopted : mpv (only video, light)
 Tested but not adopted : vlc (have menu)
 
 #### Music Player
-    sudo apt install audacious
+    sudo apt install moc
 
-Adopted : audacious
+Adopted : moc (terminal music player)
+
+Tested but not adopted : audacious (more memory)
 
 Tested but not adopted : clementine (more memory)
 
@@ -455,7 +457,14 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
     sdk install maven
     sdk install gradle
     
-
+### moc
+    sudo apt install moc
+    mkdir -p ~/.moc/themes/
+    cd ~/.moc/themes/
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/themes/kiss_theme
+    cd ~/.moc
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config
+    
 
 ### Etcher
 Download AppImage of Etcher and run it.
