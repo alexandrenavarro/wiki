@@ -200,6 +200,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
 Adopted stterm : faster and low memory usage of any other terminal (12mo), need to be recompile to use with micro correctly, need to be used with tmux or use some patches.
 
 Adopted second choice : mate-terminal
+
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
 
