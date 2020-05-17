@@ -24,7 +24,7 @@ Suivre le lien https://www.ender3.fr/turoriel-marlin-1-1-9-touch-mi-pour-la-ende
 
 ## Ajustez le voltage de vos drivers
 **SANS METTRE LES CABLES DES MOTEURS POUR NE PAS ENDOMMAGER LA CARTE OU LES DRIVERS**
-* Si vous avez des TMC2208 (ou smoother qui demande un réglage), branchez l'alimentation, settez le voltable à 0.75 V (0.8 max si shift) pour les x,y,z et 0.90 V (max 1V si shift) pour l'extrudeur (attention linear advanced ne fonctionne pas sur les TMC2208, je vous conseille un LV8729) et pensez aussi à régler les jumpers pour le mode de votre driver (voir documentation http://3dmodularsystems.com/fr/drivers-moteurs/483-tmc2208-driver-moteur-hyper-silencieux.html)
+* Si vous avez des TMC2208 (ou smoother qui demande un réglage), branchez l'alimentation, settez le voltable à 0.75 V (0.8 max si shift) pour les x,y,z et 0.90 V (max 1V si shift) pour l'extrudeur (attention linear advanced ne fonctionne pas sur les TMC2208, vous pouvez mettre LV8729 mais bruyant en retraction par rapport a TMC2208) et pensez aussi à régler les jumpers pour le mode de votre driver (voir documentation http://3dmodularsystems.com/fr/drivers-moteurs/483-tmc2208-driver-moteur-hyper-silencieux.html)
 * Si vous avez des LV8729 (ou smoother qui demande un réglage), branchez l'alimentation, settez le voltable à 0.45 V pour l'extrudeur (max 0.5 si shift) pour l'extrudeur et pensez aussi à régler les jumpers pour le mode de votre driver (voire documentation http://3dmodularsystems.com/fr/drivers-moteurs/470-mks-lv8729-driver-moteur-ultra-silencieux-15a.html)
 
 ## Brancher tout
