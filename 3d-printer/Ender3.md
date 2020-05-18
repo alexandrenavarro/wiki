@@ -1,4 +1,4 @@
-# Tutorial installation Marlin 2.0.x sur une MKS GEN L
+# Tutorial installation Marlin 2.0.x sur une MKS GEN L 
 
 
 ## Voir les vidéos pour le montage de la carte
@@ -54,9 +54,12 @@ https://www.thingiverse.com/thing:2563909/
 https://www.thingiverse.com/thing:2729076
 
 
-# Tuning de l'Ender 3 pro
+# Tutorial installation Marlin 2.0.x sur une SKR 1.4 Turbo
+//TODO
 
-## Boiter arrière pour MKS Gen L ou SKR 1.3 et Raspberry
+# Tuning de l'Ender 3 Pro
+
+## Boiter arrière pour MKS Gen L ou SKR 1.4 et Raspberry
 https://www.thingiverse.com/thing:4071141 (à installer, bon flux de ventilation)
 
 https://www.thingiverse.com/thing:3691287 (essayé mais non retenu)
