@@ -77,4 +77,4 @@ Domotic
 
 Jeedom
 ------
-[Jeedom](https://github.com/alexandrenavarro/wiki/blob/master/jeedom/Configuratino.md)
+[Jeedom](https://github.com/alexandrenavarro/wiki/blob/master/jeedom/Jeedom.md)
