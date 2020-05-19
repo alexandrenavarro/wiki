@@ -72,3 +72,9 @@ Keyboardio Model 01
 [Keyboardio Model 01](https://github.com/alexandrenavarro/wiki/blob/master/keyboard/KeyboardioModel01.md)
 
 
+Domotic
+=======
+
+Jeedom
+------
+[Jeedom](https://github.com/alexandrenavarro/wiki/blob/master/jeedom/Configuratino.md)
