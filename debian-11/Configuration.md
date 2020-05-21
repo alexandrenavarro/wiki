@@ -249,7 +249,9 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     sudo apt install font-manager
     sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
 
-
+### Bluetooth (if needed)
+    sudo apt install bluetooth blueman 
+    
 # Custom Configuration / Installation for some applications
    
 ## Feh (Wallpaper)
