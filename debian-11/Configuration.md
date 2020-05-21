@@ -459,6 +459,7 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
     sdk install kotlin
     sdk install maven
     sdk install gradle
+    sdk install kscript
     
 ### moc
     sudo apt install moc
