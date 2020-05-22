@@ -539,8 +539,8 @@ Update your /etc/apt/source.list
     sudo apt upgrade
     sudo apt dist-upgrade
 
-# Configuration to do to have the same shortcuts as Windows
 
+# Configuration to do to have the same shortcuts as Windows
 
 ### Keyboard shortcuts in Windows
 * See https://support.microsoft.com/kn-in/help/12445/windows-keyboard-shortcuts
