@@ -37,7 +37,8 @@ Adopted in second choice : notepad++
     TODO
 
 #### DVD Ripper
-    TODO
+    handbrake (copy and encode dvd)
+    makekv (used just for copy dvd to hard disk when some other can't suceed it)
 
 #### DVD Burner
     TODO
