@@ -471,7 +471,7 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
     
 
 ### Etcher
-Download AppImage of Etcher and run it.
+Download AppImage of Etcher, add alacarte and run it.
 
 ## Intellij
 
