@@ -14,7 +14,7 @@ Adopted in second choice : notepad++
     TODO
     
 #### Pdf Document Viewer
-    TODO
+    acrobatreader
     
 ### Graphics  
 
