@@ -11,8 +11,10 @@ Installation and configuration of the different sofware must result to :
 * Keep shortcuts as possible as the shortcuts as the one in Windows (default + openbox)
 * Have a dark theme (adwaita-dark with lxappearance)
 
+
 # Installation
 Download debian-standard with non-free  (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
+
 
 # Post Installation
 
