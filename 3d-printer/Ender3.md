@@ -1,6 +1,5 @@
 # Tutorial installation Marlin 2.0.x sur une MKS GEN L 
 
-
 ## Voir les vidéos pour le montage de la carte
 Suivre le lien https://www.ender3.fr/turoriel-marlin-1-1-9-touch-mi-pour-la-ender3/ et voir les vidéos https://www.youtube.com/watch?v=LNdMYgwez8Y, https://www.youtube.com/watch?v=hDuWm9dLwFs, https://www.youtube.com/watch?v=ncc7TRkCH-M, https://www.youtube.com/watch?v=7VHwcEroHPk
 
@@ -10,7 +9,6 @@ Suivre le lien https://www.ender3.fr/turoriel-marlin-1-1-9-touch-mi-pour-la-ende
 ## Installer un logiciel pour compiler Marlin
 * Via ArduinoIde
 * Installer ArduinoIde
-
 
 ## Via Installer Platformio
 * Installer Visual Code (sudo snap install code --classic)
