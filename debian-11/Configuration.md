@@ -178,8 +178,11 @@ Tested but not adopted : rhythmnbox (more memory)
 #### Audio Controller 
     sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
     
+#### News Group 
+//TODO
+    
 ### Utilities   
-    sudo apt install xdotool fdupes git jq
+    sudo apt install xdotool fdupes git jq unrar-free
 
 #### Book Manager (if you use kindle)
     sudo apt install calibre
@@ -233,6 +236,7 @@ Adopted simple-scan : works, no concurrency.
    
 ### Preferences / Control Center
     sudo apt install lxappearance
+//TODO qd5 themimg with gtk    
 
 ### Login 
     sudo apt install lightdm
