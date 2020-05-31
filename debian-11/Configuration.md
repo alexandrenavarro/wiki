@@ -183,6 +183,7 @@ Tested but not adopted : rhythmnbox (more memory)
     
 ### Utilities   
     sudo apt install xdotool fdupes git jq unrar-free
+//TODO mount mountfs?    
 
 #### Book Manager (if you use kindle)
     sudo apt install calibre
