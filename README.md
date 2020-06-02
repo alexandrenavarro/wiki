@@ -56,7 +56,6 @@ Android
 [SGS](https://github.com/alexandrenavarro/wiki/blob/master/android/SGS.md)
 
 
-
 3D Printer
 ==========
 
