@@ -182,8 +182,9 @@ Tested but not adopted : rhythmnbox (more memory)
 //TODO
     
 ### Utilities   
-    sudo apt install xdotool fdupes git jq unrar-free
-//TODO mount mountfs?    
+    sudo apt install xdotool fdupes git jq unrar-free p7zip
+// TODO mount mountfs?    
+// TODO fix back when change input videos does not wake up screen
 
 #### Book Manager (if you use kindle)
     sudo apt install calibre
