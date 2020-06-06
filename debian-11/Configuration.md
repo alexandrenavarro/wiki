@@ -19,7 +19,12 @@ Download debian-standard with non-free  (here 10)  and then update to testing (1
 # Post Installation
 
 ## Post Installation if you come from debian-standard
-    sudo apt install stterm firefox-esr micro lightdm openbox
+    su
+    sudo adduser anavarro sudo
+
+You have to logout and login.
+
+    sudo apt install firefox-esr lightdm openbox
 
 If you can not set your custom keyboard layout use and restart
 
