@@ -105,7 +105,7 @@ Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
     sudo apt install compton
 
 #### Disk Usage
-    sudo apt install gnome-disks
+    sudo apt install gnome-disk-utility
     
 #### Pdf Document Viewer
     sudo apt install zathura
@@ -231,7 +231,7 @@ Tested but not selected gnome-monitor-systeme : use more memory, less informatio
 Tested but not selected mate-monitor-system : use more memory, less information
 
 #### Disks
-    sudo apt install baobab gnome-disks udiskie    
+    sudo apt install baobab gnome-disk-utility udiskie    
 
 #### Scanner
     sudo apt install simple-scan
