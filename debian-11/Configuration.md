@@ -190,6 +190,9 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip
     
 // TODO fix back when change input videos does not wake up screen?
+// Seems to be a problem in lightdm and openbox, use gdm3 
+// Launch gnome-screensaver &
+// dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
 
 #### Book Manager (if you use kindle)
     sudo apt install calibre
