@@ -187,7 +187,7 @@ Tested but not adopted : rhythmnbox (more memory)
 //TODO
     
 ### Utilities   
-    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip
+    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse
     
 // TODO fix back when change input videos does not wake up screen?
 // Seems to be a problem in lightdm and openbox, use gdm3 
@@ -246,7 +246,7 @@ Adopted simple-scan : works, no concurrency.
    
 ### Preferences / Control Center
     sudo apt install lxappearance
-//TODO qd5 themimg with gtk    
+//TODO qt5 themimg with gtk    
 
 ### Login 
     sudo apt install lightdm
