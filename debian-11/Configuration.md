@@ -140,6 +140,8 @@ Adopted just for wallpaper : feh
 
 Adopted as second choice : eog just for printing quickly.
 
+TODO see if only one instance app.
+
 #### Image Manager (if you want to classify your pictures)
     sudo apt install digikam 
     
@@ -151,7 +153,7 @@ Adopted as second choice : eog just for printing quickly.
     
 #### Torrent Client
     sudo apt install transmission
-
+    
 ### Office
     sudo apt install libreoffice
 
