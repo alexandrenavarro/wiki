@@ -189,7 +189,7 @@ Tested but not adopted : rhythmnbox (more memory)
 //TODO
     
 ### Utilities   
-    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse
+    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename
     
 // TODO fix back when change input videos does not wake up screen?
 // Seems to be a problem in lightdm and openbox, use gdm3 
