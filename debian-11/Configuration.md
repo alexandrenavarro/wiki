@@ -495,11 +495,12 @@ Download AppImage of Etcher, add alacarte and run it.
 
 ### Configuration
 Change some shorcuts
-* Editor Actions | Move Caret to Code Block : CTRL + [ (equivalent)
-* Editor Actions | Move Caret to Paragrah : CTRL + UP / Down (equivalent)
+* Editor Actions | Move Caret to Code Block : CTRL + [ / ] (equivalent)
+* Editor Actions | Move Caret to Paragraph : CTRL + UP / Down (equivalent)
 * Main menu | Navigate | Search Everywhere : CTRL + F3 (in addition of Shift / Shift)
 * Main menu | Navigate | Back : Alt + Left (in addition of ALT + CTRL + Left)
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
+* Main menu | Navigate | Go to Implementation : Shift + F4
 * Main menu | Tool Window | Project : Alt + Shift + "
 * Main menu | Edit | Find | Replacet : Ctrl + H (in addition of Ctrl + R)
 
