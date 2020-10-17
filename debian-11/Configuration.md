@@ -505,7 +505,7 @@ Change some shorcuts
 * Main menu | Edit | Find | Replacet : Ctrl + H (in addition of Ctrl + R)
 
 
-# Printer
+# Printer/Scanner
 
 ## Installation
     sudo apt install task-print-server system-config-printer
@@ -521,15 +521,17 @@ Install the one with driverless
 ## Epson EcoTank ET-4750
 Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
-### Printer (proprietary driver)
+### Printer (proprietary driver, no needed anymore)
 By default, it works but you can have more options (not really needed) are added
 
 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
 
 Caution, not able to install propretary driver because lsb package does not exist on debian buster (it changed).
 
-### Scanner
-For Scanner, download Scanner Driver
+### Scanner (proprietary driver, no needed anymore)
+By default, it works since recent version of debian.
+
+If not, for Scanner, download Scanner Driver
 Follow documentation (https://download3.ebz.epson.net/dsc/f/03/00/10/86/60/cbe4b348661d3be89ed8bb01b112ded41e756976/imagescanv3_man_e.pdf)
 
     tar xvzf imagescan-bundle-ubuntu-19.10-3.62.0.x64.deb.tar.gz
