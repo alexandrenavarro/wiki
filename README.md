@@ -63,6 +63,11 @@ Ender 3
 -------
 [Ender 3](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3.md)
 
+
+Snapmaker 2.0
+-------
+[Snapmaker 2.0](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Snapmaker-2.0.md)
+
 Keyboard
 ========
 
