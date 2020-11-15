@@ -1,4 +1,4 @@
-# Tutorial installation Marlin 2.0.x sur une SKR 1.3 Turbo
+# Tutorial installation Marlin 2.0.x sur une SKR 1.4 Turbo
 
 TODO
 
@@ -55,9 +55,6 @@ https://www.thingiverse.com/thing:2563909/
 ## Tester vos niveaux de température acceptables pour un filament donné 
 https://www.thingiverse.com/thing:2729076
 
-
-# Tutorial installation Marlin 2.0.x sur une SKR 1.4 Turbo
-//TODO
 
 # Tuning de l'Ender 3 Pro
 
