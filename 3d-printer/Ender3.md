@@ -66,7 +66,7 @@ https://www.thingiverse.com/thing:2563909/
 https://www.thingiverse.com/thing:2729076
 
 ## Tuner votre flow / taille de tête
-* Imprimer https://www.thingiverse.com/thing:2343357 (no top, 0%), mesurez la taille des murs, faites une règle de 3 et ajuster le flow ou mettez dans votre slicer la taille de la largeur de mur au lieu de 0.4 ms
+* Imprimer https://www.thingiverse.com/thing:3678579 (100.2%), mesurez la taille des murs, faites une règle de 3 et ajuster le flow ou mettez dans votre slicer la taille de la largeur de mur au lieu de 0.4 ms
 
 ## Tester votre brigding / retraction / max angle
 * Imprimer https://www.thingiverse.com/thing:2975429/files (30% sans support)
