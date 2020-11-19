@@ -65,8 +65,12 @@ https://www.thingiverse.com/thing:2563909/
 ## Tester vos niveaux de température acceptables pour un filament donné 
 https://www.thingiverse.com/thing:2729076
 
-## Tuner votre flow / nozzel
-* Imprimer https://www.thingiverse.com/thing:3678579/files, mesurez la taille des murs, faites une règle de 3 et ajuster le flow ou mettez dans votre slicer la taille de la largeur de mur au lieu de 0.4 ms .
+## Tuner votre flow / taille de tête
+* Imprimer https://www.thingiverse.com/thing:3678579/files, mesurez la taille des murs, faites une règle de 3 et ajuster le flow ou mettez dans votre slicer la taille de la largeur de mur au lieu de 0.4 ms
+
+## Tester votre brigding / retraction / max angle
+* Imprimer https://www.thingiverse.com/thing:2975429/files (30% sans support)
+* Imprimer https://www.thingiverse.com/thing:2806295/files (100% sans support)
 
 
 # Tuning de l'Ender 3 Pro
