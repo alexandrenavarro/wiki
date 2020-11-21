@@ -65,8 +65,8 @@ https://www.thingiverse.com/thing:2563909/
 ## Tester vos niveaux de température acceptables pour un filament donné 
 https://www.thingiverse.com/thing:2729076
 
-## Tuner votre flow / taille de tête
-* Imprimer https://www.thingiverse.com/thing:3397997 , mesurez la taille des murs, faites une règle de 3 et ajuster le flow ou mettez dans votre slicer la taille de la largeur de mur au lieu de 0.4*2 mm
+## Tuner votre flow / taille de tête (optionel)
+* Imprimer https://www.thingiverse.com/thing:3397997 , mesurez la taille des murs, faites une règle de 3 et ajuster le flow ou mettez dans votre slicer la taille de la largeur de mur au lieu de 0.4*2 mm. Normalement, si vous avez ajutez vos step/unit de votre extrudeur, cela devrait être suffisant.
 
 ## Tester votre brigding / retraction / max angle
 * Imprimer https://www.thingiverse.com/thing:2975429/files (30% sans support)
