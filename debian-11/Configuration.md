@@ -488,7 +488,7 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config
     
 
-### Etcher
+## Etcher
 Download AppImage of Etcher, add alacarte and run it.
 
 ## Intellij
@@ -504,6 +504,9 @@ Change some shorcuts
 * Main menu | Tool Window | Project : Alt + Shift + "
 * Main menu | Edit | Find | Replacet : Ctrl + H (in addition of Ctrl + R)
 
+## Grub
+Change the configuration /etc/default/grub and launch
+    sudo update-grub
 
 # Printer/Scanner
 
