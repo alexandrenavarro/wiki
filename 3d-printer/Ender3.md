@@ -87,11 +87,11 @@ https://www.thingiverse.com/thing:3688967 (essayé mais non retenu)
 https://www.thingiverse.com/thing:3950607 (non)
 
 ## Porte Bobine arrière (nécessite de tourner à 90 degré l'extrudeur)
-https://www.thingiverse.com/thing:3718793 (installé en noir)
+https://www.thingiverse.com/thing:3718793 (essayer mais non retenu car ptfe se tord vraiment beaucoup)
 TODO peut-être faire un remix pour qu'il soit plus haut comme sur la snapmaker 2.0
 
 ## Porte Bobine latérale
-https://www.thingiverse.com/thing:3323206 (essayé mais retenu)
+https://www.thingiverse.com/thing:3323206 (installé en noir)
 
 https://www.thingiverse.com/thing:4230431 (à essayer)
 
