@@ -92,7 +92,7 @@ TODO peut-être faire un remix pour qu'il soit plus haut comme sur la snapmaker 
 
 ## Porte Bobine latérale
 https://www.thingiverse.com/thing:3323206 (essayé mais non retenu, prend trop de place sur la gauche)
-
+https://www.thingiverse.com/thing:4230431 (à essayer)
 https://www.thingiverse.com/thing:3441454 (non essayé)
 
 ##  Câble clip extruder
