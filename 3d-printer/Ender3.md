@@ -165,19 +165,24 @@ https://www.thingiverse.com/thing:1596181 (à imprimer?)
 https://www.thingiverse.com/thing:2802474 (à imprimer?)
 
 
+
 ## Chaine
 https://www.thingiverse.com/thing:2920060 (à imprimer)
 
-## Boitier outils
-https://www.thingiverse.com/thing:3548246 (à imprimer)
+## Boitier outils sous imprimante
+https://www.thingiverse.com/thing:3831119 (installé)
 
-https://www.thingiverse.com/thing:3208219 (à imprimer?)
+
+## Boitier outils à coté imprimante
+https://www.thingiverse.com/thing:4032383 (à étudier)
+
+https://www.thingiverse.com/thing:3057351 (à étudier)
+
+https://www.thingiverse.com/thing:3877505 (à étudier)
 
 
 ## VSlot
-https://www.thingiverse.com/thing:3248551 (à imprimer?)
 
-https://www.thingiverse.com/thing:3379068 (à imprimer?)
 
 ## Rail Cover
 https://www.thingiverse.com/thing:3490301 (à imprimer en bleu)
@@ -195,12 +200,6 @@ https://www.thingiverse.com/thing:3250248 (à imprimer?)
 ## Clip
 https://www.thingiverse.com/thing:2880021 (à essayer)
 
-## Tool Holder
-https://www.thingiverse.com/thing:4032383 (à étudier)
-
-https://www.thingiverse.com/thing:3057351 (à étudier)
-
-https://www.thingiverse.com/thing:3877505 (à étudier)
 
 ## Cover Ender 3
 https://www.thingiverse.com/thing:2924288 (optionel à imprimer)
