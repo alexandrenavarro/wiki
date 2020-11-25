@@ -195,6 +195,11 @@ https://www.thingiverse.com/thing:3250248 (à imprimer?)
 ## Clip
 https://www.thingiverse.com/thing:2880021 (à essayer)
 
+## Tool Holder
+https://www.thingiverse.com/thing:4032383 (à étudier)
+https://www.thingiverse.com/thing:3057351 (à étudier)
+https://www.thingiverse.com/thing:3877505 (à étudier)
+
 # Slicer : 
 
 ## Cura
