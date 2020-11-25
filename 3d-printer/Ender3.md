@@ -115,6 +115,8 @@ https://www.thingiverse.com/thing:2186253 (imprimé en noir)
 
 https://www.thingiverse.com/thing:2745434 (non choisi)
 
+##  Fan Hot-end (Hero me gen 5)
+https://www.thingiverse.com/thing:4460970 (à imprimer)
 
 
 ## Stabilisateur
