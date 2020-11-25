@@ -91,9 +91,18 @@ https://www.thingiverse.com/thing:3718793 (essayer mais non retenu car ptfe se t
 TODO peut-être faire un remix pour qu'il soit plus haut comme sur la snapmaker 2.0
 
 ## Porte Bobine latérale
-https://www.thingiverse.com/thing:3323206 (installé en noir)
 
 https://www.thingiverse.com/thing:4230431 (à essayer)
+
+https://www.thingiverse.com/thing:3544593 (non essayé)
+
+https://www.thingiverse.com/thing:4599569 (non essayé)
+
+https://www.thingiverse.com/thing:4461496 (non essayé)
+
+https://www.thingiverse.com/thing:3323206 (installé en noir)
+
+https://www.thingiverse.com/thing:4230431 (non essayé)
 
 https://www.thingiverse.com/thing:3441454 (non essayé)
 
