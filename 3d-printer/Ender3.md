@@ -190,6 +190,9 @@ https://www.thingiverse.com/thing:2940855 (à imprimer en bleu)
 ## Détecteur de filament
 https://www.thingiverse.com/thing:3250248 (à imprimer?)
 
+## Clip
+https://www.thingiverse.com/thing:2880021 (à essayer)
+
 # Slicer : 
 
 ## Cura
