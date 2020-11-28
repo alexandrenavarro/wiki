@@ -1,4 +1,4 @@
-(Slicer)[Slicer-cura.md]
+[Slicer](Slicer-cura.md)
 
 Ender3Pro-configuration-post-installation.md
 Ender3Pro-upgrade-mks-gen-l-with-marlin.md
