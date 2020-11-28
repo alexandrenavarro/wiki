@@ -87,9 +87,9 @@ https://www.thingiverse.com/thing:3831119 (installé)
 
 
 ## Boitier outils à coté imprimante
-https://www.thingiverse.com/thing:4032383 (à étudier)
+https://www.thingiverse.com/thing:4032383 (non retenu)
 
-https://www.thingiverse.com/thing:3057351 (à étudier)
+https://www.thingiverse.com/thing:3057351 (non  rete)
 
 https://www.thingiverse.com/thing:3877505 (à étudier)
 
