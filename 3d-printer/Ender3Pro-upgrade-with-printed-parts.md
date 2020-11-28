@@ -1,7 +1,7 @@
 # Ender 3 Pro Upgrades à Imprmer
 
 ## Boiter arrière pour MKS Gen L ou SKR 1.4 et Raspberry
-https://www.thingiverse.com/thing:4071141 (à installer, bon flux de ventilation)
+https://www.thingiverse.com/thing:4071141 (à installer en noir, bon flux de ventilation)
 
 https://www.thingiverse.com/thing:3691287 (non retenu)
 
@@ -10,7 +10,7 @@ https://www.thingiverse.com/thing:3688967 (non retenu)
 
 ## Porte Bobine latérale
 
-https://www.thingiverse.com/thing:4230431 (installé)
+https://www.thingiverse.com/thing:4230431 (installé en noir)
 
 https://www.thingiverse.com/thing:3544593 (non essayé)
 
@@ -39,7 +39,8 @@ https://www.thingiverse.com/thing:2186253 (imprimé en noir)
 https://www.thingiverse.com/thing:2745434 (non choisi)
 
 ##  Fan Hot-end (Hero me gen 5)
-https://www.thingiverse.com/thing:4460970 (à imprimer)
+
+https://www.thingiverse.com/thing:4460970 (à installé en bleu, version double radial 40x10)
 
 
 ## Stabilisateur
