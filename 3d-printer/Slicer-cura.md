@@ -34,7 +34,7 @@ Enable Ironing : true
 
 
 ##### Infill
-Infill Density : 25->15%
+Infill Density : 25 -> 15%
 
 ##### Speed
 Print Speed : 50 -> 50-80
