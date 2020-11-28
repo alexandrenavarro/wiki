@@ -87,11 +87,11 @@ https://www.thingiverse.com/thing:3831119 (installé)
 
 
 ## Boitier outils à coté imprimante
-https://www.thingiverse.com/thing:4032383 (non retenu)
+https://www.thingiverse.com/thing:4032383 (non choisi)
 
-https://www.thingiverse.com/thing:3057351 (non  rete)
+https://www.thingiverse.com/thing:3057351 (non choisi)
 
-https://www.thingiverse.com/thing:3877505 (à étudier)
+https://www.thingiverse.com/thing:3877505 (non choisi)
 
 
 ## VSlot
@@ -99,7 +99,7 @@ https://www.thingiverse.com/thing:3379068 (installé en bleu)
 
 
 ## Rail Cover
-https://www.thingiverse.com/thing:3476490 (Installé en bleu)
+https://www.thingiverse.com/thing:3476490 (installé en bleu)
 
 https://www.thingiverse.com/thing:3196302 (non choisi)
 
@@ -109,10 +109,11 @@ https://www.thingiverse.com/thing:2940855 (à imprimer en bleu)
 
 
 ## Détecteur de filament
-https://www.thingiverse.com/thing:3250248 (à imprimer?)
+https://www.thingiverse.com/thing:3250248 (à imprimer en noir)
+
 
 ## Clip
-https://www.thingiverse.com/thing:2880021 (à essayer)
+https://www.thingiverse.com/thing:2880021 (installé pour cable écran)
 
 
 ## Cover Ender 3
