@@ -10,7 +10,7 @@ https://www.thingiverse.com/thing:3688967 (non retenu)
 
 ## Porte Bobine latérale
 
-https://www.thingiverse.com/thing:4230431 (à essayer)
+https://www.thingiverse.com/thing:4230431 (installé)
 
 https://www.thingiverse.com/thing:3544593 (non essayé)
 
@@ -24,9 +24,9 @@ https://www.thingiverse.com/thing:4230431 (non essayé)
 
 https://www.thingiverse.com/thing:3441454 (non essayé)
 
+
 ## Porte Bobine arrière (nécessite de tourner à 90 degré l'extrudeur)
 https://www.thingiverse.com/thing:3718793 (essayé mais non retenu car ptfe se tord vraiment beaucoup)
-TODO peut-être faire un remix pour qu'il soit plus haut comme sur la snapmaker 2.0
 
 
 ##  Câble clip extruder
