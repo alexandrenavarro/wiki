@@ -87,6 +87,8 @@ https://www.thingiverse.com/thing:3831119 (installé)
 
 
 ## Boitier outils à coté imprimante
+https://www.thingiverse.com/thing:4522940 (original mais non choisi car pas de place à droite) 
+
 https://www.thingiverse.com/thing:4032383 (non choisi)
 
 https://www.thingiverse.com/thing:3057351 (non choisi)
