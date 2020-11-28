@@ -38,9 +38,10 @@ https://www.thingiverse.com/thing:2186253 (imprimé en noir)
 
 https://www.thingiverse.com/thing:2745434 (non choisi)
 
-##  Fan Hot-end (Hero me gen 5)
 
-https://www.thingiverse.com/thing:4460970 (à installé en bleu, version double radial 40x10)
+##  Fan Hot-end (Herome gen 5)
+
+https://www.thingiverse.com/thing:4460970 (à installer en bleu, version double radial 40x10)
 
 
 ## Stabilisateur
@@ -56,6 +57,7 @@ https://www.thingiverse.com/thing:3588485 (installé en bleu)
 
 https://www.thingiverse.com/thing:2534990 (non choisi)
 
+
 ## Fan Alimentation
 https://www.thingiverse.com/thing:3232346 (installé en noir)
 
@@ -67,6 +69,7 @@ https://www.thingiverse.com/thing:3328495 (non choisi)
 
 https://www.thingiverse.com/thing:2284893 (non choisi)
 
+
 ## Roue Extrudeur
 https://www.thingiverse.com/thing:3585506 (installé)
 
@@ -75,19 +78,9 @@ https://www.thingiverse.com/thing:2776404 (non choisi)
 https://www.thingiverse.com/thing:3176144 (non choisi)
 
 
-## Fan Hot End
-https://www.thingiverse.com/thing:3182917 (à imprimer)
-
-https://www.thingiverse.com/thing:1750976 (à imprimer)
-
-https://www.thingiverse.com/thing:1596181 (à imprimer?)
-
-https://www.thingiverse.com/thing:2802474 (à imprimer?)
-
-
-
 ## Chaine
 https://www.thingiverse.com/thing:2920060 (à imprimer)
+
 
 ## Boitier outils sous imprimante
 https://www.thingiverse.com/thing:3831119 (installé)
