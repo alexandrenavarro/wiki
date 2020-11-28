@@ -106,12 +106,13 @@ https://www.thingiverse.com/thing:3877505 (à étudier)
 
 
 ## VSlot
+https://www.thingiverse.com/thing:3379068 (installé en bleu)
 
 
 ## Rail Cover
 https://www.thingiverse.com/thing:3490301 (à imprimer en bleu)
 
-https://www.thingiverse.com/thing:3196302 (non retenu)
+https://www.thingiverse.com/thing:3196302 (non choisi)
 
 
 ## Anti snap guide 
