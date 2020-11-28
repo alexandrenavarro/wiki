@@ -3,26 +3,26 @@
 ## Boiter arrière pour MKS Gen L ou SKR 1.4 et Raspberry
 https://www.thingiverse.com/thing:4071141 (à installer en noir, bon flux de ventilation)
 
-https://www.thingiverse.com/thing:3691287 (non retenu)
+https://www.thingiverse.com/thing:3691287 (non choisi)
 
-https://www.thingiverse.com/thing:3688967 (non retenu)
+https://www.thingiverse.com/thing:3688967 (non choisi)
 
 
 ## Porte Bobine latérale
 
 https://www.thingiverse.com/thing:4230431 (installé en noir)
 
-https://www.thingiverse.com/thing:3544593 (non essayé)
+https://www.thingiverse.com/thing:3544593 (non choisi)
 
-https://www.thingiverse.com/thing:4599569 (non essayé)
+https://www.thingiverse.com/thing:4599569 (non choisi)
 
-https://www.thingiverse.com/thing:4461496 (non essayé)
+https://www.thingiverse.com/thing:4461496 (non choisi)
 
-https://www.thingiverse.com/thing:3323206 (installé en noir)
+https://www.thingiverse.com/thing:3323206 (non choisi)
 
-https://www.thingiverse.com/thing:4230431 (non essayé)
+https://www.thingiverse.com/thing:4230431 (non choisi)
 
-https://www.thingiverse.com/thing:3441454 (non essayé)
+https://www.thingiverse.com/thing:3441454 (non choisi)
 
 
 ## Porte Bobine arrière (nécessite de tourner à 90 degré l'extrudeur)
@@ -52,7 +52,7 @@ https://www.thingiverse.com/thing:3370355 (non choisi)
 
 
 ## Roue z
-https://www.thingiverse.com/thing:3588485 (à installer en bleu)
+https://www.thingiverse.com/thing:3588485 (installé en bleu)
 
 https://www.thingiverse.com/thing:2534990 (non choisi)
 
