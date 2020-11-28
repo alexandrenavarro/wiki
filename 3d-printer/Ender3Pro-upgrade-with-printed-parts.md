@@ -119,4 +119,8 @@ https://www.thingiverse.com/thing:2880021 (installé pour cable écran)
 
 
 ## Cover Ender 3
-https://www.thingiverse.com/thing:2924288 (à imprimer)
+https://www.thingiverse.com/thing:2924288 (à imprimer en bleu)
+
+
+## Spatule Holder
+https://www.thingiverse.com/thing:3094723/files (à imprimer en bleu)
