@@ -99,7 +99,7 @@ https://www.thingiverse.com/thing:3379068 (installé en bleu)
 
 
 ## Rail Cover
-https://www.thingiverse.com/thing:3490301 (à imprimer en bleu)
+https://www.thingiverse.com/thing:3476490 (Installé en bleu)
 
 https://www.thingiverse.com/thing:3196302 (non choisi)
 
