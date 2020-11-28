@@ -1,27 +1,26 @@
-# Slicer : 
+# Slicer Cura : 
 
-## Cura
-### Installation
+## Installation
 Download AppImage of Cura3D and run it.
 Add in alacarte.
 
-#### Configuration
+### Configuration
 
-##### Profiles
+#### Profiles
 Add Chep profile https://www.chepclub.com/cura-profiles.html
 
-##### Plugins
+#### Plugins
 * Settings Guide
 * Auto-orientation
 * Sidebar
 
-##### Your profile
+#### Your profile
 
-###### Quality
+##### Quality
 Initial Layer Width : 120%
 
 
-###### Shell
+##### Shell
 Top layer : 7 -> 3 or 4
 
 Bottom layer : 7 -> 3 or 4
@@ -33,10 +32,10 @@ ZSeam Alimentation : User defined
 Enable Ironing : true
 
 
-###### Infill
+##### Infill
 Infill Density : 25 -> 15%
 
-###### Speed
+##### Speed
 Print Speed : 50 -> 50-80
 
 Combining : Not in Skin
@@ -44,12 +43,12 @@ Combining : Not in Skin
 ZHtop : false -> true (if needed)
 
 
-###### Support
+##### Support
 Generate Support : false -> true if needed.
 
 Support Z Distante : 0.12 -> 0.4
 
 
-###### Build Support
+##### Build Support
 Build plate support Adhesion Type : Brim
 
