@@ -59,9 +59,9 @@ Android
 3D Printer
 ==========
 
-Ender 3
--------
-[Ender 3](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3.md)
+Ender 3 Pro
+-----------
+[Ender 3 Pro](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3Pro.md)
 
 
 Snapmaker 2.0
