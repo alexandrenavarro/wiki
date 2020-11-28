@@ -46,9 +46,13 @@ ZHtop : false -> true (if needed)
 ##### Support
 Generate Support : false -> true if needed.
 
+Support Placement : Touching buildplate
+
 Support Z Distante : 0.12 -> 0.4
 
 
 ##### Build Support
 Build plate support Adhesion Type : Brim
+
+Brim With : 8 -> 4 if no support or simple to remove, check with support
 
