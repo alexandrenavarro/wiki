@@ -4,7 +4,7 @@ Alexandre Navarro's Wiki
 OS for pc (Linux/Windows)
 =========
 
-Debian 11 (Buster)
+Debian 11 (Buster) (Curent)
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/debian-11/Configuration.md)
 
@@ -35,7 +35,7 @@ OS for phone (Android)
 Android
 -------
 
-[OnePlus6](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus6.md)
+[OnePlus6](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus6.md)  (Current)
 
 [OnePlus5T](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus5T.md)
 
@@ -59,19 +59,19 @@ Android
 3D Printer
 ==========
 
-Ender 3 Pro
+Ender 3 Pro (Current)
 -----------
 [Ender 3 Pro](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3Pro.md)
 
 
-Snapmaker 2.0
--------
+Snapmaker 2.0 (Current)
+-------------
 [Snapmaker 2.0](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Snapmaker-2.0.md)
 
 Keyboard
 ========
 
-Keyboardio Model 01
+Keyboardio Model 01 (Current)
 -------------------
 [Keyboardio Model 01](https://github.com/alexandrenavarro/wiki/blob/master/keyboard/KeyboardioModel01.md)
 
@@ -79,6 +79,6 @@ Keyboardio Model 01
 Domotic
 =======
 
-Jeedom
-------
+Jeedom (Current)
+----------------
 [Jeedom](https://github.com/alexandrenavarro/wiki/blob/master/jeedom/Jeedom.md)
