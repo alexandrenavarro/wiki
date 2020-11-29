@@ -40,7 +40,6 @@ https://www.thingiverse.com/thing:2745434 (non choisi)
 
 
 ##  Fan Hot-end (Herome gen 5)
-
 https://www.thingiverse.com/thing:4460970 (à installer en bleu, version double radial 40x10)
 
 
@@ -71,12 +70,11 @@ https://www.thingiverse.com/thing:2284893 (non choisi)
 
 
 ## Roue Extrudeur
-https://www.thingiverse.com/thing:3176144 (installé)
+https://www.thingiverse.com/thing:2776404 (installé)
+
+https://www.thingiverse.com/thing:3176144 (non choisi)
 
 https://www.thingiverse.com/thing:3585506 (non choisi)
-
-https://www.thingiverse.com/thing:2776404 (non choisi)
-
 
 
 ## Chaine
