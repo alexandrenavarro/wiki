@@ -106,7 +106,7 @@ https://www.thingiverse.com/thing:3196302 (non choisi)
 
 
 ## Anti snap guide 
-https://www.thingiverse.com/thing:2940855 (à imprimer en bleu)
+https://www.thingiverse.com/thing:2940855 (installé en bleu)
 
 
 ## Détecteur de filament
@@ -117,8 +117,8 @@ https://www.thingiverse.com/thing:3250248 (à imprimer en noir)
 https://www.thingiverse.com/thing:2880021 (installé pour cable écran)
 
 
-## Cover Ender 3
-https://www.thingiverse.com/thing:2924288 (à imprimer en bleu)
+## Cover Moteur X Ender 3
+https://www.thingiverse.com/thing:2924288 (non choisi car cela ne sert vraiment à rien et pas vraiment plus esthétique)
 
 
 ## Spatule Holder
