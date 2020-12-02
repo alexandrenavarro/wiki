@@ -125,5 +125,10 @@ https://www.thingiverse.com/thing:2924288 (non choisi car cela ne sert vraiment 
 https://www.thingiverse.com/thing:3094723/files (installé)
 
 ## Support Cam Pi
-TODO
-
+https://www.thingiverse.com/thing:3419695
+https://www.thingiverse.com/thing:3147295
+https://www.thingiverse.com/thing:2886101
+https://www.thingiverse.com/thing:3868687
+https://www.thingiverse.com/thing:3294512
+https://www.thingiverse.com/thing:1037722
+https://www.thingiverse.com/thing:3163817
