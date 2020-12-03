@@ -2,7 +2,7 @@
 
 ## My personal layout 
 
-http://www.keyboard-layout-editor.com/#/gists/831524ae41aec20a65ff519557db7f50
+https://github.com/alexandrenavarro/Model01-Firmware/blob/master/README-WHY-MY-PERSONAL-LAYOUT.md
 
 ## Why I did this layout?
 
