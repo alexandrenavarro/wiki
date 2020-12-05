@@ -10,3 +10,5 @@ TODO
 * Télécharger le .deb depuis le site
 
     sudo apt install ./code_xxxxx.deb
+    
+* Installer platformIO IDE extentions (menu à gauche extention puis install)
