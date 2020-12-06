@@ -3,7 +3,7 @@
 * You have to the tft black cable to have the touch screen mode working (it does not use the knob)
 
 # Configuration
-* Copy from this (directory)[https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/tree/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update] to your sdcard some files
+* Copy from this [directory](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/tree/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update) to your sdcard some files
 
     config.ini (you can use my [config.ini]https://github.com/alexandrenavarro/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/config.ini))
     
