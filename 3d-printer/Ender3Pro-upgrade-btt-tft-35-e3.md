@@ -5,7 +5,7 @@
 # Configuration
 * Copy from this [directory](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/tree/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update) to your sdcard some files
 
-    [config.ini](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/config.ini) (you can use mine [config.ini]https://github.com/alexandrenavarro/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/config.ini) )
+    [config.ini](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/config.ini) (you can use mine [config.ini](https://github.com/alexandrenavarro/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/config.ini) )
     
     
     [BIGTREE_TFT35_V3.0_E3.26.x.bin](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/BIGTREE_TFT35_V3.0_E3.26.x.bin)
