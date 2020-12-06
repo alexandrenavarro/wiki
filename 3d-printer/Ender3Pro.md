@@ -15,3 +15,6 @@
 
 # Ender 3 Pro Upgrade to Mks Gen L Board with Marlin
 [Ender 3 Pro Upgrade to Mks Gen L Board with Marlin](Ender3Pro-upgrade-mks-gen-l-with-marlin.md)
+
+# Ender 3 Pro Upgrade with Big Tree Tech TFT-35 E3
+[Ender 3 Pro Upgrade with Big Tree Tech TFT-35 E3] Ender3Pro-upgrade-btt-tft-35-e3.md
