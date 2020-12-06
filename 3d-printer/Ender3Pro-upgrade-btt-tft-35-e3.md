@@ -3,11 +3,13 @@
 * You have to the tft black cable to have the touch screen mode working (it does not use the knob)
 
 # Configuration
-* Copy from https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/tree/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update to your sdcard some files
+* Copy from this (directory)[https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/tree/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update to your sdcard some files]
 
-    config.ini (you can use my file https://github.com/alexandrenavarro/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/config.ini)
+    config.ini (you can use my [config.ini]https://github.com/alexandrenavarro/BIGTREETECH-TouchScreenFirmware/blob/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/config.ini))
     
     BIGTREE_TFT35_V3.0_E3.26.x.bin
+    
+    [BIGTREE_TFT35_V3.0_E3.26.x.bin](Ender3Pro-upgrade-btt-tft-35-e3.md)
     
     TFT35 (from https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/tree/master/Copy%20to%20SD%20Card%20root%20directory%20to%20update/THEME_Unified%20Menu%20Material%20theme)
     
