@@ -202,11 +202,11 @@ Tested but not adopted : rhythmnbox (more memory)
 ### System Tools
 
 #### File Explorer
-    sudo apt install thunar
+    sudo apt install thunar thunar-archive-plugin
 
-Adopted : lf (terminal)
+Adopted : thunar
 
-Adopted (second choice) : thunar     
+Adopted (second choice) : lf (terminal), problem with long copy (no async task) + smb/dav/usb drive not manage by default.
 
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
