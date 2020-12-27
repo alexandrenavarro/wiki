@@ -2,7 +2,7 @@
 
 Installation and configuration of the different sofware must result to :
 
-* Every actions (or quasi) can be easily with keyboard shortcuts (openbox)
+* Every actions (or quasi) can be easily with keyboard shortcuts (bspwm + sxhkd)
 * Remove unnecessary waste of space to keep focus (remove title, window decoration, global menu or transparent top bar ...) and have a a global menu (like MacOsX) or transparent topbar on the right (openbox with polybar)
 * The position and size of the different applications must be remembered (openbox)
 * Easy to put windows on left, right, maximize, minimize with keyboard shortcuts (openbox)
