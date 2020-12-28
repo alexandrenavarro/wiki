@@ -56,26 +56,11 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     cd ~/.config/sxhkd
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/sxhkd/sxhkdrc
     
-## Window Manager : OpenBox (Not any more used)
-
-### Installation
-    sudo apt install openbox
-    cd ~/.config/openbox
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/openbox/rc.xml
-    cp rc.xml.1 rc.xml
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/openbox/autostart
-    chmod a+x autostart
 
 ### Installation of software started with bspwm session
     sudo apt install feh compton sxhkd
     
 #### Theme
-Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
-    
-    obconf
-
-On Theme tab, select Adwaita-Dark-openbox
-
     sudo apt install lxappearance fonts-ubuntu
     
     lxappearance
@@ -84,7 +69,7 @@ On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 On Other, set Toolbar Style Icons only and Small toolbar icon
 
 ### Keyboard Layout
-If after the start of openbox the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set with Bus Preference notably
+If after the start of bspwm the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set with Bus Preference notably
 
 ## Update to testing in the /etc/apt/source.list
 Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
@@ -114,7 +99,7 @@ Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 #### Archive Manager
     sudo apt install file-roller
     
-#### Window Compositor
+#### Window Compositor (optional)
     sudo apt install compton
 
 #### Disk Usage
