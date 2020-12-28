@@ -509,6 +509,8 @@ Change some shorcuts
 ## Grub
 Change the configuration /etc/default/grub and launch
     sudo update-grub
+    
+TODO does not work after ubuntu upgrade and fix wallpaper.    
 
 # Printer/Scanner
 
