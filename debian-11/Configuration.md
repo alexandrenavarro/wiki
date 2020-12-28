@@ -275,7 +275,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     cd ~/.config/
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/wallpaper.png
 
-## Polybar
+## Polybar (optional)
     sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
     sudo apt install polybar
     mkdir ~/.config/polybar
@@ -284,7 +284,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 
 See the resolution of bug for tray icon transparency https://github.com/polybar/polybar/issues/913
 
-## Compton
+## Compton (optional)
     sudo apt install compton
     
 Needed if you want to have transparency window notably for polybar.
@@ -332,7 +332,15 @@ else
     chmod +x ./conky-x86_64.AppImage
     ./conky-x86_64.AppImage -C > ~/.conkyrc
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.conkyrc
-    
+
+## Sxiv
+
+    sudo apt install sxiv
+    cd ~/Applications/
+    wget https://raw.githubusercontent.com/alexandrenavarro/scripts/main/sxiv.sh
+    chmod +x sxiv.sh    
+
+
 ## Lf
 
 ### Installation
