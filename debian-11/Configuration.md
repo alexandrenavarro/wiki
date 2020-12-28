@@ -225,6 +225,11 @@ Tested but not selected gnome-monitor-systeme : use more memory, less informatio
 
 Tested but not selected mate-monitor-system : use more memory, less information
 
+#### Notification
+
+TODO See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd Notification Center 
+Notification area?
+
 #### Disks
     sudo apt install baobab gnome-disk-utility udiskie    
 
