@@ -3,17 +3,17 @@
 Installation and configuration of the different sofware must result to :
 
 * Every actions (or quasi) can be easily with keyboard shortcuts (bspwm + sxhkd)
-* Remove unnecessary waste of space to keep focus (remove title, window decoration, global menu or transparent top bar ...) and have a a global menu (like MacOsX) or transparent topbar on the right (openbox with polybar)
-* The position and size of the different applications must be remembered (openbox)
-* Easy to put windows on left, right, maximize, minimize with keyboard shortcuts (openbox)
+* Remove unnecessary waste of space to keep focus (remove title, window decoration, global menu or transparent top bar ...) and have a a global menu (like MacOsX) or transparent topbar on the right or no topbar if not really need (bspwm with or without polybar)
+* The position and size of the different applications must be predictable or remember (bspwm)
+* Easy to put windows on left, right, maximize, minimize with keyboard shortcuts (bspwm)
 * Having a searcheable launcher with a keyboard shortcut (rofi)
 * Having a searcheable task manager with a keyboard shortcut (rofi)
-* Keep shortcuts as possible as the shortcuts as the one in Windows (default + openbox)
+* Keep shortcuts as possible as the shortcuts as the one in Windows (default + sxhkd)
 * Have a dark theme (adwaita-dark with lxappearance)
 
 
 # Installation
-Download debian-standard with non-free  (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
+Download debian-standard with non-free (here 10)  and then update to testing (11) if you want to have update up-to-date softwares
 
 
 # Post Installation
@@ -24,7 +24,7 @@ Download debian-standard with non-free  (here 10)  and then update to testing (1
 
 You have to logout and login.
 
-    sudo apt install firefox-esr lightdm openbox
+    sudo apt install firefox-esr lightdm bspwm sxhkd
 
 If you can not set your custom keyboard layout use and restart
 
