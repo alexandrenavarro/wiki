@@ -138,8 +138,6 @@ Adopted just for wallpaper : feh
 
 Adopted as second choice : eog just for printing quickly.
 
-TODO see if only one instance app.
-
 #### Image Manager (if you want to classify your pictures)
     sudo apt install digikam 
     
@@ -183,16 +181,10 @@ Tested but not adopted : rhythmnbox (more memory)
 #### Audio Controller 
     sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
     
-#### News Group 
-//TODO
     
 ### Utilities   
     sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename
-    
-// TODO fix back when change input videos does not wake up screen?
-// Seems to be a problem in lightdm and openbox, use gdm3 
-// Launch gnome-screensaver &
-// dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
+   
 
 #### Book Manager (if you use kindle)
     sudo apt install calibre
@@ -204,7 +196,7 @@ Tested but not adopted : rhythmnbox (more memory)
 
 Adopted : thunar
 
-Adopted (second choice) : lf (terminal), TODO problem with long copy (no async task) + smb/dav/usb drive not manage by default.
+Adopted (second choice) : lf (terminal), TODO find a way for long copy (no async task) + smb/dav/usb drive not manage by default.
 
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
@@ -417,7 +409,7 @@ Videos : avi,mkv,mp4
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
-### Stterm TODO
+### Stterm
 
 #### Installation
    sudo apt install stterm
@@ -441,6 +433,10 @@ Fixes do not work
 * Fix problem for micro for Ctrl + Shift + Down : I don't know sequence code terminal, so prefer to let like Ctrl + Down
 
 Patch :
+clipboard (to test)
+scrollbar (to test)
+alpha (works with compton)
+
 https://st.suckless.org/patches/alpha/
 
     patch -p0 < st-alpha-0.8.2.diff
