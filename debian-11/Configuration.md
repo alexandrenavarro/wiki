@@ -132,7 +132,7 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
     sudo apt install feh
     sudo apt install eog
     
-Adopted sxiv : faster to open, cool shortcuts (miss just to print the image)
+Adopted sxiv : faster to open, cool shortcuts (miss just to print the image, add sxiv.sh to navigate easily in the picture of a directory)
 
 Adopted just for wallpaper : feh
 
