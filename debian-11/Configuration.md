@@ -204,7 +204,7 @@ Tested but not adopted : rhythmnbox (more memory)
 
 Adopted : thunar
 
-Adopted (second choice) : lf (terminal), problem with long copy (no async task) + smb/dav/usb drive not manage by default.
+Adopted (second choice) : lf (terminal), TODO problem with long copy (no async task) + smb/dav/usb drive not manage by default.
 
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
@@ -254,7 +254,7 @@ Adopted simple-scan : works, no concurrency.
 ### Lock
     sudo apt install light-locker
     
-### Panel Bar
+### Panel Bar (optional)
     sudo apt install polybar
 
 Adopted polybar : moving window with openbox works, higly customisable, transparency.
@@ -417,7 +417,7 @@ Videos : avi,mkv,mp4
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
-### Stterm
+### Stterm TODO
 
 #### Installation
    sudo apt install stterm
