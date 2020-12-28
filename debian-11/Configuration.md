@@ -318,7 +318,7 @@ Add Items
 Lock : dm-tool lock
 Shutdown : systemctl poweroff
 Restart : systemctl reboot
-Logout : openbox --exit
+Logout : bspc quit
 
 It will add in ~/.local/share/applications/xxx.desktop files you can customize.
 
