@@ -412,6 +412,8 @@ Videos : avi,mkv,mp4
 ### Stterm
 
 #### Installation
+If you don't need any configuration to change, if not, recompile it.
+
    sudo apt install stterm
    
 #### Configuration / Compilation
@@ -433,9 +435,10 @@ Fixes do not work
 * Fix problem for micro for Ctrl + Shift + Down : I don't know sequence code terminal, so prefer to let like Ctrl + Down
 
 Patch :
-clipboard (to test)
-scrollbar (to test)
-alpha (works with compton)
+TODO to test
+* clipboard (to test)
+* scrollbar (to test)
+* alpha (works with compton)
 
 https://st.suckless.org/patches/alpha/
 
