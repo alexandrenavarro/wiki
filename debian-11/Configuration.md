@@ -43,7 +43,20 @@ or graphically through
 Drivers are the kernel but need to have firmware from non-free repository if you not downloaded a debian-non-free
     sudo apt install firmware-linux-nonfree # for firmware-amd-graphics mainly
 
-## Window Manager : OpenBox
+## Window Manager : Bspwm
+
+    sudo apt install bspw
+    cd ~/.config/bspwm
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/bspwm/bspwmrc
+    chmod a+x bspwmrc
+    
+## Hot Key daemon : sxhkd
+
+    sudo apt install sxhkd
+    cd ~/.config/sxhkd
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/sxhkd/sxhkdrc
+    
+## Window Manager : OpenBox (Not any more used)
 
 ### Installation
     sudo apt install openbox
@@ -53,8 +66,8 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/openbox/autostart
     chmod a+x autostart
 
-### Installation of software started with openbox session
-    sudo apt install feh compton polybar
+### Installation of software started with bspwm session
+    sudo apt install feh compton sxhkd
     
 #### Theme
 Retrieve Adwaita-Dark-openbox from https://www.google.com/search?client=firefox-b-e&q=Adwaita-Dark-openbox and set in ObConf
