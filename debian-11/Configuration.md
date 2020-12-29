@@ -9,7 +9,7 @@ Installation and configuration of the different sofware must result to :
 * Having a searcheable launcher with a keyboard shortcut (rofi)
 * Having a searcheable task manager with a keyboard shortcut (rofi)
 * Keep shortcuts as possible as the shortcuts as the one in Windows (default + sxhkd)
-* Have a dark theme (adwaita-dark with lxappearance)
+* Have a dark theme (adwaita-dark with lxappearance / qt5ct)
 
 
 # Installation
@@ -67,6 +67,16 @@ Drivers are the kernel but need to have firmware from non-free repository if you
 
 On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 On Other, set Toolbar Style Icons only and Small toolbar icon
+
+    qt5ct
+ 
+ On appearance, Selt Adwait-dark
+ 
+ Add in your .profile or .bashrc
+ 
+     export QT_QPA_PLATFORMTHEME="qt5ct"
+ 
+ See https://wiki.manjaro.org/index.php/Set_all_Qt_app%27s_to_use_GTK%2B_font_%26_theme_settings
 
 ### Keyboard Layout
 If after the start of bspwm the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set with Bus Preference notably
@@ -245,7 +255,7 @@ Adopted simple-scan : works, no concurrency.
     sudo apt install task-print-server system-config-printer
    
 ### Preferences / Control Center
-    sudo apt install lxappearance
+    sudo apt install lxappearance qt5ct
 //TODO qt5 themimg with gtk    
 
 ### Login 
