@@ -518,7 +518,14 @@ Change some shorcuts
 * Main menu | Edit | Find | Replacet : Ctrl + H (in addition of Ctrl + R)
 
 ## Grub
-Change the configuration /etc/default/grub and launch
+
+    sudo apt install grub-customizer
+
+Use Grub Customizer to set the different settings you want, save and install to mbr.
+Be sure your mbr you changed is the one launched by the motherboard (or re-set in the bios).
+
+You can also change the configuration int /etc/default/grub and update grub.
+
     sudo update-grub
     
 TODO does not work after ubuntu upgrade and fix wallpaper.    
