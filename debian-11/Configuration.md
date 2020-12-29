@@ -164,7 +164,7 @@ Adopted as second choice : eog just for printing quickly.
 #### Mail Client
     sudo apt-get install thunderbird-l10n-fr
     
-//TODO Fix dark theme for readonly mail with shadowBird on github ?    
+TODO Fix dark theme for readonly mail with shadowBird on github ?    
     
 ### Office
     sudo apt install libreoffice
@@ -264,9 +264,6 @@ Adopted simple-scan : works, no concurrency.
    
 ### Preferences / Control Center
     sudo apt install lxappearance qt5ct
-    
-    
-//TODO qt5 themimg with gtk    
 
 ### Login 
     sudo apt install lightdm
@@ -542,14 +539,12 @@ Change some shorcuts
     sudo apt install grub-customizer
 
 Use Grub Customizer to set the different settings you want, save and install to mbr.
-Be sure your mbr you changed is the one launched by the motherboard (or re-set in the bios).
+Be sure your mbr you changed is the one launched by the motherboard (or re-set in the bios) notably if you installed another linux distribution on another disk drive.
 
 You can also change the configuration int /etc/default/grub and update grub.
 
     sudo update-grub
     
-TODO does not work after ubuntu upgrade and fix wallpaper.    
-
 # Printer/Scanner
 
 ## Installation
