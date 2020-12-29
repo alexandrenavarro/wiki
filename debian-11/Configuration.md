@@ -61,7 +61,8 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     sudo apt install feh compton sxhkd
     
 #### Theme
-    sudo apt install lxappearance fonts-ubuntu
+    sudo apt install 
+    fonts-ubuntu
     
     lxappearance
 
@@ -163,6 +164,8 @@ Adopted as second choice : eog just for printing quickly.
 #### Mail Client
     sudo apt-get install thunderbird-l10n-fr
     
+//TODO Fix dark theme for readonly mail with shadowBird on github ?    
+    
 ### Office
     sudo apt install libreoffice
 
@@ -209,7 +212,8 @@ Tested but not adopted : rhythmnbox (more memory)
 
 Adopted : thunar
 
-Adopted (second choice) : lf (terminal), TODO find a way for long copy (no async task) + smb/dav/usb drive not manage by default.
+Adopted (second choice) : lf (terminal), 
+find a way for long copy (no async task) + smb/dav/usb drive not manage by default.
 
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
@@ -238,10 +242,14 @@ Tested but not selected gnome-monitor-systeme : use more memory, less informatio
 
 Tested but not selected mate-monitor-system : use more memory, less information
 
-#### Notification
+#### System Tray
+TODO Test trayer or stanfolonetray ?
 
-TODO See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd Notification Center 
-Notification area?
+
+#### Notification
+TODO Test dunst or Deadd Notification Center ?
+See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd Notification Center 
+
 
 #### Disks
     sudo apt install baobab gnome-disk-utility udiskie    
@@ -256,6 +264,8 @@ Adopted simple-scan : works, no concurrency.
    
 ### Preferences / Control Center
     sudo apt install lxappearance qt5ct
+    
+    
 //TODO qt5 themimg with gtk    
 
 ### Login 
