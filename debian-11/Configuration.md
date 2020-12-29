@@ -149,6 +149,9 @@ Adopted as second choice : eog just for printing quickly.
     
 #### Torrent Client
     sudo apt install transmission
+
+#### Mail Client
+    sudo apt-get install thunderbird-l10n-fr
     
 ### Office
     sudo apt install libreoffice
