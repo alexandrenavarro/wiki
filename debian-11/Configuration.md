@@ -444,7 +444,7 @@ If you don't need any configuration to change, if not, recompile it.
    
 #### Configuration / Compilation
 Install Xlib header
-    sudo apt install xxxxxxxx
+    sudo apt install libx11-dev libxft-dev
     
 Compile with make clean install from my fork (https://github.com/alexandrenavarro/st.git)
 
