@@ -61,23 +61,24 @@ Drivers are the kernel but need to have firmware from non-free repository if you
     sudo apt install feh compton sxhkd
     
 #### Theme
-    sudo apt install 
-    fonts-ubuntu
-    
-    lxappearance
+    sudo apt install fonts-ubuntu lxappearance
 
 On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
+
 On Other, set Toolbar Style Icons only and Small toolbar icon
 
-    qt5ct
+    sudo apt install qt5ct
  
- On appearance, Selt Adwait-dark
+ On Appearance, Set Adwait-dark
  
  Add in your .profile or .bashrc
  
      export QT_QPA_PLATFORMTHEME="qt5ct"
  
+ It seems working on quasi all qt applications, only menu in cura are not themed.
+ 
  See https://wiki.manjaro.org/index.php/Set_all_Qt_app%27s_to_use_GTK%2B_font_%26_theme_settings
+ 
 
 ### Keyboard Layout
 If after the start of bspwm the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set with Bus Preference notably
