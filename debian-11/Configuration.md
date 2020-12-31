@@ -227,13 +227,15 @@ find a way for long copy (no async task) + smb/dav/usb drive not manage by defau
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
-    sudo apt install rxvt bash-completion
+    sudo apt install rxvt bash-completion mate-terminal
 
 Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
 
+Adopted notably for mate-terminal : more memory but all the binding in micro work well.
+
 Tested but not selected choice : ssterm, faster and low memory usage but need to recompile to add some feature, some Shift+End / Shift+Home does not work by default with micro.
 
-Tested but not selected choice : mate-terminal
+
 
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
