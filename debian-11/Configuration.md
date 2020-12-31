@@ -469,7 +469,9 @@ Videos : avi,mkv,mp4
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/binding.json
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/settings.json
 
-See hybrid relative number feature https://github.com/zyedidia/micro/issues/1639, add select Next/Previous Paragraph https://github.com/zyedidia/micro/issues/1968
+See select Next/Previous Paragraph https://github.com/zyedidia/micro/issues/1968
+
+Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mate-terminal).
 
 ## Firefox
 
@@ -522,7 +524,6 @@ Change some shorcuts
 * Main menu | Navigate | Go to Implementation : Shift + F4
 * Main menu | Tool Window | Project : Alt + Shift + "
 * Main menu | Edit | Find | Replacet : Ctrl + H (in addition of Ctrl + R)
-* Crlt + Space /Enter : Inverses shift not shift.
 * Terminal : Ctrl+e.
 
 ## Grub
