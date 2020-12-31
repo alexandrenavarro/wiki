@@ -108,6 +108,11 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
     sudo apt install micro
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 
+Adopted only to build Marlin with Platformio plugin : vscode (really slow to start at least 2-3 s on my machine, take >100mo, )
+
+Tested but not selected : geany (not bad at all but I prefer micro, low memory for non terminal 60mo, start fast)
+
+
 #### Archive Manager
     sudo apt install file-roller
     
@@ -143,12 +148,15 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
     sudo apt install sxiv
     sudo apt install feh
     sudo apt install eog
+    sudo apt install shotwell
     
 Adopted sxiv : faster to open, cool shortcuts (miss just to print the image, add sxiv.sh to navigate easily in the picture of a directory)
 
 Adopted just for wallpaper : feh
 
-Adopted as second choice : eog just for printing quickly.
+Adopted as second choice just for printing quickly : eog
+
+Adopted for manipulating image : shotwell
 
 #### Image Manager (if you want to classify your pictures)
     sudo apt install digikam 
@@ -219,12 +227,13 @@ find a way for long copy (no async task) + smb/dav/usb drive not manage by defau
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
-    sudo apt install stterm bash-completion
-    sudo apt install mate-terminal 
+    sudo apt install rxvt bash-completion
 
-Adopted stterm : faster and low memory usage of any other terminal (12mo), need to be recompile to use with micro correctly, need to be used with tmux or use some patches.
+Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
 
-Adopted second choice : mate-terminal
+Tested but not selected choice : ssterm, faster and low memory usage but need to recompile to add some feature, some Shift+End / Shift+Home does not work by default with micro.
+
+Tested but not selected choice : mate-terminal
 
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
@@ -275,7 +284,7 @@ Adopted simple-scan : works, no concurrency.
 ### Panel Bar (optional)
     sudo apt install polybar
 
-Adopted polybar : moving window with openbox works, higly customisable, transparency.
+Tested but not selected polybar : moving window with openbox works, higly customisable, transparency but finally no need.
 
 Tested but not selected tint2 : size for moving window with openbox does not any work with %    
     
@@ -435,42 +444,6 @@ Videos : avi,mkv,mp4
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
-### Stterm
-
-#### Installation
-If you don't need any configuration to change, if not, recompile it.
-
-   sudo apt install stterm
-   
-#### Configuration / Compilation
-Install Xlib header
-    sudo apt install libx11-dev libxft-dev
-    
-Compile with make clean install from my fork (https://github.com/alexandrenavarro/st.git)
-
-Fixes / Improvements : 
-* Improvement : increase from 12 to 13
-* Fix problem for micro for Shift + Home
-* Fix problem for micro for Ctrl + Home
-* Fix problem for micro for Shift + Ctrl + End 
-* Fix problem for micro for Shift + End
-* Fix problem for micro for Ctrl + End
-Fixes do not work
-* Fix problem for micro for Shift + Ctrl + Home : it does not work (it should, the mask is no recognize), let Ctrl + Home
-* Fix problem for micro for Ctrl + Shift + Up : I don't know sequence code terminal, so prefer to let like Ctrl + Up
-* Fix problem for micro for Ctrl + Shift + Down : I don't know sequence code terminal, so prefer to let like Ctrl + Down
-
-Patch :
-TODO to test
-* clipboard (to test)
-* scrollbar (to test)
-* alpha (works with compton)
-
-https://st.suckless.org/patches/alpha/
-
-    patch -p0 < st-alpha-0.8.2.diff
-
-Change alpha to 0.9
 
 ## Micro
     sudo apt install micro
@@ -478,15 +451,16 @@ Change alpha to 0.9
     cd ~/.config/micro
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/binding.json
 
-
-Ctrl+Shift+Home (do nothing), Ctrl+Shift+Up (do the Ctrl+Up) and Ctrl+Shift+Down (do the Ctrl+Down) and does not work properly with stterm, see ssterm
+Some shorcuts does not work.
+TODO to investigate notably the 2 first ones
+Ctrl+(Shift)+Left
+Ctrl+(Shift)+Right
+Ctrl+(Shift)+Up
+Ctrl+(Shift)+Rig
+Ctrl+(Shift)+Home
+Ctrl+(Shift)+End
 
 See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid relative number feature https://github.com/zyedidia/micro/issues/1639
-
-
-## TMux
-    sudo apt install tmux
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.tmux.conf
 
 ## Firefox
 
@@ -497,6 +471,11 @@ See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid rel
 * Install vimium plugin
 * Install fox gesture plugin
 * Reshow Menu bar (to see better polybar)
+
+#### Thunderbird
+    sudo apt-get install thunderbird-l10n-fr
+    
+TODO Fix dark theme for readonly mail with shadowBird on github ?    
 
 ## Alacarte
     sudo apt install alacarte
@@ -534,6 +513,8 @@ Change some shorcuts
 * Main menu | Navigate | Go to Implementation : Shift + F4
 * Main menu | Tool Window | Project : Alt + Shift + "
 * Main menu | Edit | Find | Replacet : Ctrl + H (in addition of Ctrl + R)
+* Crlt + Space /Enter : Inverses shift not shift.
+* Terminal : Ctrl+e.
 
 ## Grub
 
@@ -557,41 +538,6 @@ Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=sho
     
 And go to to configure your printer http://localhost:631/admin or use 
 Install the one with driverless
-    
-    
-## Epson EcoTank ET-4750
-Search ET-4700 http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
-
-### Printer (proprietary driver, no needed anymore)
-By default, it works but you can have more options (not really needed) are added
-
-http://download.ebz.epson.net/dsc/search/01/search/searchModuleFromResult
-
-Caution, not able to install propretary driver because lsb package does not exist on debian buster (it changed).
-
-### Scanner (proprietary driver, no needed anymore)
-By default, it works since recent version of debian.
-
-If not, for Scanner, download Scanner Driver
-Follow documentation (https://download3.ebz.epson.net/dsc/f/03/00/10/86/60/cbe4b348661d3be89ed8bb01b112ded41e756976/imagescanv3_man_e.pdf)
-
-    tar xvzf imagescan-bundle-ubuntu-19.10-3.62.0.x64.deb.tar.gz
-    ./install.sh 
-    cd core
-    sudo dpkg -i imagescan_3.62.0-1epson4ubuntu19.10_amd64.deb
-    cd ../plugins
-    sudo dpkg -i imagescan-plugin-networkscan_1.1.3-1epson4ubuntu19.10_amd64.deb
-    
-Edit Configuration files    
-    micro /etc/imagescan/imagescan.conf
-
-with
-
-    [devices]
-    net.udi = networkscan:esci://192.168.0.6:1865
-    net.vendor = Epson 
-    net.model = Epson EcoTank ET-4750
-    net.name = Epson EcoTank ET-4750
 
 
 # Distribution ugrade
