@@ -227,7 +227,7 @@ find a way for long copy (no async task) + smb/dav/usb drive not manage by defau
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
-    sudo apt install rxvt bash-completion mate-terminal
+    sudo apt install rxvt-unicode bash-completion mate-terminal
 
 Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
 
@@ -369,7 +369,22 @@ else
     wget https://raw.githubusercontent.com/alexandrenavarro/scripts/main/sxiv.sh
     chmod +x sxiv.sh    
 
+## Rxvt
+   sudo apt install rxvt-unicode
+   wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/.Xresources
+   
+Useful to understand w, use 
 
+    cat -v
+    
+or
+   
+    showkey -a
+    
+or in micro, activate raw mode 
+
+   raw
+   
 ## Lf
 
 ### Installation
@@ -385,7 +400,7 @@ Download the package and install in Applications
     chmod a+x preview.sh
     
 
-# diskie (automount of usb drive)
+## diskie (automount of usb drive)
     sudo apt install udiskie    
     
 Just need to launch udiskie when you need. You can launch at startup or with --tray if want to have notification notably.
@@ -452,17 +467,9 @@ Videos : avi,mkv,mp4
     mkdir ~/.config/micro/
     cd ~/.config/micro
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/binding.json
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/settings.json
 
-Some shorcuts does not work.
-TODO to investigate notably the 2 first ones
-Ctrl+(Shift)+Left
-Ctrl+(Shift)+Right
-Ctrl+(Shift)+Up
-Ctrl+(Shift)+Rig
-Ctrl+(Shift)+Home
-Ctrl+(Shift)+End
-
-See bug on bindings https://github.com/zyedidia/micro/issues/1628 and hybrid relative number feature https://github.com/zyedidia/micro/issues/1639
+See hybrid relative number feature https://github.com/zyedidia/micro/issues/1639, add select Next/Previous Paragraph https://github.com/zyedidia/micro/issues/1968
 
 ## Firefox
 
