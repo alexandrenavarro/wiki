@@ -400,6 +400,16 @@ Download the package and install in Applications
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/preview.sh
     chmod a+x preview.sh
     
+    
+TODO
+Remote Commands 
+    lf -remote 'send updir'
+	lf -remote 'send set ratios 1:2'
+	lf -remote 'send open'
+	lf -remote 'send set ratios 1:2:3'
+
+
+    
 
 ## diskie (automount of usb drive)
     sudo apt install udiskie    
