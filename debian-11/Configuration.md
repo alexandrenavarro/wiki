@@ -168,7 +168,7 @@ Adopted for manipulating image : shotwell
     sudo apt install chromium 
     
 #### Torrent Client
-    sudo apt install transmission
+    sudo apt install transmission transmission-cli
 
 #### Mail Client
     sudo apt-get install thunderbird-l10n-fr
