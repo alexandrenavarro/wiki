@@ -177,6 +177,7 @@ TODO Fix dark theme for readonly mail with shadowBird on github ?
     
 ### Office
     sudo apt install libreoffice
+    sudo apt install asciidoctor
 
 ### Sound & Video
 #### Video Player
@@ -231,11 +232,9 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
 
-Adopted notably for mate-terminal : more memory but all the binding in micro work well.
-
 Tested but not selected choice : ssterm, faster and low memory usage but need to recompile to add some feature, some Shift+End / Shift+Home does not work by default with micro.
 
-
+Tested but not selected choice : mate-terminal : more memory but all the binding in micro work well.
 
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
