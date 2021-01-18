@@ -35,6 +35,8 @@ OS for phone (Android)
 Android
 -------
 
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/android/Configuration.md)
+
 [OnePlus6](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus6.md)  (Currently Used)
 
 [OnePlus5T](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus5T.md)
