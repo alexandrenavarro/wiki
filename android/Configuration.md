@@ -5,8 +5,8 @@ Study how to sync contact / calendar throught synology (Davx5 / CardDav-sync)
 Study best calendar app with sync.
 
 # Phone
-App : Simple Dialer (or standard app of the phone)
-Save : SMSBackup
+* App : Simple Dialer (or standard app of the phone)
+* Save : SMSBackup
 
 # Contacts
 App : Simple Contacts (Pros) or Contacts (Google)
