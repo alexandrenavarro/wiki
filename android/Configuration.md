@@ -1,93 +1,99 @@
 Applications to use with a priority of opensource apps (contrary of Gapps) when it is possible
 
 # TODO
-Study how to sync contact / calendar throught synology (Davx5 / CardDav-sync)
-Study best calendar app with sync.
+* Study how to sync contact / calendar throught synology (Davx5 / CardDav-sync)
+* Study best calendar app with sync.
 
 # Phone
 * App : Simple Dialer (or standard app of the phone)
-* Save : SMSBackup
+* Save : SMSBackup / copy to hard disk drvie
 
 # Contacts
-App : Simple Contacts (Pros) or Contacts (Google)
-Save : Export file / TODO sync with synology
+* App : Simple Contacts (Pro)
+* Save : Export file / TODO sync with synology
 
 # Mail 
-App : Target proton but no dark mode, brigde linux for thunderbird to test.
-Save : Proton
+* App : Gmail but target proton but no dark mode, brigde linux for thunderbird to test.
+* Save : Gmail but target Proton
 
 # SMS
-App : Tote Qksms, Textra, Simple SMS, Messages (Google)
-Save : SMS Backup
+* App : Qksms
+* Save : SMS Backup / copy to hard disk drvie
 
 # Calendar 
-App : TODO
-Save : TODO
+* App : GCalendar but target Simple Calendar (Pro)
+* Save : Export file / TODO sync with synology
 
 # Navigator
-App : Chrome (or Firefox)
+* App : Chrome (or second choice with Firefox)
 
 # Camera
-App : TODO
-Save : TODO
+* App : stand (or second choice Simple Camera)
+* Save : DSPhoto or copy on hard disk drive
 
 # Secured Message / Securde Video Conference
-App : TODO
-Save : TODO
+* App : Signal
+* Save : Export file / copy on hard disk drive
 
 # File Manager
-App : TODO
-Save : TODO
+* App : Simple File Manager
 
 # Notes / Tasks
-App : TODO
-Save : TODO
+* App : Trello
+* Save : Trello
 
 # Pictures 
-App : TODO
-Save : TODO
+* App : Simple Gallery (Pro)
+* Save : DSPhoto or copy on hard disk drive
 
-# RSS Reader
-App : TODO
-Save : TODO
+# News Reader
+* App : Feedly and Google
+* Save : Feedly and Google
+
+# News Offline Reader
+* App : Pocket
+* Save : Pocket
 
 # File Editor
-App : TODO
-Save : TODO
+* App : Quickedit
 
 # Map
-App : TODO
-Save : TODO
+* App : GMap
 
 # Music Player
-App : TODO
-Save : TODO
+* App : Simple Music Player
 
 # Video Player
-App : TODO
-Save : TODO
+* App : MX Player (Pro)
 
 # Podcast Player
-App : TODO
-Save : TODO
+* App : Podcast & Radio Addict
+* Save : Podcast & Radio Addict
 
 # Twitter Client
-App : TODO
-Save : TODO
+* App : Fenix (Pro)
+* Save : Fenix (Pro)
 
-# Document Reader
-App : TODO
-Save : TODO
+# Document Word / Excel / PowerPoint / Pdf Reader
+* App : Documents Reader : Document Viewer - PDF Creator
 
-# Gapps not really replecable
-* Playstore
-* Google (News + Search)
-* Lens
-* GBoard
-* Youtube
-* Gmap (Waze?)
-* Chrome (Firefox?)
-# 
+# Synology App
+* App : DSPhoto / DSVideo / DMusic
+
+# Domotic
+* App : Homy
+
+# Sport
+* App : Garmin Connect / Strava
+
+# Gapps not really replecable by order of importance / usage
+* Playstore (or F-Droid as partial alternative)
+* Chrome (or Firefox as alternative)
+* Google (News + Search, or Feedly as partial alternative)
+* GBoard (no alternative or use Lineage OS keyboard)
+* Youtube (no alternative)
+* Gmap (or Waze as alternative)
+* Lens (no alternative)
 
 
 
