@@ -1,7 +1,7 @@
 Applications to use with a priority of opensource apps (contrary of Gapps) when it is possible
 
 # TODO
-* Study how to sync contact / calendar throught synology (Davx5 / CardDav-sync)
+* Study how to sync contact / calendar throught synology test Davx5 / CardDav-sync)
 * Study best calendar app with sync.
 
 # Phone
