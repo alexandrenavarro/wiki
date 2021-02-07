@@ -533,8 +533,9 @@ Change some shorcuts
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
 * Main menu | Navigate | Go to Implementation : Shift + F4
 * Main menu | Tool Window | Project : Alt + Shift + "
-* Main menu | Edit | Find | Replacet : Ctrl + H (in addition of Ctrl + R)
-* Terminal : Ctrl+e.
+* Main menu | Edit | Find | Replace : Ctrl + H (in addition of Ctrl + R)
+* Tool Windows | Terminal : Ctrl + E (it removes possiblity to select files opened but I don't used, I used Search Everywhere instead)
+* Others | Run Context Configuration : F12 (it removes possibility to use last window tool but I don't used)
 
 ## Visual Studio Code
 
