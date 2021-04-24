@@ -528,13 +528,13 @@ Download AppImage of Etcher, add alacarte and run it.
 Change some shorcuts
 * Editor Actions | Move Caret to Code Block : CTRL + [ / ] (equivalent)
 * Editor Actions | Move Caret to Paragraph : CTRL + UP / Down (equivalent)
-* Main menu | Navigate | Search Everywhere : CTRL + F3 (in addition of Shift / Shift)
+* Main menu | Navigate | Search Everywhere : CTRL + L (in addition of Shift / Shift)
 * Main menu | Navigate | Back : Alt + Left (in addition of ALT + CTRL + Left)
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
 * Main menu | Navigate | Go to Implementation : Shift + F4
 * Main menu | Tool Window | Project : Alt + Shift + "
 * Main menu | Edit | Find | Replace : Ctrl + H (in addition of Ctrl + R)
-* Tool Windows | Terminal : Ctrl + E (it removes possiblity to select files opened but I don't used, I used Search Everywhere instead)
+* Main menu | Code | Code Completion : Complete Code Statement : Ctrl + Enter
 * Others | Run Context Configuration : F12 (it removes possibility to use last window tool but I don't used)
 
 ## Visual Studio Code
