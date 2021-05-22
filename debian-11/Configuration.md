@@ -223,6 +223,8 @@ Tested but not adopted : rhythmnbox (more memory)
     
 Usefull command with fzf
     xdg-open $(fzf --preview 'cat {}')
+    
+TODO skim (just tar to unzip closed to fzf, as-tree just launch a cargo command)    
    
 
 #### Book Manager (if you use kindle)
