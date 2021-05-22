@@ -269,7 +269,11 @@ Tested but not selected gnome-monitor-systeme : use more memory, less informatio
 Tested but not selected mate-monitor-system : use more memory, less information
 
 #### System Tray
-TODO Test trayer or stanfolonetray ?
+Adopted polybar : works quasi-perfectly with transparency.
+
+Tested trayer but not select : problem transparency
+
+Tested stanfolonetray but not select : problem transparency
 
 
 #### Notification
@@ -278,7 +282,7 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
 
 
 #### Disks
-    sudo apt install baobab gnome-disk-utility udiskie    
+    sudo apt install baobab gnome-disk-utility udiskie ncdu   
 
 #### Scanner
     sudo apt install simple-scan
