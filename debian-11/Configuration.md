@@ -219,12 +219,12 @@ Tested but not adopted : rhythmnbox (more memory)
     
     
 ### Utilities   
-    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find
+    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc
     
 Usefull command with fzf
     xdg-open $(fzf --preview 'cat {}')
     
-TODO skim (just tar to unzip closed to fzf, as-tree just launch a cargo command)    
+TODO skim (just tar to unzip closed to fzf), as-tree just launch a cargo command, alias to add fdfind    
    
 
 #### Book Manager (if you use kindle)
