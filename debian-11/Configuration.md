@@ -219,7 +219,7 @@ Tested but not adopted : rhythmnbox (more memory)
     
     
 ### Utilities   
-    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf
+    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find
     
 Usefull command with fzf
     xdg-open $(fzf --preview 'cat {}')
