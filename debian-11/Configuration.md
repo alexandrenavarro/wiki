@@ -218,10 +218,11 @@ Tested but not adopted : rhythmnbox (more memory)
     
 ### Utilities   
     sudo apt install cargo policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc
-    sudo apt cargo skim
+    cargo install skim bat lsd
     
 Usefull command with fzf
-    xdg-open $(fzf --preview 'cat {}')
+    xdg-open $(sk --preview 'cat {}')
+    micro $(sk --preview 'cat {}')
     
 TODO skim (just tar to unzip closed to fzf), as-tree just launch a cargo command, alias to add fdfind    
    
