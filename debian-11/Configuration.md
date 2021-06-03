@@ -119,10 +119,7 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 #### Window Compositor (optional)
     sudo apt install compton
 
-#### Disk Usage
-    sudo apt install gnome-disk-utility
-    cargo install diskonaut
-    
+
 #### Pdf Document Viewer
     sudo apt install zathura
 
@@ -220,7 +217,8 @@ Tested but not adopted : rhythmnbox (more memory)
     
     
 ### Utilities   
-    sudo apt install policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc
+    sudo apt install cargo policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc
+    sudo apt cargo skim
     
 Usefull command with fzf
     xdg-open $(fzf --preview 'cat {}')
@@ -232,6 +230,7 @@ TODO skim (just tar to unzip closed to fzf), as-tree just launch a cargo command
     sudo apt install calibre
 
 ### System Tools
+    sudo apt install cargo
 
 #### File Explorer
     sudo apt install thunar thunar-archive-plugin
@@ -244,7 +243,7 @@ find a way for long copy (no async task) + smb/dav/usb drive not manage by defau
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
-    sudo apt install rxvt-unicode bash-completion mate-terminal
+    sudo apt install rxvt-unicode bash-completion
 
 Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
 
@@ -283,7 +282,9 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
 
 
 #### Disks
-    sudo apt install baobab gnome-disk-utility udiskie ncdu   
+    sudo apt install baobab gnome-disk-utility udiskie ncdu 
+    cargo install diskonaut
+    
 
 #### Scanner
     sudo apt install simple-scan
