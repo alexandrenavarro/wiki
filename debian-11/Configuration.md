@@ -121,6 +121,7 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 
 #### Disk Usage
     sudo apt install gnome-disk-utility
+    cargo install diskonaut
     
 #### Pdf Document Viewer
     sudo apt install zathura
