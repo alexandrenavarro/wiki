@@ -16,12 +16,12 @@ Installation and configuration of the different sofware must result to :
 Download last arch iso.
 
 ## Basic Configuration to install arch
-* Set your keyboard layout
+Set your keyboard layout
     
     loadkeys fr
     loadkeys fr-bepo
     
-* If you don't have ethernet, you can configure your wifi connection in commandline through https://www.mankier.com/1/iwctl    
+If you don't have ethernet, you can configure your wifi connection in commandline through https://www.mankier.com/1/iwctl    
     
     iwctl
     
@@ -30,20 +30,23 @@ Retrieve your device ogenerally wlan0
     station list
 
 Retrieve your network
+
     station wlan0 get-networks
 
 Connect to your network
-    station wlan0 connect yournetwork
     
+    station wlan0 connect yournetwork
+
     
 ## Installation with Archfi
 
-* Download and run archfi installer
+Download and run archfi installer
+
     curl -LO matmoul.github.io/archfi
     sh archfi
     
-* Choose the installation
-* 
+If you have an EFI pc, set your /boot on your efi partition
+
 
 # Post Installation
 TODO
