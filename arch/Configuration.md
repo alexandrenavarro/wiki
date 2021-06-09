@@ -17,6 +17,7 @@ Download last arch iso.
 
 ## Basic Configuration to install arch
 * Set your keyboard layout
+
     loadkeys fr
     loadkeys fr-bepo
     
