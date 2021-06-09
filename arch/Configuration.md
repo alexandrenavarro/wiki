@@ -17,14 +17,16 @@ Download last arch iso.
 
 ## Basic Configuration to install arch
 * Set your keyboard layout
-
+    
     loadkeys fr
     loadkeys fr-bepo
     
-* If you don't have ethernet, you can configure your wifi connection in commandline through https://www.mankier.com/1/iwctl
+* If you don't have ethernet, you can configure your wifi connection in commandline through https://www.mankier.com/1/iwctl    
+    
     iwctl
     
-Retrieve your device ogenerally wlan0    
+Retrieve your device ogenerally wlan0
+    
     station list
 
 Retrieve your network
