@@ -46,6 +46,7 @@ Drivers are the kernel but need to have firmware from non-free repository if you
 ## Window Manager : Bspwm
 
     sudo apt install bspw
+    mkdir -p ~/.config/bspwm
     cd ~/.config/bspwm
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/bspwm/bspwmrc
     chmod a+x bspwmrc
@@ -53,27 +54,30 @@ Drivers are the kernel but need to have firmware from non-free repository if you
 ## Hot Key daemon : sxhkd
 
     sudo apt install sxhkd
+    mkdir -p ~/.config/sxhkd
     cd ~/.config/sxhkd
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/sxhkd/sxhkdrc
     
 
 ### Installation of software started with bspwm session
+
     sudo apt install feh compton sxhkd
     
 #### Theme
+
     sudo apt install fonts-ubuntu lxappearance
 
 On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 
 On Other, set Toolbar Style Icons only and Small toolbar icon
-
+    
     sudo apt install qt5ct
  
  On Appearance, Set Adwait-dark
  
  Add in your .profile or .bashrc
  
-     export QT_QPA_PLATFORMTHEME="qt5ct"
+    export QT_QPA_PLATFORMTHEME="qt5ct"
  
  It seems working on quasi all qt applications, only menu in cura are not themed.
  
@@ -85,7 +89,6 @@ If after the start of bspwm the layout is not correct (compared to the one in lo
 
 ## Update to testing in the /etc/apt/source.list
 Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
-
     sudo micro /etc/apt/sources.list
     
     # See https://wiki.debian.org/SourcesList for more information.
@@ -101,11 +104,14 @@ Update /etc/apt/sources.list by adding contrib non-free repos, update to testing
 # Software Installation
 
 ## From apt 
+    
     sudo apt update
 
 ### Accessories
 #### File Editor
+    
     sudo apt install micro
+    
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 
 Adopted only to build Marlin with Platformio plugin : vscode (really slow to start at least 2-3 s on my machine, take >100mo, )
@@ -114,13 +120,16 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 
 
 #### Archive Manager
+    
     sudo apt install file-roller
     
 #### Window Compositor (optional)
+    
     sudo apt install compton
 
 
 #### Pdf Document Viewer
+    
     sudo apt install zathura
 
 Adopted : zathura (low memory, simple)
@@ -133,16 +142,19 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
     
     
 #### Menu for launcher
+    
     sudo apt install alacarte
 
 ### Education
 
 #### Typing Learning
+    
     sudo apt install klavaro
 
 ### Graphics  
 
 #### Image Viewer
+    
     sudo apt install sxiv
     sudo apt install feh
     sudo apt install eog
@@ -157,6 +169,7 @@ Adopted as second choice just for printing quickly : eog
 Adopted for manipulating image : shotwell
 
 #### Image Manager (if you want to classify your pictures)
+    
     sudo apt install digikam 
     
 ### Internet
@@ -179,24 +192,29 @@ Plugins
 Configuration
 In brave://flags/ set dark to true
 
-* Firefox / Chromium
+Firefox / Chromium
+    
     sudo apt install firefox-esr wget curl
     sudo apt install chromium 
     
 #### Torrent Client
+
     sudo apt install transmission transmission-cli
 
 #### Mail Client
+    
     sudo apt-get install thunderbird-l10n-fr
     
 TODO Fix dark theme for readonly mail with shadowBird on github ?    
     
 ### Office
+    
     sudo apt install libreoffice
     sudo apt install asciidoctor
 
 ### Sound & Video
 #### Video Player
+    
     sudo apt install mpv
 
 Adopted : mpv (only video, light)
@@ -204,6 +222,7 @@ Adopted : mpv (only video, light)
 Tested but not adopted : vlc (have menu)
 
 #### Music Player
+    
     sudo apt install moc
 
 Adopted : moc (terminal music player)
@@ -215,20 +234,25 @@ Tested but not adopted : clementine (more memory)
 Tested but not adopted : rhythmnbox (more memory)
 
 #### DVD Ripper
+    
     sudo apt install handbrake
 
 #### DVD Burner
+    
     sudo apt install brasero
     
 #### Audio Controller 
+    
     sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
     
     
 ### Utilities   
+    
     sudo apt install cargo policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc
     cargo install skim bat lsd
     
 Usefull command with fzf
+    
     xdg-open $(sk --preview 'cat {}')
     micro $(sk --preview 'cat {}')
     
@@ -236,12 +260,15 @@ TODO skim (just tar to unzip closed to fzf), as-tree just launch a cargo command
    
 
 #### Book Manager (if you use kindle)
+    
     sudo apt install calibre
 
 ### System Tools
+    
     sudo apt install cargo
 
 #### File Explorer
+    
     sudo apt install thunar thunar-archive-plugin
 
 Adopted : thunar
@@ -252,6 +279,7 @@ find a way for long copy (no async task) + smb/dav/usb drive not manage by defau
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
+    
     sudo apt install rxvt-unicode bash-completion
 
 Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
@@ -264,11 +292,13 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
 
 
 #### Launcher
+    
     sudo apt install rofi
 
 Adopted rofi : very fast and manage window selection.
 
 #### Monitor
+    
     sudo apt install htop
 
 Adopted htop : fast, low memory usage and customizable
@@ -291,28 +321,35 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
 
 
 #### Disks
+    
     sudo apt install baobab gnome-disk-utility udiskie ncdu 
     cargo install diskonaut
     
 
 #### Scanner
+    
     sudo apt install simple-scan
 
 Adopted simple-scan : works, no concurrency.
     
-#### Printer Server    
+#### Printer Server
+
     sudo apt install task-print-server system-config-printer
    
 ### Preferences / Control Center
+    
     sudo apt install lxappearance qt5ct
 
 ### Login 
+    
     sudo apt install lightdm
 
 ### Lock
+    
     sudo apt install light-locker
     
 ### Panel Bar (optional)
+    
     sudo apt install polybar
 
 Tested but not selected polybar : moving window with openbox works, higly customisable, transparency but finally no need.
@@ -320,20 +357,24 @@ Tested but not selected polybar : moving window with openbox works, higly custom
 Tested but not selected tint2 : size for moving window with openbox does not any work with %    
     
 ### Font 
+    
     sudo apt install font-manager
     sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
 
 ### Bluetooth (if needed)
+    
     sudo apt install bluetooth blueman 
     
 # Custom Configuration / Installation for some applications
    
 ## Feh (Wallpaper)
+    
     sudo apt install feh
     cd ~/.config/
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/wallpaper.png
 
 ## Polybar (optional)
+    
     sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
     sudo apt install polybar
     mkdir ~/.config/polybar
@@ -343,15 +384,18 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 See the resolution of bug for tray icon transparency https://github.com/polybar/polybar/issues/913
 
 ## Compton (optional)
+    
     sudo apt install compton
     
 Needed if you want to have transparency window notably for polybar.
 
 ## Lightdm
+    
     sudo apt install lightdm
     sudo apt install light-locker
     
 Show config
+    
     lightdm --show-config
 
 Use lightdm-gtk-greeter-settings to configure some options like themes, wallpaper, add keyboard layout.
@@ -368,6 +412,7 @@ Add in your autostart to lock automatically after 300 s (5 min)
     light-locker --lock-after-screensaver 1&
 
 ## Alacarte
+    
     sudo apt install alacarte
     
 Add Items 
@@ -399,9 +444,10 @@ else
     chmod +x sxiv.sh    
 
 ## Rxvt
-   sudo apt install rxvt-unicode
-   wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.Xresources
-   wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.inputrc
+   
+    sudo apt install rxvt-unicode
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.Xresources
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.inputrc
    
 Useful to understand how the terminal manages different keys, use 
 
@@ -413,7 +459,7 @@ or
     
 or in micro, activate raw mode 
 
-   raw
+    raw
    
 ## Lf
 
@@ -424,6 +470,7 @@ Download the package and install in Applications
 
 ### Configuration
     
+    mkdir -p .config/lf
     cd .config/lf
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/lfrc
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/preview.sh
@@ -441,6 +488,7 @@ Remote Commands
     
 
 ## diskie (automount of usb drive)
+    
     sudo apt install udiskie    
     
 Just need to launch udiskie when you need. You can launch at startup or with --tray if want to have notification notably.
@@ -449,18 +497,23 @@ Just need to launch udiskie when you need. You can launch at startup or with --t
 Use a graphical File Manager like Thunar to associate your default application  or command below
 
 #### Open a file with the default application
+    
     xdg-open file.txt
 
 #### See a filetype of a file 
+    
     xdg-mime query filetype photo.jpeg
 
 #### See the default application for a mime type
+    
     xdg-mime query default image/jpeg
 
 #### Default application for a mime type
+    
     xdg-mime default feh.desktop image/jpeg
 
 #### All default application for all mime type
+    
     cat /usr/share/applications/mimeinfo.cache
     cat ~/.local/share/applications/mimeapps.list
 
@@ -503,8 +556,9 @@ Videos : avi,mkv,mp4
     
 
 ## Micro
+    
     sudo apt install micro
-    mkdir ~/.config/micro/
+    mkdir -p ~/.config/micro/
     cd ~/.config/micro
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/binding.json
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/settings.json
@@ -516,6 +570,7 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 ## Firefox
 
 ### Installation
+    
     sudo apt install firefox
 
 ### Configuration
@@ -524,14 +579,17 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 * Reshow Menu bar (to see better polybar)
 
 #### Thunderbird
+    
     sudo apt-get install thunderbird-l10n-fr
     
 TODO Fix dark theme for readonly mail with shadowBird on github ?    
 
 ## Alacarte
+    
     sudo apt install alacarte
 
 ## Java / Kotlin / Maven / Gradle
+    
     curl -s "https://get.sdkman.io" | bash 
     source "$HOME/.sdkman/bin/sdkman-init.sh"
     sdk install java
@@ -541,6 +599,7 @@ TODO Fix dark theme for readonly mail with shadowBird on github ?
     sdk install kscript
     
 ### moc
+    
     sudo apt install moc
     mkdir -p ~/.moc/themes/
     cd ~/.moc/themes/
@@ -555,6 +614,8 @@ Download AppImage of Etcher, add alacarte and run it.
 ## Intellij
 
 ### Configuration
+Add in your .bashrc if you use bspwm as window manager.
+
 Change some shorcuts
 * Editor Actions | Move Caret to Paragraph : CTRL + UP / Down (equivalent)
 * Main menu | Navigate | Search Everywhere : CTRL + L (in addition of Shift / Shift)
@@ -582,6 +643,10 @@ Just to compile Marlin, you can see https://code.visualstudio.com/docs/setup/lin
     sudo apt install code # or code-insiders
 
 
+## Install some webapplication like googlemeet / gmail /google calendar
+Download https://webcatalog.app/ and run the .AppImage .
+
+
 ## Grub
 
     sudo apt install grub-customizer
@@ -596,7 +661,8 @@ You can also change the configuration int /etc/default/grub and update grub.
 # Printer/Scanner
 
 ## Installation
-    sudo apt install task-print-server system-config-printer
+    
+    sudo apt install cups system-config-printer
     
 Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
     
@@ -604,6 +670,8 @@ Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=sho
     
 And go to to configure your printer http://localhost:631/admin or use 
 Install the one with driverless
+
+
 
 
 # Distribution ugrade
