@@ -185,9 +185,33 @@ Brave
     sudo apt install brave-browser
     
 Plugins
-* Vimium
 * CrxMouse
 * Pocket
+* Vimium : use this cs for links
+
+Use
+
+div > .vimiumHintMarker {
+/* linkhint boxes */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#565756),
+color-stop(100%,#242524));
+border: 1px solid #e4e5e4;
+opacity: 1.0;
+text-shadow: none !important;
+}
+
+div > .vimiumHintMarker span {
+/* linkhint text */
+color: #f1f2f1;
+font-weight: normal;
+font-size: 18px;
+font-family: Avenir;
+}
+
+div > .vimiumHintMarker > .matchingCharacter {
+color: #969696;
+}
+
 
 Configuration
 In brave://flags/ set dark to true
