@@ -638,6 +638,12 @@ TODO Fix dark theme for readonly mail with shadowBird on github ?
     cd ~/.moc
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config
     
+### Lsd
+    
+    cargo install lsd
+    mkdir -p ~/.config/lsd
+    cd ~/.config/lsd
+     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lsd/config.yaml
 
 ## Etcher
 Download AppImage of Etcher, add alacarte and run it.
