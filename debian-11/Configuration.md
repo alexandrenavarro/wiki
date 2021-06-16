@@ -328,7 +328,10 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
 #### Screen Management
 
     sudo apt install arandr
+    
+#### Webcam To
 
+    sudo apt install cheese
 
 #### Scanner
     
@@ -338,7 +341,7 @@ Adopted simple-scan : works, no concurrency.
     
 #### Printer Server
 
-    sudo apt install task-print-server system-config-printer
+    sudo apt install cups system-config-printer
    
 ### Preferences / Control Center
     
@@ -631,6 +634,24 @@ Change some shorcuts
 * Main menu | Code | Code Completion : Complete Code Statement : Ctrl + Enter (in addition of Ctrl + Shift + Enter)
 * Main menu | Git : Commit ... : Ctrl + T (in addition of Ctrl + K)
 * Others | Run Context Configuration : F12 (it removes possibility to use last window tool but I don't used)
+
+
+## Slack
+
+### Installation
+
+    sudo apt update
+    sudo apt install snapd
+    sudo snap install core
+
+    sudo snap install slack --classic
+    
+### Configuration
+
+Ajouter dans les menu (alacarte) la commande
+
+    snap run slack
+
 
 ## Visual Studio Code
 
