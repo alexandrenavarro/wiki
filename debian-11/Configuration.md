@@ -324,7 +324,11 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
     
     sudo apt install baobab gnome-disk-utility udiskie ncdu 
     cargo install diskonaut
-    
+
+#### Screen Management
+
+    sudo apt install arandr
+
 
 #### Scanner
     
