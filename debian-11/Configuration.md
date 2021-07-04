@@ -227,14 +227,16 @@ Firefox / Chromium
 
 #### Mail Client
     
-    sudo apt-get install thunderbird-l10n-fr
+Use directly webclient like gmail with 
     
-TODO Fix dark theme for readonly mail with shadowBird on github ?    
+    brave-browser --new-window --app=https://gmail.com/
     
 ### Office
     
     sudo apt install libreoffice
     sudo apt install asciidoctor
+    sudo apt install csvkit
+    
 
 ### Sound & Video
 #### Video Player
