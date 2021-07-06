@@ -234,8 +234,12 @@ Use directly webclient like gmail with
 ### Office
     
     sudo apt install libreoffice
-    sudo apt install asciidoctor
     sudo apt install csvkit
+    
+    sudo apt install asciidoctor
+    sudo gem install asciidoctor-pdf
+    
+    asciidoctor -r asciidoctor-pdf -b pdf file.adoc
     
 
 ### Sound & Video
