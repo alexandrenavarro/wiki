@@ -658,7 +658,6 @@ Download AppImage of Etcher, add alacarte and run it.
 
 ### Configuration
 Add export _JAVA_AWT_WM_NONREPARENTING=1 in the script where you launch intellij if you use bspwm.
-Add -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true in your option if you use bspwm
 
 Change some shorcuts
 * Editor Actions | Move Caret to Paragraph : CTRL + UP / Down (equivalent)
