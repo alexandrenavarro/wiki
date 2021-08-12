@@ -320,6 +320,26 @@ Tested but not selected choice : mate-terminal : more memory but all the binding
 
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
+#### Shell
+
+    sudo apt install zsh
+    
+Oh my zsh
+
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"    
+    
+* Theme
+Use powerlevel10 (see the site to install)
+https://github.com/romkatv/powerlevel10
+
+* Plugins
+git
+mvn
+
+
+Check intellij
+Check ctrlt shift gauche
+
 
 #### Launcher
     
