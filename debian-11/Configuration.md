@@ -343,6 +343,10 @@ Configure the font in your (ex in for rxvt in .XResources)
 
 URxvt.font: xft:MesloLGS NF:size=11
 
+Configure your zsh shell as the default one
+
+    chsh -s $(which zsh)
+
 
 * Core Plugins 
 git
@@ -350,7 +354,9 @@ mvn
 
 * External Theme
 
-Check intellij
+* Problems to fix
+
+ ** Check intellij
 Check ctrlt shift gauche
 
 
