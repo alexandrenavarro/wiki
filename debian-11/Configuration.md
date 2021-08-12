@@ -322,20 +322,33 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
 
 #### Shell
 
+Installation of the zsh shell
+
     sudo apt install zsh
     
-Oh my zsh
+Installation of plugins manager of zsh : Oh my zsh
 
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"    
     
-* Theme
-Use powerlevel10 (see the site to install)
-https://github.com/romkatv/powerlevel10
+External Theme
 
-* Plugins
+Install external theme powerlevel10k (https://github.com/romkatv/powerlevel10k#get-started).
+Caution you have to install also the recommanded MesloLGS NF Regular font.
+
+Configure your powerlevel10k
+
+    p10k configure
+    
+Configure the font in your (ex in for rxvt in .XResources)
+
+URxvt.font: xft:MesloLGS NF:size=11
+
+
+* Core Plugins 
 git
 mvn
 
+* External Theme
 
 Check intellij
 Check ctrlt shift gauche
