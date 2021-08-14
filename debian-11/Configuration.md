@@ -281,6 +281,14 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo apt install cargo policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc bsdmainutils
     cargo install skim bat lsd 
     
+#### Finder
+
+    sudo apt install fd-find
+    
+#### Fuzzy Finder    
+    
+    cargo install skim
+    
 Usefull command with fzf
     
     xdg-open $(sk --preview 'cat {}')
@@ -301,16 +309,16 @@ TODO skim (just tar to unzip closed to fzf), as-tree just launch a cargo command
     
     sudo apt install thunar thunar-archive-plugin
 
-Adopted : thunar
+Adopted : lf (terminal), 
 
-Adopted (second choice) : lf (terminal), 
+Adopted (second choice) : thunar.
 find a way for long copy (no async task) + smb/dav/usb drive not manage by default.
 
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
     
-    sudo apt install rxvt-unicode bash-completion
+    sudo apt install rxvt-unicode
 
 Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
 
@@ -326,13 +334,14 @@ Installation of the zsh shell
 
     sudo apt install zsh
     
-Installation of plugins manager of zsh : Oh my zsh
+Installation of plugins manager of zsh : Antigen
 
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"    
+    curl -L git.io/antigen > antigen.zsh
     
-External Theme
+Theme
 
-Install external theme powerlevel10k (https://github.com/romkatv/powerlevel10k#get-started).
+Use romkatv/powerlevel10k
+
 Caution you have to install also the recommanded MesloLGS NF Regular font.
 
 Configure your powerlevel10k
@@ -347,17 +356,9 @@ Configure your zsh shell as the default one
 
     chsh -s $(which zsh)
 
+Plugins
 
-* Core Plugins 
-git
-mvn
-
-* External Theme
-
-* Problems to fix
-
- ** Check intellij
-Check ctrlt shift gauche
+See my .zshrc file.
 
 
 #### Launcher
