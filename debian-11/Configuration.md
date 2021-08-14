@@ -654,11 +654,6 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 * Install fox gesture plugin
 * Reshow Menu bar (to see better polybar)
 
-#### Thunderbird
-    
-    sudo apt-get install thunderbird-l10n-fr
-    
-TODO Fix dark theme for readonly mail with shadowBird on github ?    
 
 ## Alacarte
     
