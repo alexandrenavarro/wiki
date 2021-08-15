@@ -278,7 +278,7 @@ Tested but not adopted : rhythmnbox (more memory)
     
 ### Utilities   
     
-    sudo apt install cargo policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc bsdmainutils libnotify
+    sudo apt install cargo policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc bsdmainutils libnotify entr
     cargo install skim bat lsd 
     
 #### Finder
