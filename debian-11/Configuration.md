@@ -609,6 +609,9 @@ Text Editor : txt,sh,markdown -> micro
     xdg-mime default micro.desktop text/x-gradle
     xdg-mime default micro.desktop application/xml
     xdg-mime default micro.desktop application/x-shellscript
+    xdg-mime default micro.desktop application/javascript
+    xdg-mime default micro.desktop application/xml
+
     
 
 Image Viewer : jpg/png/gif -> default sxiv
