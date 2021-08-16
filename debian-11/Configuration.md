@@ -619,6 +619,7 @@ Image Viewer : jpg/png/gif -> default sxiv
     xdg-mime default sxiv.desktop image/jpeg
     xdg-mime default sxiv.desktop image/png
     xdg-mime default sxiv.desktop image/gif
+    xdg-mime default sxiv.desktop image/bmp
 
 Document Viewer : pdf -> org.pwmt.zathura-pdf-poppler.desktop
 
