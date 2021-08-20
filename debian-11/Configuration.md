@@ -321,8 +321,10 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
     sudo apt install rxvt-unicode
     
 Requirements by order of pric :
-* Fast
-* These hortcuts in micro : home, ctrl+Left, ctrl+right, end with shift or not, ctrl+home, ctrl+end, ctrl+down, ctrl+up}
+* Fast (less than 500 ms to start) and fast to write output and readinput (no latency detected).
+* These shortcuts in micro must work :
+  * navigate : home, left, down, up, right, end, ctrl+Left, ctrl+down, ctrl+up, ctrl+right, ctrl+home, ctrl+end.
+  * selection : shift+home, shift+left, shift+down, shift+up, shift+right, shift+end, shift+ctrl+Left, shift+ctrl+down, shift+ctrl+up(optional), shift+ctrl+right(optional), shift+ctrl+home(optional), shift+ctrl+end (optional).
 * These shortcuts in terminal : home, ctrl+Left, ctrl+right, end, shift+home ctrl+x, shift+ctrl+left ctrl+x, shift+ctrl+right ctrl+x, shift+end ctrl+x
 * Working Copy / Paste without mouse :
   *  from external app (ctrl+c) to command line (ctrl+shift+v or equivalent)
@@ -330,8 +332,8 @@ Requirements by order of pric :
   *  from micro (ctrl+c) to external app (ctrl+v)
   *  from external app (ctrl+c) to micro (ctrl+v)
   *  from selection of the output (what ever) to external app (ctrl+v)
-* True color (for previewing image through chafa in more color)
-* Lightweigh in memory if possible.
+* True color for previewing image through chafa in more color (optional)
+* Lightweight as possible in memory (optional)
 
 Adopted rxvt : faster, shortcuts ok with config,low memory usage of any other terminal but no true color and select mode not easily configurable (10-20mo)
 
