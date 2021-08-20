@@ -319,8 +319,18 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
 #### Terminal
     
     sudo apt install rxvt-unicode
+    
+Requirements by order of pric :
+* Fast
+* These hortcuts in micro : home, ctrl+Left, ctrl+right, end with shift or not, ctrl+home, ctrl+end, ctrl+down, ctrl+up}
+* These shortcuts in terminal : home, ctrl+Left, ctrl+right, end, shift+home ctrl+x, shift+ctrl+left ctrl+x, shift+ctrl+right ctrl+x, shift+end ctrl+x
+* select mode
+* True color (for previewing image through chafa in more color)
+* Lightweigh in memory if possible.
 
-Adopted rxvt : faster and low memory usage of any other terminal (10-20mo)
+Adopted rxvt : faster, shortcuts ok with config,low memory usage of any other terminal but no true color and select mode not easily configurable (10-20mo)
+
+Adopter secondly alacritty : faster and d (10-20mo)
 
 Tested but not selected choice : ssterm, faster and low memory usage but need to recompile to add some feature, some Shift+End / Shift+Home does not work by default with micro.
 
