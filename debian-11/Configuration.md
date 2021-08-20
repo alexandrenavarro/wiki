@@ -320,7 +320,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
     
     sudo apt install rxvt-unicode
     
-Requirements by order of pric :
+Requirements by order of priority :
 * Fast (less than 500 ms to start) and fast to write output and readinput (no latency detected).
 * These shortcuts in micro must work :
   * navigate : home, left, down, up, right, end, ctrl+Left, ctrl+down, ctrl+up, ctrl+right, ctrl+home, ctrl+end.
@@ -331,14 +331,21 @@ Requirements by order of pric :
   *  from commandline (cppath, cpfile, cpbuffer) to external app (ctrl+v)
   *  from micro (ctrl+c) to external app (ctrl+v)
   *  from external app (ctrl+c) to micro (ctrl+v)
-  *  from selection of the output (what ever) to external app (ctrl+v)
+  *  from selection of the output (what ever) to external app (ctrl+v), a select mode
+* Must work with lf notably with the script to preview or unpreview base if lf is focus or not.
 * True color for previewing image through chafa in more color (optional)
 * Lightweight as possible in memory (optional)
 
-Adopted rxvt : faster, shortcuts ok with config,low memory usage of any other terminal but no true color and select mode not easily configurable (10-20mo)
+Not required at all :
+* tabs (I used a tiling window manager)
+* layout management (I used a tiling window manager)
 
-Adopter secondly alacritty : faster and d (10-20mo)
 
+Adopted alacritty : faster, shortcuts ok, copy/paste ok, lf ok, have true color but no so lightweight in memory (80-100mo)
+
+Adopted previously rxvt : fast, shortcuts ok with config,  works well with lf, low memory usage of any other terminal but have some trouble with copy/paste (copy from external app, select mode), no true color (10-20mo)
+
+To retest : kitty.
 Tested but not selected choice : ssterm, faster and low memory usage but need to recompile to add some feature, some Shift+End / Shift+Home does not work by default with micro.
 
 Tested but not selected choice : mate-terminal : more memory but all the binding in micro work well.
