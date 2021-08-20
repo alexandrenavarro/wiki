@@ -324,7 +324,12 @@ Requirements by order of pric :
 * Fast
 * These hortcuts in micro : home, ctrl+Left, ctrl+right, end with shift or not, ctrl+home, ctrl+end, ctrl+down, ctrl+up}
 * These shortcuts in terminal : home, ctrl+Left, ctrl+right, end, shift+home ctrl+x, shift+ctrl+left ctrl+x, shift+ctrl+right ctrl+x, shift+end ctrl+x
-* select mode
+* Working Copy / Paste without mouse :
+  *  from external app (ctrl+c) to command line (ctrl+shift+v or equivalent)
+  *  from commandline (cppath, cpfile, cpbuffer) to external app (ctrl+v)
+  *  from micro (ctrl+c) to external app (ctrl+v)
+  *  from external app (ctrl+c) to micro (ctrl+v)
+  *  from selection of the output (what ever) to external app (ctrl+v)
 * True color (for previewing image through chafa in more color)
 * Lightweigh in memory if possible.
 
