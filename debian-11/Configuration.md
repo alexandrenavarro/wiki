@@ -362,14 +362,22 @@ Installation of the zsh shell
 
     sudo apt install zsh
     
-Installation of plugins manager of zsh : Antigen
-
-    curl -L git.io/antigen > antigen.zsh
     
 Theme
 
-Use romkatv/powerlevel10k
+Install first a font manager, che
 
+    sudo apt install font-manager
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
+    echo 'source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+    mkdir -p ~/.fonts
+    cd ~/.fonts
+    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
+    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
+    
+    
 Caution you have to install also the recommanded MesloLGS NF Regular font.
 
 Configure your powerlevel10k
