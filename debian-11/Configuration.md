@@ -310,9 +310,9 @@ TODO skim (just tar to unzip closed to fzf), as-tree just launch a cargo command
     sudo apt install thunar thunar-archive-plugin
 
 Adopted : lf (terminal), 
+find a way smb/dav not manage by default (just a bash script).
 
 Adopted (second choice) : thunar.
-find a way for long copy (no async task) + smb/dav/usb drive not manage by default.
 
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
