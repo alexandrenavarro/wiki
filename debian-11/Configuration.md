@@ -733,10 +733,9 @@ Change some shorcuts
 * Main menu | Navigate | Forward : Alt + Right (in addition of ALT + CTRL + Right)
 * Main menu | Navigate | Go to Implementation : Shift + F4
 * Main menu | Tool Window | Project : Alt + Shift + "
-* Main menu | Edit | Find Usages | Find Usages : Ctrl + H (in addition of Alt + F7)
+* Main menu | Edit | Find Usages | Find Usages : Ctrl + F3 (in addition of Alt + F7)
 * Main menu | Code | Code Completion : Complete Code Statement : Ctrl + Enter (in addition of Ctrl + Shift + Enter)
 * Tools Windows | Terminal : F12 (it removes possibility to use last window tool but I don't used)
-* Others | Run Context Configuration : To define (it removes possibility to use last window tool but I don't used)
 
 
 ## Slack
