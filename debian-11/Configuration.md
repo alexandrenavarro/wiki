@@ -144,6 +144,10 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
 #### Menu for launcher
     
     sudo apt install alacarte
+    
+Example Config for a terminal app with alacritty terminal.
+    
+    alacritty --class lf -t lf -e lf
 
 ### Education
 
