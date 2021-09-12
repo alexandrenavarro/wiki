@@ -817,6 +817,8 @@ Install the one with driverless
 
 
 
+
+
 # Distribution ugrade
 
 Update your /etc/apt/source.list
@@ -824,6 +826,20 @@ Update your /etc/apt/source.list
     sudo apt update 
     sudo apt upgrade
     sudo apt dist-upgrade
+
+
+# Laptop specific
+
+## Wakeup when keyboard/mouse is touch.
+
+See configuration of wakeup 
+    
+    grep . /sys/bus/usb/devices/*/power/wakeup
+
+Change configuration of wakeup of usb devices 
+
+    sudo su
+    sudo echo enabled > /sys/bus/usb/devices/usb1/power/wakeup
 
 
 # Configuration to do to have the same shortcuts as Windows
