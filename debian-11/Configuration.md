@@ -239,11 +239,18 @@ Use directly webclient like gmail with
     
     sudo apt install libreoffice
     sudo apt install csvkit
-    
+
+#### Ascidoctor
+
     sudo apt install asciidoctor
     sudo gem install asciidoctor-pdf
     
     asciidoctor -r asciidoctor-pdf -b pdf file.adoc
+    
+#### Markdown
+
+    sudo apt install pandoc texlive-latex-extra
+    pandoc -o dest.pdf source.md
     
 
 ### Sound & Video
