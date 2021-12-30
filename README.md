@@ -16,7 +16,7 @@ I used as main personal OS :
 
 Arch (Curently used)
 ------
-[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/debian-11/Configuration.md)
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/arch/Configuration.md)
 
 Debian 11 (Buster) 
 ------
