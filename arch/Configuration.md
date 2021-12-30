@@ -241,6 +241,7 @@ Adopted for manipulating image : shotwell
 Brave
     yay -S brave-bin
     
+    
 Plugins
 * CrxMouse
 * Pocket
@@ -273,9 +274,11 @@ color: #969696;
 Configuration
 In brave://flags/ set dark to true
 
-Firefox / Chromium
+Firefox / Tor Browser
     
     sudo pacman -S firefox wget curl
+    sudo pacman -S torbrowser-launcher
+    
     
 #### Torrent Client
 
@@ -543,7 +546,11 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 ### Development tools 
    
    sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
-   
+
+
+### Flash ISO on usb stick
+
+    yay -S balena-etcher
     
 # Custom Configuration / Installation for some applications
    
