@@ -279,29 +279,29 @@ Firefox / Chromium
     
 #### Torrent Client
 
-    sudo apt install transmission transmission-cli
+    sudo pacman -S transmission-gtk transmission-cli
 
 #### Mail Client
     
 Use directly webclient like gmail with 
     
-    brave-browser --new-window --app=https://gmail.com/
+    brave --new-window --app=https://gmail.com/
     
 ### Office
     
-    sudo apt install libreoffice
-    sudo apt install csvkit
+    sudo pacman -S libreoffice-fresh-fr
+    sudo pacman -S csvkit
 
 #### Ascidoctor
 
-    sudo apt install asciidoctor
-    sudo gem install asciidoctor-pdf
+    sudo pacman -S asciidoctor
+    yay -S asciidoctor-pdf
     
     asciidoctor -r asciidoctor-pdf -b pdf file.adoc
     
 #### Markdown
 
-    sudo apt install pandoc texlive-latex-extra
+    sudo apt install pandoc  texlive-core
     pandoc -o dest.pdf source.md
     
 
