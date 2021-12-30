@@ -108,11 +108,11 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
     sudo pacman -S rofi
 
 
-### Wallpaper
+## Wallpaper Manager
 
     sudo pacman -S feh
     
-#### Theme
+## Theme
 
     sudo apt install  ttf-ubuntu-font-family lxappearance
 
@@ -133,33 +133,49 @@ On Other, set Toolbar Style Icons only and Small toolbar icon
  See https://wiki.manjaro.org/index.php/Set_all_Qt_app%27s_to_use_GTK%2B_font_%26_theme_settings
  
 
-### Keyboard Layout
-If after the start of bspwm the layout is not correct (compared to the one in login manager), check throught bar / keyboard layout manager is correctly set with Bus Preference notably
-
-## Update to testing in the /etc/apt/source.list
-Update /etc/apt/sources.list by adding contrib non-free repos, update to testing and comment security repository
-    sudo micro /etc/apt/sources.list
-    
-    # See https://wiki.debian.org/SourcesList for more information.
-    deb http://deb.debian.org/debian testing main contrib non-free
-    deb-src http://deb.debian.org/debian testing main contrib non-free
-
-    deb http://deb.debian.org/debian testing-updates main contrib non-free
-    deb-src http://deb.debian.org/debian testing-updates main contrib non-free
-
-    #deb http://security.debian.org/debian-security/ testing/updates main
-    #deb-src http://security.debian.org/debian-security/ testing/updates main
 
 # Software Installation
 
-## From apt 
+## From pacman 
+
+### Update packages
+
+    sudo pacman -Syu
     
-    sudo apt update
+Set an france miro
+
+    ## France
+    Server = http://mir.archlinux.fr/$repo/os/$arch
+
+### Install package
+
+    sudo pacman -S git
+
+### Remove package
+    
+    sudo pacman -Rns git
+
+### Clean package cache
+
+    pacman -Sc
+    
+### Clean obsolete package
+
+    sudo pacman -Rns $(pacman -Qqdt)
+    
+
+## From yay
+
+    pacman -S --needed git base-devel
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si
+
 
 ### Accessories
 #### File Editor
     
-    sudo apt install micro
+    sudo pacman -S micro
     
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 
@@ -170,20 +186,16 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 
 #### Archive Manager
     
-    sudo apt install file-roller
-    
-#### Window Compositor (optional)
-    
-    sudo apt install compton
-
+    sudo pacman -S file-roller
+   
 
 #### Pdf Document Viewer
     
-    sudo apt install zathura
+    sudo pacman -S zathura atril
 
 Adopted : zathura (low memory, simple)
 
-Tested but not select : atril (basic menu)
+Adopted (for printing) : atril (basic menu + print correctly)
 
 Tested but not selected : onkular (too many dependency to qt).
 
