@@ -359,15 +359,13 @@ Usefull command with fzf
 
 #### Book Manager (if you use kindle)
     
-    sudo apt install calibre
+    sudo pacman -S calibre
 
-### System Tools
-    
-    sudo apt install cargo
 
 #### File Explorer
     
-    sudo apt install thunar thunar-archive-plugin
+    sudo pacman -S thunar thunar-archive-plugin
+    yay -S lf-bin
 
 Adopted : lf (terminal), 
 find a way smb/dav not manage by default (just a bash script).
@@ -378,7 +376,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Terminal
     
-    sudo apt install rxvt-unicode
+    sudo pacman -S alacritty rxvt-unicode
     
 Requirements by order of priority :
 * Fast (less than 500 ms to start) and fast to write output and readinput (no latency detected).
@@ -416,7 +414,7 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
 
 Installation of the zsh shell
 
-    sudo apt install zsh
+    sudo pacman -S zsh
     
     
 Theme
@@ -463,7 +461,7 @@ See my .zshrc file.
 
 #### Monitor
     
-    sudo apt install htop
+    sudo pacman -S htop
 
 Adopted htop : fast, low memory usage and customizable
 
@@ -472,6 +470,9 @@ Tested but not selected gnome-monitor-systeme : use more memory, less informatio
 Tested but not selected mate-monitor-system : use more memory, less information
 
 #### System Tray
+
+    sudo pacman -S htop
+
 Adopted polybar : works quasi-perfectly with transparency.
 
 Tested trayer but not select : problem transparency
@@ -480,32 +481,34 @@ Tested stanfolonetray but not select : problem transparency
 
 
 #### Notification
-TODO Test dunst or Deadd Notification Center ?
+
+    sudo pacman -S dunst
+    
+Adopted : dunst (simple)
 See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd Notification Center 
 
 
 #### Disks
     
-    sudo apt install baobab gnome-disk-utility udiskie ncdu 
-    cargo install diskonaut
+    sudo pacman -S baobab gnome-disk-utility udiskie ncdu
 
 #### Screen Management
 
-    sudo apt install arandr
+    sudo pacman -S arandr
     
 #### Webcam To
 
-    sudo apt install cheese
+    sudo pacman -S cheese
 
 #### Scanner
     
-    sudo apt install simple-scan
+    sudo pacman -S simple-scan
 
 Adopted simple-scan : works, no concurrency.
     
 #### Printer Server
 
-    sudo apt install cups system-config-printer
+    sudo pacman -S cups system-config-printer
    
 ### Preferences / Control Center
     
