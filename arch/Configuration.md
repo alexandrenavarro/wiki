@@ -496,7 +496,7 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
     sudo pacman -S baobab gnome-disk-utility udiskie ncdu
     
     
-### Flash ISO on usb stick
+#### Flash ISO on usb stick
 
     yay -S balena-etcher    
 
@@ -551,12 +551,13 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 ### Development tools 
    
 #### JVM    
-   sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
+   
+    sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
 
 #### VS Code
 Just for compiling marlin
 
-   sudo yay -S visual-studio-code-bin
+    sudo yay -S visual-studio-code-bin
 
 
 
@@ -800,10 +801,6 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
      wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lsd/config.yaml
     
 
-## Etcher
-Download AppImage of Etcher, add alacarte and run it.
-
-
 ## Intellij
 
 ### Installation
@@ -832,30 +829,6 @@ Change some shorcuts
 * Tools Windows | Terminal : F12 (it removes possibility to use last window tool but I don't used)
 
 
-## Slack
-
-### Installation
-
-    sudo apt update
-    sudo apt install snapd
-    sudo snap install core
-
-    sudo snap install slack --classic
-    
-### Configuration
-
-Ajouter dans les menu (alacarte) la commande
-
-    snap run slack
-
-
-## Visual Studio Code
-
-Just to compile Marlin, you can see https://code.visualstudio.com/docs/setup/linux.
-
-
-
-
 ## Grub
 
     sudo pacman -S grub-customizer
@@ -880,7 +853,6 @@ Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=sho
     
 And go to to configure your printer http://localhost:631/admin or use 
 Install the one with driverless
-
 
 
 
