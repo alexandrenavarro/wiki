@@ -114,7 +114,7 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
     
 #### Theme
 
-    sudo apt install fonts-ubuntu lxappearance
+    sudo apt install  ttf-ubuntu-font-family lxappearance
 
 On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 
