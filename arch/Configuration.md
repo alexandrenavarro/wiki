@@ -331,9 +331,13 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
     sudo pacman -S jdk-openjdk kotlin maven gradle 
     
 #### IDE    
+
     sudo pacman -S intellij-idea-community-edition
     sudo yay -S  intellij-idea-ultimate-edition
 
+#### Rest client
+
+    sudo pacman -S 
 
 
 ### Multimedia
