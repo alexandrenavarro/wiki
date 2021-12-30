@@ -788,19 +788,21 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 Download AppImage of Etcher, add alacarte and run it.
 
 
-## Development tools 
-
-### Java / Kotlin / Maven / Gradle
-   
-   sudo pacman -S jdk-openjdk kotlin maven gradle
-
-### Intellij
-
-
 ## Intellij
 
+### Installation
+
+    sudo pacman -S intellij-idea-community-edition
+
 ### Configuration
-Add export _JAVA_AWT_WM_NONREPARENTING=1 in the script where you launch intellij if you use bspwm.
+
+If you use bspwm, add 
+    
+    export _JAVA_AWT_WM_NONREPARENTING=1
+
+to launch just after comment # Run the IDE.
+
+    sudo micro /usr/share/idea/bin/idea.sh
 
 Change some shorcuts
 * Editor Actions | Move Caret to Paragraph : CTRL + UP / Down (equivalent)
