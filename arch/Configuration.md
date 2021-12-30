@@ -547,6 +547,9 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     
     sudo pacman -S blueman 
     
+### Chat (Slack)
+
+    yay -S slack-desktop
     
 ### Development tools 
    
@@ -637,7 +640,7 @@ else
 ## Sxiv
 
     sudo pacman -S sxiv
-    cd ~/Applications/
+    cd ~/bin/
     wget https://raw.githubusercontent.com/alexandrenavarro/scripts/main/sxiv.sh
     chmod +x sxiv.sh    
 
@@ -768,21 +771,7 @@ See select Next/Previous Paragraph https://github.com/zyedidia/micro/issues/1968
 
 Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mate-terminal).
 
-## Firefox
 
-### Installation
-    
-    sudo pacman -S firefox
-
-### Configuration
-* Install vimium plugin
-* Install fox gesture plugin
-* Reshow Menu bar (to see better polybar)
-
-
-## Alacarte
-    
-    sudo pacman -S alacarte
     
 ## moc
     
