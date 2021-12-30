@@ -12,7 +12,7 @@ Installation and configuration of the different sofware must result to :
 * Have a dark theme (adwaita-dark with lxappearance / qt5ct)
 
 
-# Installation
+# Installation (through arc iso + archifi install script, harder)
 Download last arch iso.
 
 ## Basic Configuration to install arch
@@ -20,6 +20,7 @@ Set your keyboard layout
     
     loadkeys fr
     loadkeys fr-bepo
+    # rlaisp^ eo=kpjl (write the line above on qwerty)
     
 If you don't have ethernet, you can configure your wifi connection in commandline through https://www.mankier.com/1/iwctl    
     
@@ -47,6 +48,34 @@ Download and run archfi installer
     
 If you have an EFI pc, set your /boot on your efi partition
 
+
+# Installation (through Calam-Arch-Installer, easier)
+
+Download Calam-Arch-Installer iso.
+
+On partition config, don't forget to create /boot/efi partition (needed on efi generally the case on machine post 2016).
+
+Select only the package needed (on a desktop AMD cpu):
+    base-devel
+    pacman-contrib
+    xorg-server
+    xorg-init
+    xf86-input-libinput
+    networkmanager
+    grub
+    efibootmgr
+    dosfstools
+    amd-ucode
+    efitools
+    
+Select only the package for video (with amd/ati gpu)
+    xf86-video-amdgpu
+
+Select at least one desktop environmet + d (I let mate but it will be remove once bspwm + sxhkd will be installed)
+    mate
+    lightdm
+    lightdm-gtk-greeter
+    lightdm-gtk-greeter-settings
 
 # Post Installation
 TODO
