@@ -3,8 +3,22 @@ Alexandre Navarro's Wiki
 
 OS for pc (Linux/Windows)
 =========
+I used as main personal OS :
+* Arch (2022-20xx)
+* Debian (testing) (2020-2021)
+* Ubuntu (mid 2005-2019)
+* Debian (testing) (end 2004 - mid 2005)
+* Mandrake (end 2003 - end 2004)
+* Windows XP (end 2001 - end 2003)
+* Windows 98 (mid 1998 - end 2001)
+* Windows 95 (end 1995 - mid 1998)
 
-Debian 11 (Buster) (Curently used)
+
+Arch (Buster) (Curently used)
+------
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/debian-11/Configuration.md)
+
+Debian 11 (Buster) 
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/debian-11/Configuration.md)
 
