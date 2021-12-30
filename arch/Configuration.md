@@ -204,7 +204,7 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
     
 #### Menu for launcher
     
-    sudo apt install alacarte
+    sudo pacman -S alacarte
     
 Example Config for a terminal app with alacritty terminal.
     
