@@ -339,26 +339,23 @@ Tested but not adopted : rhythmnbox (more memory)
 
     
     
-### Utilities   
+### Utilities
     
-    sudo apt install cargo policykit-1-gnome xdotool fdupes git jq unrar-free p7zip exfat-utils exfat-fuse rename odt2txt catdoc exif bat fzf autojump fd-find arc bsdmainutils libnotify entr font-manager
-    cargo install skim bat lsd 
+    sudo pacman -S xdotool fdupes git jq unrar p7zip exfat-utils renameutils odt2txt catdoc bat fzf fd libnotify entr skim bat lsd
     
 #### Finder
 
-    sudo apt install fd-find
+    sudo pacman -S  fd
     
 #### Fuzzy Finder    
     
-    cargo install skim
+    sudo pacman -S skim
     
 Usefull command with fzf
     
     xdg-open $(sk --preview 'cat {}')
     micro $(sk --preview 'cat {}')
-    
-TODO skim (just tar to unzip closed to fzf), as-tree just launch a cargo command, alias to add fdfind    
-   
+       
 
 #### Book Manager (if you use kindle)
     
