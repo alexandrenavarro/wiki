@@ -494,6 +494,11 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
 #### Disks
     
     sudo pacman -S baobab gnome-disk-utility udiskie ncdu
+    
+    
+### Flash ISO on usb stick
+
+    yay -S balena-etcher    
 
 #### Screen Management
 
@@ -545,12 +550,16 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     
 ### Development tools 
    
+#### JVM    
    sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
 
+#### VS Code
+Just for compiling marlin
 
-### Flash ISO on usb stick
+   sudo yay -S visual-studio-code-bin
 
-    yay -S balena-etcher
+
+
     
 # Custom Configuration / Installation for some applications
    
@@ -844,24 +853,12 @@ Ajouter dans les menu (alacarte) la commande
 
 Just to compile Marlin, you can see https://code.visualstudio.com/docs/setup/linux.
 
-### Install
 
-    wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-    sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
-    sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-
-    sudo apt install apt-transport-https
-    sudo apt update
-    sudo apt install code # or code-insiders
-
-
-## Install some webapplication like googlemeet / gmail /google calendar
-Download https://webcatalog.app/ and run the .AppImage .
 
 
 ## Grub
 
-    sudo apt install grub-customizer
+    sudo pacman -S grub-customizer
 
 Use Grub Customizer to set the different settings you want, save and install to mbr.
 Be sure your mbr you changed is the one launched by the motherboard (or re-set in the bios) notably if you installed another linux distribution on another disk drive.
@@ -873,8 +870,9 @@ You can also change the configuration int /etc/default/grub and update grub.
 # Printer/Scanner
 
 ## Installation
-    
-    sudo apt install cups system-config-printer
+
+TODO 
+    sudo pacman -S cups system-config-printer
     
 Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
     
@@ -886,29 +884,13 @@ Install the one with driverless
 
 
 
-
-
-# Distribution ugrade
-
-Update your /etc/apt/source.list
-
-    sudo apt update 
-    sudo apt upgrade
-    sudo apt dist-upgrade
-
-
 # Laptop specific
 
-## Wakeup when keyboard/mouse is touch.
+## Auto-cpu freq
 
-See configuration of wakeup 
-    
-    grep . /sys/bus/usb/devices/*/power/wakeup
+TODO
 
-Change configuration of wakeup of usb devices 
-
-    sudo su
-    sudo echo enabled > /sys/bus/usb/devices/usb1/power/wakeup
+https://github.com/AdnanHodzic/auto-cpufreq
 
 
 # Configuration to do to have the same shortcuts as Windows
