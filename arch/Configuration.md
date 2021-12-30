@@ -56,6 +56,7 @@ Download Calam-Arch-Installer iso.
 On partition config, don't forget to create /boot/efi partition (needed on efi generally the case on machine post 2016).
 
 Select only the package needed (on a desktop AMD cpu):
+    
     base-devel
     pacman-contrib
     xorg-server
@@ -69,9 +70,11 @@ Select only the package needed (on a desktop AMD cpu):
     efitools
     
 Select only the package for video (with amd/ati gpu)
+    
     xf86-video-amdgpu
 
 Select at least one desktop environmet + d (I let mate but it will be remove once bspwm + sxhkd will be installed)
+    
     mate
     lightdm
     lightdm-gtk-greeter
