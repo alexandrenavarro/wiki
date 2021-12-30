@@ -549,24 +549,25 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 
 ## Polybar (optional)
     
-    sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
-    sudo apt install polybar
+    sudo pacman -S fonts-ubuntu fonts-material-design-icons-iconfont
+    yay -S ttf-material-design-icons 
+    yay -S polybar 
     mkdir ~/.config/polybar
     cd ~/.config/polybar
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/polybar/config
 
 See the resolution of bug for tray icon transparency https://github.com/polybar/polybar/issues/913
 
-## Compton (optional)
+## Picom (optional)
     
-    sudo apt install compton
-    
+    sudo pacman -S picom
+
 Needed if you want to have transparency window notably for polybar.
 
 ## Lightdm
     
-    sudo apt install lightdm
-    sudo apt install light-locker
+    sudo pacman -S lightdm
+    sudo pacman -S light-locker
     
 Show config
     
@@ -587,7 +588,7 @@ Add in your autostart to lock automatically after 300 s (5 min)
 
 ## Alacarte
     
-    sudo apt install alacarte
+    sudo pacman -S alacarte
     
 Add Items 
 Lock : dm-tool lock
@@ -600,7 +601,7 @@ It will add in ~/.local/share/applications/xxx.desktop files you can customize.
 ## Conky (optional)
 If it works
 
-    sudo apt install conky-all 
+    sudo pacman -S conky
     
 else
     
@@ -612,14 +613,14 @@ else
 
 ## Sxiv
 
-    sudo apt install sxiv
+    sudo pacman -S sxiv
     cd ~/Applications/
     wget https://raw.githubusercontent.com/alexandrenavarro/scripts/main/sxiv.sh
     chmod +x sxiv.sh    
 
 ## Rxvt
    
-    sudo apt install rxvt-unicode
+    sudo pacman -S rxvt-unicode
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.Xresources
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.inputrc
    
@@ -640,7 +641,7 @@ or in micro, activate raw mode
 ### Installation
 Download the package and install in Applications
     
-    sudo apt install mediainfo highlight
+    sudo pacman -S mediainfo highlight
 
 ### Configuration
     
@@ -651,7 +652,6 @@ Download the package and install in Applications
     chmod a+x preview.sh
     
     
-TODO
 Remote Commands 
     lf -remote 'send updir'
 	lf -remote 'send set ratios 1:2'
@@ -663,7 +663,7 @@ Remote Commands
 
 ## diskie (automount of usb drive)
     
-    sudo apt install udiskie    
+    sudo pacman -S udiskie    
     
 Just need to launch udiskie when you need. You can launch at startup or with --tray if want to have notification notably.
 
@@ -735,7 +735,7 @@ Videos : avi,mkv,mp4
 
 ## Micro
     
-    sudo apt install micro
+    sudo pacman -S micro
     mkdir -p ~/.config/micro/
     cd ~/.config/micro
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/micro/binding.json
@@ -749,7 +749,7 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 
 ### Installation
     
-    sudo apt install firefox
+    sudo pacman -S firefox
 
 ### Configuration
 * Install vimium plugin
@@ -759,7 +759,7 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 
 ## Alacarte
     
-    sudo apt install alacarte
+    sudo pacman -S alacarte
 
 ## Java / Kotlin / Maven / Gradle
     
@@ -773,7 +773,7 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
     
 ### moc
     
-    sudo apt install moc
+    sudo pacman -S moc
     mkdir -p ~/.moc/themes/
     cd ~/.moc/themes/
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/themes/kiss_theme
