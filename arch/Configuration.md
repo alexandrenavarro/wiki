@@ -512,19 +512,19 @@ Adopted simple-scan : works, no concurrency.
    
 ### Preferences / Control Center
     
-    sudo apt install lxappearance qt5ct
+    sudo pacman -S lxappearance qt5ct
 
 ### Login 
     
-    sudo apt install lightdm
+    sudo pacman -S lightdm
 
 ### Lock
     
-    sudo apt install light-locker
+    sudo pacman -S light-locker
     
 ### Panel Bar (optional)
     
-    sudo apt install polybar
+    yay -S polybar
 
 Tested but not selected polybar : moving window with openbox works, higly customisable, transparency but finally no need.
 
@@ -532,18 +532,18 @@ Tested but not selected tint2 : size for moving window with openbox does not any
     
 ### Font 
     
-    sudo apt install font-manager
-    sudo apt install fonts-ubuntu fonts-material-design-icons-iconfont
+    sudo pacman -S deepin-font-manager
+    sudo pacman -S  ttf-ubuntu-font-family
 
 ### Bluetooth (if needed)
     
-    sudo apt install bluetooth blueman 
+    sudo pacman -S blueman 
     
 # Custom Configuration / Installation for some applications
    
 ## Feh (Wallpaper)
     
-    sudo apt install feh
+    sudo pacman -S feh
     cd ~/.config/
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/wallpaper.png
 
