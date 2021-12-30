@@ -173,15 +173,6 @@ Set an france miro
 
 
 ### Accessories
-#### File Editor
-    
-    sudo pacman -S micro
-    
-Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
-
-Adopted only to build Marlin with Platformio plugin : vscode (really slow to start at least 2-3 s on my machine, take >100mo, )
-
-Tested but not selected : geany (not bad at all but I prefer micro, low memory for non terminal 60mo, start fast)
 
 
 #### Archive Manager
@@ -234,13 +225,16 @@ Adopted for manipulating image : shotwell
     
     sudo pacman -S  digikam 
     
+#### 3D Modeling Printing
+
+    sudo pacman -S cura
+    
 ### Internet
 
 #### Web Browser
 
 Brave
     yay -S brave-bin
-    
     
 Plugins
 * CrxMouse
@@ -290,6 +284,12 @@ Use directly webclient like gmail with
     
     brave --new-window --app=https://gmail.com/
     
+    
+#### Chat
+
+    yay -S slack-desktop
+    
+    
 ### Office
     
     sudo pacman -S libreoffice-fresh-fr
@@ -307,8 +307,35 @@ Use directly webclient like gmail with
     sudo apt install pandoc texlive-core
     pandoc -o dest.pdf source.md
     
+#### Book Manager (if you use kindle)
+    
+    sudo pacman -S calibre    
+    
 
-### Sound & Video
+### Development 
+
+#### File Editor
+    
+    sudo pacman -S micro
+    
+Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
+
+Adopted only to build Marlin with Platformio plugin : vscode (really slow to start at least 2-3 s on my machine, take >100mo, )
+
+Tested but not selected : geany (not bad at all but I prefer micro, low memory for non terminal 60mo, start fast)
+
+
+#### JVM    
+   
+    sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
+
+#### VS Code
+Just for compiling marlin
+
+    sudo yay -S visual-studio-code-bin
+
+
+### Multimedia
 #### Video Player
     
     sudo pacman -S mpv
@@ -339,10 +366,9 @@ Tested but not adopted : rhythmnbox (more memory)
     
 #### Audio Controller 
     sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon blueman
+    
 
-    
-    
-### Utilities
+### System / Utilities
     
     sudo pacman -S xdotool fdupes git jq unrar p7zip exfat-utils renameutils odt2txt catdoc bat fzf fd libnotify entr skim bat lsd
     
@@ -359,10 +385,6 @@ Usefull command with fzf
     xdg-open $(sk --preview 'cat {}')
     micro $(sk --preview 'cat {}')
        
-
-#### Book Manager (if you use kindle)
-    
-    sudo pacman -S calibre
 
 
 #### File Explorer
@@ -517,20 +539,21 @@ Adopted simple-scan : works, no concurrency.
 #### Printer Server
 
     sudo pacman -S cups system-config-printer
+    
    
 ### Preferences / Control Center
     
     sudo pacman -S lxappearance qt5ct
 
-### Login 
+#### Login 
     
     sudo pacman -S lightdm
 
-### Lock
+#### Lock
     
     sudo pacman -S light-locker
     
-### Panel Bar (optional)
+#### Panel Bar (optional)
     
     yay -S polybar
 
@@ -538,29 +561,14 @@ Tested but not selected polybar : moving window with openbox works, higly custom
 
 Tested but not selected tint2 : size for moving window with openbox does not any work with %    
     
-### Font 
+#### Font 
     
     sudo pacman -S deepin-font-manager
     sudo pacman -S  ttf-ubuntu-font-family
 
-### Bluetooth (if needed)
+#### Bluetooth (if needed)
     
     sudo pacman -S blueman 
-    
-### Chat (Slack)
-
-    yay -S slack-desktop
-    
-### Development tools 
-   
-#### JVM    
-   
-    sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
-
-#### VS Code
-Just for compiling marlin
-
-    sudo yay -S visual-studio-code-bin
 
 
 
@@ -667,6 +675,7 @@ or in micro, activate raw mode
 ### Installation
 Download the package and install in Applications
     
+    yay -S lf-bin
     sudo pacman -S mediainfo highlight
 
 ### Configuration
