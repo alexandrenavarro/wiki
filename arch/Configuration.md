@@ -301,14 +301,14 @@ Use directly webclient like gmail with
     
 #### Markdown
 
-    sudo apt install pandoc  texlive-core
+    sudo apt install pandoc texlive-core
     pandoc -o dest.pdf source.md
     
 
 ### Sound & Video
 #### Video Player
     
-    sudo apt install mpv
+    sudo pacman -S mpv
 
 Adopted : mpv (only video, light)
 
@@ -316,7 +316,7 @@ Tested but not adopted : vlc (have menu)
 
 #### Music Player
     
-    sudo apt install moc
+    sudo pacman -S moc
 
 Adopted : moc (terminal music player)
 
@@ -328,11 +328,11 @@ Tested but not adopted : rhythmnbox (more memory)
 
 #### DVD Ripper
     
-    sudo apt install handbrake
+    sudo pacman -S handbrake
 
 #### DVD Burner
     
-    sudo apt install brasero
+    sudo pacman -S brasero
     
 #### Audio Controller 
     
