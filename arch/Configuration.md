@@ -317,6 +317,7 @@ Use directly webclient like gmail with
 #### File Editor
     
     sudo pacman -S micro
+    sudo yay -S visual-studio-code-bin
     
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 
@@ -327,15 +328,16 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 
 #### JVM    
    
-    sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
+    sudo pacman -S jdk-openjdk kotlin maven gradle 
+    
+#### IDE    
+    sudo pacman -S intellij-idea-community-edition
+    sudo yay -S  intellij-idea-ultimate-edition
 
-#### VS Code
-Just for compiling marlin
-
-    sudo yay -S visual-studio-code-bin
 
 
 ### Multimedia
+
 #### Video Player
     
     sudo pacman -S mpv
