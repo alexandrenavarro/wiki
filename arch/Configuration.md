@@ -496,7 +496,7 @@ See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd No
 
     sudo pacman -S arandr
     
-#### Webcam To
+#### Webcam
 
     sudo pacman -S cheese
 
@@ -538,6 +538,12 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 ### Bluetooth (if needed)
     
     sudo pacman -S blueman 
+    
+    
+### Development tools 
+   
+   sudo pacman -S jdk-openjdk kotlin maven gradle intellij-idea-community-edition
+   
     
 # Custom Configuration / Installation for some applications
    
@@ -760,18 +766,8 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 ## Alacarte
     
     sudo pacman -S alacarte
-
-## Java / Kotlin / Maven / Gradle
     
-    curl -s "https://get.sdkman.io" | bash 
-    source "$HOME/.sdkman/bin/sdkman-init.sh"
-    sdk install java
-    sdk install kotlin
-    sdk install maven
-    sdk install gradle
-    sdk install kscript
-    
-### moc
+## moc
     
     sudo pacman -S moc
     mkdir -p ~/.moc/themes/
@@ -780,15 +776,26 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
     cd ~/.moc
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config
     
-### Lsd
+## Lsd
     
-    cargo install lsd
+    sudo pacman -S lsd
     mkdir -p ~/.config/lsd
     cd ~/.config/lsd
      wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lsd/config.yaml
+    
 
 ## Etcher
 Download AppImage of Etcher, add alacarte and run it.
+
+
+## Development tools 
+
+### Java / Kotlin / Maven / Gradle
+   
+   sudo pacman -S jdk-openjdk kotlin maven gradle
+
+### Intellij
+
 
 ## Intellij
 
