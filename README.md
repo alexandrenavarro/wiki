@@ -3,16 +3,6 @@ Alexandre Navarro's Wiki
 
 OS for pc (Linux/Windows)
 =========
-I used as main personal OS :
-* Arch (2022-20xx)
-* Debian (testing) (2020-2021)
-* Ubuntu (mid 2005-2019)
-* Debian (testing) (end 2004 - mid 2005)
-* Mandrake (end 2003 - end 2004)
-* Windows XP (end 2001 - end 2003)
-* Windows 98 (mid 1998 - end 2001)
-* Windows 95 (end 1995 - mid 1998)
-
 
 Arch (Curently used)
 ------
@@ -41,6 +31,16 @@ Ubuntu 7.04 (Feisty Fawn)
 Mandrake 10
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/mandrake-10/Configuration.md)
+
+I used as main personal OS :
+* Arch (2022-20xx)
+* Debian (testing 11 and 12) (2020-2021)
+* Ubuntu 05.04 -> 19.10 (mid 2005-2019)
+* Debian (testing 3.1) (end 2004 - mid 2005)
+* Mandrake 10 (end 2003 - end 2004)
+* Windows XP (end 2001 - end 2003)
+* Windows 98 (mid 1998 - end 2001)
+* Windows 95 (end 1995 - mid 1998)
 
 
 OS for phone (Android)
