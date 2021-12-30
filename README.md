@@ -14,7 +14,7 @@ I used as main personal OS :
 * Windows 95 (end 1995 - mid 1998)
 
 
-Arch (Buster) (Curently used)
+Arch (Curently used)
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/debian-11/Configuration.md)
 
