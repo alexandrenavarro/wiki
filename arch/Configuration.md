@@ -335,8 +335,8 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo pacman -S brasero
     
 #### Audio Controller 
-    
-    sudo apt install pulseaudio-utils volumeicon-alsa pavucontrol
+    sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon blueman
+
     
     
 ### Utilities   
