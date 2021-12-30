@@ -114,7 +114,7 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
     
 ## Theme
 
-    sudo apt install  ttf-ubuntu-font-family lxappearance
+    sudo apt install ttf-ubuntu-font-family lxappearance
 
 On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 
@@ -214,16 +214,13 @@ Example Config for a terminal app with alacritty terminal.
 
 #### Typing Learning
     
-    sudo apt install klavaro
+    sudo pacman -S klavaro
 
 ### Graphics  
 
 #### Image Viewer
     
-    sudo apt install sxiv
-    sudo apt install feh
-    sudo apt install eog
-    sudo apt install shotwell
+    sudo pacman -S sxiv feh eog shotwell
     
 Adopted sxiv : faster to open, cool shortcuts (miss just to print the image, add sxiv.sh to navigate easily in the picture of a directory)
 
@@ -235,19 +232,14 @@ Adopted for manipulating image : shotwell
 
 #### Image Manager (if you want to classify your pictures)
     
-    sudo apt install digikam 
+    sudo pacman -S  digikam 
     
 ### Internet
 
 #### Web Browser
 
 Brave
-
-    sudo apt install apt-transport-https curl
-    sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-    echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-    sudo apt update
-    sudo apt install brave-browser
+    yay -S brave-bin
     
 Plugins
 * CrxMouse
@@ -283,8 +275,7 @@ In brave://flags/ set dark to true
 
 Firefox / Chromium
     
-    sudo apt install firefox-esr wget curl
-    sudo apt install chromium 
+    sudo pacman -S firefox wget curl
     
 #### Torrent Client
 
