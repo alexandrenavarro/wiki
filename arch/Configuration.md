@@ -85,7 +85,7 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
 
 ## Post Installation if you come from debian-standard
 
-    sudo pacman -S firefox-esr bspwm sxhkd zsh
+    sudo pacman -S firefox bspwm sxhkd rofi feh zsh micro
 
 ## Window Manager : Bspwm
 
