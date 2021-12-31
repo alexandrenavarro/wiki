@@ -114,13 +114,13 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
     
 ## Theme
 
-    sudo apt install ttf-ubuntu-font-family lxappearance
+    sudo pacman -S ttf-ubuntu-font-family lxappearance gnome-themes-extra
 
 On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 
 On Other, set Toolbar Style Icons only and Small toolbar icon
     
-    sudo apt install qt5ct
+    sudo pacman -S qt5ct
  
  On Appearance, Set Adwait-dark
  
