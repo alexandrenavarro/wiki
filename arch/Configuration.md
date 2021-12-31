@@ -304,7 +304,7 @@ Use directly webclient like gmail with
     
 #### Markdown
 
-    sudo apt install pandoc texlive-core
+    sudo pacman -S pandoc texlive-core
     pandoc -o dest.pdf source.md
     
 #### Book Manager (if you use kindle)
