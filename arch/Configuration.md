@@ -372,7 +372,7 @@ Tested but not adopted : rhythmnbox (more memory)
     
 #### Audio Controller 
     sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon 
-    sudo pacman -S bluez bluez-tools blueman
+    sudo pacman -S bluez bluez-utils bluez-tools blueman
     
 
 ### System / Utilities
