@@ -234,6 +234,7 @@ Adopted for manipulating image : shotwell
 #### Web Browser
 
 Brave
+
     yay -S brave-bin
     
 Plugins
@@ -371,8 +372,8 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo pacman -S brasero
     
 #### Audio Controller 
+    
     sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon 
-    sudo pacman -S bluez bluez-utils bluez-tools blueman
     
 
 ### System / Utilities
@@ -575,9 +576,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 
 #### Bluetooth (if needed)
     
-    sudo pacman -S blueman 
-
-
+    sudo pacman -S bluez bluez-utils bluez-tools blueman
 
     
 # Custom Configuration / Installation for some applications
