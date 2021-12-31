@@ -333,11 +333,11 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 #### IDE    
 
     sudo pacman -S intellij-idea-community-edition
-    sudo yay -S  intellij-idea-ultimate-edition
+    yay -S intellij-idea-ultimate-edition
 
 #### Rest client
 
-    sudo pacman -S 
+    yay -S postman-bin
 
 
 ### Multimedia
@@ -371,7 +371,8 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo pacman -S brasero
     
 #### Audio Controller 
-    sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon blueman
+    sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon 
+    sudo pacman -S bluez bluez-tools blueman
     
 
 ### System / Utilities
