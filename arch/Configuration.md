@@ -83,9 +83,9 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
 
 # Post Installation
 
-## Post Installation if you come from debian-standard
+## Post Installation (basic package to have bspwm env working)
 
-    sudo pacman -S firefox bspwm sxhkd rofi feh zsh micro
+    sudo pacman -S firefox bspwm sxhkd rofi zsh micro alacritty 
 
 ## Window Manager : Bspwm
 
