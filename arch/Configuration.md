@@ -873,6 +873,10 @@ Add in your autostart to lock automatically after 300 s (5 min)
     xset s 300 &
     light-locker --lock-after-screensaver 1&    
 
+### Network Manager
+
+    sudo pacman -S networkmanager nm-applet networkmanager-openvpn
+
 ### Screen Management
 
 #### Arandr (optional)
