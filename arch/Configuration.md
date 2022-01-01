@@ -803,7 +803,10 @@ TODO
 
 
 ## Custom Configuration
-   
+
+### Add some application in the Menu of Application
+
+   cd ~/.local/share/applications/
 
 ### Association files
 Use a graphical File Manager like Thunar to associate your default application  or command below
