@@ -807,6 +807,22 @@ TODO
 ### Add some application in the Menu of Application
 
    cd ~/.local/share/applications/
+   
+Ex :
+gmail.desktop
+
+    [Desktop Entry]
+    Version=1.0
+    Type=Application
+    Name=Gmail
+    GenericName=Gmail
+    #Icon=/home/anavarro/.webcatalog/Gmail/resources/app.asar.unpacked/build/icon.png
+    Exec=brave --new-window --app=https://gmail.com/
+    Terminal=false
+    StartupWMClass=gmail
+    #Categories=Internet;
+    Comment=""
+
 
 ### Association files
 Use a graphical File Manager like Thunar to associate your default application  or command below
