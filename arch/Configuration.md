@@ -104,7 +104,9 @@ Select at least one desktop environment (I let mate but it will be remove once b
 
     sudo pacman -S bspwm sxhkd rofi zsh micro alacritty firefox
 
-## Window Manager : Bspwm
+## Window Manager
+
+### Bspwm
 
     sudo pacman -S bspwm
     
@@ -113,7 +115,9 @@ Select at least one desktop environment (I let mate but it will be remove once b
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/bspwm/bspwmrc
     chmod a+x bspwmrc
     
-## Hot Key daemon : Sxhkd
+## Hot Key daemon
+
+### sxhkd
 
     sudo pacman -S sxhkd
     
