@@ -938,7 +938,7 @@ Be sure your mbr you changed is the one launched by the motherboard (or re-set i
 
 You can also change the configuration int /etc/default/grub and update grub.
 
-    sudo update-grub
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
     
     
 ### Compositor (optional)
