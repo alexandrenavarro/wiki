@@ -682,7 +682,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Thunar
 
-    sudo pacman -S thunar thunar-archive-plugin
+    sudo pacman -S thunar thunar-archive-plugin polkit-gnome
 	
 
 ### Terminal
