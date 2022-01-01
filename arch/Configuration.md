@@ -117,7 +117,7 @@ Select at least one desktop environment (I let mate but it will be remove once b
     
 ## Hot Key daemon
 
-### sxhkd
+### Sxhkd
 
     sudo pacman -S sxhkd
     
@@ -126,22 +126,28 @@ Select at least one desktop environment (I let mate but it will be remove once b
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/sxhkd/sxhkdrc
     
 
-## Launcher : Rofi
+## Launcher
+
+### Rofi
     
     sudo pacman -S rofi
 
     TODO
 
 
-## Wallpaper Manager : Feh
-    
+## Wallpaper Manager
+
+### Feh
+
     sudo pacman -S feh
     
     cd ~/.config/
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/wallpaper.png
 
 
-## Editor : Micro
+## Editor
+
+### Micro
     
     sudo pacman -S micro
     
@@ -155,13 +161,17 @@ See select Next/Previous Paragraph https://github.com/zyedidia/micro/issues/1968
 Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mate-terminal).
 
 
-## Terminal : Alacritty
+## Terminal
+
+### Alacritty
     
     sudo pacman -S alacritty
     
     TODO
     
-## Shell : Zsh
+## Shell
+
+###  Zsh
 
 Installation of the zsh shell
 
@@ -170,9 +180,9 @@ Installation of the zsh shell
     TODO
     
 
-# Software Installation
+# Software Package Manager
 
-## From pacman
+## Pacman
 
 ### Configuration
 
@@ -217,50 +227,89 @@ Copy the outpout at the beginning of
     sudo pacman -Rns $(pacman -Qqdt)
     
 
-## From yay
+## Yay
 
     pacman -S --needed git base-devel
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si
-
-
-### Accessories
-
-
-#### Archive Manager
     
+## SDKMAN
+
+    curl -s "https://get.sdkman.io" | bash
+
+
+# Software Installation
+
+## Accessories
+
+### Archive Manager
+
+#### File Roller
+
     sudo pacman -S file-roller
    
-#### Font Manager
-    
+### Font Manager
+
+#### Deepin font manager
+
     sudo pacman -S deepin-font-manager
     sudo pacman -S ttf-ubuntu-font-family
 
-#### Menu for launcher
+### Menu Manager for launcher
+
+#### Alacarte
+
+
+#### Alacarte
     
     sudo pacman -S alacarte
     
+Add Items 
+Lock : dm-tool lock
+Shutdown : systemctl poweroff
+Restart : systemctl reboot
+Logout : bspc quit
+
+It will add in ~/.local/share/applications/xxx.desktop files you can customize.
+
 Example Config for a terminal app with alacritty terminal.
     
     alacritty --class lf -t lf -e lf
+    
+    
+   cd ~/.local/share/applications/
+   
+Ex :
+gmail.desktop
 
-### Education
+    [Desktop Entry]
+    Version=1.0
+    Type=Application
+    Name=Gmail
+    GenericName=Gmail
+    #Icon=/home/anavarro/.webcatalog/Gmail/resources/app.asar.unpacked/build/icon.png
+    Exec=brave --new-window --app=https://gmail.com/
+    Terminal=false
+    StartupWMClass=gmail
+    #Categories=Internet;
+    Comment=""    
+    
 
-#### Typing Learning
+## Education
+
+### Typing Learning
+
+#### Klavaro
     
     sudo pacman -S klavaro
 
-### Graphics  
+## Graphics  
 
-#### Image Viewer
-    
-    sudo pacman -S sxiv feh eog shotwell
-    
-    cd ~/bin/
-    wget https://raw.githubusercontent.com/alexandrenavarro/scripts/main/sxiv.sh
-    chmod +x sxiv.sh
-    
+### Image Viewer
+
+#### Benchmark
+
 Adopted sxiv : faster to open, cool shortcuts (miss just to print the image, add sxiv.sh to navigate easily in the picture of a directory)
 
 Adopted just for wallpaper : feh
@@ -269,19 +318,33 @@ Adopted as second choice just for printing quickly : eog
 
 Adopted for manipulating image : shotwell
 
-#### Image Manager (if you want to classify your pictures)
+#### Sxiv / Feh / Eog / Shotwell
+
+    sudo pacman -S sxiv feh eog shotwell
+    
+    cd ~/bin/
+    wget https://raw.githubusercontent.com/alexandrenavarro/scripts/main/sxiv.sh
+    chmod +x sxiv.sh
+    
+
+
+### Image Manager (if you want to classify your pictures)
+
+#### Digikam
     
     sudo pacman -S  digikam 
     
-#### 3D Modeling Printing
+### 3D Modeling Printing
+
+#### Cura
 
     sudo pacman -S cura
     
-### Internet
+## Internet
 
-#### Web Browser
+### Web Browser
 
-Brave
+#### Brave
 
     yay -S brave-bin
     
@@ -317,17 +380,24 @@ color: #969696;
 Configuration
 In brave://flags/ set dark to true
 
-Firefox / Tor Browser
-    
+#### Firefox
+
     sudo pacman -S firefox wget curl
+    
+#### Tor Browser
+
     sudo pacman -S torbrowser-launcher
     
     
-#### Torrent Client
+### Torrent Client
+
+#### Transmission
 
     sudo pacman -S transmission-gtk transmission-cli
 
-#### Mail Client
+### Mail Client
+
+#### Gmail in the browser
     
 Use directly webclient like gmail with 
     
@@ -336,12 +406,16 @@ Use directly webclient like gmail with
 TODO
 
 
-#### Chat
+### Chat
+
+#### Slack
 
     yay -S slack-desktop
     
     
-#### Meeting Client
+### Meeting Client
+
+#### Meet in the browser
 
 Use directly webclient like gmail with 
 
@@ -349,16 +423,18 @@ Use directly webclient like gmail with
     
 TODO
 
-### Office
+## Office
 
-#### Office editors
+### Office editors
+
+#### Libreoffice
 
     sudo pacman -S libreoffice-fresh-fr
     sudo pacman -S csvkit
 
-#### Pdf Document Viewer
-    
-    sudo pacman -S zathura atril
+### Pdf Document Viewer
+
+#### Benchmark
 
 Adopted : zathura (low memory, simple)
 
@@ -368,6 +444,12 @@ Tested but not selected : onkular (too many dependency to qt).
 
 Tested but not selected : evince (same me but does not have real menu bar, hide some polybar info on the right)
 
+#### Zathura / Atril
+    
+    sudo pacman -S zathura atril
+
+
+### Markup Language 
 
 #### Ascidoctor
 
@@ -383,38 +465,49 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
     
     pandoc -o dest.pdf source.md
     
-#### Book Manager (if you use kindle)
+### Book Manager (if you use kindle)
+
+#### Calibre
     
     sudo pacman -S calibre
     
 
-### Programming 
+## Programming 
 
-#### File Editor
-    
-    sudo pacman -S micro
-    sudo yay -S visual-studio-code-bin
-    
+### File Editor
+
+#### Benchmark
+
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 
 Adopted only to build Marlin with Platformio plugin : vscode (really slow to start at least 2-3 s on my machine, take >100mo, )
 
 Tested but not selected : geany (not bad at all but I prefer micro, low memory for non terminal 60mo, start fast)
 
-#### Build tools (through pacman) if last one
+#### Micro
+    
+    sudo pacman -S micro
+
+#### VSCode (just for compiling marlin)
+
+    sudo yay -S visual-studio-code-bin
+    
+
+### Build tools (through pacman) if last one
    
     sudo pacman -S jdk-openjdk kotlin maven gradle 
 
-#### Build tools (through SDKMAN) if specific version needed
-    curl -s "https://get.sdkman.io" | bash
-
+### Build tools (through SDKMAN) if specific version needed
+    
     sdk install java 17.0.1-open
 
-#### IDE    
+### IDE
+
+#### Intellij
 
     sudo pacman -S intellij-idea-community-edition
-    yay -S intellij-idea-ultimate-edition
     
+    yay -S intellij-idea-ultimate-edition
 
 If you use bspwm, add 
     
@@ -437,37 +530,42 @@ Change some shorcuts
 
 
 
-#### Rest client
+### Rest client
+
+#### Postman
 
     yay -S postman-bin
 
 
-### Sound & Video
+## Sound & Video
 
-#### Audio Controller 
+### Audio Controller
+
+#### Pulsaudio / Pavucontrol
     
     sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon 
 
 
-#### Video Player
-    
-    sudo pacman -S mpv
-    sudo pacman -S vlc
+### Video Player
+
+#### Benchmark 
 
 Adopted : mpv (only video, light)
 
 Tested but not adopted : vlc (have menu)
 
 
-#### Music Player
+#### Mpv
     
-    sudo pacman -S moc
+    sudo pacman -S mpv
     
-    mkdir -p ~/.moc/themes/
-    cd ~/.moc/themes/
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/themes/kiss_theme
-    cd ~/.moc
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config    
+#### Vlc     
+    sudo pacman -S vlc
+
+
+### Music Player
+
+#### Benchmark
 
 Adopted : moc (terminal music player)
 
@@ -477,26 +575,47 @@ Tested but not adopted : clementine (more memory)
 
 Tested but not adopted : rhythmnbox (more memory)
 
-#### DVD Ripper
+
+#### Moc
+    sudo pacman -S moc
+    
+    mkdir -p ~/.moc/themes/
+    cd ~/.moc/themes/
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/themes/kiss_theme
+    cd ~/.moc
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config    
+
+
+### DVD Ripper
+
+#### Handbrake
     
     sudo pacman -S handbrake
 
-#### DVD Burner
+### CD/DVD Burner
+
+#### Brasero
     
     sudo pacman -S brasero
     
-#### Webcam
+### Webcam
+
+#### Cheese
 
     sudo pacman -S cheese
     
 
-### System Tools / Utilities
+## System Tools / Utilities
 
-#### Finder
+### Finder
+
+#### Fd
 
     sudo pacman -S  fd
     
-#### Fuzzy Finder    
+### Fuzzy Finder
+
+#### Skim
     
     sudo pacman -S skim
     
@@ -505,7 +624,9 @@ Usefull command with fzf
     xdg-open $(sk --preview 'cat {}')
     micro $(sk --preview 'cat {}')
     
-#### List files
+### File Lister
+
+#### Lsd
 
     sudo pacman -S lsd
     
@@ -514,21 +635,14 @@ Usefull command with fzf
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lsd/config.yaml
     
        
-#### Some useful command lines
+### Some useful command lines
 
     sudo pacman -S xdotool fdupes git jq unrar p7zip exfat-utils renameutils odt2txt catdoc bat fzf fd libnotify entr skim mediainfo highlight
     
 
-#### File Explorer
-    
-    sudo pacman -S thunar thunar-archive-plugin
-    yay -S lf-bin
-    
-    mkdir -p .config/lf
-    cd .config/lf
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/lfrc
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/preview.sh
-    chmod a+x preview.sh
+### File Explorer
+
+#### Benchmark
 
 Adopted : lf (terminal), 
 find a way smb/dav not manage by default (just a bash script).
@@ -537,34 +651,24 @@ Adopted (second choice) : thunar.
 
 Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
+#### Lf
+    yay -S lf-bin
+    
+    mkdir -p .config/lf
+    cd .config/lf
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/lfrc
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/lf/preview.sh
+    chmod a+x preview.sh
+
+#### Thunar
+
+    sudo pacman -S thunar thunar-archive-plugin
 	
 
-#### Terminal
+### Terminal
 
-##### Alacritty
-    
-    sudo pacman -S alacritty
-    
+#### Benchmark
 
-##### Rxvt (optional)
-
-    sudo pacman -S rxvt-unicode
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.Xresources
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.inputrc
-   
-Useful to understand how the terminal manages different keys, use 
-
-    cat -v
-    
-or
-   
-    showkey -a
-    
-or in micro, activate raw mode 
-
-    raw
-
-    
 Requirements by order of priority :
 * Fast (less than 500 ms to start) and fast to write output and readinput (no latency detected).
 * These shortcuts in micro must work :
@@ -598,8 +702,31 @@ Tested but not selected choice : mate-terminal : more memory but all the binding
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
 
+#### Alacritty
+    
+    sudo pacman -S alacritty
+    
+#### Rxvt (optional)
 
-#### Shell
+    sudo pacman -S rxvt-unicode
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.Xresources
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.inputrc
+   
+Useful to understand how the terminal manages different keys, use 
+
+    cat -v
+    
+or
+   
+    showkey -a
+    
+or in micro, activate raw mode 
+
+    raw
+
+### Shell
+
+#### Zsh
 
 Installation of the zsh shell
 
@@ -647,7 +774,9 @@ Plugins
 See my .zshrc file.
 
 
-#### Monitor
+### Monitor
+
+#### Htop
     
     sudo pacman -S htop
 
@@ -658,36 +787,46 @@ Tested but not selected gnome-monitor-systeme : use more memory, less informatio
 Tested but not selected mate-monitor-system : use more memory, less information
 
 
-#### Notification
+### Notification
+
+#### Dunst
 
     sudo pacman -S dunst
     
 Adopted : dunst (simple)
 
-#### Disks
+### Disks
     
-    sudo pacman -S baobab gnome-disk-utility udiskie ncdu
+    sudo pacman -S ncdu baobab gnome-disk-utility udiskie 
     
     
-#### Flash ISO on usb stick
+### Flash ISO on usb stick
+
+#### Etcher
 
     yay -S balena-etcher    
 
-#### Screen Management
+### Screen Management
+
+#### Arandr
 
     sudo pacman -S arandr
+
    
-#### Scanner
-    
+### Scanner
+
+#### Simple Scan
+
     sudo pacman -S simple-scan
 
 Adopted simple-scan : works, no concurrency.
     
     
-#### Printer Server
+### Printer Server
 
     sudo pacman -S cups system-config-printer
-    
+
+TODO
    
 ### Others (Preferences / Control Center)
 
@@ -731,17 +870,7 @@ Add in your autostart to lock automatically after 300 s (5 min)
     light-locker --lock-after-screensaver 1&    
 
 
-#### Menu Manager
-    
-    sudo pacman -S alacarte
-    
-Add Items 
-Lock : dm-tool lock
-Shutdown : systemctl poweroff
-Restart : systemctl reboot
-Logout : bspc quit
 
-It will add in ~/.local/share/applications/xxx.desktop files you can customize.
 
 
 #### Printer/Scanner
