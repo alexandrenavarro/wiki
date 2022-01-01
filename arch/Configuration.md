@@ -12,7 +12,7 @@ Installation and configuration of the different sofware must result to :
 * Have a dark theme (adwaita-dark with lxappearance / qt5ct)
 
 
-# Installation (through arc iso + archifi install script, harder)
+# Installation (through arch iso + archifi install script, harder)
 Download last arch iso.
 
 ## Basic Configuration to install arch
@@ -39,7 +39,7 @@ Connect to your network
     station wlan0 connect yournetwork
 
     
-## Installation with Archfi
+## Post Installation with Archfi
 
 Download and run archfi installer
 
@@ -88,7 +88,15 @@ Select only if you have an video with NVIDIA GPU
     libva-vdpau-drive
     nvidia-settings
     
+Select only if you have an video card with Intel GPU
+    
+    vulkan-intel
+    libvdpau-va-gl
+    libva-intel-driver
+    
 Select only if you have a laptop with NVIDIA prime system permits to switch from GPU from CPU to external GPU.
+    
+    nvidia-prime
 
 Select at least one desktop environment (I let mate but it will be remove once bspwm + sxhkd will be installed)
     
@@ -257,9 +265,6 @@ Copy the outpout at the beginning of
     sudo pacman -S ttf-ubuntu-font-family
 
 ### Menu Manager for launcher
-
-#### Alacarte
-
 
 #### Alacarte
     
@@ -605,7 +610,7 @@ Tested but not adopted : rhythmnbox (more memory)
     sudo pacman -S cheese
     
 
-## System Tools / Utilities
+## System Tools / Utilities / Other
 
 ### Finder
 
@@ -806,31 +811,11 @@ Adopted : dunst (simple)
 
     yay -S balena-etcher    
 
-### Screen Management
-
-#### Arandr
-
-    sudo pacman -S arandr
+   
+## Others (Preferences / Control Center)
 
    
-### Scanner
-
-#### Simple Scan
-
-    sudo pacman -S simple-scan
-
-Adopted simple-scan : works, no concurrency.
-    
-    
-### Printer Server
-
-    sudo pacman -S cups system-config-printer
-
-TODO
-   
-### Others (Preferences / Control Center)
-
-#### Theme
+### Theme
     
     sudo pacman -S ttf-ubuntu-font-family lxappearance gnome-themes-extra
 
@@ -847,7 +832,7 @@ On Other, set Toolbar Style Icons only and Small toolbar icon
  
     export QT_QPA_PLATFORMTHEME="qt5ct"
 
-#### Login / Lock
+### Login / Lock
     
     sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
     sudo pacman -S light-locker
@@ -869,13 +854,15 @@ Add in your autostart to lock automatically after 300 s (5 min)
     xset s 300 &
     light-locker --lock-after-screensaver 1&    
 
+### Screen Management
 
+#### Arandr
 
+    sudo pacman -S arandr
 
+### Printer/Scanner
 
-#### Printer/Scanner
-
-    sudo pacman -S cups system-config-printer
+    sudo pacman -S  simple-scan cups system-config-printer
     
 Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
     
@@ -885,19 +872,24 @@ And go to to configure your printer http://localhost:631/admin or use
 Install the one with driverless
 
 
-#### System Tray / Panel Bar (optional)
+### System Tray / Panel Bar (optional)
 
-    yay -S ttf-material-design-icons 
-    yay -S polybar 
-    mkdir ~/.config/polybar
-    cd ~/.config/polybar
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/polybar/config    
+#### Benchmark
 
 Adopted polybar : works quasi-perfectly with transparency.
 
 Tested trayer but not select : problem transparency
 
 Tested stanfolonetray but not select : problem transparency
+
+
+#### Polybar
+
+    yay -S ttf-material-design-icons 
+    yay -S polybar 
+    mkdir ~/.config/polybar
+    cd ~/.config/polybar
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/polybar/config    
 
 
 See the resolution of bug for tray icon transparency https://github.com/polybar/polybar/issues/913
@@ -907,7 +899,9 @@ Tested but not selected polybar : moving window with openbox works, higly custom
 Tested but not selected tint2 : size for moving window with openbox does not any work with %    
     
 
-## Bootloader
+### Bootloader
+
+#### Grub
 
     sudo pacman -S grub-customizer
 
@@ -919,17 +913,20 @@ You can also change the configuration int /etc/default/grub and update grub.
     sudo update-grub
     
     
-## Compositor (optional)
+### Compositor (optional)
+
+#### Picom
     
     sudo pacman -S picom
 
 Needed if you want to have transparency window notably for polybar.
 
 
-## Bluetooth (optional)
+### Bluetooth Manager (optional)
+
+#### Bluez
     
     sudo pacman -S bluez bluez-utils bluez-tools blueman
-
 
 ## Auto-cpu freq (optional)
 
