@@ -129,7 +129,7 @@ Select at least one desktop environment (I let mate but it will be remove once b
     TODO
 
 
-## Wallpaper Manager : Feh (Wallpaper)
+## Wallpaper Manager : Feh
     
     sudo pacman -S feh
     
