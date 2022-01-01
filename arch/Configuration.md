@@ -957,47 +957,12 @@ Needed if you want to have transparency window notably for polybar.
     sudo pacman -S bluez bluez-utils bluez-tools blueman pulseaudio-bluetooth
     yay -S bluetooth-autoconnect
     
-    
-Auto enable bluetooth power after startup.
-Change 
-    
-    AutoEnable=fales
-
-To
-
-    AutoEnable=true
-
-In 
-
-    micro /etc/bluetooth/main.conf
-    
-    sudo systemctl enable bluetooth-autoconnect run as root
-
+    sudo systemctl enable bluetooth.service
+    sudo systemctl enable bluetooth-autoconnect
     systemctl --user enable pulseaudio-bluetooth-autoconnect
 
     
-    ### Automatically switch to newly-connected devices
-load-module module-switch-on-connect
-
-
-    
-Verify if module is loaded
-
-    lsmod|grep btusb
-
-Verify if the service is started
-
-    systemctl status bluetooth.service
-
-Enable the service
-
-    sudo systemctl enable bluetooth.service
-
-systemctl status bluetooth.service
-
-Start the service 
-    
-    systemctl start bluetooth.service
+See https://wiki.archlinux.org/title/bluetooth and https://github.com/jrouleau/bluetooth-autoconnect
 
 
 ### CPU Manager (optional)
