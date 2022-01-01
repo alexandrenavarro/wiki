@@ -955,24 +955,31 @@ Needed if you want to have transparency window notably for polybar.
 #### Bluez
     
     sudo pacman -S bluez bluez-utils bluez-tools blueman pulseaudio-bluetooth
+    yay -S bluetooth-autoconnect
     
     
-Auto enable bluetooth after startup.
+Auto enable bluetooth power after startup.
 Change 
     
     AutoEnable=fales
 
 To
+
     AutoEnable=true
 
 In 
-/etc/pulse/default.pa
+
     micro /etc/bluetooth/main.conf
     
-    
+    sudo systemctl enable bluetooth-autoconnect run as root
+
+    systemctl --user enable pulseaudio-bluetooth-autoconnect
+
     
     ### Automatically switch to newly-connected devices
 load-module module-switch-on-connect
+
+
     
 Verify if module is loaded
 
