@@ -108,9 +108,9 @@ Select at least one desktop environment (I let mate but it will be remove once b
 
 # Post Installation
 
-## Post Installation (basic package to have bspwm environment working)
+## Post Installation (basic packages to have my bspwm environment working)
 
-    sudo pacman -S bspwm sxhkd rofi zsh micro alacritty firefox
+    sudo pacman -S bspwm sxhkd rofi alacritty zsh xsel micro picom feh dunst udiskie polkit-gnome firefox
 
 ## Window Manager
 
@@ -154,6 +154,25 @@ Select at least one desktop environment (I let mate but it will be remove once b
     
 TODO
 
+## Terminal
+
+### Alacritty
+    
+    sudo pacman -S alacritty
+    
+TODO
+    
+## Shell
+
+###  Zsh
+
+Installation of the zsh shell
+
+    sudo pacman -S zsh xsel
+    
+TODO
+
+
 ## Editor
 
 ### Micro
@@ -170,24 +189,6 @@ See select Next/Previous Paragraph https://github.com/zyedidia/micro/issues/1968
 Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mate-terminal).
 
 
-## Terminal
-
-### Alacritty
-    
-    sudo pacman -S alacritty
-    
-TODO
-    
-## Shell
-
-###  Zsh
-
-Installation of the zsh shell
-
-    sudo pacman -S zsh
-    
-TODO
-    
 
 # Software Package Manager
 
