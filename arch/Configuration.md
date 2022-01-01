@@ -151,7 +151,8 @@ Select at least one desktop environment (I let mate but it will be remove once b
     
     cd ~/.config/
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/wallpaper.png
-
+    
+TODO
 
 ## Editor
 
@@ -175,7 +176,7 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
     
     sudo pacman -S alacritty
     
-    TODO
+TODO
     
 ## Shell
 
@@ -185,7 +186,7 @@ Installation of the zsh shell
 
     sudo pacman -S zsh
     
-    TODO
+TODO
     
 
 # Software Package Manager
@@ -242,6 +243,7 @@ Copy the outpout at the beginning of
     cd yay
     makepkg -si
     
+    
 ## SDKMAN
 
     curl -s "https://get.sdkman.io" | bash
@@ -281,9 +283,10 @@ It will add in ~/.local/share/applications/xxx.desktop files you can customize.
 Example Config for a terminal app with alacritty terminal.
     
     alacritty --class lf -t lf -e lf
+
+See liste of custom applications
     
-    
-   cd ~/.local/share/applications/
+    cd ~/.local/share/applications/
    
 Ex :
 gmail.desktop
@@ -332,7 +335,6 @@ Adopted for manipulating image : shotwell
     chmod +x sxiv.sh
     
 
-
 ### Image Manager (if you want to classify your pictures)
 
 #### Digikam
@@ -348,6 +350,14 @@ Adopted for manipulating image : shotwell
 ## Internet
 
 ### Web Browser
+
+
+Adopted : brave : Sure in term of anymous, option to have webapp as application , dark mode by default, slower than firefox when a lot of javascript (ex with miro, github review).
+
+Adopted in second chocie : firefox : fast but no option to have webapp as app, no dark mode by default (but a slow plugin exists).
+
+Adopted as anonyamous navigation : torbrowser for anymous.
+
 
 #### Brave
 
@@ -388,7 +398,12 @@ In brave://flags/ set dark to true
 #### Firefox
 
     sudo pacman -S firefox wget curl
-    
+
+Plugins
+* CrxMouse
+* Pocket
+* Vimium : use this cs for links
+
 #### Tor Browser
 
     sudo pacman -S torbrowser-launcher
@@ -493,12 +508,12 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
     
     sudo pacman -S micro
 
-#### VSCode (just for compiling marlin)
+#### VSCode
 
     sudo yay -S visual-studio-code-bin
     
 
-### Build tools (through pacman) if last one
+### Build tools (through pacman) if only last version needed
    
     sudo pacman -S jdk-openjdk kotlin maven gradle 
 
@@ -557,7 +572,7 @@ Change some shorcuts
 
 Adopted : mpv (only video, light)
 
-Tested but not adopted : vlc (have menu)
+Tested but not adopted : vlc (have menu, many codecs included by default)
 
 
 #### Mpv
@@ -711,6 +726,8 @@ Tested but not selected gnome-mate-terminal : very close to mate-terminal withou
     
     sudo pacman -S alacritty
     
+TODO    
+    
 #### Rxvt (optional)
 
     sudo pacman -S rxvt-unicode
@@ -741,7 +758,7 @@ Theme
 
 Install first a font manager, che
 
-    sudo apt install font-manager
+    sudo pacman -S deepin-font-manager
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
     echo 'source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
     mkdir -p ~/.fonts
@@ -781,15 +798,18 @@ See my .zshrc file.
 
 ### Monitor
 
-#### Htop
-    
-    sudo pacman -S htop
+#### Benchmark
 
 Adopted htop : fast, low memory usage and customizable
 
 Tested but not selected gnome-monitor-systeme : use more memory, less information
 
 Tested but not selected mate-monitor-system : use more memory, less information
+
+
+#### Htop
+    
+    sudo pacman -S htop
 
 
 ### Notification
@@ -809,8 +829,7 @@ Adopted : dunst (simple)
 
 #### Etcher
 
-    yay -S balena-etcher    
-
+    yay -S balena-etcher
    
 ## Others (Preferences / Control Center)
 
@@ -856,13 +875,13 @@ Add in your autostart to lock automatically after 300 s (5 min)
 
 ### Screen Management
 
-#### Arandr
+#### Arandr (optional)
 
     sudo pacman -S arandr
 
-### Printer/Scanner
+### Printer/Scanner (optional)
 
-    sudo pacman -S  simple-scan cups system-config-printer
+    sudo pacman -S simple-scan cups system-config-printer
     
 Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
     
@@ -871,6 +890,7 @@ Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=sho
 And go to to configure your printer http://localhost:631/admin or use 
 Install the one with driverless
 
+TODO
 
 ### System Tray / Panel Bar (optional)
 
@@ -899,7 +919,7 @@ Tested but not selected polybar : moving window with openbox works, higly custom
 Tested but not selected tint2 : size for moving window with openbox does not any work with %    
     
 
-### Bootloader
+### Bootloader (optional)
 
 #### Grub
 
@@ -928,16 +948,20 @@ Needed if you want to have transparency window notably for polybar.
     
     sudo pacman -S bluez bluez-utils bluez-tools blueman
 
-## Auto-cpu freq (optional)
+TODO
+
+### CPU Manager (optional)
+
+#### Auto-cpu freq 
 
 https://github.com/AdnanHodzic/auto-cpufreq
 
 TODO
 
 
-## Custom Configuration
+### Default Application Configuration
 
-### Add some application in the Menu of Application
+#### Add some application in the Menu of Application
 
    cd ~/.local/share/applications/
    
@@ -957,31 +981,31 @@ gmail.desktop
     Comment=""
 
 
-### Association files
+#### Association files
 Use a graphical File Manager like Thunar to associate your default application  or command below
 
-#### Open a file with the default application
+##### Open a file with the default application
     
     xdg-open file.txt
 
-#### See a filetype of a file 
+##### See a filetype of a file 
     
     xdg-mime query filetype photo.jpeg
 
-#### See the default application for a mime type
+##### See the default application for a mime type
     
     xdg-mime query default image/jpeg
 
-#### Default application for a mime type
+##### Default application for a mime type
     
     xdg-mime default feh.desktop image/jpeg
 
-#### All default application for all mime type
+##### All default application for all mime type
     
     cat /usr/share/applications/mimeinfo.cache
     cat ~/.local/share/applications/mimeapps.list
 
-#### All default applications
+##### All default applications
 Text Editor : txt,sh,markdown -> micro
 
     xdg-mime default micro.desktop text/plain
@@ -1020,5 +1044,3 @@ Videos : avi,mkv,mp4
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
-
-   
