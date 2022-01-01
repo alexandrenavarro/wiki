@@ -955,8 +955,25 @@ Needed if you want to have transparency window notably for polybar.
 #### Bluez
     
     sudo pacman -S bluez bluez-utils bluez-tools blueman
+    
+Verify if module is loaded
 
-TODO
+    lsmod|grep btusb
+
+Verify if the service is started
+
+    systemctl status bluetooth.service
+
+Enable the service
+
+    sudo systemctl enable bluetooth.service
+
+systemctl status bluetooth.service
+
+Start the service 
+    
+    systemctl start bluetooth.service
+
 
 ### CPU Manager (optional)
 
