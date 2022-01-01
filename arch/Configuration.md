@@ -57,23 +57,40 @@ On partition config, don't forget to create /boot/efi partition (needed on efi g
 
 Select only the package needed (on a desktop AMD cpu):
     
-    base-devel
-    pacman-contrib
-    xorg-server
-    xorg-init
-    xf86-input-libinput
-    networkmanager
-    grub
-    efibootmgr
-    dosfstools
-    amd-ucode
-    efitools
+    base-devel			# Development tools to 
+    xorg-server			# Video Xorg
+    xorg-init			# Video Xorg
+    xf86-input-libinput		# X Input (keyboard / mouse)
+    networkmanager		# Network manager
+    grub			# Bootloader utils (grub)
+    efibootmgr			# Bootloader utils (efi partition)
+    dosfstools			# Bootloader utils (efi partition)
+    efitools	                # Bootloader utils (efi partition)
+    os-prober                   # Bootloader utils (windows partition)
     
-Select only the package for video (with amd/ati gpu)
+
+Select only if you have an AMD CPU
+
+    amd-ucode
+    
+Select only if you have an Intel CPU
+
+    intel-ucode    
+    
+Select only if you have an video card with AMD/ATI GPU
     
     xf86-video-amdgpu
+    
+Select only if you have an video with NVIDIA GPU
+    
+    nvidia
+    nvidia-util
+    libva-vdpau-drive
+    nvidia-settings
+    
+Select only if you have a laptop with NVIDIA prime system permits to switch from GPU from CPU to external GPU.
 
-Select at least one desktop environmet + d (I let mate but it will be remove once bspwm + sxhkd will be installed)
+Select at least one desktop environment (I let mate but it will be remove once bspwm + sxhkd will be installed)
     
     mate
     lightdm
@@ -83,13 +100,14 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
 
 # Post Installation
 
-## Post Installation (basic package to have bspwm env working)
+## Post Installation (basic package to have bspwm environment working)
 
     sudo pacman -S firefox bspwm sxhkd rofi zsh micro alacritty 
 
 ## Window Manager : Bspwm
 
     sudo pacman -S bspwm
+    
     mkdir -p ~/.config/bspwm
     cd ~/.config/bspwm
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/bspwm/bspwmrc
@@ -98,6 +116,7 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
 ## Hot Key daemon : sxhkd
 
     sudo pacman -S sxhkd
+    
     mkdir -p ~/.config/sxhkd
     cd ~/.config/sxhkd
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/sxhkd/sxhkdrc
@@ -107,6 +126,7 @@ Select at least one desktop environmet + d (I let mate but it will be remove onc
     
     sudo pacman -S rofi
 
+    TODO
 
 ## Wallpaper Manager
 
@@ -121,6 +141,7 @@ On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
 On Other, set Toolbar Style Icons only and Small toolbar icon
     
     sudo pacman -S qt5ct
+    yay -S adwaita-qt
  
  On Appearance, Set Adwait-dark
  
@@ -128,11 +149,6 @@ On Other, set Toolbar Style Icons only and Small toolbar icon
  
     export QT_QPA_PLATFORMTHEME="qt5ct"
  
- It seems working on quasi all qt applications, only menu in cura are not themed.
- 
- See https://wiki.manjaro.org/index.php/Set_all_Qt_app%27s_to_use_GTK%2B_font_%26_theme_settings
- 
-
 
 # Software Installation
 
@@ -449,7 +465,6 @@ Installation of the zsh shell
 
     sudo pacman -S zsh
     
-    
 Theme
 
 Install first a font manager, che
@@ -518,8 +533,6 @@ Tested stanfolonetray but not select : problem transparency
     sudo pacman -S dunst
     
 Adopted : dunst (simple)
-See https://wiki.archlinux.org/index.php/Desktop_notifications dunst or Deadd Notification Center 
-
 
 #### Disks
     
@@ -572,7 +585,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 #### Font 
     
     sudo pacman -S deepin-font-manager
-    sudo pacman -S  ttf-ubuntu-font-family
+    sudo pacman -S ttf-ubuntu-font-family
 
 #### Bluetooth (if needed)
     
