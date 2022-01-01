@@ -956,6 +956,19 @@ Needed if you want to have transparency window notably for polybar.
     
     sudo pacman -S bluez bluez-utils bluez-tools blueman
     
+    
+Auto enable bluetooth after startup.
+Change 
+    
+    AutoEnable=fales
+
+To
+    AutoEnable=true
+
+In 
+
+    micro /etc/bluetooth/main.conf
+    
 Verify if module is loaded
 
     lsmod|grep btusb
