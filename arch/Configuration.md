@@ -329,7 +329,9 @@ Use directly webclient like gmail with
     
     brave --new-window --app=https://gmail.com/
     
-    
+TODO
+
+
 #### Chat
 
     yay -S slack-desktop
@@ -341,7 +343,8 @@ Use directly webclient like gmail with
 
     brave --new-window --app=https://meet.google.com/
     
-    
+TODO
+
 ### Office
 
 #### Office editors
