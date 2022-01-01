@@ -321,7 +321,8 @@ Use directly webclient like gmail with
     
 #### Markdown
 
-    sudo pacman -S pandoc texlive-core
+    yay -S pandoc-bin # instead of sudo pacman -S pandoc because heavy haskell dependency
+    sudo pacman -S texlive-core
     pandoc -o dest.pdf source.md
     
 #### Book Manager (if you use kindle)
