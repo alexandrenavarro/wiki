@@ -152,16 +152,33 @@ On Other, set Toolbar Style Icons only and Small toolbar icon
 
 # Software Installation
 
-## From pacman 
+## From pacman
+
+### Configuration
+
+#### Global
+Uncomment
+
+    Color
+    ParalleDownloads = 5
+
+Add
+    
+    ILoveCandy
+
+#### Mirrors
+Set best hrance
+
+    sudo pacman -S reflector
+    reflector --verbose --country France -l 50 -p http --sort rate
+
+Copy the outpout at the beginning of
+
+    sudo micro /etc/pacman.d/mirrorlist
 
 ### Update packages
 
     sudo pacman -Syu
-    
-Set an france miro
-
-    ## France
-    Server = http://mir.archlinux.fr/$repo/os/$arch
 
 ### Install package
 
