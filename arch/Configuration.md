@@ -565,7 +565,7 @@ Change some shorcuts
 
 #### Pulsaudio / Pavucontrol
     
-    sudo pacman -S pulseaudio pulseaudio-bluetooth pulseaudio-alsa pavucontrol volumeicon 
+    sudo pacman -S pulseaudio pulseaudio-alsa pavucontrol volumeicon 
 
 
 ### Video Player
@@ -954,7 +954,7 @@ Needed if you want to have transparency window notably for polybar.
 
 #### Bluez
     
-    sudo pacman -S bluez bluez-utils bluez-tools blueman
+    sudo pacman -S bluez bluez-utils bluez-tools blueman pulseaudio-bluetooth
     
     
 Auto enable bluetooth after startup.
@@ -966,8 +966,13 @@ To
     AutoEnable=true
 
 In 
-
+/etc/pulse/default.pa
     micro /etc/bluetooth/main.conf
+    
+    
+    
+    ### Automatically switch to newly-connected devices
+load-module module-switch-on-connect
     
 Verify if module is loaded
 
