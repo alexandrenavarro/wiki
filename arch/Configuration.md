@@ -264,7 +264,7 @@ Copy the outpout at the beginning of
 #### Deepin font manager
 
     sudo pacman -S deepin-font-manager
-    sudo pacman -S ttf-ubuntu-font-family
+    sudo pacman -S ttf-ubuntu-font-family ttf-nerd-fonts-symbols
 
 ### Menu Manager for launcher
 
