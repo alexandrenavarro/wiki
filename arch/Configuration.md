@@ -155,7 +155,6 @@ Select at least one desktop environment (I let mate but it will be remove once b
     cd ~/.config/
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/wallpaper.png
     
-TODO
 
 ## Terminal
 
@@ -163,7 +162,9 @@ TODO
     
     sudo pacman -S alacritty
     
-TODO
+    mkdir -p ~/.config/alacritty
+    cd ~/.config/alacritty
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/alacritty/alacritty.yml
     
 ## Shell
 
