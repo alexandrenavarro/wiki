@@ -141,7 +141,9 @@ Select at least one desktop environment (I let mate but it will be remove once b
     
     sudo pacman -S rofi
 
-    TODO
+    mkdir -p ~/.config/rofi
+    cd ~/.config/rofi
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/rof/config.rasi
 
 
 ## Wallpaper Manager
