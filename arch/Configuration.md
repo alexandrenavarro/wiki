@@ -301,11 +301,9 @@ gmail.desktop
     Type=Application
     Name=Gmail
     GenericName=Gmail
-    #Icon=/home/anavarro/.webcatalog/Gmail/resources/app.asar.unpacked/build/icon.png
     Exec=brave --new-window --app=https://gmail.com/
     Terminal=false
     StartupWMClass=gmail
-    #Categories=Internet;
     Comment=""    
     
 
@@ -424,11 +422,9 @@ Plugins
 
 #### Gmail in the browser
     
-Use directly webclient like gmail with 
-    
-    brave --new-window --app=https://gmail.com/
-    
-TODO
+    mkdir -p ~/.local/share/applications
+    cd ~/.local/share/applications
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.local/share/applications/gmail.desktop
 
 
 ### Chat
@@ -442,11 +438,10 @@ TODO
 
 #### Meet in the browser
 
-Use directly webclient like gmail with 
-
-    brave --new-window --app=https://meet.google.com/
+    mkdir -p ~/.local/share/applications
+    cd ~/.local/share/applications
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.local/share/applications/meet.desktop
     
-TODO
 
 ## Office
 
