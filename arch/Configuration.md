@@ -893,6 +893,14 @@ Add in your autostart to lock automatically after 300 s (5 min)
 
     sudo pacman -S simple-scan cups system-config-printer
     
+    yay -S epson-inkjet-printer-escpr2
+    
+    sudo gpasswd -a $LOGNAME lp 
+    
+    systemctl start cups.service
+    systemctl enable cups.service
+    
+    
 Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
     
     usermod -a -G lpadmin yourusername
