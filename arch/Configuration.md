@@ -727,18 +727,6 @@ Tested but not selected choice : mate-terminal : more memory but all the binding
 Tested but not selected gnome-mate-terminal : very close to mate-terminal without transparency (40 mo)
 
 
-#### Alacritty
-    
-    sudo pacman -S alacritty
-    
-TODO    
-    
-#### Rxvt (optional)
-
-    sudo pacman -S rxvt-unicode
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.Xresources
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.inputrc
-   
 Useful to understand how the terminal manages different keys, use 
 
     cat -v
@@ -750,6 +738,22 @@ or
 or in micro, activate raw mode 
 
     raw
+    
+#### Alacritty
+    
+    sudo pacman -S alacritty
+    
+    mkdir -p ~/.config/alacritty
+    cd ~/.config/alacritty
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/alacritty/alacritty.yml    
+    
+#### Rxvt (optional)
+
+    sudo pacman -S rxvt-unicode
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.Xresources
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.inputrc
+   
+
 
 ### Shell
 
