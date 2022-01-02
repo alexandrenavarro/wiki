@@ -829,6 +829,7 @@ Adopted : dunst (simple)
 ### Disks
     
     sudo pacman -S ncdu baobab gnome-disk-utility udiskie 
+    sudo pacman -S mtpfs gvfs-mtp gvfs-gphoto2
     
     
 ### Flash ISO on usb stick
