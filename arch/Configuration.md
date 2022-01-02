@@ -143,7 +143,7 @@ Select at least one desktop environment (I let mate but it will be remove once b
 
     mkdir -p ~/.config/rofi
     cd ~/.config/rofi
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/rof/config.rasi
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/rofi/config.rasi
 
 
 ## Wallpaper Manager
