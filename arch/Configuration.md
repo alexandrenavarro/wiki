@@ -201,6 +201,11 @@ Don't know why but just Ctrl+Shift+Left in rxvt works as Ctrl+Left (works in mat
 ### Configuration
 
 #### Global
+
+In 
+    
+    sudo micro /etc/pacman.conf
+    
 Uncomment
 
     Color
