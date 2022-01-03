@@ -553,7 +553,15 @@ Change some shorcuts
 * Main menu | Code | Code Completion : Complete Code Statement : Ctrl + Enter (in addition of Ctrl + Shift + Enter)
 * Tools Windows | Terminal : F12 (it removes possibility to use last window tool but I don't used)
 
-
+### Docker
+	
+    sudo pacman -S docker
+    	
+    sudo systemctl start docker.service
+    sudo systemctl enable docker.service
+    
+    sudo usermod -aG docker ${USER}
+    sudo chmod 666 /var/run/docker.sock
 
 ### Rest client
 
