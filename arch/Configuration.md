@@ -914,15 +914,7 @@ Add in your autostart to lock automatically after 300 s (5 min)
     systemctl start cups.service
     systemctl enable cups.service
     
-    
-Add rights to your user (voir https://wiki.debian.org/CUPSPrintQueues?action=show&redirect=PrintQueuesCUPS#webinterface)
-    
-    usermod -a -G lpadmin yourusername
-    
-And go to to configure your printer http://localhost:631/admin or use 
-Install the one with driverless
-
-TODO
+TODO Scanner
 
 ### System Tray / Panel Bar (optional)
 
