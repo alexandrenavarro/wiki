@@ -145,6 +145,7 @@ Select at least one desktop environment (I let mate but it will be remove once b
     cd ~/.config/rofi
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/rofi/config.rasi
 
+TODO fix font
 
 ## Wallpaper Manager
 
@@ -902,8 +903,10 @@ Add in your autostart to lock automatically after 300 s (5 min)
 #### Arandr (optional)
 
     sudo pacman -S arandr
+    
+TODO script to detect if multiple output are availabe, use the external screen
 
-### Printer/Scanner (optional)
+### Printer (optional)
 
     sudo pacman -S simple-scan cups system-config-printer
     
@@ -913,8 +916,9 @@ Add in your autostart to lock automatically after 300 s (5 min)
     
     systemctl start cups.service
     systemctl enable cups.service
-    
-TODO Scanner
+
+### Scanner (optional)
+TODO 
 
 ### System Tray / Panel Bar (optional)
 
