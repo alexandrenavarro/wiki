@@ -567,7 +567,8 @@ Change some shorcuts
     
 ### Aws
 
-    sudo pacman -S aw-cli
+    yay -S aws-cli-v2-bin
+    
 
 ### Rest client
 
