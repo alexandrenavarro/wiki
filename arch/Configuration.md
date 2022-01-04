@@ -563,6 +563,11 @@ Change some shorcuts
     
     sudo usermod -aG docker ${USER}
     sudo chmod 666 /var/run/docker.sock
+    
+    
+### Aws
+
+    sudo pacman -S aw-cli
 
 ### Rest client
 
