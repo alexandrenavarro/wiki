@@ -177,6 +177,8 @@ Installation of the zsh shell
     
 TODO
 
+TODO copy just on sel on terminal and paste with middle click mouse.
+
 
 ## Editor
 
