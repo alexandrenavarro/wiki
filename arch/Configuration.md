@@ -915,6 +915,13 @@ Add in your autostart to lock automatically after 300 s (5 min)
     
 TODO script to detect if multiple output are availabe, use the external screen
 
+
+### Hardware Info
+
+#### Inxi
+
+    yay -S inxi
+
 ### Printer (optional)
 
     sudo pacman -S simple-scan cups system-config-printer
