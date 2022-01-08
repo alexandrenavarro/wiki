@@ -16,7 +16,6 @@ Installation and configuration of the different sofware must result to :
 Download last arch iso.
 
 
-
 ## Basic Configuration to install arch
 Set your keyboard layout
     
