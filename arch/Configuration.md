@@ -707,6 +707,8 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
     sudo pacman -S thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin polkit-gnome
 	
 
+TODO problem mount network explorer
+
 ### Terminal
 
 #### Benchmark
