@@ -704,7 +704,7 @@ Tested but not selected : nautilus (navigation with keys less easy than thunar)
 
 #### Thunar
 
-    sudo pacman -S thunar thunar-archive-plugin polkit-gnome
+    sudo pacman -S thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin polkit-gnome
 	
 
 ### Terminal
