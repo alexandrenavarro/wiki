@@ -851,7 +851,18 @@ Adopted : dunst (simple)
 ### Disks
     
     sudo pacman -S ncdu baobab gnome-disk-utility udiskie 
-    sudo pacman -S mtpfs gvfs-mtp gvfs-gphoto2
+    sudo pacman -S gvfs gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb
+    
+Some specific mount
+
+    sudo pacman -S gvfs gvfs-afc     // apple 
+    sudo pacman -S gvfs gvfs-goa     // gnome cloud storage
+    sudo pacman -S gvfs gvfs-google  // goodle cloud storage
+    sudo pacman -S gvfs gvfs-gphoto2 // digitial camera
+    sudo pacman -S gvfs gvfs-mtp     // android phone
+    sudo pacman -S gvfs gvfs-nfs     // nfs
+    sudo pacman -S gvfs gvfs-smb     // samba
+
     
     
 ### Flash ISO on usb stick
