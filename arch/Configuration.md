@@ -863,7 +863,7 @@ Some specific mount
     sudo pacman -S gvfs gvfs-nfs     // nfs
     sudo pacman -S gvfs gvfs-smb     // samba
 
-    
+TODO check in tunar (network / phone mount)
     
 ### Flash ISO on usb stick
 
