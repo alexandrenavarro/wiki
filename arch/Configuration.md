@@ -679,7 +679,7 @@ Usefull command with fzf
        
 ### Some useful command lines
 
-    sudo pacman -S xdotool fdupes git jq unrar p7zip exfat-utils renameutils odt2txt catdoc bat fzf fd libnotify entr skim mediainfo highlight
+    sudo pacman -S xdotool fdupes git jq unrar p7zip exfat-utils renameutils odt2txt catdoc bat fzf fd libnotify entr skim mediainfo highlight xorg-xkill
     
 
 ### File Explorer
@@ -842,6 +842,7 @@ Tested but not selected mate-monitor-system : use more memory, less information
     sudo pacman -S htop
 
 
+
 ### Notification
 
 #### Dunst
@@ -853,7 +854,7 @@ Adopted : dunst (simple)
 ### Disks
     
     sudo pacman -S ncdu baobab gnome-disk-utility udiskie 
-    sudo pacman -S gvfs gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb
+    sudo pacman -S gvfs gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb ntfs-3g exfat-utils
     
 Some specific mount
 
@@ -865,6 +866,8 @@ Some specific mount
     sudo pacman -S gvfs gvfs-nfs     // nfs
     sudo pacman -S gvfs gvfs-smb     // samba
     sudo pacman -S ntfs-3g           // ntfs
+    sudo pacman -S exfat-utils       // exfat
+    sudo pacman -S gvfs-obexftp      // bluetooth
 
 TODO check in tunar (network / phone mount)
     
