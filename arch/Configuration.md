@@ -864,6 +864,7 @@ Some specific mount
     sudo pacman -S gvfs gvfs-mtp     // android phone
     sudo pacman -S gvfs gvfs-nfs     // nfs
     sudo pacman -S gvfs gvfs-smb     // samba
+    sudo pacman -S ntfs-3g           // ntfs
 
 TODO check in tunar (network / phone mount)
     
