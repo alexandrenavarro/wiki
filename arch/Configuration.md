@@ -248,6 +248,16 @@ Copy the outpout at the beginning of
 
     sudo pacman -Rns $(pacman -Qqdt)
     
+### List packages
+
+### List all packages
+    pacman -Q
+
+### List package native
+    pacman -Qn
+
+### List package external 
+    pacman -Qm
 
 ## Yay
 
