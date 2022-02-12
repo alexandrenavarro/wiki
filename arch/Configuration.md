@@ -854,7 +854,7 @@ Adopted : dunst (simple)
 ### Disks
     
     sudo pacman -S ncdu baobab gnome-disk-utility udiskie 
-    sudo pacman -S gvfs gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb ntfs-3g exfat-utils
+    sudo pacman -S gvfs gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb ntfs-3g exfat-utils samba smbclient
     
 Some specific mount
 
