@@ -4,7 +4,7 @@
 
 #### File Editor
     micro
-    nto
+    notepad
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 Adopted in second choice : notepad++
 
@@ -25,7 +25,7 @@ Adopted in second choice : notepad++
 ### Internet
 
 #### Web Browser
-     Firefox
+    Brave
 
 ### Office
     libreoffice
@@ -50,16 +50,18 @@ Adopted in second choice : notepad++
 ### System Tools
 
 #### File Explorer
+    File Explorer
     lf
 
 
 Adopted : lf (terminal)
 
 #### Terminal
-    TODO
+    alacritty (config for gitbash)
 
-#### Launcher
-    Executor
+#### Launcher / Window Switcher
+    Flow + Window Walker plugin - https://github.com/taooceros/Flow.Plugin.WindowWalker
+    pm install window walker
 
 #### Monitor
     TODO
