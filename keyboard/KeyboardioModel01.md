@@ -28,12 +28,43 @@ https://github.com/alexandrenavarro/Model01-Firmware/blob/master/README-WHY-MY-P
 
 ### Installation
 
-Follow this https://github.com/keyboardio/Kaleidoscope/wiki/Install-Arduino-support-on-Linux and https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line
+Follow this https://kaleidoscope.readthedocs.io/en/latest/setup_toolchain.html#Arduino-Linux
+
+Caution, install by the hand arduino IDE (on Ubuntu because old version but also on arch because path is not the same).
+
+    cd ~/Downloads
+    tar xvf arduino-1.8.13-linux64.tar.xz
+    sudo mv arduino-1.8.13 /usr/local/arduino
+    cd /usr/local/arduino
+    sudo ./install.sh
+    
+By default, you may not have permissions to access your keyboard’s serial port so need to activate it.
+    
+    wget https://raw.githubusercontent.com/keyboardio/Kaleidoscope/master/etc/60-kaleidoscope.rules
+    sudo cp 60-kaleidoscope.rules /etc/udev/rules.d
+
+On Debian / Ubuntu distrib
+    
+    sudo /etc/init.d/udev reload
+
+On arch distrib (caution need the sudo contrary to the documentation)
+    
+    sudo udevadm control --reload-rules && udevadm trigger
+    
+       
+
+Some others information are available on https://github.com/keyboardio/Model01-Firmware/blob/master/README.md#create-and-navigate-to-the-arduino-sketchbook-directory with the compilation by command line.
+
 
 ## My arduino repository with this layout
 https://github.com/alexandrenavarro/Model01-Firmware
 
 
+## Compile it.
 
+    make
+    
+## Compile and flash it.
 
+    make flash
 
