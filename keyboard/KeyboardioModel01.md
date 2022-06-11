@@ -60,6 +60,10 @@ Some others information are available on https://github.com/keyboardio/Model01-F
 https://github.com/alexandrenavarro/Model01-Firmware
 
 
+## Clean.
+
+    make clean
+    
 ## Compile it.
 
     make
