@@ -57,8 +57,18 @@ Adopted : lf (terminal)
 
 #### Terminal
     alacritty
+    
+- Configuration
 
-TODO config for gitbash
+Copy from https://github.com/alacritty/alacritty/releases/alacritty.yml in %APPDATA/alacritty/alacritty.yml 
+Change config of shell with something like
+    
+    shell:
+      program: C:\Users\Alexandre\Applications\Git\bin\bash.exe
+      args:
+        - --login
+
+
 
 #### Launcher / Window Switcher
     Flow + Window Walker plugin - https://github.com/taooceros/Flow.Plugin.WindowWalker
