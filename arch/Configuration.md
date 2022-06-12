@@ -564,7 +564,7 @@ Change some shorcuts
 * Main menu | Tool Window | Project : Alt + Shift + "
 * Main menu | Edit | Find Usages | Find Usages : Ctrl + F3 (in addition of Alt + F7)
 * Main menu | Code | Code Completion : Complete Code Statement : Ctrl + Enter (in addition of Ctrl + Shift + Enter)
-* Tools Windows | Terminal : F12 (it removes possibility to use last window tool but I don't used)
+* Tools Windows | Terminal : Ctrl + " (it removes possibility to use last window tool but I don't used)
 
 ### Docker
 	
