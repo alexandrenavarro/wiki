@@ -32,7 +32,7 @@ Adopted in second choice : notepad++
 
 ### Sound & Video
 #### Video Player
-    Vlc
+    vlc
 
 #### Music Player
     TODO
@@ -53,15 +53,18 @@ Adopted in second choice : notepad++
     File Explorer
     lf
 
-
 Adopted : lf (terminal)
 
 #### Terminal
-    alacritty (config for gitbash)
+    alacritty
+
+TODO config for gitbash
 
 #### Launcher / Window Switcher
     Flow + Window Walker plugin - https://github.com/taooceros/Flow.Plugin.WindowWalker
     pm install window walker
+
+Increase the priority to 1 to have windows first before launching a new instance of the application.
 
 #### Monitor
     TODO
@@ -85,7 +88,8 @@ Create a script.ahk for tiling windows with some shortcuts
     #+Up::WinMove,A,,0,30,A_ScreenWidth,(A_ScreenHeight-30)
     #+Right::WinMove,A,,A_ScreenWidth/2,30,A_ScreenWidth/2,(A_ScreenHeight-30)
 
-
+##### Window Manager
+TODO Find a way to save position of the different application or something closed.
 
 #### Intellij
 Add in your VMoption if you want to have a real title bar
