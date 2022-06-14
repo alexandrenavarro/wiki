@@ -15,7 +15,7 @@ Adopted in second choice : notepad++
     spacemonger
     
 #### Pdf Document Viewer
-    acrobatreader
+    sumatrapdf
     
 ### Graphics  
 
