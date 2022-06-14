@@ -4,7 +4,7 @@
 
 #### File Editor
     micro
-    notepad
+    notepad++
 Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
 Adopted in second choice : notepad++
 
