@@ -855,7 +855,11 @@ Tested but not selected mate-monitor-system : use more memory, less information
     
 #### Btop
     
-    sudo pacman -S btop    
+    sudo pacman -S btop 
+    
+#### Bashtop
+    
+    sudo pacman -S bashtop        
 
 
 
