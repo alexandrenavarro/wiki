@@ -258,6 +258,11 @@ Copy the outpout at the beginning of
 
 ### List package external 
     pacman -Qm
+    
+    
+### Fix problem if there is invalid or corrupted package
+
+    sudo pacman -S archlinux-keyring
 
 ## Yay
 
