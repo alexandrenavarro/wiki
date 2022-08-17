@@ -369,9 +369,9 @@ Adopted for manipulating image : shotwell
     
 ### Color Picker
 
-#### Gpick
+#### Gcolor2
 
-    sudo pacman -S gpick
+    sudo pacman -S gcolor2
 
 
 ### 3D Modeling Printing
