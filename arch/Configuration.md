@@ -438,6 +438,17 @@ Plugins
 * Pocket
 * Vimium : use this cs for links
 
+
+- Configuration
+Go to Menu -> General -> Language and Appearance -> Colors -> Manage Colors
+Use the same colors used in brave
+* Text : #FFFFFF
+* Background : #121212
+* Unvisited Links : #A9BBFF
+* Visited Links : #A9BBFF
+* Override the colors : Always
+
+
 #### Tor Browser
 
     sudo pacman -S torbrowser-launcher
