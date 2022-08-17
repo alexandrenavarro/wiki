@@ -365,9 +365,17 @@ Adopted for manipulating image : shotwell
 
 #### Digikam
     
-    sudo pacman -S  digikam 
+    sudo pacman -S digikam 
     
+### Color Picker
+
+#### Gpick
+
+    sudo pacman -S gpick
+
+
 ### 3D Modeling Printing
+
 
 #### Cura
 
