@@ -386,9 +386,9 @@ Adopted for manipulating image : shotwell
 ### Web Browser
 
 
-Adopted : brave : Sure in term of anymous, option to have webapp as application , dark mode by default, slower than firefox when a lot of javascript (ex with miro, github review).
+Adopted : brave : Option to have webapp as application, sure in term of anymous, slower than firefox when a lot of javascript (ex with miro, github review).
 
-Adopted in second chocie : firefox : fast but no option to have webapp as app, no dark mode by default (but a slow plugin exists).
+Adopted in second chocie : firefox : fast but no option to have webapp as app.
 
 Adopted as anonyamous navigation : torbrowser for anymous.
 
@@ -434,10 +434,10 @@ In brave://flags/ set dark to true
     sudo pacman -S firefox wget curl
 
 Plugins
-* CrxMouse
+* Gesturefy
 * Pocket
-* Vimium : use this cs for links
-
+* Vimium-FF : use this cs for links
+* Adblock
 
 - Configuration
 Go to Menu -> General -> Language and Appearance -> Colors -> Manage Colors
