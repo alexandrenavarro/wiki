@@ -592,8 +592,10 @@ Change some shorcuts
 * Main menu | Tool Window | Project : Alt + Shift + " (in addition of Alt + 1 does not work, region keyboard layout problem)
 * Main menu | Code | Code Completion : Complete Code Statement : Ctrl + Enter (in addition of Ctrl + Shift + Enter)
 remove Shift+F2)
+* Main menu | Code | Folding : Ctrl+Plus(in addition on Ctrl+Numpad+)
 * Main menu | Refactor : Rename : F2 (in addition Shift+F6)
 * Main menu | Refactor : Refactor : Shift+F2 (in addition Ctrl+Alt+Shift+T or Shift+F12)
+
 
 ### Docker
 	
