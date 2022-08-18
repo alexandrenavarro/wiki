@@ -386,9 +386,9 @@ Adopted for manipulating image : shotwell
 ### Web Browser
 
 
-Adopted : brave : Option to have webapp as application, sure in term of anymous, slower than firefox when a lot of javascript (ex with miro, github review).
+Adopted : brave : Option to have webapp as application, better dark mode, sure in term of anymous, slower than firefox when a lot of javascript (ex with miro, github review).
 
-Adopted in second chocie : firefox : fast but no option to have webapp as app.
+Adopted in second chocie : firefox : fast but no option to have webapp as app and worse dark mode.
 
 Adopted as anonyamous navigation : torbrowser for anymous.
 
@@ -438,6 +438,7 @@ Plugins
 * Pocket
 * Vimium-FF : use this cs for links
 * Adblock
+* PWA https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/  https://github.com/filips123/PWAsForFirefox (TODO to be tested)
 
 - Configuration
 Go to Menu -> General -> Language and Appearance -> Colors -> Manage Colors
@@ -447,6 +448,7 @@ Use the same colors used in brave
 * Unvisited Links : #A9BBFF
 * Visited Links : #A9BBFF
 * Override the colors : Always
+
 
 
 #### Tor Browser
