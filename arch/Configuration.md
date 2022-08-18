@@ -582,7 +582,7 @@ to launch just after comment # Run the IDE.
     sudo micro /usr/share/idea/bin/idea.sh
 
 Change some shorcuts
-* Editor Actions | Move Caret to Paragraph : Ctrl + UP / Down (add)
+* Editor Actions | Move Caret to Paragraph : Ctrl + Up / Down (add)
 * Main menu | Navigate | Search Everywhere : Ctrl + L (in addition of Shift / Shift)
 * Main menu | Navigate | Back : Alt + Left (in addition of Alt + Ctrl + Left)
 * Main menu | Navigate | Forward : Alt + Right (in addition of Alt + Ctrl + Right)
@@ -592,7 +592,7 @@ Change some shorcuts
 * Main menu | Tool Window | Project : Alt + Shift + " (in addition of Alt + 1 does not work, region keyboard layout problem)
 * Main menu | Code | Code Completion : Complete Code Statement : Ctrl + Enter (in addition of Ctrl + Shift + Enter)
 remove Shift+F2)
-* Main menu | Code | Folding : Ctrl+Plus(in addition on Ctrl+Numpad+)
+* Main menu | Code | Folding : Ctrl + Plus(in addition on Ctrl+Numpad+, does not work with Plus not Numpad+)
 * Main menu | Refactor : Rename : F2 (in addition Shift+F6)
 * Main menu | Refactor : Refactor : Shift+F2 (in addition Ctrl+Alt+Shift+T or Shift+F12)
 
