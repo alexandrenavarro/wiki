@@ -511,6 +511,10 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
 #### Zathura / Atril
     
     sudo pacman -S zathura atril
+    
+Usefull command to reduce size of pdf
+
+    gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
 
 
 ### Markup Language 
