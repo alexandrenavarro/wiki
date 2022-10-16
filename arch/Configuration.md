@@ -577,10 +577,14 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
     
     yay -S intellij-idea-ultimate-edition
 
-If you use bspwm, add 
+If you use bspwm (or many tiling window manager)
     
     export _JAVA_AWT_WM_NONREPARENTING=1
 
+in your .profile or 
+
+    micro ~/.profile
+    
 to launch just after comment # Run the IDE.
 
     sudo micro /usr/share/idea/bin/idea.sh
