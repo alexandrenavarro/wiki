@@ -242,7 +242,7 @@ Copy the outpout at the beginning of
 
 ### Clean package cache
 
-    sudo pacman -Sc
+    sudo pacman -Scc
     
 ### Clean obsolete package
 
