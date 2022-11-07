@@ -496,7 +496,7 @@ Use the same colors used in brave
     sudo pacman -S libreoffice-fresh-fr
     sudo pacman -S csvkit
 
-### Pdf Document Viewer
+### Pdf Document Viewer / Utilities
 
 #### Benchmark
 
@@ -510,12 +510,17 @@ Tested but not selected : evince (same me but does not have real menu bar, hide 
 
 #### Zathura / Atril
     
-    sudo pacman -S zathura atril
+    sudo pacman -S zathura atril pdftk imagemagick
     
 Usefull command to reduce size of pdf
 
     gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
-
+    
+Usefull command to extract one page from a pdf    
+    pdftk all.pdf cat 1 output page1.pdf
+    
+Usefull command to merge multiple pdf/jpg in one
+    convert 1.pdf 2.pdf all.pdf
 
 ### Markup Language 
 
