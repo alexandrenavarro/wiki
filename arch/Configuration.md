@@ -684,6 +684,10 @@ Tested but not adopted : rhythmnbox (more memory)
 
 ### DVD Ripper
 
+#### MakeMkv 
+
+    yay -S makemkv
+    
 #### Handbrake
     
     sudo pacman -S handbrake
