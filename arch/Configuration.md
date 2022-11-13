@@ -248,6 +248,11 @@ Copy the outpout at the beginning of
 
     sudo pacman -Rns $(pacman -Qqdt)
     
+### Clean ~/.cache
+    
+    sudo du -sh ~/.cache/
+    rm -rf ~/.cache/*
+    
 ### List packages
 
 ### List all packages
