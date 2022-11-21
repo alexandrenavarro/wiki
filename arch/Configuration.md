@@ -174,6 +174,7 @@ TODO fix font
 Installation of the zsh shell
 
     sudo pacman -S zsh xsel
+    wget https://github.com/alexandrenavarro/dotfiles/blob/master/.zshrc
     
 TODO
 
