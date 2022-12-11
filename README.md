@@ -20,6 +20,10 @@ Raspbian 8 (Jessie)
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/raspbian-8/Configuration.md)
 
+Windows 11
+------
+[Configuration](https://github.com/alexandrenavarro/wiki/blob/master/windows-11/Configuration.md)
+
 Windows 10
 ------
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/windows-10/Configuration.md)
