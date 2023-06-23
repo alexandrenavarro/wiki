@@ -98,6 +98,33 @@ Create a script.ahk for tiling windows with some shortcuts
     #+Up::WinMove,A,,0,30,A_ScreenWidth,(A_ScreenHeight-30)
     #+Right::WinMove,A,,A_ScreenWidth/2,30,A_ScreenWidth/2,(A_ScreenHeight-30)
 
+
+
+    #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+    ; #Warn  ; Enable warnings to assist with detecting common errors.
+    SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+    SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+    SysGet, MonitorCount, MonitorCount
+    SysGet, MonitorPrimary, MonitorPrimary
+    MsgBox, Monitor Count:`t%MonitorCount%`nPrimary Monitor:`t%MonitorPrimary%
+
+    if (MonitorCount = 1)
+    {
+    #+Left::WinMove,A,,0,0,A_ScreenWidth/2,(A_ScreenHeight-30)
+    #+Down::WinMinimize,A
+    #+Up::WinMove,A,,0,0,A_ScreenWidth,(A_ScreenHeight-30)
+    #+Right::WinMove,A,,A_ScreenWidth/2,30,A_ScreenWidth/2,(A_ScreenHeight-30)
+    }
+    if (MonitorCount = 2)
+    {
+    #+Left::WinMove,A,,0,-A_ScreenWidth,0,(A_ScreenHeight-30)
+    #+Down::WinMinimize,A
+    #+Up::WinMove,A,,0,0,A_ScreenWidth,(A_ScreenHeight-30)
+    #+Right::WinMove,A,,A_ScreenWidth,2*A_ScreenWidth,A_ScreenWidth,(A_ScreenHeight-30)
+    }
+
+
 ##### Window Manager
 TODO Find a way to save position of the different application or something closed.
 
