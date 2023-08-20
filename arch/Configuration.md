@@ -1200,3 +1200,45 @@ Videos : avi,mkv,mp4
     xdg-mime default mpv.desktop video/x-msvideo 
     xdg-mime default mpv.desktop video/x-matroska
     
+## Gaming
+
+### Steam
+
+    sudo pacman -S steam
+
+Use vulkan-radeon (not amdvlk)
+You can install retroarch (retrogaming) + dlc or Counter Strike - GO
+
+### Some benchmarks
+
+#### Glxgears
+
+    sudo pacman -S glxgears
+    vblank_mode=0 glxgears --fullscreen
+
+#### Glmark2
+
+    sudo pacman -S glmark2
+    glmark2  --fullscreen 
+
+#### phoronix-test-suite
+
+    yay -S phoronix-test-suite
+
+    # list tests
+    phoronix-test-suite list-tests
+
+    # install test
+    phoronix-test-suite install pts/glmark2
+
+    # run test
+    phoronix-test-suite run pts/glmark2
+    
+    phoronix-test-suite install pts/unigine-valley
+    phoronix-test-suite run pts/unigine-valley
+
+    
+    
+    
+
+    
