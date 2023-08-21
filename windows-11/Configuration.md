@@ -2,43 +2,43 @@
 
 ### Accessories
 
-#### File Editor
+#### File Editor (on the right zone)
     notepad++
 
-#### Archive Manager
+#### Archive Manager (on right zone)
     7zip
     
-#### Disk Usage
+#### Disk Usage (on the right zone)
     spacemonger
     
-#### Pdf Document Viewer
+#### Pdf Document Viewer (on the right zone)
     sumatrapdf
     
 ### Graphics  
 
-#### Image Viewer
+#### Image Viewer (on the right zone)
     TODO
     
-### Internet
+### Internet 
 
-#### Web Browser
+#### Web Browser (on the right zone)
     Brave
 
-### Office
+### Office (on the right zone)
     libreoffice
 
 ### Sound & Video
-#### Video Player
+#### Video Player (full screen)
     vlc
 
-#### Music Player
+#### Music Player (on the right zone)
     TODO
 
-#### DVD Ripper
+#### DVD Ripper (on the right zone)
     handbrake (copy and encode dvd)
     makekv (used just for copy dvd to hard disk when some other can't suceed it)
 
-#### DVD Burner
+#### DVD Burner(on the right zone)
     TODO
     
 ### Utilities   
@@ -67,11 +67,10 @@ Launch Layout Editor
 Configuration
 * Activate Windows Waller with a score of 1000 to have current windows on the top
 
-
-#### File Explorer
+#### File Explorer (on the left zone)
     File Explorer
 
-#### Terminal
+#### Terminal (on the left zone)
     gitbash
 
 #### Monitor
@@ -80,7 +79,7 @@ Configuration
 #### Disks
     TODO
 
-#### Intellij
+#### Intellij (fullscreen)
 Add in your VMoption if you want to have a real title bar
 -Dide.win.frame.decoration=false
 
