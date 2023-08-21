@@ -67,7 +67,6 @@ Select only the package needed (on a desktop AMD cpu):
     efibootmgr			# Bootloader utils (efi partition)
     dosfstools			# Bootloader utils (efi partition)
     efitools	                # Bootloader utils (efi partition)
-    os-prober                   # Bootloader utils (windows partition)
     
 
 Select only if you have an AMD CPU
@@ -81,6 +80,8 @@ Select only if you have an Intel CPU
 Select only if you have an video card with AMD/ATI GPU
     
     xf86-video-amdgpu
+    vulkan-radeon
+    lib32-vulkan-radeon
     
 Select only if you have an video with NVIDIA GPU
     
@@ -111,7 +112,7 @@ Select at least one desktop environment (I let mate but it will be remove once b
 
 ## Post Installation (basic packages to have my bspwm environment working)
 
-    sudo pacman -S bspwm sxhkd rofi alacritty zsh xsel micro picom feh dunst udiskie polkit-gnome firefox
+    sudo pacman -S bspwm sxhkd rofi alacritty zsh xsel micro picom feh dunst udiskie polkit-gnome firefox wget
 
 ## Window Manager
 
@@ -213,7 +214,7 @@ In
 Uncomment
 
     Color
-    ParalleDownloads = 5
+    TotalDownload = 8
 
 Add
     
@@ -888,6 +889,7 @@ Plugins
     git clone https://github.com/changyuheng/zsh-interactive-cd.git ~/.zsh/zsh-interactive-cd
 
 See my .zshrc file.
+wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.zshrc
 
 
 ### Monitor
