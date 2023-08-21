@@ -896,28 +896,29 @@ wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.zshrc
 
 #### Benchmark
 
-Adopted htop : fast, low memory usage and customizable
+Adopted btop : fast, low memory usage and customizable
 
-Alternative btop : fast, low memory usage and customizable
+Alternative htop : fast, low memory usage and customizable
 
 Tested but not selected gnome-monitor-systeme : use more memory, less information
 
 Tested but not selected mate-monitor-system : use more memory, less information
 
 
-#### Htop
-    
-    sudo pacman -S htop
-    
+
 #### Btop
     
     sudo pacman -S btop 
     
+
+#### Htop
+    
+    sudo pacman -S htop
+
+    
 #### Bashtop
     
-    sudo pacman -S bashtop        
-
-
+    sudo pacman -S bashtop
 
 ### Notification
 
