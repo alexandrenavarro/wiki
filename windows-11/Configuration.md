@@ -3,10 +3,7 @@
 ### Accessories
 
 #### File Editor
-    micro
     notepad++
-Adopted : micro (memory 30mo, have terminal mode, classical keyshortcuts)
-Adopted in second choice : notepad++
 
 #### Archive Manager
     7zip
@@ -49,42 +46,46 @@ Adopted in second choice : notepad++
 
 ### System Tools
 
-#### File Explorer
-    File Explorer
-    lf
-
-Adopted : lf (terminal)
-
-#### Terminal
-    alacritty
+#### Window Manager
+    PowerToys - FancyZones
     
-- Configuration
-
-Copy from https://github.com/alacritty/alacritty/releases/alacritty.yml in %APPDATA/alacritty/alacritty.yml 
-Change config of shell with something like
-    
-    shell:
-      program: C:\Users\Alexandre\Applications\Git\bin\bash.exe
-      args:
-        - --login
-
-
+Configuration
+* Enable Fancy Zones
+* Editor
+Launch Layout Editor
+  - Set 2 colums in Columns for screen >= 27 pouces
+  - Set 1 colums in Grid for screen <27 pouces (but with 2 screens)
+* Windows
+  - Move newly created
+* Override Window Snap
+  - Move window based on Zone Win + < - >
+  - Move window between zones across all screens
 
 #### Launcher / Window Switcher
-    Flow + Window Walker plugin - https://github.com/taooceros/Flow.Plugin.WindowWalker
-    pm install window walker
+    PowerToys - Run (seems to be Flow Launcher)
 
-Increase the priority to 1 to have windows first before launching a new instance of the application.
+Configuration
+* Activate Windows Waller with a score of 1000 to have current windows on the top
+
+
+#### File Explorer
+    File Explorer
+
+#### Terminal
+    gitbash
 
 #### Monitor
-    TODO
+    No needed
 
 #### Disks
     TODO
-    
-#### Window Manager Emulation    
-        
-##### AutoHotKey
+
+#### Intellij
+Add in your VMoption if you want to have a real title bar
+-Dide.win.frame.decoration=false
+
+
+##### AutoHotKey (Deprecated since you use Power Toys Fancy Zone
 
 Create a script.ahk for tiling windows with some shortcuts
 
@@ -97,37 +98,3 @@ Create a script.ahk for tiling windows with some shortcuts
     #+Down::WinMinimize,A
     #+Up::WinMove,A,,0,30,A_ScreenWidth,(A_ScreenHeight-30)
     #+Right::WinMove,A,,A_ScreenWidth/2,30,A_ScreenWidth/2,(A_ScreenHeight-30)
-
-
-
-    #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-    ; #Warn  ; Enable warnings to assist with detecting common errors.
-    SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-    SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
-    SysGet, MonitorCount, MonitorCount
-    SysGet, MonitorPrimary, MonitorPrimary
-    MsgBox, Monitor Count:`t%MonitorCount%`nPrimary Monitor:`t%MonitorPrimary%
-
-    if (MonitorCount = 1)
-    {
-    #+Left::WinMove,A,,0,0,A_ScreenWidth/2,(A_ScreenHeight-30)
-    #+Down::WinMinimize,A
-    #+Up::WinMove,A,,0,0,A_ScreenWidth,(A_ScreenHeight-30)
-    #+Right::WinMove,A,,A_ScreenWidth/2,30,A_ScreenWidth/2,(A_ScreenHeight-30)
-    }
-    if (MonitorCount = 2)
-    {
-    #+Left::WinMove,A,,0,-A_ScreenWidth,0,(A_ScreenHeight-30)
-    #+Down::WinMinimize,A
-    #+Up::WinMove,A,,0,0,A_ScreenWidth,(A_ScreenHeight-30)
-    #+Right::WinMove,A,,A_ScreenWidth,2*A_ScreenWidth,A_ScreenWidth,(A_ScreenHeight-30)
-    }
-
-
-##### Window Manager
-TODO Find a way to save position of the different application or something closed.
-
-#### Intellij
-Add in your VMoption if you want to have a real title bar
--Dide.win.frame.decoration=false
