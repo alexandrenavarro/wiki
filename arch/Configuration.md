@@ -215,6 +215,7 @@ Uncomment
 
     Color
     TotalDownload = 8
+    VerbosePkgLists
 
 Add
     
