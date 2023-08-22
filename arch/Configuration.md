@@ -214,7 +214,7 @@ In
 Uncomment
 
     Color
-    TotalDownload = 8
+    ParallelDownloads = 8
     VerbosePkgLists
 
 Add
