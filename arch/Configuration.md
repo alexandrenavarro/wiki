@@ -1232,6 +1232,35 @@ Videos : avi,mkv,mp4
 Use vulkan-radeon (not amdvlk)
 You can install retroarch (retrogaming) + dlc or Counter Strike - GO
 
+### Some tweaks for performance (https://wiki.archlinux.org/title/Gaming)
+
+#### To launch high consuming 
+
+    sudo micro /etc/sysctl.d/80-gamecompatibility.conf
+
+Add this to increase the max size
+
+    vm.max_map_count = 2147483642
+
+#### To compile always with multi-core     
+
+    sudo micro /etc/makepkg.conf
+    
+Add inside
+
+    MAKEFLAGS="-j$(nproc)"
+
+
+### Kernel TKG (https://github.com/Frogging-Family/linux-tkg)
+
+You can compile a custom kernel, it takes 15-20 min on my Ryzen (5950X).
+
+    git clone https://github.com/Frogging-Family/linux-tkg.git
+    cd linux-tkg
+    makepkg -si
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
+    
+
 ### Some benchmarks
 
 #### Glxgears
