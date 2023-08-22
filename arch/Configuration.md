@@ -405,7 +405,7 @@ Adopted for manipulating image : shotwell
 
 #### Cura
 
-    yay -S cura
+    yay -S cura-bin
 
     
 ## Internet
