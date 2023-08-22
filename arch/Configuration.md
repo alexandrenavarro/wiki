@@ -387,9 +387,26 @@ Adopted for manipulating image : shotwell
 ### 3D Modeling Printing
 
 
+#### Bambustudio
+
+    yay -S bambustudio-bin
+
+#### Orcaslicer
+
+    yay -S orca-slicer-bin
+
+#### Prusa Slicer
+
+    yay -S prusa-slicer-bin
+    
+#### Super Slicer
+
+    yay -S superslicer-bin
+
 #### Cura
 
-    sudo pacman -S cura
+    yay -S cura
+
     
 ## Internet
 
