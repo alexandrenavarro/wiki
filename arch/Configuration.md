@@ -1080,7 +1080,7 @@ Tested but not selected tint2 : size for moving window with openbox does not any
 
     sudo pacman -S grub-customizer
 
-Use Grub Customizer to set the different settings you want, save and install to mbr.
+Use Grub Customizer to set the different settings you want (like use the last kernel you selected by default or decrease timeout to select a kernel), save and install to mbr.
 Be sure your mbr you changed is the one launched by the motherboard (or re-set in the bios) notably if you installed another linux distribution on another disk drive.
 
 You can also change the configuration int /etc/default/grub and update grub.
