@@ -40,12 +40,10 @@ Connect to your network
     station wlan0 connect yournetwork
 
     
-## Post Installation with Archfi
+## Post Installation with archinstall (through archinstall, harder)
 
-Download and run archfi installer
-
-    curl -LO matmoul.github.io/archfi
-    sh archfi
+    pacman -Sy archinstall
+    archinstall
     
 If you have an EFI pc, set your /boot on your efi partition
 
