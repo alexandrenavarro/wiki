@@ -1266,7 +1266,7 @@ You can compile a custom kernel, it takes 15-20 min on my Ryzen (5950X).
 #### Glxgears
 
     sudo pacman -S glxgears
-    vblank_mode=0 glxgears --fullscreen
+    vblank_mode=0 glxgears -fullscreen
 
 #### Glmark2
 
