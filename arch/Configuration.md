@@ -69,6 +69,7 @@ Select only the package needed (on a desktop AMD cpu):
     efibootmgr			# Bootloader utils (efi partition)
     dosfstools			# Bootloader utils (efi partition)
     efitools	                # Bootloader utils (efi partition)
+    os-prober                   # Bootloader to detect other os
     
 
 Select only if you have an AMD CPU
@@ -82,8 +83,6 @@ Select only if you have an Intel CPU
 Select only if you have an video card with AMD/ATI GPU
     
     xf86-video-amdgpu
-    vulkan-radeon
-    lib32-vulkan-radeon
     
 Select only if you have an video with NVIDIA GPU
     
@@ -177,7 +176,7 @@ TODO fix font
 Installation of the zsh shell
 
     sudo pacman -S zsh xsel
-    wget https://github.com/alexandrenavarro/dotfiles/blob/master/.zshrc
+    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.zshrc
     
 TODO
 
