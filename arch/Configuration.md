@@ -971,7 +971,7 @@ TODO check in tunar (network / phone mount)
 
 #### Etcher
 
-    yay -S balena-etcher
+    yay -S etcher-bin
    
 ## Others (Preferences / Control Center)
 
