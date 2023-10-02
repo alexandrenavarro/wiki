@@ -604,7 +604,9 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 
 #### Intellij
 
-    sudo pacman -S intellij-idea-community-edition
+    yay -S intellij-idea-ce
+
+    # sudo pacman -S intellij-idea-community-edition
     
     yay -S intellij-idea-ultimate-edition
 
