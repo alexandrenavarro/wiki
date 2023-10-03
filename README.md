@@ -81,19 +81,28 @@ Android
 3D Printer
 ==========
 
-Ender 3 Pro (Currently Used)
+Bambulab X1 Carbon (Currently Used)
+-----------
+[Bambulab X1 Carbon](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/BambulabX1Carbon.md)
+
+Ender 3 Pro
 -----------
 [Ender 3 Pro](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3Pro.md)
 
 
-Snapmaker 2.0 (Current Used)
+Snapmaker 2.0
 -------------
 [Snapmaker 2.0](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Snapmaker-2.0.md)
 
 Keyboard
 ========
 
-Keyboardio Model 01 (Current Used)
+Keyboardio Model 100 (Current Used)
+-------------------
+[Keyboardio Model 100](https://github.com/alexandrenavarro/wiki/blob/master/keyboard/KeyboardioModel100.md)
+
+
+Keyboardio Model 01
 -------------------
 [Keyboardio Model 01](https://github.com/alexandrenavarro/wiki/blob/master/keyboard/KeyboardioModel01.md)
 
