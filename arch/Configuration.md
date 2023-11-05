@@ -361,9 +361,11 @@ Adopted as second choice just for printing quickly : eog
 
 Adopted for manipulating image : shotwell
 
+Adopted in terminal : viu
+
 #### Sxiv / Feh / Eog / Shotwell
 
-    sudo pacman -S sxiv feh eog shotwell
+    sudo pacman -S sxiv feh eog shotwell viu
     
     cd ~/bin/
     wget https://raw.githubusercontent.com/alexandrenavarro/scripts/main/sxiv.sh
