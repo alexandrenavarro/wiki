@@ -68,7 +68,7 @@ Configuration
 * Activate Windows Waller with a score of 1000 to have current windows on the top
 
 #### File Explorer (on the left zone)
-    File Explorer
+    explorer++
 
 #### Terminal (on the left zone)
     gitbash
