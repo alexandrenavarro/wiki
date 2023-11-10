@@ -83,6 +83,16 @@ Select only if you have an Intel CPU
 Select only if you have an video card with AMD/ATI GPU
     
     xf86-video-amdgpu
+
+
+    mesa
+    lib32-mesa
+    vulkan-radeon
+    lib32-vulkan-radeon
+    vulkan-icd-loader
+    lib32-vulkan-icd-loader
+    vulkan-mesa-layers
+    lib32-vulkan-mesa-layers
     
 Select only if you have an video with NVIDIA GPU
     
