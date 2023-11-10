@@ -108,6 +108,26 @@ Select at least one desktop environment (I let mate but it will be remove once b
     lightdm-gtk-greeter
     lightdm-gtk-greeter-settings
 
+If it failed to start LightDM, a display manager, on boot, and just showed blank screen except a single underscore.
+
+You have to not install lightd.
+
+First, I edited mkinitcpio.conf:
+
+     micro /etc/mkinitcpio.conf
+     
+to enable amdgpu module like this:
+    
+    - MODULES=""
+    + MODULES=(amdgpu)
+    
+Then I rebuilt initial ramdisk for Linux kernel:
+
+      mkinitcpio -p linux
+
+Reinstall lighdm
+
+See this for more information https://dev.to/nabbisen/fix-amd-radeon-arch-linux-failed-to-start-lightdm-on-boot-54fo
 
 # Post Installation
 
