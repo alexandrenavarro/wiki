@@ -326,12 +326,12 @@ See your different partition
 Mount your partition (ex)
 
     sudo mount /dev/nvme0n1p2 /mnt
-    sudo mount /dev/nvme0n1p1 /mnt/boot
+    sudo mount /dev/nvme0n1p1 /mnt/boot/efi
     sudo mount /dev/nvme0n1p3 /mnt/home
 
 Chroot your system
 
-    arch-chroot /mnt
+    sudo arch-chroot /mnt
 
 
 # Software Installation
