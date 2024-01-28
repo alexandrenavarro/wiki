@@ -316,6 +316,24 @@ Copy the outpout at the beginning of
     curl -s "https://get.sdkman.io" | bash
 
 
+# Recovery (chroot)
+Boot on arch distrib on usb key (calamarch)
+
+See your different partition
+
+    lsblk
+
+Mount your partition (ex)
+
+    mount /dev/nvme0n1p2 /mnt
+    mount /dev/nvme0n1p1 /mnt/boot
+    mount /dev/nvme0n1p3 /mnt/home
+
+Chroot your system
+
+    arch-chroot /mnt
+
+
 # Software Installation
 
 ## Accessories
