@@ -325,9 +325,9 @@ See your different partition
 
 Mount your partition (ex)
 
-    mount /dev/nvme0n1p2 /mnt
-    mount /dev/nvme0n1p1 /mnt/boot
-    mount /dev/nvme0n1p3 /mnt/home
+    sudo mount /dev/nvme0n1p2 /mnt
+    sudo mount /dev/nvme0n1p1 /mnt/boot
+    sudo mount /dev/nvme0n1p3 /mnt/home
 
 Chroot your system
 
