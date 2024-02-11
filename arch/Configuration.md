@@ -303,6 +303,9 @@ Copy the outpout at the beginning of
 
     sudo pacman -S archlinux-keyring
 
+    pacman-key --refresh-keys
+
+
 ## Yay
 
     pacman -S --needed git base-devel
