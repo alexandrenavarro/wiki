@@ -145,6 +145,17 @@ See this for more information https://dev.to/nabbisen/fix-amd-radeon-arch-linux-
 
     sudo pacman -S bspwm sxhkd rofi alacritty zsh xsel micro picom feh dunst udiskie polkit-gnome firefox wget
 
+## Display Managere
+
+### Ly
+
+    sudo pacman -S ly
+
+In /etc/vconsole.conf, set your keymap KEYMAP=fr-bepo
+
+// TODO, add the file, modify to use directly ly instead of lightdm
+  
+
 ## Window Manager
 
 ### Bspwm
