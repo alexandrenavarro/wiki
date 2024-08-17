@@ -470,6 +470,9 @@ Adopted in terminal : viu
 
     yay -S cura-bin
 
+#### Svg to Stl
+https://imagetostl.com/fr/convertir/un-fichier/svg/en/stl
+
     
 ## Internet
 
