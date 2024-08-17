@@ -615,6 +615,12 @@ Usefull command to extract one page from a pdf
 Usefull command to merge multiple pdf/jpg in one
     convert 1.pdf 2.pdf all.pdf
 
+Usefull command to convert jpg in ppm
+    magick file.jpg file.ppm
+
+Usefull command to convert ppm in svg
+    potrace -s file.ppm -o file.svg
+
 ### Markup Language 
 
 #### Ascidoctor
