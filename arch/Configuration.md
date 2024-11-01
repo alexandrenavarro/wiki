@@ -612,6 +612,9 @@ Usefull command to reduce size of pdf
 Usefull command to extract one page from a pdf    
     pdftk all.pdf cat 1 output page1.pdf
     
+Usefull command to convert with pdf with password
+    pdftk srcfile.pdf input_pw $password output destfile.pdf
+
 Usefull command to merge multiple pdf/jpg in one
     convert 1.pdf 2.pdf all.pdf
 
@@ -620,6 +623,7 @@ Usefull command to convert jpg in ppm
 
 Usefull command to convert ppm in svg
     potrace -s file.ppm -o file.svg
+    
 
 ### Markup Language 
 
