@@ -533,7 +533,8 @@ Plugins
 * Adblock
 * PWA https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/  https://github.com/filips123/PWAsForFirefox (TODO to be tested)
 
-- Configuration
+- Configuration if you want a dark mode (not very good compare to brave)
+Go to Menu -> General -> Language and Appearance -> Website appearance : Dark
 Go to Menu -> General -> Language and Appearance -> Colors -> Manage Colors
 Use the same colors used in brave
 * Text : #FFFFFF
