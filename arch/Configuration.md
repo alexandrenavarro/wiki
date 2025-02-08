@@ -768,7 +768,9 @@ Tested but not adopted : vlc (have menu, many codecs included by default)
 
 #### Benchmark
 
-Adopted : moc (terminal music player)
+Adopted : kew
+
+Tested but not adopted : moc (complicated to install)
 
 Tested but not adopted : audacious (more memory)
 
@@ -778,14 +780,7 @@ Tested but not adopted : rhythmnbox (more memory)
 
 
 #### Moc
-    sudo pacman -S moc
-    
-    mkdir -p ~/.moc/themes/
-    cd ~/.moc/themes/
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/themes/kiss_theme
-    cd ~/.moc
-    wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config    
-
+    sudo yay -S kew
 
 ### Music 
 
