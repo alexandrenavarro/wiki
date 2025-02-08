@@ -787,6 +787,15 @@ Tested but not adopted : rhythmnbox (more memory)
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.moc/config    
 
 
+### Music 
+
+#### Youtube
+    sudo pacman -S yt-dl
+
+Download just the mp3 
+
+    yt-dlp -x --audio-format mp3 "the_url"
+
 ### DVD Ripper
 
 #### MakeMkv 
