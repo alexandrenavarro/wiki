@@ -53,9 +53,9 @@ If you have an EFI pc, set your /boot on your efi partition
 Download Calam-Arch-Installer iso.
 
 For partition, select GPT table of partition (needed generally on machine post 2016), and create some partition :
-- /boot/efi in fat32 with flag boot (size around 128mo)
+- /boot/efi in fat32 with flag boot (size around 128mo -> 512mo, 512mo recommanded)
 - swap (optional), not necessary if you have enough RAM on a desktop, at least the size (or 1.5x) notably a laptop for hibernation
-- / in ext4 with flag root (between 32go and 64go)
+- / in ext4 with flag root (between 32go and 64go, 64go recommanded)
 - /home in ext4
 
 Select only the package needed (on a desktop AMD cpu):
