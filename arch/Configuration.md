@@ -9,7 +9,6 @@ Installation and configuration of the different sofware must result to :
 * Having a searcheable launcher with a keyboard shortcut (rofi)
 * Having a searcheable task manager with a keyboard shortcut (rofi)
 * Keep shortcuts as possible as the shortcuts as the one in Windows (default + sxhkd)
-* Have a dark theme (adwaita-dark with lxappearance / qt5ct)
 
 
 # Installation (through arch iso + archifi install script, harder)
