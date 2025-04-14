@@ -666,7 +666,7 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 
 #### VSCode
 
-    sudo yay -S visual-studio-code-bin
+    yay -S visual-studio-code-bin
     
 
 ### Build tools (through pacman) if only last version needed
