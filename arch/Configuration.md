@@ -1065,16 +1065,24 @@ TODO check in tunar (network / phone mount)
    
 ### Theme
     
-    sudo pacman -S ttf-ubuntu-font-family lxappearance gnome-themes-extra
+    sudo pacman -S ttf-ubuntu-font-family mate-appearance-properties lxappearance gnome-themes-extra
 
-On Widget, set Adwaita-dark and DefaultFont Ubuntu 11
+Launch mate-appearance-properties
+* On Theme, select BlueMenta
+* On Fonts, select Ubuntu Regular 11
+* On Interface, Show icons in menus and Show icons on buttons
 
-On Other, set Toolbar Style Icons only and Small toolbar icon
+Launch lxappearance
+* On Widget, select BlueMenta and DefaultFont Ubuntu 11
+* On Icon Theme, select Menta
+* On Mouse Cursor, select Mate
+* On Other, set Toolbar Style Icons only and Small toolbar icon, Show images on buttons, Show images in menu
+
+TODO is it still needed?
     
     sudo pacman -S qt5ct
     yay -S adwaita-qt
  
- On Appearance, Set Adwait-dark
  
  Add in your .profile or .bashrc
  
