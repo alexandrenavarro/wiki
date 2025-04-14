@@ -65,7 +65,6 @@ Select only the package needed (on a desktop AMD cpu):
     xorg-init			# Video Xorg
     xf86-input-libinput		# X Input (keyboard / mouse)
     networkmanager		# Network manager
-    grub			# Bootloader utils (grub)
     efibootmgr			# Bootloader utils (efi partition)
     dosfstools			# Bootloader utils (efi partition)
     efitools	                # Bootloader utils (efi partition)
