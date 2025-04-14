@@ -681,11 +681,7 @@ Tested but not selected : geany (not bad at all but I prefer micro, low memory f
 
 #### Intellij
 
-    yay -S intellij-idea-ce
-
-    # sudo pacman -S intellij-idea-community-edition
-    
-    yay -S intellij-idea-ultimate-edition
+    sudo pacman -S intellij-idea-community-edition
 
 If you use bspwm (or many tiling window manager)
     
@@ -780,11 +776,13 @@ Tested but not adopted : rhythmnbox (more memory)
 
 
 #### Moc
-    sudo yay -S kew
+    
+    yay -S kew
 
 ### Music 
 
 #### Youtube
+    
     sudo pacman -S yt-dl
 
 Download just the mp3 
