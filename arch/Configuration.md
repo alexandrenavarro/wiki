@@ -1035,16 +1035,19 @@ Adopted : dunst (simple)
     
 Some specific mount
 
-    sudo pacman -S gvfs gvfs-afc     // apple 
-    sudo pacman -S gvfs gvfs-goa     // gnome cloud storage
-    sudo pacman -S gvfs gvfs-google  // goodle cloud storage
-    sudo pacman -S gvfs gvfs-gphoto2 // digitial camera
-    sudo pacman -S gvfs gvfs-mtp     // android phone
-    sudo pacman -S gvfs gvfs-nfs     // nfs
-    sudo pacman -S gvfs gvfs-smb     // samba
-    sudo pacman -S ntfs-3g           // ntfs
-    sudo pacman -S exfat-utils       // exfat
-    sudo pacman -S gvfs-obexftp      // bluetooth
+    sudo pacman -S gvfs-afc      // apple 
+    sudo pacman -S gvfs-goa      // gnome cloud storage
+    sudo pacman -S gvfs-google   // goodle cloud storage
+    sudo pacman -S gvfs-gphoto2  // digitial camera
+    sudo pacman -S gvfs-mtp      // android phone
+    sudo pacman -S gvfs-nfs      // nfs
+    sudo pacman -S gvfs-smb      // samba
+    sudo pacman -S gvfs-dnssd    // webdav
+    sudo pacman -S gvfs-onedrive // onedrive
+    sudo pacman -S gvfs-wsdd     // Web Services Dynamic Discovery backend (Windows discovery)
+    sudo pacman -S ntfs-3g       // ntfs
+    sudo pacman -S exfat-utils   // exfat
+
 
 TODO check in tunar (network / phone mount)
     
