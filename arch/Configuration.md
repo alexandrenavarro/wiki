@@ -844,7 +844,7 @@ Usefull command with fzf
        
 ### Some useful command lines
 
-    sudo pacman -S xdotool fdupes git jq unrar p7zip exfat-utils renameutils odt2txt catdoc bat fzf fd libnotify entr skim mediainfo highlight xorg-xkill github-cli
+    sudo pacman -S xdotool fdupes git jq unzip unrar p7zip exfat-utils renameutils odt2txt catdoc bat fzf fd libnotify entr skim mediainfo highlight xorg-xkill github-cli
     
 
 ### File Explorer
