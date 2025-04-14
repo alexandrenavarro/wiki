@@ -165,6 +165,10 @@ In /etc/vconsole.conf, set your keymap KEYMAP=fr-bepo
     cd ~/.config/bspwm
     wget https://raw.githubusercontent.com/alexandrenavarro/dotfiles/master/.config/bspwm/bspwmrc
     chmod a+x bspwmrc
+
+If you need to force a resolution, sometime bspwm does not work well by changing monitors
+
+    bspc monitor -g 3440x1440+0+0
     
 ## Hot Key daemon
 
