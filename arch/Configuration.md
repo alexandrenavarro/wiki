@@ -441,6 +441,12 @@ Adopted in terminal : viu
 #### Digikam
     
     sudo pacman -S digikam 
+
+### Image Screenshot
+
+#### gnome-screenshot
+    
+    sudo pacman -S gnome-screenshot
     
 ### Color Picker
 
