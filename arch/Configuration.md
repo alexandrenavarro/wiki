@@ -74,6 +74,8 @@ Select only if you have an video card with AMD/ATI GPU
     
     xf86-video-amdgpu
 
+Optionally :
+    
     mesa
     lib32-mesa
     vulkan-radeon
@@ -89,6 +91,8 @@ Select only if you have an video with NVIDIA GPU
     nvidia-util
     nvidia-settings
 
+Optionally :
+    
     libva-vdpau-drive
     
 Select only if you have an video card with Intel GPU
