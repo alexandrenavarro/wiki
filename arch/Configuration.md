@@ -61,13 +61,13 @@ Select only the package needed (on a desktop AMD cpu):
     
     base-devel			# Development tools to 
     xorg-server			# Video Xorg
-    xorg-init			# Video Xorg
-    xf86-input-libinput		# X Input (keyboard / mouse)
+    xorg-xinit			# Video Xorg
+    xf86-input-libinput	# X Input (keyboard / mouse)
     networkmanager		# Network manager
     efibootmgr			# Bootloader utils (efi partition)
     dosfstools			# Bootloader utils (efi partition)
-    efitools	                # Bootloader utils (efi partition)
-    os-prober                   # Bootloader to detect other os
+    efitools	        # Bootloader utils (efi partition)
+    os-prober           # Bootloader to detect other os
     
 
 Select only if you have an AMD CPU
