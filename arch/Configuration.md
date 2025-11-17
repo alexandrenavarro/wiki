@@ -70,14 +70,6 @@ Select only the package needed (on a desktop AMD cpu):
     os-prober           # Bootloader to detect other os
     
 
-Select only if you have an AMD CPU
-
-    amd-ucode
-    
-Select only if you have an Intel CPU
-
-    intel-ucode    
-    
 Select only if you have an video card with AMD/ATI GPU
     
     xf86-video-amdgpu
