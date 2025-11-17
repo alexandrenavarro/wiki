@@ -632,8 +632,7 @@ Usefull command to convert ppm in svg
 
 #### Ascidoctor
 
-    sudo pacman -S asciidoctor
-    yay -S asciidoctor-pdf
+    sudo pacman -S asciidoctor asciidoctor-pdf
     
     asciidoctor -r asciidoctor-pdf -b pdf file.adoc
     
