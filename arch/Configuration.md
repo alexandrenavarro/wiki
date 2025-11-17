@@ -135,6 +135,8 @@ See this for more information https://dev.to/nabbisen/fix-amd-radeon-arch-linux-
 
     sudo pacman -S bspwm sxhkd rofi alacritty zsh xsel micro picom feh dunst udiskie polkit-gnome firefox wget
 
+Use pipewire-jack if firefox asked.
+
 ## Display Managere
 
 ### Ly
