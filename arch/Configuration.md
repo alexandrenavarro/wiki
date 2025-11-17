@@ -1139,24 +1139,6 @@ TODO script to detect if multiple output are availabe, use the external screen
     systemctl start cups.service
     systemctl enable cups.service
 
-### Scanner (optional)
-
-#### Scanner Epson ET-4750
-
-    yay epson-inkjet-printer-escpr2
-    yay imagescan-plugin-networkscan
-    sudo pacman -S imagescan
-    yay imagescan-plugin-networkscan
-
-It works on usb but it does not work on network, I don't know why.
-We should edit the file /etc/utsushi/utsushi.conf with
-
-dev2.udi    = esci:networkscan://192.168.0.6:1865
-dev2.model  = ET-4750 (Network)
-dev2.vendor = EPSON
-
-See https://www.ordinatechnic.com/distribution-specific-guides/Arch/installing-an-epson-multifunction-printer-on-arch-linux-and-derivatives
-
 ### System Tray / Panel Bar (optional)
 
 #### Benchmark
