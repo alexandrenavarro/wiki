@@ -141,7 +141,7 @@ See this for more information https://dev.to/nabbisen/fix-amd-radeon-arch-linux-
 
 Use pipewire-jack if firefox asked.
 
-## Display Managere
+## Display Manager
 
 ### Ly
 
