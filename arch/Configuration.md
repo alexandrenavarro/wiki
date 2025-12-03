@@ -19,8 +19,6 @@ Download last arch iso.
 Set your keyboard layout
     
     loadkeys fr
-    loadkeys fr-bepo
-    # rlaisp^u eo=kpjl (write the line above on qwerty)
     
 If you don't have ethernet, you can configure your wifi connection in commandline through https://www.mankier.com/1/iwctl    
     
