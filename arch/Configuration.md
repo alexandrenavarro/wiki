@@ -312,7 +312,7 @@ Copy the outpout at the beginning of
 
     sudo pacman -S archlinux-keyring
 
-    pacman-key --refresh-keys
+    sudo pacman-key --refresh-keys
 
 
 ## Yay
