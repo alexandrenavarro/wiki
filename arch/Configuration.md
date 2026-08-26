@@ -1045,7 +1045,12 @@ Some specific mount
     sudo pacman -S exfat-utils   // exfat
 
 
-TODO check in tunar (network / phone mount)
+#### Mount mtp android devices (see https://www.baeldung.com/linux/mounting-mtp-devices)
+
+    lsusb
+	gio mount -li | grep activation_root
+	gio mount "mtp://HUAWEI_HUAWEI_VNS-L21_BUC4C16523021942/"
+
     
 ### Flash ISO on usb stick
 
