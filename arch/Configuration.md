@@ -1050,7 +1050,7 @@ Some specific mount
     lsusb
 	gio mount -li | grep activation_root
 	gio mount "mtp://HUAWEI_HUAWEI_VNS-L21_BUC4C16523021942/"
-
+    cd /run/user/1000/gvfs/mtp
     
 ### Flash ISO on usb stick
 
