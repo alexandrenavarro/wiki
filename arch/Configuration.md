@@ -779,7 +779,7 @@ Tested but not adopted : rhythmnbox (more memory)
 
 #### Youtube
     
-    sudo pacman -S yt-dl
+    sudo pacman -S yt-dlp
 
 Download just the mp3 
 
