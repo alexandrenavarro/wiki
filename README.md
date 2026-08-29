@@ -55,7 +55,9 @@ Android
 
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/android/Configuration.md)
 
-[Pixel7Pro](https://github.com/alexandrenavarro/wiki/blob/master/android/PixelTPro.md)  (Currently Used)
+[Pixel7Pro](https://github.com/alexandrenavarro/wiki/blob/master/android/Pixel11ProXL.md)  (Currently Used)
+
+[Pixel11ProXL](https://github.com/alexandrenavarro/wiki/blob/master/android/Pixel7Pro.md)
 
 [OnePlus6](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus6.md)
 
@@ -110,6 +112,11 @@ Keyboardio Model 01
 Domotic
 =======
 
-Jeedom (Current Used)
+Home Assistant (Currently Used)
+----------------
+[Home Assistant](https://github.com/alexandrenavarro/wiki/blob/master/home-assistant/HomeAssistant.md)
+
+
+Jeedom (legacy)
 ----------------
 [Jeedom](https://github.com/alexandrenavarro/wiki/blob/master/jeedom/Jeedom.md)
