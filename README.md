@@ -55,9 +55,9 @@ Android
 
 [Configuration](https://github.com/alexandrenavarro/wiki/blob/master/android/Configuration.md)
 
-[Pixel7Pro](https://github.com/alexandrenavarro/wiki/blob/master/android/Pixel11ProXL.md)  (Currently Used)
+[Pixel11ProXL](https://github.com/alexandrenavarro/wiki/blob/master/android/Pixel11ProXL.md) (Currently Used)
 
-[Pixel11ProXL](https://github.com/alexandrenavarro/wiki/blob/master/android/Pixel7Pro.md)
+[Pixel7Pro](https://github.com/alexandrenavarro/wiki/blob/master/android/Pixel7PrL.md)
 
 [OnePlus6](https://github.com/alexandrenavarro/wiki/blob/master/android/OnePlus6.md)
 
@@ -83,7 +83,11 @@ Android
 3D Printer
 ==========
 
-Bambulab X1 Carbon (Currently Used)
+Bambulab H2D (Currently Used)
+-----------
+[Bambulab H2D Carbon](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/BambulabH2D.md)
+
+Bambulab X1 Carbon
 -----------
 [Bambulab X1 Carbon](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/BambulabX1Carbon.md)
 
@@ -91,10 +95,10 @@ Ender 3 Pro
 -----------
 [Ender 3 Pro](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Ender3Pro.md)
 
-
 Snapmaker 2.0
 -------------
 [Snapmaker 2.0](https://github.com/alexandrenavarro/wiki/blob/master/3d-printer/Snapmaker-2.0.md)
+
 
 Keyboard
 ========
